@@ -74,5 +74,49 @@
 			<node name="head_line" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="return_of_qa" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product" size="#data" hidden="false">
+			<node name="shop_index" reader="UCHAR" />
+			<node name="product_id" reader="USHORT" />
+			<node name="filter" reader="UCHAR" enumName="lcoinshopproduct_filter" />
+			<node name="category" reader="UCHAR" />
+			<node name="mark_type" reader="UCHAR" enumName="lcoinshopproduct_mark_type" />
+			<node name="max_buy_count" reader="UCHAR" />
+			<node name="unk1" reader="UCHAR" />
+			<node name="product_name" reader="ASCF" />
+			<node name="product_item" reader="UINT" />
+			<node name="buy_item" reader="UCHAR" />
+			<for name="buy_item" size="#buy_item">
+				<node name="ItemClassID" reader="UINT" />
+				<node name="Count" reader="UINT" />
+				<node name="Prob" reader="FLOAT" />
+				<node name="ProductRank" reader="UCHAR" />
+			</for>
+			<wrapper name="limit_lv">
+				<node name="LevelMin" reader="SHORT" />
+				<node name="LevelMax" reader="SHORT" />
+			</wrapper>
+			<node name="product_type" reader="UCHAR" />
+			<node name="popular_priority" reader="UCHAR" />
+			<wrapper name="buy_type">
+				<node name="unk2" reader="UCHAR" />
+				<node name="LimitType" reader="UCHAR" enumName="lcoinshopproduct_buy1_type" />
+				<node name="ResetType" reader="UCHAR" enumName="lcoinshopproduct_buy2_type" />
+				<node name="LimitCountMax" reader="UINT" />
+				<node name="ServerCountMax" reader="UINT" />
+			</wrapper>
+			<node name="unk3" reader="UCHAR" />
+			<node name="unk4" reader="UCHAR" />
+			<node name="unk5" reader="UCHAR" />
+			<node name="product_desc" reader="ASCF" />
+			<node name="product_htm" reader="ASCF" />
+		</for>
+		<node name="data2" reader="CNTR" />
+		<for name="product_head" size="#data2" hidden="false">
+			<node name="product_id" reader="SHORT" />
+			<node name="head_line" reader="ASCF" />
+		</for>
+	</file>
 </list>
 

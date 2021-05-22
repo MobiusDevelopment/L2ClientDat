@@ -369,6 +369,7 @@
 		<node index="20" name="dualdagger" />
 		<node index="22" name="twohandcrossbow" />
 		<node index="23" name="dualblunt" />
+		<node index="25" name="pistols" />
 	</enum>
 	<enum name="inventory_type">
 		<node index="0" name="none" />
