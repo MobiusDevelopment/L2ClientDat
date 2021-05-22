@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="questmark" size="#data" hidden="false">
+			<node name="quest_id" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="race_filter" reader="CNTR" />
+			<for name="race_filter" size="#race_filter">
+				<node name="race" reader="UINT" />
+			</for>
+			<node name="class_filter" reader="CNTR" />
+			<for name="class_filter" size="#class_filter">
+				<node name="class" reader="UINT" />
+			</for>
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_x" reader="FLOAT" />
+				<node name="start_npc_y" reader="FLOAT" />
+				<node name="start_npc_z" reader="FLOAT" />
+			</wrapper>
+		</for>
+	</file>
+</list>

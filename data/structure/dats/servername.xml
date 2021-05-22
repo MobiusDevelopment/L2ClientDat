@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UINT" />
+			<for name="name" size="#name">
+				<node name="param_name" reader="ASCF" />
+			</for>
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UINT" />
+			<for name="name" size="#name">
+				<node name="param_name" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+</list>

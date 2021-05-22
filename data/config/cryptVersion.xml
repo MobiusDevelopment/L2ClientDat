@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<keys>
+	<key name="v111_original" code="111" type="xor" decrypt="false" useStructure="false" extension="htm;ukx;usx;uax;unr;uix" key="172" />
+	<key name="v111_original" code="111" type="xor" decrypt="true" useStructure="false" extension="htm;ukx;usx;uax;unr;uix" key="172" />
+	<key name="v120_original" code="120" type="xor" decrypt="false" useStructure="false" extension="ini;dat" key="230" />
+	<key name="v120_original" code="120" type="xor" decrypt="true" useStructure="false" extension="ini;dat" key="230" />
+	<key name="v121_original" code="121" type="xor" decrypt="false" useStructure="false" extension="bmp;ugx;utx" key="230" />
+	<key name="v121_original" code="121" type="xor" decrypt="true" useStructure="false" extension="bmp;ugx;utx" key="230" />
+	<key name="v211_original" code="211" type="blowfish" decrypt="true" useStructure="false" extension="ini;dat" key="31==-%&amp;@!^+][;'.]94-\0" />
+	<key name="v211_original" code="211" type="blowfish" decrypt="false" useStructure="false" extension="ini;dat" key="31==-%&amp;@!^+][;'.]94-\0" />
+	<key name="v212_original" code="212" type="blowfish" decrypt="true" useStructure="false" extension="ini;dat" key="[;'.]94-&amp;@%!^+]-31==\0" />
+	<key name="v212_original" code="212" type="blowfish" decrypt="false" useStructure="false" extension="ini;dat" key="[;'.]94-&amp;@%!^+]-31==\0" />
+	<key name="v311_original" code="311" type="des" decrypt="true" useStructure="false" extension="l2r" key="HIhiHIYoMan~" />
+	<key name="v311_original" code="311" type="des" decrypt="false" useStructure="false" extension="l2r" key="HIhiHIYoMan~" />	
+	<key name="v411_original" code="411" type="rsa" decrypt="true" useStructure="false" extension="ini;dat" modulus="8c9d5da87b30f5d7cd9dc88c746eaac5bb180267fa11737358c4c95d9adf59dd37689f9befb251508759555d6fe0eca87bebe0a10712cf0ec245af84cd22eb4cb675e98eaf5799fca62a20a2baa4801d5d70718dcd43283b8428f1387aec6600f937bfc7bb72404d187d3a9c438f1ffce9ce365dccf754232ff6def038a41385" exp="1d" />
+	<key name="v412_original" code="412" type="rsa" decrypt="true" useStructure="true" extension="ini;dat" modulus="a465134799cf2c45087093e7d0f0f144e6d528110c08f674730d436e40827330eccea46e70acf10cdda7d8f710e3b44dcca931812d76cd7494289bca8b73823f57efc0515b97e4a2a02612ccfa719cf7885104b06f2e7e2cc967b62e3d3b1aadb925db94cbc8cd3070a4bb13f7e202c7733a67b1b94c1ebc0afcbe1a63b448cf" exp="25" />
+	<key name="v413_original" code="413" type="rsa" decrypt="true" useStructure="true" extension="ini;dat" modulus="97df398472ddf737ef0a0cd17e8d172f0fef1661a38a8ae1d6e829bc1c6e4c3cfc19292dda9ef90175e46e7394a18850b6417d03be6eea274d3ed1dde5b5d7bde72cc0a0b71d03608655633881793a02c9a67d9ef2b45eb7c08d4be329083ce450e68f7867b6749314d40511d09bc5744551baa86a89dc38123dc1668fd72d83" exp="35" />
+	<key name="v414_original" code="414" type="rsa" decrypt="true" useStructure="false" extension="ini;dat" modulus="ad70257b2316ce09dfaf2ebc3f63b3d673b0c98a403950e26bb87379b11e17aed0e45af23e7171e5ec1fbc8d1ae32ffb7801b31266eef9c334b53469d4b7cbe83284273d35a9aab49b453e7012f374496c65f8089f5d134b0eb3d1e3b22051ed5977a6dd68c4f85785dfcc9f4412c81681944fc4b8ce27caf0242deaa5762e8d" exp="25" />
+	<key name="v413_encdec" code="413" type="rsa" decrypt="true" useStructure="true" extension="ini;dat" modulus="75B4D6DE5C016544068A1ACF125869F43D2E09FC55B8B1E289556DAF9B8757635593446288B3653DA1CE91C87BB1A5C18F16323495C55D7D72C0890A83F69BFD1FD9434EB1C02F3E4679EDFA43309319070129C267C85604D87BB65BAE205DE3707AF1D2108881ABB567C3B3D069AE67C3A4C6A3AA93D26413D4C66094AE2039" exp="1d" />
+	<key name="v413_encdec" code="413" type="rsa" decrypt="false" useStructure="true" extension="ini;dat;txt" modulus="75B4D6DE5C016544068A1ACF125869F43D2E09FC55B8B1E289556DAF9B8757635593446288B3653DA1CE91C87BB1A5C18F16323495C55D7D72C0890A83F69BFD1FD9434EB1C02F3E4679EDFA43309319070129C267C85604D87BB65BAE205DE3707AF1D2108881ABB567C3B3D069AE67C3A4C6A3AA93D26413D4C66094AE2039" exp="30b4c2d798d47086145c75063c8e841e719776e400291d7838d3e6c4405b504c6a07f8fca27f32b86643d2649d1d5f124cdd0bf272f0909dd7352fe10a77b34d831043d9ae541f8263c6fe3d1c14c2f04e43a7253a6dda9a8c1562cbd493c1b631a1957618ad5dfe5ca28553f746e2fc6f2db816c7db223ec91e955081c1de65" />
+</keys>

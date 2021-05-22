@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="variation_effect" size="#data" hidden="false">
+			<node name="quality1" reader="UINT" />
+			<node name="quality2" reader="UINT" />
+			<node name="enchant_min" reader="UINT" />
+			<node name="enchant_max" reader="UINT" />
+			<node name="effect_type" reader="UINT" />
+			<node name="effect_name" reader="UNICODE" />
+			<node name="item_prefix" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="variation_effect" size="#data" hidden="false">
+			<node name="quality1" reader="UINT" />
+			<node name="quality2" reader="UINT" />
+			<node name="enchant_min" reader="UINT" />
+			<node name="enchant_max" reader="UINT" />
+			<node name="effect_type" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+			<node name="item_prefix" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_grand_crusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="variation_effect" size="#data" hidden="false">
+			<node name="quality1" reader="UINT" />
+			<node name="quality2" reader="UINT" />
+			<node name="enchant_min" reader="UINT" />
+			<node name="enchant_max" reader="UINT" />
+			<node name="effect_type" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="usm" size="#data" hidden="false">
+			<node name="MovieID" reader="UINT" />
+			<node name="FileName" reader="ASCF" />
+			<node name="PosX" reader="UINT" />
+			<node name="PosY" reader="UINT" />
+			<node name="Width" reader="UINT" />
+			<node name="Height" reader="UINT" />
+			<node name="SkinType" reader="UINT" />
+			<node name="SkipButtonType" reader="UINT" />
+			<node name="targetAnchorPointType" reader="ASCF" />
+			<node name="clipAnchorPointType" reader="ASCF" />
+		</for>
+	</file>
+</list>

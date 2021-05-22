@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skillsoundsource" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="spelleffect_sound_1_source" reader="UINT" />
+			<node name="spelleffect_sound_2_source" reader="UINT" />
+			<node name="spelleffect_sound_3_source" reader="UINT" />
+			<node name="shoteffect_sound_1_source" reader="UINT" />
+			<node name="shoteffect_sound_2_source" reader="UINT" />
+			<node name="shoteffect_sound_3_source" reader="UINT" />
+			<node name="expeffect_sound_1_source" reader="UINT" />
+			<node name="expeffect_sound_2_source" reader="UINT" />
+			<node name="expeffect_sound_3_source" reader="UINT" />
+		</for>
+	</file>
+</list>

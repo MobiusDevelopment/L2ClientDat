@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<for name="eula" size="1" hidden="false">
+			<node name="eula" reader="ASCF" />
+			<node name="eulaRGB_TESTserver" reader="ASCF" />
+			<node name="eulachinaspecialmessage" reader="ASCF" />
+			<node name="eulachinapkagreement" reader="ASCF" />
+		</for>
+	</file>
+</list>

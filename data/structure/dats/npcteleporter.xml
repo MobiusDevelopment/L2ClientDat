@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="NPCTeleporter" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<wrapper name="npc_loc">
+				<node name="start_npc_x" reader="FLOAT" />
+				<node name="start_npc_y" reader="FLOAT" />
+				<node name="start_npc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="teleport_zone_id" reader="UINT" />
+			<node name="unk" reader="CNTR" />
+			<for name="unk" size="#unk">
+				<node name="class" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

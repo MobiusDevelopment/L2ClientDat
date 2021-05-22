@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="alter_skill" size="#data" hidden="false">
+			<node name="origin_skill_id" reader="UINT" />
+			<node name="alter_skill_id" reader="UINT" />
+		</for>
+		<node name="data2" reader="UINT" />
+		<for name="alter_skill2" size="#data2" hidden="false">
+			<node name="abnormal_status" reader="UINT" />
+			<for name="abnormal_status" size="#abnormal_status">
+				<node name="abnormal_status0" reader="UINT" />
+			</for>
+			<node name="type" reader="UINT" />
+		</for>
+	</file>
+</list>

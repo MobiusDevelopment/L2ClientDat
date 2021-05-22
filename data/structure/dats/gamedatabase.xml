@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="node" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<write name="\r\n" />
+			<node name="size1" reader="UINT" />
+			<for name="sub_node" size="#size1" hidden="false">
+				<node name="paramType" reader="USHORT" />
+				<node name="unk" reader="UINT" />
+				<node name="nodeName" reader="ASCF" />
+				<if name="check_100" param="#paramType" val="100">
+					<node name="int_params" reader="CNTR" />
+					<for name="int_params" size="#int_params">
+						<node name="param_int" reader="UINT" />
+					</for>
+				</if>
+				<if name="check_109" param="#paramType" val="109">
+					<node name="array_params" reader="CNTR" />
+					<for name="array_params" size="#array_params">
+						<node name="array_params2" reader="CNTR" />
+						<for name="array_params2" size="#array_params2">
+							<node name="param_array_string" reader="ASCF" />
+						</for>
+					</for>
+				</if>
+				<if name="check_113" param="#paramType" val="113">
+					<node name="long_params" reader="CNTR" />
+					<for name="long_params" size="#long_params">
+						<node name="param_long" reader="LONG" />
+					</for>
+				</if>
+				<if name="check_115" param="#paramType" val="115">
+					<node name="string_params" reader="CNTR" />
+					<for name="string_params" size="#string_params">
+						<node name="param_string" reader="ASCF" />
+					</for>
+				</if>
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="node" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<node name="type" reader="UINT" />
+			<write name="\r\n" />
+			<node name="size1" reader="UINT" />
+			<for name="sub_node" size="#size1" hidden="false">
+				<node name="paramType" reader="USHORT" />
+				<node name="unk" reader="UINT" />
+				<node name="nodeName" reader="ASCF" />
+				<if name="check_100" param="#paramType" val="100">
+					<node name="int_params" reader="CNTR" />
+					<for name="int_params" size="#int_params">
+						<node name="param_int" reader="UINT" />
+					</for>
+				</if>
+				<if name="check_109" param="#paramType" val="109">
+					<node name="array_params" reader="CNTR" />
+					<for name="array_params" size="#array_params">
+						<node name="array_params2" reader="CNTR" />
+						<for name="array_params2" size="#array_params2">
+							<node name="param_array_string" reader="ASCF" />
+						</for>
+					</for>
+				</if>
+				<if name="check_113" param="#paramType" val="113">
+					<node name="long_params" reader="CNTR" />
+					<for name="long_params" size="#long_params">
+						<node name="param_long" reader="LONG" />
+					</for>
+				</if>
+				<if name="check_115" param="#paramType" val="115">
+					<node name="string_params" reader="CNTR" />
+					<for name="string_params" size="#string_params">
+						<node name="param_string" reader="ASCF" />
+					</for>
+				</if>
+			</for>
+		</for>
+	</file>
+</list>

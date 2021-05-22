@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="deco_npc" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="faction" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="type_desc" reader="UINT" />
+			<node name="sub_type" reader="UINT" />
+			<node name="sub_type_desc" reader="UINT" />
+			<node name="cost_adena" reader="LONG" />
+			<node name="cost_item" reader="UINT" />
+			<for name="cost_item" size="#cost_item">
+				<node name="cost_item_id_node" reader="UINT" />
+				<node name="cost_item_count_node" reader="UINT" />
+			</for>
+			<node name="residence_grades" reader="CNTR" />
+			<for name="residence_grades" size="#residence_grades">
+				<node name="residence_grades_node" reader="UINT" />
+			</for>
+			<node name="residence_domains" reader="CNTR" />
+			<for name="residence_domains" size="#residence_domains">
+				<node name="residence_domains_node" reader="UINT" />
+			</for>
+			<node name="period" reader="UINT" />
+			<node name="desc_id" reader="UINT" />
+			<node name="desc_param" reader="CNTR" />
+			<for name="desc_param" size="#desc_param">
+				<node name="desc_param_node" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

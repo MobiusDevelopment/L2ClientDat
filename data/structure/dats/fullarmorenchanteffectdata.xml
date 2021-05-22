@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="full_armor_enchant_effect_data" size="#data" hidden="false">
+			<node name="effect_type" reader="UINT" />
+			<node name="unk" reader="UINT" />
+			<node name="min_enchant_num" reader="UINT" />
+			<node name="noise_scale" reader="FLOAT" />
+			<node name="noise_pan_speed" reader="FLOAT" />
+			<node name="noise_rate" reader="FLOAT" />
+			<node name="extrude_scale" reader="FLOAT" />
+			<node name="edge_peak" reader="FLOAT" />
+			<node name="edge_sharp" reader="FLOAT" />
+			<node name="min_color" reader="RGBA" />
+			<node name="max_color" reader="RGBA" />
+			<node name="show_type" reader="UINT" />
+		</for>
+	</file>
+</list>

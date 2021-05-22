@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="abnormal_edge_effect_data" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="alpha_factor" reader="UINT" />
+			<node name="gray_factor" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<node name="unk3" reader="UINT" />
+			<node name="extrude_scale" reader="FLOAT" />
+			<node name="edge_peak" reader="FLOAT" />
+			<node name="edge_sharp" reader="FLOAT" />
+			<node name="noise_scale" reader="FLOAT" />
+			<node name="noise_pan_speed" reader="FLOAT" />
+			<node name="noise_rate" reader="FLOAT" />
+			<node name="max_color" reader="RGBA_TEST" />
+			<node name="min_color" reader="RGBA_TEST" />
+			<node name="unk4" reader="UINT" />
+		</for>
+	</file>
+</list>

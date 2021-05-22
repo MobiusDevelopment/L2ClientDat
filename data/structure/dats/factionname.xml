@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="faction_name" size="#data" hidden="false">
+			<node name="faction_id" reader="UINT" />
+			<node name="faction_name" reader="ASCF" />
+			<node name="level_icon" reader="UNICODE" />
+			<node name="reward_desc" reader="ASCF" />
+			<node name="base_area" reader="ASCF" />
+			<node name="main_mission" reader="ASCF" />
+			<node name="level_count" reader="UINT" />
+			<for name="level_count" size="#level_count">
+				<node name="faction_level" reader="UINT" />
+				<node name="emblem_texture" reader="UNICODE" />
+				<node name="faction_desc" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="faction_name" size="#data" hidden="false">
+			<node name="faction_id" reader="UINT" />
+			<node name="faction_name" reader="ASCF" />
+			<node name="level_icon" reader="MAP_INT" />
+			<node name="reward_desc" reader="ASCF" />
+			<node name="base_area" reader="ASCF" />
+			<node name="main_mission" reader="ASCF" />
+			<node name="level_count" reader="UINT" />
+			<for name="level_count" size="#level_count">
+				<node name="faction_level" reader="UINT" />
+				<node name="emblem_texture" reader="MAP_INT" />
+				<node name="faction_desc" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_grand_crusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="faction_name" size="#data" hidden="false">
+			<node name="faction_id" reader="UINT" />
+			<node name="faction_name" reader="ASCF" />
+			<node name="emblem_texture" reader="MAP_INT" />
+			<node name="emblem_big_texture" reader="MAP_INT" />
+			<node name="faction_desc" reader="ASCF" />
+			<node name="faction_npc" reader="CNTR" />
+			<for name="faction_npc" size="#faction_npc">
+				<node name="param_faction_npc" reader="UINT" />
+			</for>
+			<node name="faction_area" reader="CNTR" />
+			<for name="faction_area" size="#faction_area">
+				<node name="param_faction_area" reader="USHORT" />
+			</for>
+			<node name="regionid" reader="USHORT" />
+			<node name="monsterbook_use" reader="USHORT" />
+			<node name="level_count" reader="UINT" />
+			<for name="level_count" size="#level_count">
+				<node name="faction_level" reader="USHORT" />
+				<node name="level_icon" reader="MAP_INT" />
+				<node name="level_quest" reader="CNTR" />
+				<for name="level_quest" size="#level_quest">
+					<node name="param_level_quest" reader="UINT" />
+				</for>			
+				<for name="faction_name" size="5">	
+					<node name="reward_list" reader="ASCF" />
+					<node name="reward_desc" reader="ASCF" />
+					<node name="reward_group" reader="UINT" />
+				</for>
+			</for>
+		</for>
+	</file>
+</list>

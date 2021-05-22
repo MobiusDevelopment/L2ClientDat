@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="EventContent" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Title" reader="ASCF" />
+			<node name="step" reader="UINT" />
+			<node name="GroupIDs" reader="UINT" />
+			<for name="GroupIDs" size="#GroupIDs">
+				<node name="param_GroupID" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

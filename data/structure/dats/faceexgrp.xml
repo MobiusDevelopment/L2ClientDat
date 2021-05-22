@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<for name="faceEx" size="17" hidden="false">
+			<write name="\r\n" />
+			<node name="data" reader="UINT" />
+			<for name="SubFaceEx" size="#data" hidden="false">
+				<node name="class_name" reader="UINT" />
+				<node name="id" reader="UINT" />
+				<node name="Mesh_price_adena" reader="UINT" />
+				<node name="Reset_price_adena" reader="UINT" />
+				<node name="is_event" reader="UINT" />
+				<!-- TODO проверить-->
+				<node name="limit" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="Mesh_price_item" reader="UINT" />
+				<node name="is_new" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="enable" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="sorting_order" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="face_mesh" reader="UNICODE" />
+				<node name="icon_name" reader="UNICODE" />
+				<node name="face_texture" reader="UNICODE" />
+				<node name="beard_mesh" reader="UNICODE" />
+				<node name="beard_texture" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+	<file pattern="ru_episodion" isSafePackage="true">
+		<for name="faceEx" size="17" hidden="false">
+			<write name="\r\n" />
+			<node name="data" reader="UINT" />
+			<for name="SubFaceEx" size="#data" hidden="false">
+				<node name="class_name" reader="UINT" />
+				<node name="id" reader="UINT" />
+				<node name="is_event" reader="UINT" />
+				<!-- TODO проверить-->
+				<node name="is_new" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="enable" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="sorting_order" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="face_mesh" reader="UNICODE" />
+				<node name="icon_name" reader="UNICODE" />
+				<node name="face_texture" reader="UNICODE" />
+				<node name="beard_mesh" reader="UNICODE" />
+				<node name="beard_texture" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<for name="faceEx" size="19" hidden="false">
+			<write name="\r\n" />
+			<node name="data" reader="UINT" />
+			<for name="SubFaceEx" size="#data" hidden="false">
+				<node name="class_name" reader="UINT" />
+				<node name="id" reader="UINT" />
+				<node name="is_event" reader="UINT" />
+				<!-- TODO проверить-->
+				<node name="is_new" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="enable" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="sorting_order" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="face_mesh" reader="UNICODE" />
+				<node name="icon_name" reader="UNICODE" />
+				<node name="face_texture" reader="UNICODE" />
+				<node name="beard_mesh" reader="UNICODE" />
+				<node name="beard_texture" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<for name="faceEx" size="19" hidden="false">
+			<write name="\r\n" />
+			<node name="data" reader="UINT" />
+			<for name="SubFaceEx" size="#data" hidden="false">
+				<node name="class_name" reader="UINT" />
+				<node name="id" reader="UINT" />
+				<node name="is_event" reader="UINT" />
+				<!-- TODO проверить-->
+				<node name="is_new" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="enable" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="sorting_order" reader="UINT" />
+				<!-- TODO проверить -->
+				<node name="face_mesh" reader="MAP_INT" />
+				<node name="icon_name" reader="MAP_INT" />
+				<node name="face_texture" reader="MAP_INT" />
+				<node name="beard_mesh" reader="MAP_INT" />
+				<node name="beard_texture" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="gametip" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="target_lv" reader="UINT" />
+			<node name="validity" reader="UINT" />
+			<node name="tip_msg" reader="ASCF" />
+			<node name="tip_img" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="gametip" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="target_lv" reader="UINT" />
+			<node name="validity" reader="UINT" />
+			<node name="tip_msg" reader="ASCF" />
+			<node name="tip_img" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

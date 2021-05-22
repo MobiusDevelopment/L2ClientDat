@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="colorEx" size="#data" hidden="false">
+			<node name="Hair_id" reader="UINT" />
+			<node name="unk" reader="UINT" />
+			<!-- TODO -->
+			<node name="color" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<!-- TODO -->
+			<node name="unk3" reader="UINT" />
+			<!-- TODO  sorting_order -->
+			<node name="limit" reader="UINT" />
+			<node name="is_event" reader="UINT" />
+			<node name="Color_price_adena" reader="UINT" />
+			<node name="Color_price_item" reader="UINT" />
+			<node name="enable" reader="UINT" />
+			<node name="Hair_id2" reader="UINT" />
+			<node name="is_new" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="Color_data" reader="RGBA" />
+		</for>
+	</file>
+	<file pattern="ru_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="colorEx" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="sorting_order" reader="UINT" />
+			<node name="color" reader="UINT" />
+			<node name="enable" reader="UINT" />
+			<node name="is_event" reader="UINT" />
+			<node name="limit" reader="UINT" />
+			<node name="hair_id2" reader="UINT" />
+			<node name="is_new" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="color_data" reader="RGBA" />
+		</for>
+	</file>
+</list>

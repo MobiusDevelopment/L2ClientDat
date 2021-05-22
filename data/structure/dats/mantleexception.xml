@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="object_id" reader="UINT" />
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="Goal_ID" reader="UINT" />
+				<node name="Goal_Desc" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="object_id" reader="UINT" />
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="Goal_ID" reader="UINT" />
+				<node name="Goal_Desc" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

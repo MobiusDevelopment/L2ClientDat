@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="Ability" size="#data" hidden="false">
+			<node name="Type" reader="UINT" />
+			<node name="SkillID" reader="UINT" />
+			<node name="SkillLev" reader="UINT" />
+			<node name="Depth" reader="UINT" />
+			<node name="Column" reader="UINT" />
+			<node name="RequireLev" reader="UINT" />
+			<node name="RequireSkillID" reader="UINT" />
+			<node name="RequireSkillLev" reader="UINT" />
+			<node name="RequireCount" reader="UINT" />
+			<node name="Name" reader="ASCF" />
+			<node name="Icon" reader="ASCF" />
+			<node name="IconPanel" reader="ASCF" />
+			<node name="LevelDesc" reader="CNTR" />
+			<for name="LevelDesc" size="#LevelDesc">
+				<node name="param_LevelDesc" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+	<file pattern="ru_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="Ability" size="#data" hidden="false">
+			<node name="Type" reader="UINT" />
+			<node name="SkillID" reader="UINT" />
+			<node name="SkillLev" reader="UINT" />
+			<node name="Depth" reader="UINT" />
+			<node name="Column" reader="UINT" />
+			<node name="RequireLev" reader="UINT" />
+			<node name="RequireSkillID" reader="UINT" />
+			<node name="RequireSkillLev" reader="UINT" />
+			<node name="RequireCount" reader="UINT" />
+			<node name="Name" reader="ASCF" />
+			<node name="Icon" reader="ASCF" />
+			<node name="IconPanel" reader="ASCF" />
+			<node name="LevelDesc" reader="CNTR" />
+			<for name="LevelDesc" size="#LevelDesc">
+				<node name="param_LevelDesc" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+</list>

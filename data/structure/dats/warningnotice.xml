@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true" isRaw="true">
+		<node name="notice" reader="ASCF" />
+	</file>
+</list>

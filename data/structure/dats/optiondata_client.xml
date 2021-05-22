@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="option_client" size="#data" hidden="false">
+			<node name="option_id" reader="UINT" />
+			<node name="option_quality" reader="UINT" />
+			<node name="option_type" reader="UINT" />
+			<node name="option_desc1" reader="ASCF" />
+			<node name="option_desc2" reader="ASCF" />
+			<node name="option_desc3" reader="ASCF" />
+		</for>
+	</file>
+</list>

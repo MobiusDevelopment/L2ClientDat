@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_infinite_odyssey_hymn_of_doul" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_option" size="#data" hidden="false">
+			<node name="option_type" reader="UINT" />
+			<node name="step" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="icon" reader="UNICODE" />
+			<node name="icon_panel" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_option" size="#data" hidden="false">
+			<node name="option_type" reader="UINT" />
+			<node name="step" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="icon_panel" reader="MAP_INT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p5" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_option" size="#data" hidden="false">
+			<node name="option_type" reader="UINT" />
+			<node name="step" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="extraction_itemid" reader="UINT" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="icon_panel" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

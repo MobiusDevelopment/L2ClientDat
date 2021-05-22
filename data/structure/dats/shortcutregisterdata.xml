@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="shortcut_register" size="#data" hidden="false">
+			<node name="classtype" reader="UINT" />
+			<node name="slot" reader="UINT" />
+			<for name="slot" size="#slot">
+				<node name="slotnumber" reader="UINT" />
+				<node name="shortcuttype" reader="UINT" />
+				<node name="id" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

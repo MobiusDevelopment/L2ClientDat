@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="HairEx_Name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="class_name" reader="UINT" />
+			<node name="hair_name" reader="UNICODE" />
+			<node name="Description" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="HairEx_Name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="class_name" reader="UINT" />
+			<node name="hair_name" reader="MAP_INT" />
+			<node name="Description" reader="ASCF" />
+		</for>
+	</file>
+</list>

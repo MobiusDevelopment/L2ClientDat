@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ru_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="npcparts" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<node name="class" reader="UINT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="hairAcc" reader="UINT" />
+			<node name="hairStyle" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_infinite_odyssey" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="npcparts" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<node name="class" reader="UINT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="back" reader="UINT" />
+			<node name="hairAcc" reader="UINT" />
+			<node name="hairStyle" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="npc" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="nick" reader="ASCF" />
+			<node name="nickcolor" reader="RGBA" />
+		</for>
+	</file>
+</list>

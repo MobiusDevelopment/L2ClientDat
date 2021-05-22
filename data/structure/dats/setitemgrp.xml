@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="setitem_group" size="#data" hidden="false">
+			<node name="num" reader="UINT" />
+			<node name="essential_setitem_id" reader="UINT" />
+			<for name="essential_setitem_id" size="#essential_setitem_id">
+				<node name="size2" reader="UINT" />
+				<for name="essential_setitem_id0" size="#size2">
+					<node name="param_essential_setitem" reader="UINT" />
+				</for>
+			</for>
+			<node name="essential_setitem_desc" reader="UINT" />
+			<for name="essential_setitem_desc" size="#essential_setitem_desc">
+				<node name="param_essential_setitem_desc" reader="ASCF" />
+			</for>
+			<node name="additional_setitem_id" reader="UINT" />
+			<for name="additional_setitem_id" size="#additional_setitem_id">
+				<node name="additional_setitem_id0" reader="UINT" />
+				<for name="additional_setitem_id0" size="#additional_setitem_id0">
+					<node name="param_additional_setitem_id" reader="UINT" />
+				</for>
+			</for>
+			<node name="additional_setitem_desc" reader="UINT" />
+			<for name="additional_setitem_desc" size="#additional_setitem_desc">
+				<node name="param_additional_setitem_desc" reader="ASCF" />
+			</for>
+			<node name="unk1" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<node name="enchant_setitem_condition" reader="UINT" />
+			<for name="enchant_setitem_condition" size="#enchant_setitem_condition">
+				<node name="param_enchant_setitem_condition0" reader="UINT" />
+				<node name="param_enchant_setitem_desc" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+</list>

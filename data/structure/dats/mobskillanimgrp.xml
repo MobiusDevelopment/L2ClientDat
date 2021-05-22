@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<node name="skill_id" reader="UINT" />
+			<node name="seq_name" reader="UNICODE" />
+			<node name="skill_name" reader="ASCF" />
+			<node name="npc_name" reader="ASCF" />
+			<node name="npc_class" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<node name="skill_id" reader="UINT" />
+			<node name="seq_name" reader="MAP_INT" />
+			<node name="skill_name" reader="ASCF" />
+			<node name="npc_name" reader="ASCF" />
+			<node name="npc_class" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<node name="skill_id" reader="UINT" />
+			<node name="seq_name" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

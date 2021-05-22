@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="alchemy" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UINT" />
+			<node name="skill_max_level" reader="UINT" />
+			<node name="grade_type" reader="UINT" />
+			<node name="category_type" reader="UINT" />
+			<node name="string_id" reader="UINT" />
+			<node name="recipe_items" reader="UCHAR" />
+			<for name="recipe_items" size="#recipe_items">
+				<node name="itemId" reader="UINT" />
+			</for>
+			<node name="result_item" reader="UCHAR" />
+			<for name="result_item" size="#result_item">
+				<node name="param_category" reader="UINT" />
+			</for>
+			<wrapper name="fail_result_item">
+				<node name="param1" reader="UINT" />
+				<node name="param2" reader="UINT" />
+				<node name="param3" reader="UINT" />
+				<node name="param4" reader="UINT" />
+			</wrapper>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="cn_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="timelimit_option_client" size="#data" hidden="false">
+			<node name="item_id" reader="UINT" />
+			<node name="item_desc_k" reader="ASCF" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_grand_crusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="monster_book" size="#data" hidden="false">
+			<node name="id" reader="USHORT" />
+			<node name="trophy_id" reader="USHORT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="sort_order" reader="USHORT" />
+			<node name="npc_level" reader="USHORT" />
+			<node name="npc_conbonus" reader="FLOAT" />
+			<node name="npc_menbonus" reader="FLOAT" />
+			<node name="drop_item" reader="CNTR" />
+			<for name="drop_item" size="#drop_item">
+				<node name="param_drop_item" reader="UINT" />
+			</for>
+			<node name="card_texture" reader="MAP_INT" />
+			<node name="card_panel" reader="MAP_INT" />
+			<node name="zone_id" reader="USHORT" />
+			<node name="faction_id" reader="USHORT" />
+			<node name="reward_fp" reader="CNTR" />
+			<for name="reward_fp" size="#reward_fp">
+				<node name="param_reward_fp" reader="USHORT" />
+			</for>	
+			<node name="reward_exp" reader="CNTR" />
+			<for name="reward_exp" size="#reward_exp">
+				<node name="param_reward_exp" reader="LONG" />
+			</for>
+			<node name="reward_sp" reader="CNTR" />
+			<for name="reward_sp" size="#reward_sp">
+				<node name="param_reward_sp" reader="UINT" />
+			</for>
+			<node name="reward_item_1" reader="CNTR" />
+			<for name="reward_item_1" size="#reward_item_1">
+				<node name="param_reward_item_1" reader="UINT" />
+			</for>	
+			<node name="reward_item_2" reader="CNTR" />
+			<for name="reward_item_2" size="#reward_item_2">
+				<node name="param_reward_item_2" reader="UINT" />
+			</for>
+			<node name="reward_item_3" reader="CNTR" />
+			<for name="reward_item_3" size="#reward_item_3">
+				<node name="param_reward_item_3" reader="UINT" />
+			</for>			
+			<node name="reward_item_4" reader="CNTR" />
+			<for name="reward_item_4" size="#reward_item_4">
+				<node name="param_reward_item_4" reader="UINT" />
+			</for>
+			<node name="view_x" reader="USHORT" />
+			<node name="view_y" reader="USHORT" />
+			<node name="view_s" reader="FLOAT" />
+			<node name="view_rot" reader="UINT" />
+			<node name="view_dist" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_grand_crusade_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="monster_book" size="#data" hidden="false">
+			<node name="id" reader="USHORT" />
+			<node name="trophy_id" reader="USHORT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="sort_order" reader="USHORT" />
+			<node name="npc_level" reader="USHORT" />
+			<node name="npc_conbonus" reader="DOUBLE" />
+			<node name="npc_menbonus" reader="DOUBLE" />
+			<node name="drop_item" reader="CNTR" />
+			<for name="drop_item" size="#drop_item">
+				<node name="param_drop_item" reader="UINT" />
+			</for>
+			<node name="card_texture" reader="MAP_INT" />
+			<node name="card_panel" reader="MAP_INT" />
+			<node name="zone_id" reader="USHORT" />
+			<node name="faction_id" reader="USHORT" />
+			<node name="reward_fp" reader="CNTR" />
+			<for name="reward_fp" size="#reward_fp">
+				<node name="param_reward_fp" reader="USHORT" />
+			</for>	
+			<node name="reward_exp" reader="CNTR" />
+			<for name="reward_exp" size="#reward_exp">
+				<node name="param_reward_exp" reader="LONG" />
+			</for>
+			<node name="reward_sp" reader="CNTR" />
+			<for name="reward_sp" size="#reward_sp">
+				<node name="param_reward_sp" reader="UINT" />
+			</for>
+			<node name="reward_item_1" reader="CNTR" />
+			<for name="reward_item_1" size="#reward_item_1">
+				<node name="param_reward_item_1" reader="UINT" />
+			</for>	
+			<node name="reward_item_2" reader="CNTR" />
+			<for name="reward_item_2" size="#reward_item_2">
+				<node name="param_reward_item_2" reader="UINT" />
+			</for>
+			<node name="reward_item_3" reader="CNTR" />
+			<for name="reward_item_3" size="#reward_item_3">
+				<node name="param_reward_item_3" reader="UINT" />
+			</for>			
+			<node name="reward_item_4" reader="CNTR" />
+			<for name="reward_item_4" size="#reward_item_4">
+				<node name="param_reward_item_4" reader="UINT" />
+			</for>
+			<node name="view_x" reader="USHORT" />
+			<node name="view_y" reader="USHORT" />
+			<node name="view_s" reader="FLOAT" />
+			<node name="view_rot" reader="UINT" />
+			<node name="view_dist" reader="UINT" />
+		</for>
+	</file>
+</list>

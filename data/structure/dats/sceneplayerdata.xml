@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="sceneplayer_data" size="#data" hidden="false">
+			<node name="scene_id" reader="UINT" />
+			<node name="scene_name" reader="ASCF" />
+			<node name="play_time" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="sceneplayer_data" size="#data" hidden="false">
+			<node name="scene_id" reader="UINT" />
+			<node name="scene_name" reader="UNICODE" />
+			<node name="play_time" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="sceneplayer_data" size="#data" hidden="false">
+			<node name="scene_id" reader="UINT" />
+			<node name="scene_name" reader="MAP_INT" />
+			<node name="play_time" reader="FLOAT" />
+		</for>
+	</file>
+</list>

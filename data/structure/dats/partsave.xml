@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ru_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="aveparts" size="#data" hidden="false">
+			<node name="abnoraml" reader="UINT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="hairAcc" reader="UINT" />
+			<node name="useweapon" reader="UINT" />
+			<node name="shield" reader="UINT" />
+			<node name="sigil" reader="UINT" />
+			<for name="weaponid" size="19">
+				<node name="param_weaponid" reader="UINT" />
+			</for>
+			<for name="swordweaponid" size="4">
+				<node name="param_swordweaponid" reader="UINT" />
+			</for>		
+			<for name="bluntweaponid" size="4">
+				<node name="param_bluntweaponid" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

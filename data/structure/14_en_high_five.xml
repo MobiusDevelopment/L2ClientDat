@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+	<link pattern="classinfo-[\w]+\.dat" file="classinfo" version="en_high_five" />
+</list>

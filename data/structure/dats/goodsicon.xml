@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="goods_icon" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="icon" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="goods_icon" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="icon" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

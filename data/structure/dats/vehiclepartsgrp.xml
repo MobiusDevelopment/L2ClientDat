@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="vehicleparts" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="actor_name" reader="UNICODE" />
+			<node name="partlist" reader="CNTR" />
+			<for name="partlist" size="#partlist">
+				<node name="var" reader="INT" />
+			</for>
+			<node name="offsets" reader="CNTR" />
+			<for name="offsets" size="#offsets">
+				<node name="var0" reader="INT" />
+			</for>
+			<node name="animation" reader="UINT" />
+			<node name="serverobject" reader="UINT" />
+			<node name="mesh" reader="INT" />
+			<for name="mesh" size="#mesh">
+				<node name="mesh0" reader="UNICODE" />
+			</for>
+			<node name="texture" reader="INT" />
+			<for name="texture" size="#texture">
+				<node name="texture0" reader="UNICODE" />
+			</for>
+			<node name="spawn_sound" reader="UNICODE" />
+			<node name="basic_sound" reader="UNICODE" />
+			<node name="moveup_sound" reader="UNICODE" />
+			<node name="movedown_sound" reader="UNICODE" />
+			<node name="turn_sound" reader="UNICODE" />
+			<node name="random_sound" reader="UINT" />
+			<for name="random_sound" size="#random_sound">
+				<node name="random_sound0" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="vehicleparts" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="actor_name" reader="MAP_INT" />
+			<node name="partlist" reader="CNTR" />
+			<for name="partlist" size="#partlist">
+				<node name="var" reader="INT" />
+			</for>
+			<node name="offsets" reader="CNTR" />
+			<for name="offsets" size="#offsets">
+				<node name="var0" reader="INT" />
+			</for>
+			<node name="animation" reader="UINT" />
+			<node name="serverobject" reader="UINT" />
+			<node name="mesh" reader="INT" />
+			<for name="mesh" size="#mesh">
+				<node name="mesh0" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="INT" />
+			<for name="texture" size="#texture">
+				<node name="texture0" reader="MAP_INT" />
+			</for>
+			<node name="spawn_sound" reader="MAP_INT" />
+			<node name="basic_sound" reader="MAP_INT" />
+			<node name="moveup_sound" reader="MAP_INT" />
+			<node name="movedown_sound" reader="MAP_INT" />
+			<node name="turn_sound" reader="MAP_INT" />
+			<node name="random_sound" reader="MAP_INT" />
+			<for name="random_sound" size="#random_sound">
+				<node name="random_sound0" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="vehicleparts" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="actor_name" reader="MAP_INT" />
+			<node name="partlist" reader="CNTR" />
+			<for name="partlist" size="#partlist">
+				<node name="var" reader="INT" />
+			</for>
+			<node name="offsets" reader="CNTR" />
+			<for name="offsets" size="#offsets">
+				<node name="var0" reader="INT" />
+			</for>
+			<node name="animation" reader="UINT" />
+			<node name="serverobject" reader="UINT" />
+			<node name="mesh" reader="INT" />
+			<for name="mesh" size="#mesh">
+				<node name="mesh0" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="INT" />
+			<for name="texture" size="#texture">
+				<node name="texture0" reader="MAP_INT" />
+			</for>
+			<node name="spawn_sound" reader="MAP_INT" />
+			<node name="basic_sound" reader="MAP_INT" />
+			<node name="moveup_sound" reader="MAP_INT" />
+			<node name="movedown_sound" reader="MAP_INT" />
+			<node name="turn_sound" reader="MAP_INT" />
+			<node name="random_sound" reader="INT" />
+			<for name="random_sound" size="#random_sound">
+				<node name="random_sound0" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

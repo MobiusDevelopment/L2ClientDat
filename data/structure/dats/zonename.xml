@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Color" reader="UINT" />
+			<node name="MapX" reader="UINT" />
+			<node name="MapY" reader="UINT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+			<node name="TownBtnLocX" reader="UINT" />
+			<node name="TownBtnLocY" reader="UINT" />
+			<node name="TownMapX" reader="UINT" />
+			<node name="TownMapY" reader="UINT" />
+			<node name="TownMapWidth" reader="UINT" />
+			<node name="TownMapHeight" reader="UINT" />
+			<node name="TownMapScale" reader="FLOAT" />
+			<node name="TownMapTex" reader="ASCF" />
+			<node name="Continent" reader="UINT" />
+			<node name="CurrentLayer" reader="UINT" />
+			<node name="TotalLayers" reader="UINT" />
+			<node name="TownCenterX" reader="UINT" />
+			<node name="TownCenterY" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Color" reader="UINT" />
+			<node name="MapX" reader="UINT" />
+			<node name="MapY" reader="UINT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+			<node name="TownBtnLocX" reader="UINT" />
+			<node name="TownBtnLocY" reader="UINT" />
+			<node name="TownMapX" reader="UINT" />
+			<node name="TownMapY" reader="UINT" />
+			<node name="TownMapWidth" reader="UINT" />
+			<node name="TownMapHeight" reader="UINT" />
+			<node name="TownMapScale" reader="FLOAT" />
+			<node name="TownMapTex" reader="MAP_INT" />
+			<node name="Continent" reader="UINT" />
+			<node name="CurrentLayer" reader="UINT" />
+			<node name="TotalLayers" reader="UINT" />
+			<node name="TownCenterX" reader="UINT" />
+			<node name="TownCenterY" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_grand_crusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="USHORT" />
+			<node name="MapX" reader="USHORT" />
+			<node name="MapY" reader="USHORT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+			<node name="TownBtnLocX" reader="SHORT" />
+			<node name="TownBtnLocY" reader="SHORT" />
+			<node name="TownMapX" reader="UINT" />
+			<node name="TownMapY" reader="UINT" />
+			<node name="TownMapWidth" reader="SHORT" />
+			<node name="TownMapHeight" reader="SHORT" />
+			<node name="TownMapScale" reader="FLOAT" />
+			<node name="TownMapTex" reader="MAP_INT" />
+			<node name="Color" reader="USHORT" />
+			<node name="Continent" reader="USHORT" />
+			<node name="CurrentLayer" reader="USHORT" />
+			<node name="TotalLayers" reader="USHORT" />
+			<node name="TownCenterX" reader="UINT" />
+			<node name="TownCenterY" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="cn_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="attendance_stamp" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="item_id" reader="UINT" />
+			<node name="item_count" reader="UINT" />
+		</for>
+	</file>
+</list>

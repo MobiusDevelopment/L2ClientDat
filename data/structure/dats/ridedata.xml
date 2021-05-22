@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ride_data" size="#data" hidden="false">
+			<node name="ride_type" reader="UINT" />
+			<node name="ride_npc_id" reader="UINT" />
+			<node name="attach_bone_name" reader="UNICODE" />
+			<node name="mfighter_loc" reader="LOC" />
+			<node name="ffighter_loc" reader="LOC" />
+			<node name="mmagic_loc" reader="LOC" />
+			<node name="fmagic_loc" reader="LOC" />
+			<node name="melf_loc" reader="LOC" />
+			<node name="felf_loc" reader="LOC" />
+			<node name="mdarkelf_loc" reader="LOC" />
+			<node name="fdarkelf_loc" reader="LOC" />
+			<node name="mdwarf_loc" reader="LOC" />
+			<node name="fdwarf_loc" reader="LOC" />
+			<node name="morc_loc" reader="LOC" />
+			<node name="forc_loc" reader="LOC" />
+			<node name="mshaman_loc" reader="LOC" />
+			<node name="fshaman_loc" reader="LOC" />
+			<node name="mkamael_loc" reader="LOC" />
+			<node name="fkamael_loc" reader="LOC" />
+			<wrapper name="unk">
+				<node name="unk_1" reader="UINT" />
+				<node name="unk_2" reader="UINT" />
+				<node name="unk_3" reader="UINT" />
+				<node name="unk_4" reader="UINT" />
+				<node name="unk_5" reader="UINT" />
+				<node name="unk_6" reader="UINT" />
+				<node name="unk_7" reader="UINT" />
+				<node name="unk_8" reader="UINT" />
+				<node name="unk_9" reader="UINT" />
+				<node name="unk_10" reader="UINT" />
+				<node name="unk_11" reader="UINT" />
+				<node name="unk_12" reader="UINT" />
+				<node name="unk_13" reader="UINT" />
+				<node name="unk_14" reader="UINT" />
+				<node name="unk_15" reader="UINT" />
+				<node name="unk_16" reader="UINT" />
+				<node name="unk_17" reader="UINT" />
+				<node name="unk_18" reader="UINT" />
+				<node name="unk_19" reader="UINT" />
+				<node name="unk_20" reader="UINT" />
+				<node name="unk_21" reader="UINT" />
+				<node name="unk_22" reader="UINT" />
+				<node name="unk_23" reader="UINT" />
+				<node name="unk_24" reader="UINT" />
+				<node name="unk_25" reader="UINT" />
+				<node name="unk_26" reader="UINT" />
+				<node name="unk_27" reader="UINT" />
+				<node name="unk_28" reader="UINT" />
+				<node name="unk_29" reader="UINT" />
+				<node name="unk_30" reader="UINT" />
+				<node name="unk_31" reader="UINT" />
+				<node name="unk_32" reader="UINT" />
+				<node name="unk_33" reader="UINT" />
+				<node name="unk_34" reader="UINT" />
+				<node name="unk_35" reader="UINT" />
+				<node name="unk_36" reader="UINT" />
+				<node name="unk_37" reader="UINT" />
+				<node name="unk_38" reader="UINT" />
+				<node name="unk_39" reader="UINT" />
+				<node name="unk_40" reader="UINT" />
+				<node name="unk_41" reader="UINT" />
+				<node name="unk_42" reader="UINT" />
+				<node name="unk_43" reader="UINT" />
+				<node name="unk_44" reader="UINT" />
+				<node name="unk_45" reader="UINT" />
+				<node name="unk_46" reader="UINT" />
+				<node name="unk_47" reader="UINT" />
+				<node name="unk_48" reader="UINT" />
+				<node name="unk_49" reader="UINT" />
+				<node name="unk_50" reader="UINT" />
+				<node name="unk_51" reader="UINT" />
+				<node name="unk_52" reader="UINT" />
+				<node name="unk_53" reader="UINT" />
+			</wrapper>
+			<node name="mfighter_rot" reader="FLOAT" />
+			<node name="ffighter_rot" reader="FLOAT" />
+			<node name="mmagic_rot" reader="FLOAT" />
+			<node name="fmagic_rot" reader="FLOAT" />
+			<node name="melf_rot" reader="FLOAT" />
+			<node name="felf_rot" reader="FLOAT" />
+			<node name="mdarkelf_rot" reader="FLOAT" />
+			<node name="fdarkelf_rot" reader="FLOAT" />
+			<node name="mdwarf_rot" reader="FLOAT" />
+			<node name="fdwarf_rot" reader="FLOAT" />
+			<node name="morc_rot" reader="FLOAT" />
+			<node name="forc_rot" reader="FLOAT" />
+			<node name="mshaman_rot" reader="FLOAT" />
+			<node name="fshaman_rot" reader="FLOAT" />
+			<node name="mkamael_rot" reader="FLOAT" />
+			<node name="fkamael_rot" reader="FLOAT" />
+			<node name="nameoffset" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="ru_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ride_data" size="#data" hidden="false">
+			<node name="ride_type" reader="UINT" />
+			<node name="ride_npc_id" reader="UINT" />
+			<node name="attach_bone_name" reader="UNICODE" />
+			<node name="mfighter_loc" reader="LOC" />
+			<node name="ffighter_loc" reader="LOC" />
+			<node name="mmagic_loc" reader="LOC" />
+			<node name="fmagic_loc" reader="LOC" />
+			<node name="melf_loc" reader="LOC" />
+			<node name="felf_loc" reader="LOC" />
+			<node name="mdarkelf_loc" reader="LOC" />
+			<node name="fdarkelf_loc" reader="LOC" />
+			<node name="mdwarf_loc" reader="LOC" />
+			<node name="fdwarf_loc" reader="LOC" />
+			<node name="morc_loc" reader="LOC" />
+			<node name="forc_loc" reader="LOC" />
+			<node name="mshaman_loc" reader="LOC" />
+			<node name="fshaman_loc" reader="LOC" />
+			<node name="mkamael_loc" reader="LOC" />
+			<node name="fkamael_loc" reader="LOC" />
+			<node name="empty_loc" reader="LOC" />
+			<node name="mfighter_rot" reader="ROT" />
+			<node name="ffighter_rot" reader="ROT" />
+			<node name="mmagic_rot" reader="ROT" />
+			<node name="fmagic_rot" reader="ROT" />
+			<node name="melf_rot" reader="ROT" />
+			<node name="felf_rot" reader="ROT" />
+			<node name="mdarkelf_rot" reader="ROT" />
+			<node name="fdarkelf_rot" reader="ROT" />
+			<node name="mdwarf_rot" reader="ROT" />
+			<node name="fdwarf_rot" reader="ROT" />
+			<node name="morc_rot" reader="ROT" />
+			<node name="forc_rot" reader="ROT" />
+			<node name="mshaman_rot" reader="ROT" />
+			<node name="fshaman_rot" reader="ROT" />
+			<node name="mkamael_rot" reader="ROT" />
+			<node name="fkamael_rot" reader="ROT" />
+			<node name="empty_rot" reader="ROT" />
+			<for name="nameoffset" size="17">
+				<node name="param_nameoffset" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ride_data" size="#data" hidden="false">
+			<node name="ride_type" reader="UINT" />
+			<node name="ride_npc_id" reader="UINT" />
+			<node name="attach_bone_name" reader="UNICODE" />
+			<node name="mfighter_loc" reader="LOC" />
+			<node name="ffighter_loc" reader="LOC" />
+			<node name="mmagic_loc" reader="LOC" />
+			<node name="fmagic_loc" reader="LOC" />
+			<node name="melf_loc" reader="LOC" />
+			<node name="felf_loc" reader="LOC" />
+			<node name="mdarkelf_loc" reader="LOC" />
+			<node name="fdarkelf_loc" reader="LOC" />
+			<node name="mdwarf_loc" reader="LOC" />
+			<node name="fdwarf_loc" reader="LOC" />
+			<node name="morc_loc" reader="LOC" />
+			<node name="forc_loc" reader="LOC" />
+			<node name="mshaman_loc" reader="LOC" />
+			<node name="fshaman_loc" reader="LOC" />
+			<node name="mkamael_loc" reader="LOC" />
+			<node name="fkamael_loc" reader="LOC" />
+			<node name="mertheia_loc" reader="LOC" />
+			<node name="fertheia_loc" reader="LOC" />
+			<node name="empty_loc" reader="LOC" />
+			<node name="mfighter_rot" reader="ROT" />
+			<node name="ffighter_rot" reader="ROT" />
+			<node name="mmagic_rot" reader="ROT" />
+			<node name="fmagic_rot" reader="ROT" />
+			<node name="melf_rot" reader="ROT" />
+			<node name="felf_rot" reader="ROT" />
+			<node name="mdarkelf_rot" reader="ROT" />
+			<node name="fdarkelf_rot" reader="ROT" />
+			<node name="mdwarf_rot" reader="ROT" />
+			<node name="fdwarf_rot" reader="ROT" />
+			<node name="morc_rot" reader="ROT" />
+			<node name="forc_rot" reader="ROT" />
+			<node name="mshaman_rot" reader="ROT" />
+			<node name="fshaman_rot" reader="ROT" />
+			<node name="mkamael_rot" reader="ROT" />
+			<node name="fkamael_rot" reader="ROT" />
+			<node name="mertheia_rot" reader="ROT" />
+			<node name="fertheia_rot" reader="ROT" />
+			<node name="empty_rot" reader="ROT" />
+			<for name="nameoffset" size="19">
+				<node name="param_nameoffset" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ride_data" size="#data" hidden="false">
+			<node name="ride_type" reader="UINT" />
+			<node name="ride_npc_id" reader="UINT" />
+			<node name="attach_bone_name" reader="MAP_INT" />
+			<node name="mfighter_loc" reader="LOC" />
+			<node name="ffighter_loc" reader="LOC" />
+			<node name="mmagic_loc" reader="LOC" />
+			<node name="fmagic_loc" reader="LOC" />
+			<node name="melf_loc" reader="LOC" />
+			<node name="felf_loc" reader="LOC" />
+			<node name="mdarkelf_loc" reader="LOC" />
+			<node name="fdarkelf_loc" reader="LOC" />
+			<node name="mdwarf_loc" reader="LOC" />
+			<node name="fdwarf_loc" reader="LOC" />
+			<node name="morc_loc" reader="LOC" />
+			<node name="forc_loc" reader="LOC" />
+			<node name="mshaman_loc" reader="LOC" />
+			<node name="fshaman_loc" reader="LOC" />
+			<node name="mkamael_loc" reader="LOC" />
+			<node name="fkamael_loc" reader="LOC" />
+			<node name="mertheia_loc" reader="LOC" />
+			<node name="fertheia_loc" reader="LOC" />
+			<node name="empty_loc" reader="LOC" />
+			<node name="mfighter_rot" reader="ROT" />
+			<node name="ffighter_rot" reader="ROT" />
+			<node name="mmagic_rot" reader="ROT" />
+			<node name="fmagic_rot" reader="ROT" />
+			<node name="melf_rot" reader="ROT" />
+			<node name="felf_rot" reader="ROT" />
+			<node name="mdarkelf_rot" reader="ROT" />
+			<node name="fdarkelf_rot" reader="ROT" />
+			<node name="mdwarf_rot" reader="ROT" />
+			<node name="fdwarf_rot" reader="ROT" />
+			<node name="morc_rot" reader="ROT" />
+			<node name="forc_rot" reader="ROT" />
+			<node name="mshaman_rot" reader="ROT" />
+			<node name="fshaman_rot" reader="ROT" />
+			<node name="mkamael_rot" reader="ROT" />
+			<node name="fkamael_rot" reader="ROT" />
+			<node name="mertheia_rot" reader="ROT" />
+			<node name="fertheia_rot" reader="ROT" />
+			<node name="empty_rot" reader="ROT" />
+			<for name="nameoffset" size="19">
+				<node name="param_nameoffset" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,120 @@
+<definitions>
+    <definition name="MTX">
+        <wrapper name="var_0_">
+            <node name="mtx_size_1_" reader="INT" />
+            <for name="for_mtx_size_1_" size="#mtx_size_1_">
+                <node name="mtx_mesh_" reader="UNICODE" />
+            </for>
+            <node name="mtx_size_2_" reader="INT" />
+            <for name="for_mtx_size_2_" size="#mtx_size_2_">
+                <node name="mtx_text_" reader="UNICODE" />
+            </for>
+        </wrapper>
+    </definition>
+    <definition name="MTX_NEW">
+        <wrapper name="var_0_">
+            <node name="mtx_size_1_" reader="INT" />
+            <for name="for_mtx_size_1_" size="#mtx_size_1_">
+                <node name="mtx_mesh_" reader="MAP_INT" />
+            </for>
+            <node name="mtx_size_2_" reader="INT" />
+            <for name="for_mtx_size_2_" size="#mtx_size_2_">
+                <node name="mtx_text_" reader="MAP_INT" />
+            </for>
+        </wrapper>
+    </definition>
+    <definition name="MTX_NEW2">
+        <wrapper name="var_0_">
+            <node name="mtx_size_1_" reader="UCHAR" />
+            <for name="for_mtx_size_1_" size="#mtx_size_1_">
+                <node name="mtx_mesh_" reader="MAP_INT" />
+            </for>
+            <node name="mtx_size_2_" reader="UCHAR" />
+            <for name="for_mtx_size_2_" size="#mtx_size_2_">
+                <node name="mtx_text_" reader="MAP_INT" />
+            </for>
+        </wrapper>
+    </definition>
+	<definition name="MTX3">
+		<wrapper name="var1">
+			   <node name="mtx3_size_1_" reader="INT" />
+			   <for name="for_mtx3_size_1_" size="#mtx3_size_1_">
+					<node name="mtx3_mesh_" reader="UNICODE" />
+					<node name="mtx3_val1_" reader="UCHAR" />
+					<node name="mtx3_val2_" reader="UCHAR" />
+			   </for>
+			   <node name="mtx3_size_2_" reader="INT" />
+			   <for name="for_mtx3_size_2_" size="#mtx3_size_2_">
+					<node name="mtx3_text_" reader="UNICODE" />
+			   </for>
+			   <node name="mtx3_textext_" reader="UNICODE" />   
+		</wrapper>
+    </definition>
+	<definition name="MTX3_NEW">
+		<wrapper name="var1">
+			<wrapper name="var1_1">
+				<node name="mtx3_size_1_" reader="INT" />
+				<for name="for_mtx3_size_1_" size="#mtx3_size_1_">
+					<node name="mtx3_mesh_" reader="MAP_INT" />
+				</for>
+				<for name="for_mtx3_size_1_" size="#mtx3_size_1_" skipWriteSize="true">
+					<node name="mtx3_val1_" reader="UCHAR" />
+					<node name="mtx3_val2_" reader="UCHAR" />
+				</for>
+			</wrapper>
+			<node name="mtx3_size_2_" reader="INT" />
+			<for name="for_mtx3_size_2_" size="#mtx3_size_2_">
+				<node name="mtx3_text_" reader="MAP_INT" />
+			</for>
+			<node name="mtx3_textext_" reader="MAP_INT" />
+		</wrapper>
+    </definition>
+	<definition name="MTX3_NEW2">
+		<wrapper name="var1">
+			<wrapper name="var1_1">
+			   <node name="mtx3_size_1_" reader="UCHAR" />
+			   <for name="for_mtx3_size_1_" size="#mtx3_size_1_">
+					<node name="mtx3_mesh_" reader="MAP_INT" />
+			   </for>
+				<for name="for_mtx3_size_1_" size="#mtx3_size_1_" skipWriteSize="true">
+					<node name="mtx3_val1_" reader="UCHAR" />
+					<node name="mtx3_val2_" reader="UCHAR" />
+				</for>
+			</wrapper>
+		   <node name="mtx3_size_2_" reader="UCHAR" />
+		   <for name="for_mtx3_size_2_" size="#mtx3_size_2_">
+				<node name="mtx3_text_" reader="MAP_INT" />
+		   </for>
+		   <node name="mtx3_textext_" reader="MAP_INT" />
+		</wrapper>
+    </definition>
+	<definition name="RGB_TEST">
+		<wrapper name="var_1_">
+			<node name="R" reader="RGBA" /> 
+			<node name="R1" reader="RGBA" /> 
+			<node name="B" reader="FLOAT" /> 
+		</wrapper>
+    </definition>
+	<definition name="RGBA_TEST">
+		<wrapper name="var_1_">
+			<node name="R" reader="HEX" /> 
+			<node name="G" reader="HEX" /> 
+			<node name="B" reader="HEX" /> 
+			<node name="A" reader="HEX" /> 
+		</wrapper>
+    </definition>
+	<definition name="LOC">
+		<wrapper name="var_2_">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+		</wrapper>
+    </definition>
+	<definition name="ROT">
+		<wrapper name="var_2_">
+			<node name="x" reader="INT" />
+			<node name="y" reader="INT" />
+			<node name="z" reader="INT" />
+		</wrapper>
+	</definition>
+</definitions>

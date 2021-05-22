@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enterevent" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="tag" reader="UCHAR" />
+			<node name="sound_name" reader="ASCF" />
+			<node name="sound_vol" reader="FLOAT" />
+			<node name="sound_rad" reader="FLOAT" />
+			<node name="isrise" reader="UINT" />
+			<node name="spawn_type" reader="UINT" />
+			<node name="effect_name" reader="UNICODE" />
+			<node name="anim_name" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enterevent" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="tag" reader="UCHAR" />
+			<node name="sound_name" reader="ASCF" />
+			<node name="sound_vol" reader="FLOAT" />
+			<node name="sound_rad" reader="FLOAT" />
+			<node name="isrise" reader="UINT" />
+			<node name="spawn_type" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+			<node name="anim_name" reader="MAP_INT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enterevent" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="sound_name" reader="MAP_INT" />
+			<node name="sound_vol" reader="FLOAT" />
+			<node name="sound_rad" reader="FLOAT" />
+			<node name="isrise" reader="UINT" />
+			<node name="spawn_type" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+			<node name="anim_name" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

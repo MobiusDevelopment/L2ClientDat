@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="exception_location" size="#data" hidden="false">
+			<node name="location_id" reader="UINT" />
+			<node name="location_name" reader="ASCF" />
+			<node name="max_x" reader="UINT" />
+			<node name="min_x" reader="UINT" />
+			<node name="max_y" reader="UINT" />
+			<node name="min_y" reader="UINT" />
+			<node name="max_z" reader="UINT" />
+			<node name="min_z" reader="UINT" />
+			<node name="seen_x" reader="UINT" />
+			<node name="seen_y" reader="UINT" />
+			<node name="continent" reader="UINT" />
+		</for>
+	</file>
+</list>

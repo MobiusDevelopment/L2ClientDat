@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="lollycube" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UINT" />
+			<node name="reward_item_class_id" reader="UINT" />
+			<node name="reward_item_modify_price" reader="LONG" />
+			<node name="additional_item_class_id" reader="UINT" />
+			<node name="additional_reward_item_class_id" reader="UINT" />
+			<node name="additional_reward_item_num" reader="UINT" />
+			<node name="additional_gain_rate" reader="FLOAT" />
+		</for>
+	</file>
+</list>

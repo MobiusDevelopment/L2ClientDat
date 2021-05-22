@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="recipe" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<node name="id" reader="UINT" />
+			<node name="recipe_id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="product_id" reader="UINT" />
+			<node name="product_num" reader="UINT" />
+			<node name="is_showtree" reader="UINT" />
+			<node name="is_multiple_product" reader="UINT" />
+			<node name="mp_consume" reader="UINT" />
+			<node name="success_rate" reader="UINT" />
+			<node name="material" reader="UINT" />
+			<for name="material" size="#material">
+				<node name="itemId" reader="UINT" />
+				<node name="count" reader="UINT" />
+				<node name="unk" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

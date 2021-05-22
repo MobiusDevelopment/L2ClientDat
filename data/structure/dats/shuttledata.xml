@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="shuttle" size="#data" hidden="false">
+			<node name="type_id" reader="INT" />
+			<node name="shuttle_yaw" reader="INT" />
+			<node name="shuttle_mesh" reader="ASCF" />
+			<node name="door_mesh" reader="INT" />
+			<for name="door_mesh" size="#door_mesh">
+				<node name="param_door_mesh" reader="ASCF" />
+				<node name="param_door_yaw" reader="INT" />
+			</for>
+			<node name="blocking_mesh" reader="ASCF" />
+			<node name="wall_mesh" reader="INT" />
+			<for name="wall_mesh" size="#wall_mesh">
+				<node name="param_wall_mesh" reader="ASCF" />
+			</for>
+			<node name="ShuttleSound" reader="ASCF" />
+			<node name="ShuttleStartSound" reader="ASCF" />
+			<node name="ShuttleStopSound" reader="ASCF" />
+			<node name="ShuttleSoundVol" reader="UINT" />
+			<node name="ShuttleSoundVolWhenStop" reader="UINT" />
+			<node name="ShuttleSoundRadii" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="shuttle" size="#data" hidden="false">
+			<node name="type_id" reader="INT" />
+			<node name="shuttle_yaw" reader="INT" />
+			<node name="shuttle_mesh" reader="MAP_INT" />
+			<node name="door_mesh" reader="INT" />
+			<for name="door_mesh" size="#door_mesh">
+				<node name="param_door_mesh" reader="MAP_INT" />
+				<node name="param_door_yaw" reader="INT" />
+			</for>
+			<node name="blocking_mesh" reader="MAP_INT" />
+			<node name="wall_mesh" reader="INT" />
+			<for name="wall_mesh" size="#wall_mesh">
+				<node name="param_wall_mesh" reader="MAP_INT" />
+			</for>
+			<node name="ShuttleSound" reader="MAP_INT" />
+			<node name="ShuttleStartSound" reader="MAP_INT" />
+			<node name="ShuttleStopSound" reader="MAP_INT" />
+			<node name="ShuttleSoundVol" reader="UINT" />
+			<node name="ShuttleSoundVolWhenStop" reader="UINT" />
+			<node name="ShuttleSoundRadii" reader="UINT" />
+		</for>
+	</file>
+</list>

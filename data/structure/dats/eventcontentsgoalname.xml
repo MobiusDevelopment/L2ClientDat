@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="EventContentGoal" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Name" reader="ASCF" />
+			<node name="Tooltip" reader="ASCF" />
+			<node name="Goal_Count" reader="SHORT" />
+			<node name="UNK" reader="UINT" />
+			<node name="GoalDescription" reader="UINT" />
+			<for name="GoalDescription" size="#GoalDescription">
+				<node name="param_Goal_ID" reader="UINT" />
+				<node name="param_Goal_Desc" reader="ASCF" />
+			</for>
+			<node name="map" reader="UINT" />
+			<!-- TODO локация -->
+			<for name="map" size="#map">
+				<node name="param_map1" reader="UINT" />
+				<node name="param_map2" reader="UINT" />
+				<node name="param_map3" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

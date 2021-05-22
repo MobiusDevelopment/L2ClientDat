@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="DualCastType" size="#data" hidden="false">
+			<node name="Type" reader="ASCF" />
+			<node name="LeftAnimCombo" reader="UNICODE" />
+			<node name="RightAnimCombo" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="DualCastType" size="#data" hidden="false">
+			<node name="Type" reader="ASCF" />
+			<node name="LeftAnimCombo" reader="MAP_INT" />
+			<node name="RightAnimCombo" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <file pattern="kor_prelude_of_war_p10" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="pledge_level" size="#data" hidden="false">
+            <node name="level" reader="USHORT" />
+            <node name="need_pledge_exp" reader="UINT" />
+            <node name="num_general" reader="USHORT" />
+            <node name="merit_desc" reader="ASCF" />
+        </for>
+    </file>
+</list>

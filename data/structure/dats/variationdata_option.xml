@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <file pattern="kor_prelude_of_war_p10" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="variation_option" size="#data" hidden="false">
+            <node name="mineral_item_id" reader="UINT" />
+            <node name="item_group_name" reader="UINT" />
+            <node name="option_description1" reader="ASCF" />
+            <node name="option_description2" reader="ASCF" />
+            <node name="option_description3" reader="ASCF" />
+            <node name="option_description4" reader="ASCF" />
+        </for>
+    </file>
+</list>

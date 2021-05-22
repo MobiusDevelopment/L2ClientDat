@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="posteffect_data" size="#data" hidden="false">
+			<node name="effect_id" reader="UINT" />
+			<node name="effect_name" reader="UNICODE" />
+			<node name="effect_sort" reader="UINT" />
+			<node name="effect_play_type" reader="UINT" />
+			<node name="play_time" reader="FLOAT" />
+			<node name="effect_fix" reader="UINT" />
+			<node name="effect_cor1_factor1" reader="FLOAT" />
+			<node name="effect_cor1_factor2" reader="FLOAT" />
+			<node name="effect_cor1_factor3" reader="FLOAT" />
+			<node name="effect_cor2_factor1" reader="FLOAT" />
+			<node name="effect_cor2_factor2" reader="FLOAT" />
+			<node name="effect_cor2_factor3" reader="FLOAT" />
+			<node name="effect_reservefactor1" reader="FLOAT" />
+			<node name="effect_reservefactor2" reader="FLOAT" />
+			<node name="effect_colorgrading1" reader="UNICODE" />
+			<node name="effect_colorgrading2" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="posteffect_data" size="#data" hidden="false">
+			<node name="effect_id" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+			<node name="effect_sort" reader="UINT" />
+			<node name="effect_play_type" reader="UINT" />
+			<node name="play_time" reader="FLOAT" />
+			<node name="effect_fix" reader="UINT" />
+			<node name="effect_cor1_factor1" reader="FLOAT" />
+			<node name="effect_cor1_factor2" reader="FLOAT" />
+			<node name="effect_cor1_factor3" reader="FLOAT" />
+			<node name="effect_cor2_factor1" reader="FLOAT" />
+			<node name="effect_cor2_factor2" reader="FLOAT" />
+			<node name="effect_cor2_factor3" reader="FLOAT" />
+			<node name="effect_reservefactor1" reader="FLOAT" />
+			<node name="effect_reservefactor2" reader="FLOAT" />
+			<node name="effect_colorgrading1" reader="UNICODE" />
+			<node name="effect_colorgrading2" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="posteffect_data" size="#data" hidden="false">
+			<node name="effect_id" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+			<node name="effect_sort" reader="UINT" />
+			<node name="effect_play_type" reader="UINT" />
+			<node name="play_time" reader="FLOAT" />
+			<node name="effect_fix" reader="UINT" />
+			<node name="effect_cor1_factor1" reader="FLOAT" />
+			<node name="effect_cor1_factor2" reader="FLOAT" />
+			<node name="effect_cor1_factor3" reader="FLOAT" />
+			<node name="effect_cor2_factor1" reader="FLOAT" />
+			<node name="effect_cor2_factor2" reader="FLOAT" />
+			<node name="effect_cor2_factor3" reader="FLOAT" />
+			<node name="effect_reservefactor1" reader="MAP_INT" />
+			<node name="effect_reservefactor2" reader="MAP_INT" />
+			<node name="effect_colorgrading1" reader="UINT" />
+			<node name="effect_colorgrading2" reader="UINT" />
+		</for>
+	</file>
+</list>

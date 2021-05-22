@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="teleport_list" size="#data" hidden="false">
+			<node name="huntingzone_id" reader="UINT" />
+			<node name="town_id" reader="UINT" />
+			<node name="price" reader="UINT" />
+			<node name="priority" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_infinite_odyssey_will_of_the_ancients" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="topping" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UINT" />
+			<node name="sub_level" reader="UINT" />
+			<node name="slot_num" reader="UINT" />
+			<node name="is_default" reader="UINT" />
+		</for>
+	</file>
+</list>

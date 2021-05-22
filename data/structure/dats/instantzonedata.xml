@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="InstantZoneData" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="cn_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="InstantZoneData" size="2" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="q_level" reader="UINT" />
+			<node name="instantzonetype" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="cn_ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="InstantZoneData" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="level_min" reader="UINT" />
+			<node name="level_max" reader="UINT" />
+			<node name="instantzonetype" reader="ASCF" />
+		</for>
+	</file>
+</list>

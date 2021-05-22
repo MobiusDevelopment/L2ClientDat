@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_prelude_of_war_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="field_info" size="#data" hidden="false">
+			<node name="field_id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="refill_item_list" reader="UCHAR" />
+			<for name="refill_item_list" size="#refill_item_list">
+				<node name="itemId" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="kor_prelude_of_war_p7" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="field_info" size="#data" hidden="false">
+			<node name="type" reader="ASCF" />
+			<node name="field_id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="refill_item_list" reader="UCHAR" />
+			<for name="refill_item_list" size="#refill_item_list">
+				<node name="itemId" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

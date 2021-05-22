@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="transform_data" size="#data" hidden="false">
+			<node name="transform_id" reader="UINT" />
+			<node name="gender" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="weapon_id" reader="UINT" />
+			<node name="transform_effect_name" reader="UNICODE" />
+			<node name="return_effect_name" reader="UNICODE" />
+			<node name="transform_type" reader="UINT" />
+			<node name="character_scale" reader="FLOAT" />
+			<node name="character_offset_x" reader="UINT" />
+			<node name="character_offset_y" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="transform_data" size="#data" hidden="false">
+			<node name="transform_id" reader="UINT" />
+			<node name="gender" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="weapon_id" reader="UINT" />
+			<node name="transform_effect_name" reader="UNICODE" />
+			<node name="return_effect_name" reader="UNICODE" />
+			<node name="transform_type" reader="UINT" />
+			<node name="character_scale" reader="FLOAT" />
+			<node name="character_offset_x" reader="UINT" />
+			<node name="character_offset_y" reader="UINT" />
+			<node name="chatbox_skintype" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="transform_data" size="#data" hidden="false">
+			<node name="transform_id" reader="UINT" />
+			<node name="gender" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<node name="weapon_id" reader="UINT" />
+			<node name="transform_effect_name" reader="MAP_INT" />
+			<node name="return_effect_name" reader="MAP_INT" />
+			<node name="transform_type" reader="UINT" />
+			<node name="character_scale" reader="FLOAT" />
+			<node name="character_offset_x" reader="UINT" />
+			<node name="character_offset_y" reader="UINT" />
+			<node name="chatbox_skintype" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="symbol" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="filename" reader="ASCF" />
+			<node name="alias" reader="ASCF" />
+			<node name="UNK_0" reader="UINT" />
+		</for>
+	</file>
+</list>

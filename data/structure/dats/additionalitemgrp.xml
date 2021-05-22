@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="has_ani" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<wrapper name="include_item">
+				<node name="unk2" reader="UINT" />
+				<node name="unk3" reader="UINT" />
+				<node name="unk4" reader="UINT" />
+				<node name="unk5" reader="UINT" />
+				<node name="unk6" reader="UINT" />
+				<node name="unk7" reader="UINT" />
+				<node name="unk9" reader="UINT" />
+				<node name="unk10" reader="UINT" />
+				<node name="unk11" reader="UINT" />
+				<node name="unk12" reader="UINT" />
+			</wrapper>
+			<node name="max_energy" reader="UINT" />
+			<node name="lookchange" reader="UINT" />
+			<node name="cloakhide" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="cn_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="has_ani" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<wrapper name="include_item">
+				<node name="unk2" reader="UINT" />
+				<node name="unk3" reader="UINT" />
+				<node name="unk4" reader="UINT" />
+				<node name="unk5" reader="UINT" />
+				<node name="unk6" reader="UINT" />
+				<node name="unk7" reader="UINT" />
+				<node name="unk9" reader="UINT" />
+				<node name="unk10" reader="UINT" />
+				<node name="unk11" reader="UINT" />
+				<node name="unk12" reader="UINT" />
+			</wrapper>
+			<node name="max_energy" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="ru_lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="has_ani" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<wrapper name="include_item">
+				<node name="unk2" reader="UINT" />
+				<node name="unk3" reader="UINT" />
+				<node name="unk4" reader="UINT" />
+				<node name="unk5" reader="UINT" />
+				<node name="unk6" reader="UINT" />
+				<node name="unk7" reader="UINT" />
+				<node name="unk9" reader="UINT" />
+				<node name="unk10" reader="UINT" />
+				<node name="unk11" reader="UINT" />
+				<node name="unk12" reader="UINT" />
+			</wrapper>
+			<node name="max_energy" reader="UINT" />
+			<node name="lookchange" reader="UINT" />
+			<node name="cloakhide" reader="UINT" />
+			<node name="unk" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="ru_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="has_ani" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<wrapper name="include_item">
+				<node name="unk2" reader="UINT" />
+				<node name="unk3" reader="UINT" />
+				<node name="unk4" reader="UINT" />
+				<node name="unk5" reader="UINT" />
+				<node name="unk6" reader="UINT" />
+				<node name="unk7" reader="UINT" />
+				<node name="unk9" reader="UINT" />
+				<node name="unk10" reader="UINT" />
+				<node name="unk11" reader="UINT" />
+				<node name="unk12" reader="UINT" />
+			</wrapper>
+			<node name="max_energy" reader="UINT" />
+			<node name="lookchange" reader="UINT" />
+			<node name="cloakhide" reader="UINT" />
+			<node name="cloakmeshtype" reader="UINT" />
+			<node name="armor_hide" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="kor_helios_p3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="has_ani" reader="UCHAR" />
+			<node name="include_item" reader="CNTR" />
+			<for name="include_item" size="#include_item">
+				<node name="param_include_item" reader="UINT" />
+			</for>
+			<node name="max_energy" reader="UINT" />
+			<node name="lookchange" reader="UINT" />
+			<node name="cloakhide" reader="UCHAR" />
+			<node name="cloakmeshtype" reader="UCHAR" />
+			<node name="armor_hide" reader="UCHAR" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_episodion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="effect" size="#data" hidden="false">
+			<node name="SkillID" reader="UINT" />
+			<node name="SkillLevel" reader="UINT" />
+			<node name="OnStick" reader="ASCF" />
+			<node name="OnBook" reader="ASCF" />
+		</for>
+	</file>
+</list>

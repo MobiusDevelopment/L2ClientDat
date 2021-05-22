@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_prelude_of_war_p5" isSafePackage="true">
+		<for name="Game_play_data" size="1" hidden="false">
+			<write name="\r\n"/>
+			<node name="raid_teleport_cost" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="raid_teleport_max_free_count" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="random_craft_item_lock_costs" reader="CNTR" />
+			<for name="random_craft_item_lock_costs" size="#random_craft_item_lock_costs">
+				<node name="random_craft_item_lock_costs_param1" reader="UINT" />
+				<node name="random_craft_item_lock_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_item_making_costs" reader="CNTR" />
+			<for name="random_craft_item_making_costs" size="#random_craft_item_making_costs">
+				<node name="random_craft_item_making_costs_param1" reader="UINT" />
+				<node name="random_craft_item_making_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_reward_items" reader="CNTR" />
+			<for name="random_craft_reward_items" size="#random_craft_reward_items">
+				<node name="random_craft_reward_items_param1" reader="UINT" />
+				<node name="random_craft_reward_items_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_max_gauge_value" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_item_point" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_slot_lock_count" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_item_lock_count" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_slot_success_rate" reader="CNTR" />
+			<for name="random_craft_slot_success_rate" size="#random_craft_slot_success_rate">
+				<node name="random_craft_slot_success_rate_param" reader="UCHAR" />
+			</for>
+			<write name="\r\n"/>
+		</for>
+	</file>
+	<file pattern="kor_prelude_of_war_p6" isSafePackage="true">
+		<for name="Game_play_data" size="1" hidden="false">
+			<write name="\r\n"/>
+			<node name="raid_teleport_cost" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="raid_teleport_max_free_count" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="random_craft_item_lock_costs" reader="CNTR" />
+			<for name="random_craft_item_lock_costs" size="#random_craft_item_lock_costs">
+				<node name="random_craft_item_lock_costs_param1" reader="UINT" />
+				<node name="random_craft_item_lock_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_item_making_costs" reader="CNTR" />
+			<for name="random_craft_item_making_costs" size="#random_craft_item_making_costs">
+				<node name="random_craft_item_making_costs_param1" reader="UINT" />
+				<node name="random_craft_item_making_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_reset_costs" reader="CNTR" />
+			<for name="random_craft_reset_costs" size="#random_craft_reset_costs">
+				<node name="random_craft_reset_costs_param1" reader="UINT" />
+				<node name="random_craft_reset_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_reward_items" reader="CNTR" />
+			<for name="random_craft_reward_items" size="#random_craft_reward_items">
+				<node name="random_craft_reward_items_param1" reader="UINT" />
+				<node name="random_craft_reward_items_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_max_gauge_value" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_item_point" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_slot_lock_count" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_item_lock_count" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_slot_success_rate" reader="CNTR" />
+			<for name="random_craft_slot_success_rate" size="#random_craft_slot_success_rate">
+				<node name="random_craft_slot_success_rate_param" reader="UCHAR" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_announce_items" reader="CNTR" />
+			<for name="random_craft_announce_items" size="#random_craft_announce_items">
+				<node name="random_craft_announce_items_param" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+		</for>
+	</file>
+	<file pattern="kor_prelude_of_war_p7" isSafePackage="true">
+		<for name="Game_play_data" size="1" hidden="false">
+			<write name="\r\n" /> 
+			<node name="raid_teleport_cost" reader="UINT" /> 
+			<write name="\r\n" /> 
+			<node name="raid_teleport_max_free_count" reader="UINT" /> 
+			<write name="\r\n" /> 
+			<node name="random_craft_item_lock_costs" reader="CNTR" /> 
+- 			<for name="random_craft_item_lock_costs" size="#random_craft_item_lock_costs">
+				<node name="random_craft_item_lock_costs_param1" reader="UINT" /> 
+				<node name="random_craft_item_lock_costs_param2" reader="UINT" /> 
+			</for>
+			<write name="\r\n" /> 
+			<node name="random_craft_item_making_costs" reader="CNTR" /> 
+- 			<for name="random_craft_item_making_costs" size="#random_craft_item_making_costs">
+				<node name="random_craft_item_making_costs_param1" reader="UINT" /> 
+				<node name="random_craft_item_making_costs_param2" reader="UINT" /> 
+			</for>
+			<write name="\r\n" /> 
+			<node name="random_craft_reset_costs" reader="CNTR" /> 
+- 			<for name="random_craft_reset_costs" size="#random_craft_reset_costs">
+				<node name="random_craft_reset_costs_param1" reader="UINT" /> 
+				<node name="random_craft_reset_costs_param2" reader="UINT" /> 
+			</for>
+			<write name="\r\n" /> 
+			<node name="random_craft_reward_items" reader="CNTR" /> 
+- 			<for name="random_craft_reward_items" size="#random_craft_reward_items">
+				<node name="random_craft_reward_items_param1" reader="UINT" /> 
+				<node name="random_craft_reward_items_param2" reader="UINT" /> 
+			</for>
+			<write name="\r\n" /> 
+			<node name="random_craft_max_gauge_value" reader="UINT" /> 
+			<write name="\r\n" /> 
+			<node name="random_craft_max_item_point" reader="UCHAR" /> 
+			<write name="\r\n" /> 
+			<node name="random_craft_max_slot_lock_count" reader="UCHAR" /> 
+			<write name="\r\n" /> 
+			<node name="random_craft_max_item_lock_count" reader="UCHAR" /> 
+			<write name="\r\n" /> 
+			<node name="random_craft_slot_success_rate" reader="CNTR" /> 
+- 			<for name="random_craft_slot_success_rate" size="#random_craft_slot_success_rate">
+				<node name="random_craft_slot_success_rate_param" reader="UCHAR" /> 
+			</for>
+			<write name="\r\n" /> 
+			<node name="random_craft_announce_items" reader="UINT" /> 
+- 			<for name="random_craft_announce_items" size="#random_craft_announce_items">
+				<node name="random_craft_announce_items_param_1" reader="UINT" /> 
+				<node name="random_craft_announce_items_param_2" reader="UINT" /> 
+			</for>
+			<write name="\r\n" /> 
+			<node name="shared_position_sharing_cost_lcoin" reader="UINT" /> 
+			<write name="\r\n" /> 
+			<node name="shared_position_using_cost_lcoin" reader="UINT" /> 
+			<write name="\r\n" /> 
+			<node name="shared_position_using_max_count" reader="UINT" /> 
+			<write name="\r\n" /> 
+		</for>
+	</file>
+	<file pattern="kor_prelude_of_war_p10" isSafePackage="true">
+		<for name="Game_play_data" size="1" hidden="false">
+			<write name="\r\n"/>
+			<node name="raid_teleport_cost" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="raid_teleport_max_free_count" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="random_craft_item_lock_costs" reader="CNTR" />
+			<for name="random_craft_item_lock_costs" size="#random_craft_item_lock_costs">
+				<node name="random_craft_item_lock_costs_param1" reader="UINT" />
+				<node name="random_craft_item_lock_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_item_making_costs" reader="CNTR" />
+			<for name="random_craft_item_making_costs" size="#random_craft_item_making_costs">
+				<node name="random_craft_item_making_costs_param1" reader="UINT" />
+				<node name="random_craft_item_making_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_reset_costs" reader="CNTR" />
+			<for name="random_craft_reset_costs" size="#random_craft_reset_costs">
+				<node name="random_craft_reset_costs_param1" reader="UINT" />
+				<node name="random_craft_reset_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_reward_items" reader="CNTR" />
+			<for name="random_craft_reward_items" size="#random_craft_reward_items">
+				<node name="random_craft_reward_items_param1" reader="UINT" />
+				<node name="random_craft_reward_items_param2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_max_gauge_value" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_item_point" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_slot_lock_count" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_max_item_lock_count" reader="UCHAR" />
+			<write name="\r\n"/>
+			<node name="random_craft_slot_success_rate" reader="CNTR" />
+			<for name="random_craft_slot_success_rate" size="#random_craft_slot_success_rate">
+				<node name="random_craft_slot_success_rate_param" reader="UCHAR" />
+			</for>
+			<write name="\r\n"/>
+			<node name="random_craft_announce_items" reader="UINT" />
+			<for name="random_craft_announce_items" size="#random_craft_announce_items">
+				<node name="random_craft_announce_items_param_1" reader="UINT" />
+				<node name="random_craft_announce_items_param_2" reader="UINT" />
+			</for>
+			<write name="\r\n"/>
+			<node name="shared_position_sharing_cost_lcoin" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="shared_position_using_cost_lcoin" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="shared_position_using_max_count" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="max_elixir" reader="UINT" />
+			<write name="\r\n"/>
+		</for>
+	</file>
+</list>

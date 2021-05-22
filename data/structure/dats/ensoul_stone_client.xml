@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="kor_infinite_odyssey_hymn_of_doul" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+			<node name="option_list" reader="CNTR" />
+			<for name="option_list" size="#option_list">
+				<node name="option_list_node" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>
