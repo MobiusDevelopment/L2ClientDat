@@ -362,6 +362,7 @@
 		<node index="11" name="bow" />
 		<node index="12" name="weapon_etc" />
 		<node index="13" name="dual" />
+		<node index="14" name="fist" />
 		<node index="15" name="fishingrod" />
 		<node index="16" name="rapier" />
 		<node index="17" name="crossbow" />
