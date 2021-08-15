@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="return_of_qa" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="collection" size="#data" hidden="false">
+			<node name="collection_ID" reader="UINT" />
+			<node name="collection_name" reader="ASCF" />
+			<node name="main_category" reader="UINT" />
+			<node name="period" reader="UINT" />
+			<node name="option_id" reader="UINT" />
+			<node name="description" reader="CNTR" />
+			<for name="description" size="#description">
+				<node name="desc_name" reader="ASCF" />
+				<node name="unk_4" reader="UINT" />
+				<node name="desc_param=" reader="FLOAT" />
+			</for>
+			<node name="slots" reader="CNTR" />
+			<for name="items" size="#slots">
+				<node name="item_id" reader="UINT" />
+				<node name="item_id2" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+				<node name="enchant" reader="USHORT" />
+				<node name="slot" reader="UCHAR" />
+				<node name="bless" reader="UCHAR" />
+				<node name="bless_cond" reader="UINT" />
+			</for>
+			<node name="unk3" reader="USHORT" />
+			<node name="complete_item_type" reader="CNTR" />
+			<for name="complete_item_type" size="#complete_item_type">
+				<node name="complete_item_type_0" reader="USHORT" />
+			</for>
+			<node name="complete_skill_type" reader="CNTR" />
+			<for name="complete_skill_type" size="#complete_skill_type">
+				<node name="complete_skill_type_0" reader="USHORT" />
+			</for>
+		</for>
+	</file>
+</list>
