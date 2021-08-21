@@ -332,9 +332,9 @@
 	<link pattern="systemmsg-[\w]+\.dat" file="systemmsg" version="kor_prelude_of_war" />
 	<link pattern="SystemMsg_Arena-[\w]+\.dat" file="systemmsg" version="kor_helios_p3" />
 	<link pattern="SystemMsg_Classic-[\w]+\.dat" file="systemmsg" version="kor_prelude_of_war" />
-	<link pattern="teleportlist.dat" file="teleportlist" version="kor_fafurion" />
-	<link pattern="teleportlist_Classic.dat" file="teleportlist" version="kor_fafurion" />
-	<link pattern="teleportlist_ClassicAden.dat" file="teleportlist" version="kor_fafurion" />
+	<link pattern="teleportlist.dat" file="teleportlist" version="return_of_qa" />
+	<link pattern="teleportlist_Classic.dat" file="teleportlist" version="return_of_qa" />
+	<link pattern="teleportlist_ClassicAden.dat" file="teleportlist" version="return_of_qa" />
 	<link pattern="testItemList.dat" file="testItemList" version="kor_prelude_of_war_p2" />
 	<link pattern="TimeZoneData-[\w]+\.dat" file="timezonedata" version="kor_prelude_of_war_p7" />
 	<link pattern="TimeZoneData_Classic-[\w]+\.dat" file="timezonedata" version="kor_prelude_of_war_p7" />
