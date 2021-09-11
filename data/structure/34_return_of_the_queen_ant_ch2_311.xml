@@ -72,9 +72,9 @@
 	<link pattern="collectionmain_ClassicAden.dat" file="collectionmain" version="return_of_qa_ch2" />
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="ru_episodion" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="kor_helios_p2" />
-	<link pattern="CombinationItemData.dat" file="combinationitemdata" version="kor_prelude_of_war_p10" />
-	<link pattern="CombinationItemData_Classic.dat" file="combinationitemdata" version="kor_prelude_of_war_p10" />
-	<link pattern="CombinationItemData_ClassicAden.dat" file="combinationitemdata" version="kor_prelude_of_war_p10" />
+	<link pattern="CombinationItemData.dat" file="combinationitemdata" version="return_of_qa_ch2" />
+	<link pattern="CombinationItemData_Classic.dat" file="combinationitemdata" version="return_of_qa_ch2" />
+	<link pattern="CombinationItemData_ClassicAden.dat" file="combinationitemdata" version="return_of_qa_ch2" />
 	<link pattern="commandname-[\w]+\.dat" file="commandname" version="kor_lindvior" />
 	<link pattern="Commandname_Arena-[\w]+\.dat" file="commandname" version="kor_lindvior" />
 	<link pattern="Commandname_Classic-[\w]+\.dat" file="commandname" version="kor_lindvior" />
