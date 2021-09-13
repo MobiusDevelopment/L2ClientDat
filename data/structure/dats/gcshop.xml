@@ -17,12 +17,12 @@ item_list	v1[17]	109
 
 			<wrapper name="item_list">
 				<wrapper name="item_1">
-					<node name="ClassID" reader="UINT" />
-					<node name="Count" reader="UINT" />
+					<node name="Item_1_ClassID" reader="UINT" />
+					<node name="Item_1_Count" reader="UINT" />
 				</wrapper>
 				<wrapper name="item_2">
-					<node name="ClassID" reader="UINT" />
-					<node name="Count" reader="UINT" />
+					<node name="Item_2_ClassID" reader="UINT" />
+					<node name="Item_2_Count" reader="UINT" />
 				</wrapper>
 			</wrapper>
 			<write name="\r\n" />
@@ -34,12 +34,12 @@ item_list	v1[17]	109
 
 				<wrapper name="item_list">
 					<wrapper name="item_3">
-						<node name="ClassID" reader="UINT" />
-						<node name="Count" reader="UINT" />
+						<node name="Item_3_ClassID" reader="UINT" />
+						<node name="Item_3_Count" reader="UINT" />
 					</wrapper>
 					<wrapper name="item_4">
-						<node name="ClassID" reader="UINT" />
-						<node name="Count" reader="UINT" />
+						<node name="Item_4_ClassID" reader="UINT" />
+						<node name="Item_4_Count" reader="UINT" />
 					</wrapper>
 				</wrapper>
 

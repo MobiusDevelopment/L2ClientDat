@@ -31,7 +31,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="product_head" size="#data2" hidden="false">
-			<node name="product_id" reader="SHORT" />
+			<node name="head_id" reader="SHORT" />
 			<node name="head_line" reader="ASCF" />
 		</for>
 	</file>
@@ -70,7 +70,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="product_head" size="#data2" hidden="false">
-			<node name="product_id" reader="SHORT" />
+			<node name="head_id" reader="SHORT" />
 			<node name="head_line" reader="ASCF" />
 		</for>
 	</file>
@@ -115,7 +115,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="product_head" size="#data2" hidden="false">
-			<node name="product_id" reader="SHORT" />
+			<node name="head_id" reader="SHORT" />
 			<node name="head_line" reader="ASCF" />
 		</for>
 	</file>
@@ -145,7 +145,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="product_head" size="#data2" hidden="false">
-			<node name="product_id" reader="SHORT" />
+			<node name="head_id" reader="SHORT" />
 			<node name="head_line" reader="ASCF" />
 		</for>
 	</file>

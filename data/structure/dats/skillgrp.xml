@@ -456,7 +456,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="skill_macro" size="#data2" hidden="false">
-			<node name="skill_id" reader="UINT" />
+			<node name="macro_skill_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 	</file>
@@ -497,7 +497,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="skill_macro" size="#data2" hidden="false">
-			<node name="skill_id" reader="UINT" />
+			<node name="macro_skill_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 	</file>
@@ -538,14 +538,14 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="skill_macro" size="#data2" hidden="false">
-			<node name="skill_id" reader="UINT" />
+			<node name="macro_skill_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="CNTR" />
 		<for name="skill_ex_icon" size="#data3" hidden="false">
-			<node name="skill_id" reader="USHORT" />
-			<node name="skill_level" reader="UCHAR" />
-			<node name="skill_sublevel" reader="SHORT" />
+			<node name="ex_skill_id" reader="USHORT" />
+			<node name="ex_skill_level" reader="UCHAR" />
+			<node name="ex_skill_sublevel" reader="SHORT" />
 			<node name="icon_panel2" reader="MAP_INT" />
 		</for>
 	</file>
@@ -586,14 +586,14 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="skill_macro" size="#data2" hidden="false">
-			<node name="skill_id" reader="UINT" />
+			<node name="macro_skill_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="CNTR" />
 		<for name="skill_ex_icon" size="#data3" hidden="false">
-			<node name="skill_id" reader="UINT" />
-			<node name="skill_level" reader="UCHAR" />
-			<node name="skill_sublevel" reader="SHORT" />
+			<node name="ex_skill_id" reader="UINT" />
+			<node name="ex_skill_level" reader="UCHAR" />
+			<node name="ex_skill_sublevel" reader="SHORT" />
 			<node name="icon_panel2" reader="MAP_INT" />
 		</for>
 	</file>
@@ -642,14 +642,14 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="skill_macro" size="#data2" hidden="false">
-			<node name="skill_id" reader="UINT" />
+			<node name="macro_skill_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="CNTR" />
 		<for name="skill_ex_icon" size="#data3" hidden="false">
-			<node name="skill_id" reader="UINT" />
-			<node name="skill_level" reader="UCHAR" />
-			<node name="skill_sublevel" reader="SHORT" />
+			<node name="ex_skill_id" reader="UINT" />
+			<node name="ex_skill_level" reader="UCHAR" />
+			<node name="ex_skill_sublevel" reader="SHORT" />
 			<node name="icon_panel2" reader="MAP_INT" />
 		</for>
 	</file>

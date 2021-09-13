@@ -285,7 +285,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="macro_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 	</file>
@@ -312,7 +312,7 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="macro_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />>
 		</for>
 	</file>
@@ -339,12 +339,12 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="macro_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="UINT" />
 		<for name="item_ex" size="#data3" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="item_ex_id" reader="UINT" />
 			<node name="KeepSelectType" reader="UCHAR" />
 			<node name="KeepEnchantCondition" reader="UINT" />
 			<node name="KeepOption1" reader="UCHAR" />
@@ -379,12 +379,12 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="macro_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="UINT" />
 		<for name="item_ex" size="#data3" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="item_ex_id" reader="UINT" />
 			<node name="keep_type_selection" reader="UCHAR" />
 			<wrapper name="keep_type_enchant">
 				<node name="KeepEnchantCondition" reader="UINT" />
@@ -419,12 +419,12 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="macro_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="UINT" />
 		<for name="item_ex" size="#data3" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="item_ex_id" reader="UINT" />
 			<node name="keep_type_selection" reader="UCHAR" />
 			<wrapper name="keep_type_enchant">
 				<node name="KeepEnchantCondition" reader="UINT" />
@@ -469,12 +469,12 @@
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="macro_id" reader="UINT" />
 			<node name="automatic_use" reader="UCHAR" />
 		</for>
 		<node name="data3" reader="UINT" />
 		<for name="item_ex" size="#data3" hidden="false">
-			<node name="id" reader="UINT" />
+			<node name="item_ex_id" reader="UINT" />
 			<node name="keep_type_selection" reader="UCHAR" enumName="keep_type_selection" />
 			<wrapper name="keep_type_enchant">
 				<node name="KeepEnchantCondition" reader="UINT" />
