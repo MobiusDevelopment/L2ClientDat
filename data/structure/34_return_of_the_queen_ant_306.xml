@@ -260,6 +260,8 @@
 	<link pattern="PledgeLevelDesc-[\w]+\.dat" file="pledgeleveldesc" version="kor_grand_crusade_salvation" />
 	<link pattern="PledgeMasteryInfo-[\w]+\.dat" file="pledgemasteryinfo" version="kor_grand_crusade_salvation" />
 	<link pattern="PledgeMission-[\w]+\.dat" file="pledgemission" version="kor_salvation_p2" />
+	<link pattern="PledgeShopProduct_Classic-[\w]+\.dat" file="pledgeshopproduct" version="return_of_qa" />
+	<link pattern="PledgeShopProduct_ClassicAden-[\w]+\.dat" file="pledgeshopproduct" version="return_of_qa" />
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="kor_helios_p3" />
 	<link pattern="ProductName-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_Classic-[\w]+\.dat" file="productname" version="kor_helios_p5" />
