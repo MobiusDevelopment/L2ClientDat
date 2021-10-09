@@ -11,4 +11,68 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="return_of_qa_ch2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+
+			<node name="ensoul_option_list_armor" reader="UINT" />
+			<for name="ensoul_option_list_armor" size="#ensoul_option_list_armor">
+				<node name="unk_list_node" reader="UINT" />
+				<node name="unk_list_node1" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_weapon" reader="UINT" />
+			<for name="ensoul_option_list_weapon" size="#ensoul_option_list_weapon">
+				<node name="unk_list_node2" reader="UINT" />
+				<node name="unk_list_node12" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_accessory" reader="UINT" />
+			<for name="ensoul_option_list_accessory" size="#ensoul_option_list_accessory">
+				<node name="unk_list_node3" reader="UINT" />
+				<node name="unk_list_node13" reader="UINT" />
+			</for>
+
+			<node name="option_list" reader="CNTR" />
+			<for name="option_list" size="#option_list">
+				<node name="option_list_node" reader="UINT" />
+			</for>
+
+			<node name="ensoul_fee" reader="UCHAR" />
+			<node name="ensoul_refee" reader="UCHAR" />
+			<node name="ensoul_extraction" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="return_of_qa_ch2_classic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+
+			<node name="ensoul_option_list_armor" reader="UINT" />
+			<for name="ensoul_option_list_armor" size="#ensoul_option_list_armor">
+				<node name="unk_list_node" reader="UINT" />
+				<node name="unk_list_node1" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_weapon" reader="UINT" />
+			<for name="ensoul_option_list_weapon" size="#ensoul_option_list_weapon">
+				<node name="unk_list_node2" reader="UINT" />
+				<node name="unk_list_node12" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_accessory" reader="UINT" />
+			<for name="ensoul_option_list_accessory" size="#ensoul_option_list_accessory">
+				<node name="unk_list_node3" reader="UINT" />
+				<node name="unk_list_node13" reader="UINT" />
+			</for>
+
+			<node name="ensoul_fee" reader="UCHAR" />
+			<node name="ensoul_refee" reader="UCHAR" />
+
+			<node name="option_list" reader="CNTR" />
+			<for name="option_list" size="#option_list">
+				<node name="option_list_node" reader="UINT" />
+			</for>
+			<node name="ensoul_extraction" reader="UCHAR" />
+		</for>
+	</file>
 </list>
