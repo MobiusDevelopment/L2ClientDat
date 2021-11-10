@@ -354,6 +354,7 @@
 	<link pattern="UpgradeSystem_Normal_ClassicAden.dat" file="upgradesystem_normal" version="ru_fafurion" />
 	<link pattern="UseCountItem.dat" file="usecountitem" version="kor_grand_crusade_salvation_p2" />
 	<link pattern="UseCountItem_Classic.dat" file="usecountitem" version="kor_grand_crusade_salvation_p2" />
+	<link pattern="UseCountItem_ClassicAden.dat" file="usecountitem" version="kor_grand_crusade_salvation_p2" />
 	<link pattern="usmmoviedata-[\w]+\.dat" file="usmmoviedata" version="kor_lindvior" />
 	<link pattern="variationdata_fee.dat" file="variationdata_fee" version="kor_prelude_of_war_p10" />
 	<link pattern="variationdata_fee_Classic.dat" file="variationdata_fee" version="kor_prelude_of_war_p10" />

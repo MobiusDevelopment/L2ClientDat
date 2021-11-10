@@ -227,6 +227,7 @@
 	<link pattern="ElementalSpiritStat_Classic.dat" file="elementalspiritstat" version="kor_grand_crusade_salvation_p3" />
 	<link pattern="ElementalSpirit_Classic.dat" file="elementalspirit" version="kor_prelude_of_war_p2" />
 	<link pattern="UseCountItem_Classic.dat" file="usecountitem" version="kor_grand_crusade_salvation_p2" />
+	<link pattern="UseCountItem_ClassicAden.dat" file="usecountitem" version="kor_grand_crusade_salvation_p2" />
 	<link pattern="MinimapRegion_Classic.dat" file="minimapregion" version="ru_grand_crusade" />
 	<link pattern="CardCollectData_Classic-[\w]+\.dat" file="cardcollectdata" version="ru_orfen" />
 	
