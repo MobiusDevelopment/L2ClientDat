@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<!-- <file pattern="06_en_c6_interlude" isSafePackage="true">
+		<node name="id" reader="UINT" />
+		<node name="html" reader="ASCF" />
+		<node name="image" reader="ASCF" />
+		<node name="time" reader="UINT" />
+		<node name="align" reader="UINT" />
+	</file> -->
 	<file pattern="kor_lindvior" isRaw="true" isSafePackage="true">
 		<node name="text" reader="ASCF" />
 	</file>

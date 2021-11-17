@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="06_en_c6_interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UNICODE" />
+			<node name="additionalname" reader="UNICODE" />
+			<node name="description" reader="ASCF" />
+			<node name="popup" reader="INT" />
+			<node name="setid_1" reader="UINT" />
+			<for name="setid_1" size="#setid_1">
+				<node name="set_ids" reader="ASCF" />
+			</for>
+			<node name="setid_2" reader="UINT" />
+			<for name="setid_2" size="#setid_2">
+				<node name="set_bonus_desc" reader="ASCF" />
+			</for>
+			<node name="setid_3" reader="UINT" />
+			<for name="setid_3" size="#setid_3">
+				<node name="set_extra_id" reader="ASCF" />
+			</for>
+			<node name="setid_4" reader="UINT" />
+			<for name="setid_4" size="#setid_4">
+				<node name="set_extra_desc" reader="ASCF" />
+			</for>
+			<node name="unknown_1" reader="UINT" />
+			<node name="unknown_2" reader="UINT" />
+			<node name="set_enchant_count" reader="UINT" />
+			<node name="set_enchant_effect" reader="ASCF" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item_name" size="#data" hidden="false">

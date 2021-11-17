@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="06_en_c6_interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skillsound" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UINT" />
+			<node name="spelleffect_sound_1" reader="UNICODE" />
+			<node name="spelleffect_sound_2" reader="UNICODE" />
+			<node name="spelleffect_sound_3" reader="UNICODE" />
+			<node name="spelleffect_sound_vol_1" reader="FLOAT" />
+			<node name="spelleffect_sound_rad_1" reader="FLOAT" />
+			<node name="spelleffect_sound_vol_2" reader="FLOAT" />
+			<node name="spelleffect_sound_rad_2" reader="FLOAT" />
+			<node name="spelleffect_sound_vol_3" reader="FLOAT" />
+			<node name="spelleffect_sound_rad_3" reader="FLOAT" />
+			<node name="shoteffect_sound_1" reader="UNICODE" />
+			<node name="shoteffect_sound_2" reader="UNICODE" />
+			<node name="shoteffect_sound_3" reader="UNICODE" />
+			<node name="shoteffect_sound_vol_1" reader="FLOAT" />
+			<node name="shoteffect_sound_rad_1" reader="FLOAT" />
+			<node name="shoteffect_sound_vol_2" reader="FLOAT" />
+			<node name="shoteffect_sound_rad_2" reader="FLOAT" />
+			<node name="shoteffect_sound_vol_3" reader="FLOAT" />
+			<node name="shoteffect_sound_rad_3" reader="FLOAT" />
+			<node name="expeffect_sound_1" reader="UNICODE" />
+			<node name="expeffect_sound_2" reader="UNICODE" />
+			<node name="expeffect_sound_3" reader="UNICODE" />
+			<node name="expeffect_sound_vol_1" reader="FLOAT" />
+			<node name="expeffect_sound_rad_1" reader="FLOAT" />
+			<node name="expeffect_sound_vol_2" reader="FLOAT" />
+			<node name="expeffect_sound_rad_2" reader="FLOAT" />
+			<node name="expeffect_sound_vol_3" reader="FLOAT" />
+			<node name="expeffect_sound_rad_3" reader="FLOAT" />
+			<node name="mfighter_cast" reader="UNICODE" />
+			<node name="ffighter_cast" reader="UNICODE" />
+			<node name="mdarkelf_cast" reader="UNICODE" />
+			<node name="fdarkelf_cast" reader="UNICODE" />
+			<node name="mdwarf_cast" reader="UNICODE" />
+			<node name="fdwarf_cast" reader="UNICODE" />
+			<node name="melf_cast" reader="UNICODE" />
+			<node name="felf_cast" reader="UNICODE" />
+			<node name="mmagic_cast" reader="UNICODE" />
+			<node name="fmagic_cast" reader="UNICODE" />
+			<node name="morc_cast" reader="UNICODE" />
+			<node name="forc_cast" reader="UNICODE" />
+			<node name="mshaman_sub" reader="UNICODE" />
+			<node name="fshaman_sub" reader="UNICODE" />
+			<node name="RESERVED_sub_" reader="UNICODE" />
+			<node name="mfighter_magic" reader="UNICODE" />
+			<node name="ffighter_magic" reader="UNICODE" />
+			<node name="mdarkelf_magic" reader="UNICODE" />
+			<node name="fdarkelf_magic" reader="UNICODE" />
+			<node name="mdwarf_magic" reader="UNICODE" />
+			<node name="fdwarf_magic" reader="UNICODE" />
+			<node name="melf_magic" reader="UNICODE" />
+			<node name="felf_magic" reader="UNICODE" />
+			<node name="mmagic_throw" reader="UNICODE" />
+			<node name="fmagic_throw" reader="UNICODE" />
+			<node name="morc_magic" reader="UNICODE" />
+			<node name="forc_magic" reader="UNICODE" />
+			<node name="mshaman_magic" reader="UNICODE" />
+			<node name="fshaman_magic" reader="UNICODE" />
+			<node name="RESERVED_throw_?" reader="UNICODE" />
+			<node name="cast_volume" reader="FLOAT" />
+			<node name="cast_rad" reader="FLOAT" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="skillsound" size="#data" hidden="false">

@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="06_en_c6_interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Color" reader="UINT" />
+			<node name="MapX" reader="UINT" />
+			<node name="MapY" reader="UINT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+			<node name="coords1" reader="UINT" />
+			<node name="coords2" reader="UINT" />
+			<node name="coords3" reader="UINT" />
+			<node name="coords4" reader="UINT" />
+			<node name="coords5" reader="UINT" />
+			<node name="coords6" reader="UINT" />
+			<node name="unk1" reader="FLOAT" />
+			<node name="map" reader="ASCF" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="ZoneName" size="#data" hidden="false">

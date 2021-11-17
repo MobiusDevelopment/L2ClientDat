@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="06_en_c6_interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="action" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="type" reader="INT" />
+			<node name="category" reader="UINT" />
+			<node name="category2" reader="CNTR" />
+			<for name="category2" size="#category2">
+				<node name="class" reader="INT" />
+			</for>
+			<node name="cmd" reader="ASCF" />
+			<node name="icon" reader="ASCF" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="UNICODE" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="action" size="#data" hidden="false">

@@ -45,6 +45,28 @@
 	case 0: can cast skills
 	case 1: cant cast skills
 	-->
+	<file pattern="06_en_c6_interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" /> <!-- Correct -->
+			<node name="skill_level" reader="UINT" /> <!-- Correct -->
+			<node name="operate_type" reader="UINT" /> <!-- Correct -->
+			<node name="mp_consume" reader="UINT" /> <!-- Correct -->
+			<node name="cast_range" reader="UINT" /> <!-- Correct -->
+			<node name="cast_style" reader="UINT" /> <!-- Correct -->
+			<node name="hit_time" reader="FLOAT" /> <!-- Correct -->
+			<node name="is_magic" reader="UINT" /> <!-- Correct -->
+			<node name="animation" reader="UNICODE" /> <!-- Correct -->
+			<node name="description" reader="UNICODE" /> <!-- Correct -->
+			<node name="icon" reader="UNICODE" /> <!-- Correct -->
+			<node name="extra_eff" reader="UINT" /> <!-- Correct -->
+			<node name="is_enchanted" reader="UINT" /> <!-- Correct -->
+			<node name="enchant_skill_id" reader="UINT" /> <!-- Correct -->
+			<node name="hp_consume" reader="UINT" /> <!-- Correct -->
+			<node name="rumble_self" reader="UINT" /> <!-- Correct -->
+			<node name="rumble_target" reader="UINT" /> <!-- Correct -->
+		</for>
+	</file>
 	<file pattern="en_glory_days" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="skill" size="#data" hidden="false">

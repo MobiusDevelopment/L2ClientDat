@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="06_en_c6_interlude" isSafePackage="true">
+		<for name="LogPawn" size="8" hidden="false">
+			<node name="x" reader="INT" />
+			<node name="y" reader="INT" />
+			<node name="z" reader="INT" />
+			<node name="yaw" reader="INT" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<for name="LogPawn" size="8" hidden="false">
 			<node name="x" reader="FLOAT" />
