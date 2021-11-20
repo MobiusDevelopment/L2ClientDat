@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="04_en_c4_scions_of_destiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" />
+			<wrapper name="color">
+				<node name="r" reader="HEX" />
+				<node name="g" reader="HEX" />
+				<node name="b" reader="HEX" />
+			</wrapper>
+			<node name="UNK_1" reader="UCHAR" />
+			<node name="sound" reader="ASCF" />
+			<node name="scrnmsg" reader="ASCF" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="msg" size="#data" hidden="false">

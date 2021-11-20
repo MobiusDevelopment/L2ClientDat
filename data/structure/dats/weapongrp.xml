@@ -1,6 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<file pattern="06_en_c6_interlude" isSafePackage="true">
+	<node name="data" reader="UINT" />
+	<for name="item" size="#data"  hidden="false">
+		<node name="tag" reader="UINT" />
+		<node name="object_id" reader="UINT" />
+		<node name="drop_type" reader="UINT" />
+		<node name="drop_anim_type" reader="UINT" />
+		<node name="drop_radius" reader="UINT" />
+		<node name="drop_height" reader="UINT" />
+		<node name="UNK_0" reader="UINT" />
+		<wrapper name="drop_mesh">
+			<node name="drop_mesh1" reader="UNICODE" />
+			<node name="drop_mesh2" reader="UNICODE" />
+			<node name="drop_mesh3" reader="UNICODE" />
+		</wrapper>
+		<wrapper name="drop_texture">
+			<node name="drop_tex1" reader="UNICODE" />
+			<node name="drop_tex2" reader="UNICODE" />
+			<node name="drop_tex3" reader="UNICODE" />
+		</wrapper>
+		<wrapper name="icon">
+			<node name="icon1" reader="UNICODE" />
+			<node name="icon2" reader="UNICODE" />
+			<node name="icon3" reader="UNICODE" />
+			<node name="icon4" reader="UNICODE" />
+			<node name="icon5" reader="UNICODE" />
+		</wrapper>
+		<node name="durability" reader="INT" />
+		<node name="weight" reader="UINT" />
+		<node name="material_type" reader="UINT" />
+		<node name="crystallizable" reader="UINT" />
+		<node name="property_params" reader="UINT" />
+		<node name="body_part" reader="UINT" />
+		<node name="handness" reader="UINT" />
+		<node name="wpn_mesh_cnt" reader="UINT" />
+		<for name="wpn_mesh_cnt" size="#wpn_mesh_cnt">
+			<node name="wpn_mesh" reader="UNICODE" />
+		</for>
+		<node name="wpn_tex_cnt" reader="UINT" />
+		<for name="wpn_tex_cnt" size="#wpn_tex_cnt">
+			<node name="wpn_tex" reader="UNICODE" />
+		</for>
+		<node name="item_sound" reader="UINT" />
+		<for name="item_sound" size="#item_sound">
+			<node name="item_sound_1" reader="UNICODE" />
+		</for>
+
+		<node name="drop_sound" reader="UNICODE" />
+		<node name="equip_sound" reader="UNICODE" />
+		<node name="effect" reader="UNICODE" />
+		<node name="random_damage" reader="UINT" />
+		<node name="patt" reader="UINT" />
+		<node name="matt" reader="UINT" />
+		<node name="weapon_type" reader="UINT" />
+		<node name="crystal_type" reader="UINT" />
+		<node name="critical" reader="UINT" />
+		<node name="hit_mod" reader="INT" />
+		<node name="avoid_mod" reader="INT" />
+		<node name="shield_pdef" reader="UINT" />
+		<node name="shield_rate" reader="UINT" />
+		<node name="speed" reader="UINT" />
+		<node name="mp_consume" reader="UINT" />
+		<node name="soulshot_count" reader="UINT" />
+		<node name="spiritshot_count" reader="UINT" />
+		<node name="curvature" reader="UINT" />
+		<node name="UNK_2" reader="UINT" />
+		<node name="can_equip_hero" reader="INT" />
+		<node name="UNK_3" reader="UINT" />
+		<node name="effA" reader="UNICODE" />
+		<node name="effB" reader="UNICODE" />
+		<!-- <for name="wp_mesh_1" size="#wpn_mesh_cnt" skipWriteSize="true">
+            <node name="param_EnchantedEffectOffset1" reader="UNICODE" />
+            <node name="param_EnchantedEffectOffset2" reader="UNICODE" />
+        </for> -->
+		<wrapper name="junk1A">
+			<node name="junk1A_1" reader="FLOAT" />
+			<node name="junk1A_2" reader="FLOAT" />
+			<node name="junk1A_3" reader="FLOAT" />
+			<node name="junk1A_4" reader="FLOAT" />
+			<node name="junk1A_5" reader="FLOAT" />
+		</wrapper>
+		<wrapper name="junk1B">
+			<node name="junk1B_1" reader="FLOAT" />
+			<node name="junk1B_2" reader="FLOAT" />
+			<node name="junk1B_3" reader="FLOAT" />
+			<node name="junk1B_4" reader="FLOAT" />
+			<node name="junk1B_5" reader="FLOAT" />
+		</wrapper>
+		<!-- <for name="wp_mesh_2" size="#wpn_mesh_cnt" skipWriteSize="true">
+            <node name="param_EnchantedEffectOffset3" reader="UNICODE" />
+            <node name="param_EnchantedEffectOffset4" reader="UNICODE" />
+        </for> -->
+		<node name="rangeA" reader="UNICODE" />
+		<node name="rangeB" reader="UNICODE" />
+		<!-- <for name="wp_mesh_3" size="#wpn_mesh_cnt" skipWriteSize="true">
+            <node name="param_EnchantedEffectOffset5" reader="UNICODE" />
+            <node name="param_EnchantedEffectOffset6" reader="UNICODE" />
+        </for> -->
+		<wrapper name="junk2A">
+			<node name="junk2A_1" reader="FLOAT" />
+			<node name="junk2A_2" reader="FLOAT" />
+			<node name="junk2A_3" reader="FLOAT" />
+			<node name="junk2A_4" reader="FLOAT" />
+			<node name="junk2A_5" reader="FLOAT" />
+			<node name="junk2A_6" reader="FLOAT" />
+		</wrapper>
+		<wrapper name="junk2B">
+			<node name="junk2B_1" reader="FLOAT" />
+			<node name="junk2B_2" reader="FLOAT" />
+			<node name="junk2B_3" reader="FLOAT" />
+			<node name="junk2B_4" reader="FLOAT" />
+			<node name="junk2B_5" reader="FLOAT" />
+			<node name="junk2B_6" reader="FLOAT" />
+		</wrapper>
+		<!-- <for name="wp_mesh_4" size="#wpn_mesh_cnt" skipWriteSize="true">
+            <node name="param_EnchantedEffectOffset7" reader="UNICODE" />
+            <node name="param_EnchantedEffectOffset8" reader="UNICODE" />
+        </for> -->
+		<wrapper name="junk3">
+			<node name="junk3_1" reader="UINT" />
+			<node name="junk3_2" reader="UINT" />
+			<node name="junk3_3" reader="UINT" />
+			<node name="junk3_4" reader="UINT" />
+		</wrapper>
+		<wrapper name="variation_icon">
+			<node name="param_variation_icon1" reader="UNICODE" />
+			<node name="param_variation_icon2" reader="UNICODE" />
+			<node name="param_variation_icon3" reader="UNICODE" />
+			<node name="param_variation_icon4" reader="UNICODE" />
+		</wrapper>
+	</for>
+	</file>
+	<file pattern="06_en_c6_interlude-old" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item" size="#data"  hidden="false">
 			<node name="tag" reader="UINT" />
@@ -34,15 +166,19 @@
 			<node name="property_params" reader="UINT" />
 			<node name="body_part" reader="UINT" />
 			<node name="handness" reader="UINT" />
-			<node name="wp_mesh" reader="UINT" />
-			<for name="wp_mesh_0" size="#wp_mesh">
-				<node name="mesh0" reader="UNICODE" />
-				<node name="mesh1" reader="FLOAT" />
+			<node name="wpn_mesh_cnt" reader="UINT" />
+			<for name="wpn_mesh_cnt" size="#wpn_mesh_cnt">
+				<node name="wpn_mesh" reader="UNICODE" />
+			</for>
+			<node name="wpn_tex_cnt" reader="UINT" />
+			<for name="wpn_tex_cnt" size="#wpn_tex_cnt">
+				<node name="wpn_tex" reader="UNICODE" />
 			</for>
 			<node name="item_sound" reader="UINT" />
 			<for name="item_sound" size="#item_sound">
-				<node name="item_sound0" reader="UNICODE" />
+				<node name="item_sound_1" reader="UNICODE" />
 			</for>
+
 			<node name="drop_sound" reader="UNICODE" />
 			<node name="equip_sound" reader="UNICODE" />
 			<node name="effect" reader="UNICODE" />
@@ -66,10 +202,10 @@
 			<node name="UNK_3" reader="UINT" />
 			<node name="effA" reader="UNICODE" />
 			<node name="effB" reader="UNICODE" />
-			<for name="wp_mesh_1" size="#wp_mesh" skipWriteSize="true">
-				<node name="param_EnchantedEffectOffset1" reader="FLOAT" />
-				<node name="param_EnchantedEffectOffset2" reader="FLOAT" />
-			</for>
+			<!-- <for name="wp_mesh_1" size="#wpn_mesh_cnt" skipWriteSize="true">
+				<node name="param_EnchantedEffectOffset1" reader="UNICODE" />
+				<node name="param_EnchantedEffectOffset2" reader="UNICODE" />
+			</for> -->
 			<wrapper name="junk1A">
 				<node name="junk1A_1" reader="FLOAT" />
 				<node name="junk1A_2" reader="FLOAT" />
@@ -84,12 +220,16 @@
 				<node name="junk1B_4" reader="FLOAT" />
 				<node name="junk1B_5" reader="FLOAT" />
 			</wrapper>
-			<for name="wp_mesh_2" size="#wp_mesh" skipWriteSize="true">
-				<node name="param_EnchantedEffectOffset3" reader="FLOAT" />
-				<node name="param_EnchantedEffectOffset4" reader="FLOAT" />
-			</for>
+			<!-- <for name="wp_mesh_2" size="#wpn_mesh_cnt" skipWriteSize="true">
+				<node name="param_EnchantedEffectOffset3" reader="UNICODE" />
+				<node name="param_EnchantedEffectOffset4" reader="UNICODE" />
+			</for> -->
 			<node name="rangeA" reader="UNICODE" />
 			<node name="rangeB" reader="UNICODE" />
+			<!-- <for name="wp_mesh_3" size="#wpn_mesh_cnt" skipWriteSize="true">
+				<node name="param_EnchantedEffectOffset5" reader="UNICODE" />
+				<node name="param_EnchantedEffectOffset6" reader="UNICODE" />
+			</for> -->
 			<wrapper name="junk2A">
 				<node name="junk2A_1" reader="FLOAT" />
 				<node name="junk2A_2" reader="FLOAT" />
@@ -104,16 +244,17 @@
 				<node name="junk2B_3" reader="FLOAT" />
 				<node name="junk2B_4" reader="FLOAT" />
 				<node name="junk2B_5" reader="FLOAT" />
+				<node name="junk2B_6" reader="FLOAT" />
 			</wrapper>
-			<for name="wp_mesh_3" size="#wp_mesh" skipWriteSize="true">
-				<node name="param_EnchantedEffectOffset5" reader="FLOAT" />
-				<node name="param_EnchantedEffectOffset6" reader="FLOAT" />
-			</for>
+			<!-- <for name="wp_mesh_4" size="#wpn_mesh_cnt" skipWriteSize="true">
+				<node name="param_EnchantedEffectOffset7" reader="UNICODE" />
+				<node name="param_EnchantedEffectOffset8" reader="UNICODE" />
+			</for> -->
 			<wrapper name="junk3">
-				<node name="junk3_1" reader="UINT" />
-				<node name="junk3_2" reader="UINT" />
-				<node name="junk3_3" reader="UINT" />
-				<node name="junk3_4" reader="UINT" />
+				<node name="junk3_1" reader="INT" />
+				<node name="junk3_2" reader="INT" />
+				<node name="junk3_3" reader="INT" />
+				<node name="junk3_4" reader="INT" />
 			</wrapper>
 			<wrapper name="variation_icon">
 				<node name="param_variation_icon1" reader="UNICODE" />

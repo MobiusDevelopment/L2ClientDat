@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="04_en_c4_scions_of_destiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Color" reader="UINT" />
+			<node name="MapX" reader="UINT" />
+			<node name="MapY" reader="UINT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+		</for>
+	</file>
 	<file pattern="06_en_c6_interlude" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="ZoneName" size="#data" hidden="false">
@@ -18,6 +30,27 @@
 			<node name="coords6" reader="UINT" />
 			<node name="unk1" reader="FLOAT" />
 			<node name="map" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="Color" reader="UINT" />
+			<node name="MapX" reader="UINT" />
+			<node name="MapY" reader="UINT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+			<node name="TownBtnLocX" reader="UINT" />
+			<node name="TownBtnLocY" reader="UINT" />
+			<node name="TownMapX" reader="UINT" />
+			<node name="TownMapY" reader="UINT" />
+			<node name="TownMapWidth" reader="UINT" />
+			<node name="TownMapHeight" reader="UINT" />
+			<node name="TownMapScale" reader="FLOAT" />
+			<node name="map" reader="ASCF" />
+			<node name="dupa" reader="UINT" />
 		</for>
 	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">

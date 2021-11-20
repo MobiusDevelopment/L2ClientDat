@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="outer_name" reader="UNICODE" />
+			<node name="description" reader="ASCF" />
+			<node name="icon" reader="UNICODE" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="product_name" size="#data" hidden="false">

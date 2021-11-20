@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
+		<for name="Char" size="20" hidden="false">
+			<node name="flts_1" reader="FLOAT" />
+			<node name="flts_2" reader="FLOAT" />
+			<node name="flts_3" reader="FLOAT" />
+			<node name="flts_4" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<for name="Char" size="20" hidden="false">
 			<node name="x" reader="FLOAT" />

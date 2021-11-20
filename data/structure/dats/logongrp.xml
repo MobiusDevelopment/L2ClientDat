@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<file pattern="06_en_c6_interlude" isSafePackage="true">
-		<for name="LogPawn" size="8" hidden="false">
-			<node name="x" reader="INT" />
-			<node name="y" reader="INT" />
-			<node name="z" reader="INT" />
-			<node name="yaw" reader="INT" />
+		<for name="LogPawn" size="26" hidden="false">
+			<node name="x" reader="UINT" />
+			<node name="y" reader="UINT" />
+			<node name="z" reader="UINT" />
+			<node name="yaw" reader="UINT" />
 		</for>
 	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
