@@ -700,4 +700,62 @@
 			<node name="icon_panel2" reader="MAP_INT" />
 		</for>
 	</file>
+	<file pattern="master_class" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UCHAR" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="operate_type" reader="SHORT" />
+			<node name="resist_cast" reader="UCHAR" />
+			<node name="MagicType" reader="UCHAR" enumName="skill_magic_type" />
+			<node name="mp_consume" reader="SHORT" />
+			<node name="cast_range" reader="UINT" />
+			<node name="cast_style" reader="UCHAR" />
+			<node name="hit_time" reader="FLOAT" />
+			<node name="cool_time" reader="FLOAT" />
+			<node name="reuse_delay" reader="FLOAT" />
+			<node name="effect_point" reader="UINT" />
+			<node name="is_magic" reader="UCHAR" />
+			<node name="origin_skill" reader="UINT" />
+			<node name="is_double" reader="UCHAR" />
+			<node name="animation" reader="UINT" />
+			<for name="animation" size="#animation">
+				<node name="param_animation" reader="MAP_INT" />
+			</for>
+			<node name="size1" reader="CNTR" />
+			<for name="skill_visual_effect" size="#size1">
+				<node name="skill_visual_effect_value" reader="MAP_INT" />
+			</for>
+			<node name="icon" reader="MAP_INT" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="debuff" reader="UCHAR" />
+			<node name="icon_type" reader="UCHAR" />
+			<node name="enchant_skill_level" reader="UCHAR" />
+			<node name="enchant_icon" reader="MAP_INT" />
+			<node name="hp_consume" reader="SHORT" />
+			<node name="rumble_self" reader="UCHAR" />
+			<node name="rumble_target" reader="UCHAR" />
+			<node name="level_hide" reader="UINT" />
+			<node name="dp_consume" reader="UINT" />
+			<node name="energy_consume" reader="UINT" />
+			<node name="trait_type" reader="UCHAR" />
+			<node name="abnormal_time" reader="UINT" />
+			<node name="target_type" reader="UCHAR" />
+			<node name="affect_scope" reader="UCHAR" />
+			<node name="dbdelete" reader="UCHAR" />
+		</for>
+		<node name="data2" reader="CNTR" />
+		<for name="skill_macro" size="#data2" hidden="false">
+			<node name="macro_skill_id" reader="UINT" />
+			<node name="automatic_use" reader="UCHAR" />
+		</for>
+		<node name="data3" reader="CNTR" />
+		<for name="skill_ex_icon" size="#data3" hidden="false">
+			<node name="ex_skill_id" reader="UINT" />
+			<node name="ex_skill_level" reader="UCHAR" />
+			<node name="ex_skill_sublevel" reader="SHORT" />
+			<node name="icon_panel2" reader="MAP_INT" />
+		</for>
+	</file>
 </list>

@@ -35,10 +35,10 @@
 	<link pattern="AnimationCombo_Classic.dat" file="animationcombo" version="kor_helios_p2" />
 	<link pattern="ArmorGradeEffectSet.dat" file="armorgradeeffectset" version="kor_prelude_of_war_p6" />
 	<link pattern="ArmorGradeLookChange.dat" file="armorgradelookchange" version="kor_prelude_of_war_p6" />
-	<link pattern="armorgrp.dat" file="armorgrp" version="return_of_qa_ch2" />
-	<link pattern="Armorgrp_Arena.dat" file="armorgrp" version="return_of_qa_ch2" />
-	<link pattern="Armorgrp_Classic.dat" file="armorgrp" version="return_of_qa_ch2" />
-	<link pattern="Armorgrp_ClassicAden.dat" file="armorgrp" version="return_of_qa_ch2" />
+	<link pattern="armorgrp.dat" file="armorgrp" version="master_class" />
+	<link pattern="Armorgrp_Arena.dat" file="armorgrp" version="master_class" />
+	<link pattern="Armorgrp_Classic.dat" file="armorgrp" version="master_class" />
+	<link pattern="Armorgrp_ClassicAden.dat" file="armorgrp" version="master_class" />
 	<link pattern="ArtifactData.dat" file="artifactdata" version="kor_grand_crusade_salvation_p5_crofin" />
 	<link pattern="ArtifactEnchantSetting.dat" file="artifactenchantsetting" version="kor_grand_crusade_salvation_p5_crofin" />
 	<link pattern="ArtifactTypeSetting.dat" file="artifacttypesetting" version="kor_prelude_of_war" />
@@ -111,10 +111,10 @@
 	<link pattern="entereventgrp.dat" file="entereventgrp" version="kor_helios_p3" />
 	<link pattern="EnterEventgrp_Arena.dat" file="entereventgrp" version="kor_helios_p3" />
 	<link pattern="EnterEventgrp_Classic.dat" file="entereventgrp" version="kor_helios_p3" />
-	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="kor_helios_p3" />
-	<link pattern="EtcItemgrp_Arena.dat" file="etcitemgrp" version="kor_helios_p3" />
-	<link pattern="EtcItemgrp_Classic.dat" file="etcitemgrp" version="kor_helios_p3" />
-	<link pattern="EtcItemgrp_ClassicAden.dat" file="etcitemgrp" version="kor_helios_p3" />
+	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="master_class" />
+	<link pattern="EtcItemgrp_Arena.dat" file="etcitemgrp" version="master_class" />
+	<link pattern="EtcItemgrp_Classic.dat" file="etcitemgrp" version="master_class" />
+	<link pattern="EtcItemgrp_ClassicAden.dat" file="etcitemgrp" version="master_class" />
 	<link pattern="EtcStatusData.dat" file="etcstatusdata" version="kor_prelude_of_war_p6" />
 	<link pattern="eula-[\w]+\.dat" file="eula" version="kor_lindvior" />
 	<link pattern="EventAlarmList-[\w]+\.dat" file="eventalarmlist" version="ru_grand_crusade" />
@@ -305,10 +305,10 @@
 	<link pattern="ShortcutRegisterData_Arena.dat" file="shortcutregisterdata" version="kor_helios" />
 	<link pattern="shuttledata.dat" file="shuttledata" version="kor_helios_p3" />
 	<link pattern="ShuttleData_Classic.dat" file="shuttledata" version="kor_helios_p3" />
-	<link pattern="skillgrp.dat" file="skillgrp" version="return_of_qa" />
-	<link pattern="Skillgrp_Arena.dat" file="skillgrp" version="return_of_qa" />
-	<link pattern="Skillgrp_Classic.dat" file="skillgrp" version="return_of_qa" />
-	<link pattern="Skillgrp_ClassicAden.dat" file="skillgrp" version="return_of_qa" />
+	<link pattern="skillgrp.dat" file="skillgrp" version="master_class" />
+	<link pattern="Skillgrp_Arena.dat" file="skillgrp" version="master_class" />
+	<link pattern="Skillgrp_Classic.dat" file="skillgrp" version="master_class" />
+	<link pattern="Skillgrp_ClassicAden.dat" file="skillgrp" version="master_class" />
 	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_prelude_of_war_p10" />
 	<link pattern="Skillname_Arena-[\w]+\.dat" file="skillname" version="kor_prelude_of_war_p10" />
 	<link pattern="Skillname_Classic-[\w]+\.dat" file="skillname" version="kor_prelude_of_war_p10" />
@@ -376,10 +376,10 @@
 	<link pattern="WeaponEnchantEffectData_Arena.dat" file="weaponenchanteffectdata" version="kor_helios_p3" />
 	<link pattern="WeaponEnchantEffectData_Classic.dat" file="weaponenchanteffectdata" version="kor_prelude_of_war_p8" />
 	<link pattern="WeaponEnchantEffectData_ClassicAden.dat" file="weaponenchanteffectdata" version="kor_prelude_of_war_p8" />
-	<link pattern="Weapongrp.dat" file="weapongrp" version="kor_helios_p3" />
-	<link pattern="Weapongrp_Arena.dat" file="weapongrp" version="kor_helios_p3" />
-	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="kor_helios_p3" />
-	<link pattern="Weapongrp_ClassicAden.dat" file="weapongrp" version="kor_helios_p3" />
+	<link pattern="Weapongrp.dat" file="weapongrp" version="master_class" />
+	<link pattern="Weapongrp_Arena.dat" file="weapongrp" version="master_class" />
+	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="master_class" />
+	<link pattern="Weapongrp_ClassicAden.dat" file="weapongrp" version="master_class" />
 	<link pattern="zonename-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
 	<link pattern="Zonename_Arena-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
 	<link pattern="Zonename_Classic-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
