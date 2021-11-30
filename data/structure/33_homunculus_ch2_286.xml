@@ -206,6 +206,7 @@
 	<link pattern="AnimationCombo_Classic.dat" file="animationcombo" version="kor_helios_p2" />
 	<link pattern="AdditionalEffect_Classic.dat" file="additionaleffect" version="kor_prelude_of_war_p10" />
 	<link pattern="Actionname_Classic-[\w]+\.dat" file="actionname" version="kor_prelude_of_war_p7" />
+	<link pattern="ActionName_ClassicAden-[w]+.dat" file="actionname" version="kor_prelude_of_war_p7" />
 	<link pattern="AbnormalDefaultEffect_Classic.dat" file="abnormaldefaulteffect" version="kor_prelude_of_war_p7" />
 	<link pattern="NPCTeleporter_Classic.dat" file="npcteleporter" version="kor_ertheia" />
 	<link pattern="EnchantStatBonus_Classic.dat" file="enchantstatbonus" version="kor_ertheia" />

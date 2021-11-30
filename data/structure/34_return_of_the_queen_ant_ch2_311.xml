@@ -10,6 +10,7 @@
 	<link pattern="actionname-[\w]+\.dat" file="actionname" version="kor_prelude_of_war_p7" />
 	<link pattern="Actionname_Arena-[\w]+\.dat" file="actionname" version="kor_helios_p3" />
 	<link pattern="Actionname_Classic-[\w]+\.dat" file="actionname" version="kor_prelude_of_war_p7" />
+	<link pattern="ActionName_ClassicAden-[w]+.dat" file="actionname" version="kor_prelude_of_war_p7" />
 	<link pattern="AdditionalEffect.dat" file="additionaleffect" version="kor_prelude_of_war_p10" />
 	<link pattern="AdditionalEffect_Classic.dat" file="additionaleffect" version="kor_prelude_of_war_p10" />
 	<link pattern="AdditionalItemgrp.dat" file="additionalitemgrp" version="kor_helios_p3" />
