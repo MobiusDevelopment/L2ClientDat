@@ -177,17 +177,81 @@ material_type
 			<node name="crystallizable" reader="UINT" />
 			<node name="UNK_1" reader="HEX" />
 
-			<node name="UNK_2_cnt" reader="UINT" />
-			<for name="UNK_2_cnt" size="#UNK_2_cnt">
-				<node name="UNK_2_tab" reader="UINT" />
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
 			</for>
-			<node name="UNK_3" reader="UINT" />
+			<node name="texture" reader="UINT" />
 
 			<node name="fort" reader="UNICODE" />
 			<node name="mesh_tex_pair" reader="MTX" />
 			<node name="drop_sound" reader="UNICODE" />
 			<node name="equip_sound" reader="UNICODE" />
 			<node name="stackable" reader="UINT" />
+			<node name="etcitem_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+		</for>
+	</file>
+
+	<file pattern="en_high_five" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<wrapper name="drop_mesh">
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="drop_texture">
+				<node name="drop_tex1" reader="UNICODE" />
+				<node name="drop_tex2" reader="UNICODE" />
+				<node name="drop_tex3" reader="UNICODE" />
+				<node name="drop_tex4" reader="UNICODE" />
+			</wrapper>
+			<node name="newdata1" reader="UINT" />
+			<node name="newdata2" reader="UINT" />
+			<node name="newdata3" reader="UINT" />
+			<node name="newdata4" reader="UINT" />
+			<node name="newdata5" reader="UINT" />
+			<node name="newdata6" reader="UINT" />
+			<node name="newdata7" reader="UINT" />
+			<node name="newdata8" reader="UINT" />
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="UINT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="UNK_1" reader="RGBA" />
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
+			</for>
+			<node name="color" reader="UINT" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="mesh" reader="INT" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="UNICODE" />
+			</for>
+			<node name="texture" reader="INT" />
+			<for name="texture" size="#texture">
+				<node name="tab2" reader="UNICODE" />
+			</for>
+
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="consume_type" reader="UINT" />
 			<node name="etcitem_type" reader="UINT" />
 			<node name="crystal_type" reader="UINT" />
 		</for>

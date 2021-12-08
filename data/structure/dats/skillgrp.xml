@@ -67,6 +67,7 @@
 			<node name="rumble_target" reader="UINT" /> <!-- Correct -->
 		</for>
 	</file>
+
 	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="skill" size="#data" hidden="false">
@@ -92,6 +93,35 @@
 			<node name="UNK_3" reader="UINT" />
 		</for>
 	</file>
+
+	<file pattern="en_high_five" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UINT" />
+			<node name="operate_type" reader="UINT" />
+			<node name="MagicType" reader="UINT" />
+			<node name="mp_consume" reader="UINT" />
+			<node name="cast_range" reader="UINT" />
+			<node name="cast_style" reader="UINT" />
+			<node name="hit_time" reader="FLOAT" />
+			<node name="is_magic" reader="UINT" />
+			<node name="animation" reader="UNICODE" />
+			<node name="skill_visual_effect" reader="UNICODE" />
+			<node name="icon" reader="UNICODE" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="enchanted" reader="UINT" />
+			<node name="enchant_skill_level" reader="UINT" />
+			<node name="hp_consume" reader="UINT" />
+			<node name="enchant_icon" reader="ASCF" />
+			<node name="unk2" reader="UINT" />
+			<node name="rumble_self" reader="UINT" />
+			<node name="rumble_target" reader="UINT" />
+			<node name="GaugeTime" reader="UINT" />
+			<node name="AdditionalTag" reader="ASCF" />
+		</for>
+	</file>
+
 	<file pattern="en_glory_days" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="skill" size="#data" hidden="false">

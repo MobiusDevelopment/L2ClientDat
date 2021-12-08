@@ -10,6 +10,7 @@
 			<node name="popup" reader="INT" />
 		</for>
 	</file>
+
 	<file pattern="06_en_c6_interlude" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item_name" size="#data" hidden="false">
@@ -28,6 +29,7 @@
 			<node name="set_enchant_effect" reader="ASCF" />
 		</for>
 	</file>
+
 	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item_name" size="#data" hidden="false">
@@ -62,6 +64,35 @@
 			</wrapper>
 			<node name="set_enchant_count" reader="UINT" />
 			<node name="set_enchant_effect" reader="ASCF" />
+			<node name="color" reader="UINT" />
+		</for>
+	</file>
+
+	<file pattern="en_high_five" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UNICODE" />
+			<node name="additionalname" reader="UNICODE" />
+			<node name="description" reader="ASCF" />
+			<node name="popup" reader="INT" />
+			<node name="supercnt0" reader="UINT" />
+			<node name="setid_1" reader="UINT" />
+			<for name="setid_1" size="#setid_1">
+				<node name="seteffect_1" reader="UNICODE" />
+			</for>
+			<node name="set_bonus_desc" reader="ASCF" />
+			<node name="supercnt1" reader="UINT" />
+			<node name="set_extra_id" reader="UINT" />
+			<for name="set_extra_id" size="#set_extra_id">
+				<node name="seteffect_2_sub2" reader="UNICODE" />
+			</for>
+			<node name="set_extra_desc" reader="ASCF" />
+			<for name="unknown" size="9">
+				<node name="unknown_1" reader="UBYTE" />
+			</for>
+			<node name="special_enchant_amount" reader="UINT" />
+			<node name="special_enchant_desc" reader="ASCF" />
 			<node name="color" reader="UINT" />
 		</for>
 	</file>

@@ -38,6 +38,6 @@
 	<link pattern="sysstring-[\w]+\.dat" file="sysstring" version="kor_lindvior" />
 	<link pattern="systemmsg-[\w]+\.dat" file="systemmsg" version="kor_lindvior" />
 	<link pattern="variationeffectgrp-[\w]+\.dat" file="variationeffectgrp" version="kor_lindvior" />
-	<!-- <link pattern="weapongrp.dat" file="weapongrp" version="06_en_c6_interlude" /> cant write -->
+	<link pattern="weapongrp.dat" file="weapongrp" version="06_en_c6_interlude" />
 	<link pattern="zonename-[\w]+\.dat" file="zonename" version="06_en_c6_interlude" />
 </list>

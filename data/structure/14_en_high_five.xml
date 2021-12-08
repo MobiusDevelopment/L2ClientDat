@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-
+	<link pattern="armorgrp.dat" file="armorgrp" version="en_high_five" />
 	<link pattern="classinfo-[\w]+\.dat" file="classinfo" version="en_high_five" />
+	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="en_high_five" />
+	<link pattern="itemname-[\w]+\.dat" file="itemname" version="en_high_five" />
+	<link pattern="npcgrp\.dat" file="npcgrp" version="en_high_five" />
+	<link pattern="npcname-[\w]+\.dat" file="npcname" version="kor_lindvior" />
+	<link pattern="optiondata_client-[\w]+\.dat" file="optiondata_client" version="kor_lindvior" />
+	<link pattern="questname-[\w]+\.dat" file="questname" version="en_high_five" />
+	<link pattern="raiddata-[\w]+\.dat" file="raiddata" version="kor_lindvior" />
+	<link pattern="recipe-c.dat" file="recipe-c" version="en_high_five" />
+	<link pattern="skillgrp.dat" file="skillgrp" version="en_high_five" />
+	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_lindvior" />
+	<link pattern="Weapongrp.dat" file="weapongrp" version="en_high_five" />
 </list>
