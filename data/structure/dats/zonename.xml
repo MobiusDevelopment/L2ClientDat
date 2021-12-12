@@ -128,4 +128,30 @@
 			<node name="TownCenterY" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="master_class" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ZoneName" size="#data" hidden="false">
+			<node name="ID" reader="USHORT" />
+			<node name="MapX" reader="USHORT" />
+			<node name="MapY" reader="USHORT" />
+			<node name="Top" reader="FLOAT" />
+			<node name="Bottom" reader="FLOAT" />
+			<node name="Name" reader="ASCF" />
+			<node name="TownBtnLocX" reader="SHORT" />
+			<node name="TownBtnLocY" reader="SHORT" />
+			<node name="TownMapX" reader="UINT" />
+			<node name="TownMapY" reader="UINT" />
+			<node name="TownMapWidth" reader="SHORT" />
+			<node name="TownMapHeight" reader="SHORT" />
+			<node name="TownMapScale" reader="FLOAT" />
+			<node name="TownMapTex" reader="MAP_INT" />
+			<node name="Color" reader="USHORT" />
+			<node name="Continent" reader="USHORT" />
+			<node name="CurrentLayer" reader="USHORT" />
+			<node name="TotalLayers" reader="USHORT" />
+			<node name="TownCenterX" reader="UINT" />
+			<node name="TownCenterY" reader="UINT" />
+			<node name="unk" reader="UCHAR" />
+		</for>
+	</file>
 </list>

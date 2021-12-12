@@ -381,9 +381,9 @@
 	<link pattern="Weapongrp_Arena.dat" file="weapongrp" version="master_class" />
 	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="master_class" />
 	<link pattern="Weapongrp_ClassicAden.dat" file="weapongrp" version="master_class" />
-	<link pattern="zonename-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
-	<link pattern="Zonename_Arena-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
-	<link pattern="Zonename_Classic-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
-	<link pattern="ZoneName_ClassicAden-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
+	<link pattern="zonename-[\w]+\.dat" file="zonename" version="master_class" />
+	<link pattern="Zonename_Arena-[\w]+\.dat" file="zonename" version="master_class" />
+	<link pattern="Zonename_Classic-[\w]+\.dat" file="zonename" version="master_class" />
+	<link pattern="ZoneName_ClassicAden-[\w]+\.dat" file="zonename" version="master_class" />
 
 </list>
