@@ -30,7 +30,7 @@
 		</for>
 	</file>
 
-	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
+	<file pattern="12_en_gracia_epilogue" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item_name" size="#data" hidden="false">
 			<node name="id" reader="UINT" />

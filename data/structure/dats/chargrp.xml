@@ -79,7 +79,7 @@
 			</for>
 		</for>
 	</file>
-	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
+	<file pattern="12_en_gracia_epilogue" isSafePackage="true">
 		<for name="Char" size="17" hidden="false">
 			<for name="hair" size="20">
 				<for name="class_name" size="15">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<file pattern="12_en_ct_2_4_gracia_epilogue" isSafePackage="true">
+	<file pattern="12_en_gracia_epilogue" isSafePackage="true">
 		<for name="Char" size="20" hidden="false">
 			<node name="flts_1" reader="FLOAT" />
 			<node name="flts_2" reader="FLOAT" />

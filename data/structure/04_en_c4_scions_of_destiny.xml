@@ -28,7 +28,7 @@
     <link pattern="optiondata_client-[\w]+\.dat" file="optiondata_client" version="kor_lindvior" />
     <link pattern="questname-[\w]+\.dat" file="questname" version="04_en_c4_scions_of_destiny" />
     <link pattern="RaidData-[\w]+\.dat" file="raiddata" version="kor_lindvior" />
-    <link pattern="recipe-c.dat" file="recipe-c" version="12_en_ct_2_4_gracia_epilogue" />
+    <link pattern="recipe-c.dat" file="recipe-c" version="12_en_gracia_epilogue" />
     <link pattern="servername-[\w]+\.dat" file="servername" version="04_en_c4_scions_of_destiny" /> <!-- NOT FULL, maybe because using korean symbols -->
     <link pattern="skillgrp.dat" file="skillgrp" version="06_en_c6_interlude" />
     <link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_lindvior" />

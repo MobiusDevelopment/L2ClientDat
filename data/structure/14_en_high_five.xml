@@ -5,7 +5,7 @@
 	<link pattern="AdditionalItemgrp.dat" file="additionalitemgrp" version="cn_lindvior" />
 	<link pattern="armorgrp.dat" file="armorgrp" version="en_high_five" />
 	<link pattern="castlename-[\w]+\.dat" file="castlename" version="kor_lindvior" />
-	<link pattern="charcreategrp.dat" file="charcreategrp" version="12_en_ct_2_4_gracia_epilogue" />
+	<link pattern="charcreategrp.dat" file="charcreategrp" version="12_en_gracia_epilogue" />
 	<link pattern="chargrp.dat" file="chargrp" version="en_high_five" />
 	<link pattern="classinfo-[\w]+\.dat" file="classinfo" version="en_high_five" />
 	<link pattern="commandname-[\w]+\.dat" file="commandname" version="kor_lindvior" />
@@ -31,7 +31,7 @@
 	<link pattern="obscene-[\w]+\.dat" file="obscene" version="kor_lindvior" />
 	<link pattern="optiondata_client-[\w]+\.dat" file="optiondata_client" version="kor_lindvior" />
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="en_high_five" />
-	<link pattern="productname-[\w]+\.dat" file="productname" version="12_en_ct_2_4_gracia_epilogue" />
+	<link pattern="productname-[\w]+\.dat" file="productname" version="12_en_gracia_epilogue" />
 	<link pattern="questname-[\w]+\.dat" file="questname" version="en_high_five" />
 	<link pattern="raiddata-[\w]+\.dat" file="raiddata" version="kor_lindvior" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="en_high_five" />
@@ -41,7 +41,7 @@
 	<link pattern="shortcutalias.dat" file="shortcutalias" version="kor_lindvior" />
 	<link pattern="skillgrp.dat" file="skillgrp" version="en_high_five" />
 	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_lindvior" />
-	<link pattern="skillsoundgrp.dat" file="skillsoundgrp" version="12_en_ct_2_4_gracia_epilogue" />
+	<link pattern="skillsoundgrp.dat" file="skillsoundgrp" version="12_en_gracia_epilogue" />
 	<link pattern="skillsoundsource.dat" file="skillsoundsource" version="kor_lindvior" />
 	<link pattern="staticobject-[\w]+\.dat" file="staticobject" version="kor_lindvior" />
 	<link pattern="symbolname-[\w]+\.dat" file="symbolname" version="kor_lindvior" />
@@ -51,5 +51,5 @@
 	<link pattern="variationeffectgrp-[\w]+\.dat" file="variationeffectgrp" version="kor_lindvior" />
 	<link pattern="vehiclepartsgrp.dat" file="vehiclepartsgrp" version="kor_lindvior" />
 	<link pattern="Weapongrp.dat" file="weapongrp" version="en_high_five" />
-	<link pattern="zonename-[\w]+\.dat" file="zonename" version="12_en_ct_2_4_gracia_epilogue" />
+	<link pattern="zonename-[\w]+\.dat" file="zonename" version="12_en_gracia_epilogue" />
 </list>
