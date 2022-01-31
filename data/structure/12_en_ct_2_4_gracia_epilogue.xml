@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
     <link pattern="actionname-[\w]+\.dat" file="actionname" version="06_en_c6_interlude" />
-    <!-- <link pattern="armorgrp.dat" file="armorgrp" version="12_en_ct_2_4_gracia_epilogue" />  need to fix -->
+    <link pattern="armorgrp.dat" file="armorgrp" version="en_high_five" />
     <link pattern="britemgrp.dat" file="britemgrp" version="12_en_ct_2_4_gracia_epilogue" />
     <link pattern="castlename-[\w]+\.dat" file="castlename" version="kor_lindvior" />
     <link pattern="charcreategrp.dat" file="charcreategrp" version="12_en_ct_2_4_gracia_epilogue" />
@@ -11,7 +11,7 @@
     <link pattern="commandname-[\w]+\.dat" file="commandname" version="06_en_c6_interlude" />
     <link pattern="creditgrp-[\w]+\.dat" file="credit" version="06_en_c6_interlude" />
     <link pattern="entereventgrp.dat" file="entereventgrp" version="kor_lindvior" />
-    <!-- <link pattern="etcitemgrp.dat" file="etcitemgrp" version="12_en_ct_2_4_gracia_epilogue" /> need to fix -->
+    <link pattern="etcitemgrp.dat" file="etcitemgrp" version="en_high_five" />
     <link pattern="eula-[\w]+\.dat" file="eula" version="kor_lindvior" />
     <link pattern="gametip-[\w]+\.dat" file="gametip" version="06_en_c6_interlude" />
     <link pattern="hairaccessorylocgrp.dat" file="hairaccessorylocgrp" version="kor_lindvior" />
@@ -29,7 +29,7 @@
     <link pattern="productname-[\w]+\.dat" file="productname" version="12_en_ct_2_4_gracia_epilogue" />
     <link pattern="questname-[\w]+\.dat" file="questname" version="12_en_ct_2_4_gracia_epilogue" />
     <link pattern="RaidData-[\w]+\.dat" file="raiddata" version="kor_lindvior" />
-    <!-- <link pattern="recipe-c.dat" file="recipe-c" version="12_en_ct_2_4_gracia_epilogue" />  need to fix -->
+    <link pattern="recipe-c.dat" file="recipe-c" version="en_high_five" />
     <link pattern="ridedata.dat" file="ridedata" version="ru_lindvior" />
     <link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="kor_episodion" />
     <link pattern="servername-[\w]+\.dat" file="servername" version="06_en_c6_interlude" />
@@ -44,6 +44,6 @@
     <link pattern="transformdata.dat" file="transformdata" version="kor_lindvior" />
     <link pattern="variationeffectgrp-[\w]+\.dat" file="variationeffectgrp" version="kor_lindvior" />
     <link pattern="vehiclepartsgrp.dat" file="vehiclepartsgrp" version="kor_lindvior" />
-    <!-- <link pattern="weapongrp.dat" file="weapongrp" version="06_en_c6_interlude" /> -->
+    <link pattern="weapongrp.dat" file="weapongrp" version="en_high_five" />
     <link pattern="zonename-[\w]+\.dat" file="zonename" version="12_en_ct_2_4_gracia_epilogue" />
 </list>
