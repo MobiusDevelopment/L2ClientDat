@@ -79,6 +79,8 @@
 	<link pattern="skillsoundsource.dat" file="skillsoundsource" version="kor_lindvior" />
 	<link pattern="staticobject-[\w]+\.dat" file="staticobject" version="kor_helios_p2" />
 	<link pattern="statisticname-[\w]+\.dat" file="statisticname" version="kor_lindvior" />
+	<link pattern="SteadyBox_Classic-[\w]+\.dat" file="steadybox" version="kor_prelude_of_war_p10" />
+	<link pattern="SteadyBox_ClassicAden-[\w]+\.dat" file="steadybox" version="kor_prelude_of_war_p10" />
 	<link pattern="symbolname-[\w]+\.dat" file="symbolname" version="kor_lindvior" />
 	<link pattern="sysstring-[\w]+\.dat" file="sysstring" version="kor_lindvior" />
 	<link pattern="systemmsg-[\w]+\.dat" file="systemmsg" version="kor_prelude_of_war" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<file pattern="return_of_qa_ch2" isSafePackage="true">
+	<file pattern="master_class" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="dyepotential" size="#data" hidden="false">
 			<node name="price" reader="CNTR" />

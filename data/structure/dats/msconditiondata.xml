@@ -319,4 +319,106 @@
 			</mask>
 		</for>
 	</file>
+	<file pattern="return_of_qa" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UCHAR" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="mask" reader="SHORT" />
+			<mask name="mask_1" param="#mask" val="1">
+				<node name="equiptype" reader="UCHAR" enumName="mscond_equiptype" />
+			</mask>
+			<mask name="mask_2" param="#mask" val="2">
+				<node name="attackitemtype" reader="UCHAR" />
+				<for name="attackitemtype" size="#attackitemtype">
+					<node name="param_attackitemtype" reader="UCHAR" enumName="item_weapon_v2_type" />
+				</for>
+			</mask>
+			<mask name="mask_4" param="#mask" val="4">
+				<node name="stattype" reader="UCHAR" enumName="mscond_stattype" />
+			</mask>
+			<mask name="mask_8" param="#mask" val="8">
+				<node name="statpercentage" reader="UCHAR" />
+			</mask>
+			<mask name="mask_16" param="#mask" val="16">
+				<node name="up" reader="UCHAR" enumName="mscond_statup" />
+			</mask>
+			<mask name="mask_32" param="#mask" val="32">
+				<node name="hpconsume" reader="SHORT" />
+			</mask>
+			<mask name="mask_64" param="#mask" val="64">
+				<node name="mpconsume1" reader="SHORT" />
+			</mask>
+			<mask name="mask_128" param="#mask" val="128">
+				<node name="mpconsume2" reader="SHORT" />
+			</mask>
+			<mask name="mask_256" param="#mask" val="256">
+				<node name="itemid" reader="UINT" />
+			</mask>
+			<mask name="mask_512" param="#mask" val="512">
+				<node name="itemnum" reader="USHORT" />
+			</mask>
+			<mask name="mask_1024" param="#mask" val="1024">
+				<node name="casterpriorskilllist" reader="CNTR" />
+				<for name="casterpriorskilllist" size="#casterpriorskilllist">
+					<node name="caster_skill_id" reader="UINT" />
+					<node name="caster_skill_level" reader="UCHAR" />
+					<node name="caster_skill_sublevel" reader="USHORT" />
+				</for>
+			</mask>
+			<mask name="mask_2048" param="#mask" val="2048">
+				<node name="targetpriorskilllist" reader="CNTR" />
+				<for name="targetpriorskilllist">
+					<node name="target_skill_id" reader="UINT" />
+					<node name="target_skill_level" reader="UCHAR" />
+					<node name="target_skill_sublevel" reader="USHORT" />
+				</for>
+			</mask>
+			<mask name="mask_4096" param="#mask" val="4096">
+				<node name="classtype" reader="CNTR" />
+				<for name="classtype">
+					<node name="classID" reader="UINT" enumName="class" />
+				</for>
+			</mask>
+		</for>
+	</file>
+	<file pattern="master_class" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UCHAR" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="UNK_1" reader="SHORT" />
+			<node name="equiptype" reader="UCHAR" enumName="mscond_equiptype" />
+			<node name="attackitemtype" reader="CNTR" />
+			<for name="attackitemtype" size="#attackitemtype">
+				<node name="param_attackitemtype" reader="UCHAR" enumName="item_weapon_v2_type" />
+			</for>
+			<node name="stattype" reader="UCHAR" enumName="mscond_stattype" />
+			<node name="statpercentage" reader="UCHAR" />
+			<node name="up" reader="UCHAR" enumName="mscond_statup" />
+			<node name="hpconsume" reader="USHORT" />
+			<node name="mpconsume1" reader="USHORT" />
+			<node name="mpconsume2" reader="USHORT" />
+			<node name="itemid" reader="UINT" />
+			<node name="itemnum" reader="USHORT" />
+			<node name="casterpriorskilllist" reader="CNTR" />
+			<for name="casterpriorskilllist" size="#casterpriorskilllist">
+				<node name="caster_skill_id" reader="UINT" />
+				<node name="caster_skill_level" reader="UCHAR" />
+				<node name="caster_skill_sublevel" reader="USHORT" />
+			</for>
+			<node name="targetpriorskilllist" reader="CNTR" />
+			<for name="targetpriorskilllist" size="#targetpriorskilllist">
+				<node name="target_skill_id" reader="UINT" />
+				<node name="target_skill_level" reader="UCHAR" />
+				<node name="target_skill_sublevel" reader="USHORT" />
+			</for>
+			<node name="classtype" reader="CNTR" />
+			<for name="classtype" size="#classtype">
+				<node name="classID" reader="UINT" enumName="class" />
+			</for>
+		</for>
+	</file>
 </list>

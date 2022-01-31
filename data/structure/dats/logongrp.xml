@@ -24,4 +24,24 @@
 			<node name="yaw" reader="FLOAT" />
 		</for>
 	</file>
+	<file pattern="return_of_qa" isSafePackage="true">
+		<for name="LogPawn" size="87" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+	<file pattern="master_class" isSafePackage="true">
+		<for name="LogPawn" size="88" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
 </list>
