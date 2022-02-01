@@ -149,34 +149,5 @@
 			<node name="head_line" reader="ASCF" />
 		</for>
 	</file>
-	<file pattern="protocol_338" isSafePackage="true">
-		<node name="data" reader="UINT" />
-		<for name="product" size="#data" hidden="false">
-			<node name="product_id" reader="USHORT" />
-			<node name="category" reader="UCHAR" />
-			<node name="mark_type" reader="UCHAR" enumName="lcoinshopproduct_mark_type" />
-			<node name="max_buy_count" reader="UCHAR" />
-			<node name="product_item" reader="UINT" />
-			<node name="product_count" reader="UINT" />
-			<node name="product_name" reader="ASCF" />
-			<wrapper name="limit_lv">
-				<node name="LevelMin" reader="SHORT" />
-				<node name="LevelMax" reader="SHORT" />
-			</wrapper>
-			<for name="unk_list" size="12">
-				<node name="unk_list_value" reader="UCHAR" />
-			</for>
-
-			<node name="unk_list2" reader="CNTR" />
-			<for name="unk_list2_values" size="#unk_list2">
-				<node name="unk_list2_value" reader="UCHAR" />
-			</for>
-		</for>
-		<node name="data2" reader="CNTR" />
-		<for name="product_head" size="#data2" hidden="false">
-			<node name="head_id" reader="SHORT" />
-			<node name="head_line" reader="ASCF" />
-		</for>
-	</file>
 </list>
 
