@@ -187,10 +187,10 @@
 	<link pattern="HomunNpc.dat" file="homunnpc" version="kor_prelude_of_war_p10" />
 	<link pattern="HomunNpcLevel.dat" file="homunnpclevel" version="kor_prelude_of_war_p8" />
 	<link pattern="homunslot.dat" file="homunslot" version="return_of_qa" />
-	<link pattern="huntingzone-[\w]+\.dat" file="huntingzone" version="master_class" />
-	<link pattern="HuntingZone_Arena-[\w]+\.dat" file="huntingzone" version="master_class" />
-	<link pattern="HuntingZone_Classic-[\w]+\.dat" file="huntingzone" version="master_class" />
-	<link pattern="HuntingZone_ClassicAden-[\w]+\.dat" file="huntingzone" version="master_class" />
+	<link pattern="huntingzone-[\w]+\.dat" file="huntingzone" version="kor_grand_crusade" />
+	<link pattern="HuntingZone_Arena-[\w]+\.dat" file="huntingzone" version="kor_grand_crusade" />
+	<link pattern="HuntingZone_Classic-[\w]+\.dat" file="huntingzone" version="kor_grand_crusade" />
+	<link pattern="HuntingZone_ClassicAden-[\w]+\.dat" file="huntingzone" version="kor_grand_crusade" />
 	<link pattern="instantzonedata-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
 	<link pattern="InstantZoneData_Arena-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
 	<link pattern="InstantZoneData_Classic-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
