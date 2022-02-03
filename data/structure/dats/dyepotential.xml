@@ -3,12 +3,11 @@
 	<file pattern="master_class" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="dyepotential" size="#data" hidden="false">
-			<node name="price" reader="CNTR" />
-			<for name="price" size="#price">
-				<node name="item_id1" reader="INT" />
-			</for>
+			<node name="dyepotential_id" reader="USHORT" />
+			<node name="dye_slot_id" reader="UCHAR" />
+			<node name="max_skill_level" reader="UCHAR" />
 			<node name="skill_id" reader="UINT" />
-			<node name="unknown_2" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />			
 		</for>
 	</file>
 </list>
