@@ -181,6 +181,7 @@
 	<link pattern="hairExName-[\w]+\.dat" file="hairexname" version="kor_helios_p2" />
 	<link pattern="hennagrp-[\w]+\.dat" file="hennagrp" version="master_class" />
 	<link pattern="Hennagrp_Classic-[\w]+\.dat" file="hennagrp" version="master_class" />
+	<link pattern="Hennagrp_ClassicAden-[\w]+\.dat" file="hennagrp" version="master_class" />
 	<link pattern="HomunCreate.dat" file="homuncreate" version="kor_prelude_of_war_p8" />
 	<link pattern="HomunEnchant.dat" file="homunenchant" version="kor_prelude_of_war_p8" />
 	<link pattern="HomunList.dat" file="homunlist" version="return_of_qa" />

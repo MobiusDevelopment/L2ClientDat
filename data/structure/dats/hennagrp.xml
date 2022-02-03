@@ -47,7 +47,7 @@
 			<node name="symbol_description" reader="ASCF" />
 			<node name="need_count" reader="UINT" />
 			<node name="cancel_count" reader="UINT" />
-			<node name="unk1" reader="UCHAR" />
+			<node name="newhenna_hidden_power" reader="UCHAR" />
 		</for>
 	</file>
 </list>
