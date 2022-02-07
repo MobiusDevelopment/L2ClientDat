@@ -131,9 +131,136 @@
 			</wrapper>
 		</for>
 	</file>
+	<file pattern="en_hellbound" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<wrapper name="drop_mesh">
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="drop_texture">
+				<node name="drop_tex1" reader="UNICODE" />
+				<node name="drop_tex2" reader="UNICODE" />
+				<node name="drop_tex3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="INT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="UNK_9" reader="UINT" />
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
+			</for>
+			<node name="timetab" reader="UNICODE" />
+			<node name="body_part" reader="UINT" />
+			<node name="handness" reader="UINT" />
+			<wrapper name="wp_mesh">
+			<node name="wp_mesh" reader="UINT" />
+			<for name="wp_mesh" size="#wp_mesh">
+				<node name="wpn_mesh" reader="UNICODE" />
+			</for>
+			</wrapper>
+			<node name="wpn_tex_cnt" reader="UINT" />
+			<for name="wpn_tex_cnt" size="#wpn_tex_cnt">
+				<node name="wpn_tex" reader="UNICODE" />
+			</for>
+			<node name="item_sound" reader="UINT" />
+			<for name="item_sound" size="#item_sound">
+				<node name="item_sound_1" reader="UNICODE" />
+			</for>
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="effect" reader="UNICODE" />
+			<node name="random_damage" reader="UINT" />
+			<node name="patt" reader="UINT" />
+			<node name="matt" reader="UINT" />
+			<node name="weapon_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+			<node name="critical" reader="UINT" />
+			<node name="hit_mod" reader="INT" />
+			<node name="avoid_mod" reader="INT" />
+			<node name="shield_pdef" reader="UINT" />
+			<node name="shield_rate" reader="UINT" />
+			<node name="speed" reader="UINT" />
+			<node name="mp_consume" reader="UINT" />
+			<node name="soulshot_count" reader="UINT" />
+			<node name="spiritshot_count" reader="UINT" />
+			<node name="curvature" reader="UINT" />
+			<node name="UNK_10" reader="UINT" />
+			<node name="can_equip_hero" reader="INT" />
+			<node name="UNK_12" reader="UINT" />
+			<node name="effA" reader="UNICODE" />
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="effB" reader="UNICODE" />
+			</if>
+			<!-- wp_mesh -->
+			<wrapper name="junk1A">
+				<node name="junk1A1" reader="FLOAT" />
+				<node name="junk1A2" reader="FLOAT" />
+				<node name="junk1A3" reader="FLOAT" />
+				<node name="junk1A4" reader="FLOAT" />
+				<node name="junk1A5" reader="FLOAT" />
+			</wrapper>
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="junk1B1" reader="FLOAT" />
+				<node name="junk1B2" reader="FLOAT" />
+				<node name="junk1B3" reader="FLOAT" />
+				<node name="junk1B4" reader="FLOAT" />
+				<node name="junk1B5" reader="FLOAT" />
+			</if>
+			<node name="rangeA" reader="UNICODE" />
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="rangeB" reader="UNICODE" />
+			</if>
+			<wrapper name="junk2A">
+				<node name="junk2A1" reader="FLOAT" />
+				<node name="junk2A2" reader="FLOAT" />
+				<node name="junk2A3" reader="FLOAT" />
+				<node name="junk2A4" reader="FLOAT" />
+				<node name="junk2A5" reader="FLOAT" />
+				<node name="junk2A6" reader="FLOAT" />
+			</wrapper>
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="junk2B1" reader="FLOAT" />
+				<node name="junk2B2" reader="FLOAT" />
+				<node name="junk2B3" reader="FLOAT" />
+				<node name="junk2B4" reader="FLOAT" />
+				<node name="junk2B5" reader="FLOAT" />
+				<node name="junk2B6" reader="FLOAT" />
+			</if>
+			<wrapper name="junk">
+				<node name="junk1" reader="INT" />
+				<node name="junk2" reader="INT" />
+				<node name="junk3" reader="INT" />
+				<node name="junk4" reader="INT" />
+			</wrapper>
+			<wrapper name="variation_icon">
+				<node name="param_variation_icon1" reader="UNICODE" />
+				<node name="param_variation_icon2" reader="UNICODE" />
+				<node name="param_variation_icon3" reader="UNICODE" />
+				<node name="param_variation_icon4" reader="UNICODE" />
+			</wrapper>
+		</for>
+	</file>
 	<file pattern="en_high_five" isSafePackage="true">
 		<node name="data" reader="UINT" />
-		<for name="item" size="#data"  hidden="false">
+		<for name="item" size="#data" hidden="false">
 			<node name="tag" reader="UINT" />
 			<node name="object_id" reader="UINT" />
 			<node name="drop_type" reader="UINT" />
@@ -278,7 +405,7 @@
 	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
-		<for name="item" size="#data"  hidden="false">
+		<for name="item" size="#data" hidden="false">
 			<node name="tag" reader="UINT" />
 			<node name="object_id" reader="UINT" />
 			<node name="drop_type" reader="UINT" />
