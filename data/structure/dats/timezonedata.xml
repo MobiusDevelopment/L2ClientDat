@@ -25,4 +25,20 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="36_master_class_p2_362" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="field_info" size="#data" hidden="false">
+			<node name="type" reader="ASCF" />
+			<node name="field_id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="refill_item_list" reader="UCHAR" />
+			<for name="refill_item_list" size="#refill_item_list">
+				<node name="itemId" reader="UINT" />
+			</for>
+			<node name="aCategory" reader="UINT" />
+			<node name="aPvpType" reader="ASCF" />
+			<node name="aFieldImage" reader="ASCF" />
+		</for>
+	</file>
 </list>

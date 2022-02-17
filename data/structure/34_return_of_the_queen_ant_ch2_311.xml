@@ -50,8 +50,8 @@
 	<link pattern="CardCollectData_Classic-[\w]+\.dat" file="cardcollectdata" version="ru_orfen" />
 	<link pattern="castlename-[\w]+\.dat" file="castlename" version="kor_grand_crusade" />
 	<link pattern="Castlename_Classic-[\w]+\.dat" file="castlename" version="kor_grand_crusade" />
-	<link pattern="CharacterAbility_Classic-[\w]+\.dat" file="characterability" version="return_of_qa" />
-	<link pattern="CharacterAbility_ClassicAden-[\w]+\.dat" file="characterability" version="return_of_qa" />
+	<link pattern="CharacterAbility_Classic-[\w]+\.dat" file="characterability" version="36_master_class_p2_362" />
+	<link pattern="CharacterAbility_ClassicAden-[\w]+\.dat" file="characterability" version="34_frost_lord_311" />
 	<link pattern="CharacterInitialStatExData.dat" file="characterinitialstatexdata" version="kor_grand_crusade_salvation" />
 	<link pattern="charcreategrp.dat" file="charcreategrp" version="return_of_qa" />
 	<link pattern="Charcreategrp_Arena.dat" file="charcreategrp" version="return_of_qa" />
