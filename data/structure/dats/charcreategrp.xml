@@ -122,7 +122,7 @@
 			<node name="class" reader="UBYTE" />
 		</for>
 	</file>
-	<file pattern="36_master_class_p2_362" isSafePackage="true">
+	<file pattern="master_class_ch2" isSafePackage="true">
 		<for name="Char" size="89" hidden="false">
 			<node name="x" reader="FLOAT" />
 			<node name="y" reader="FLOAT" />

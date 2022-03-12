@@ -20,7 +20,7 @@
 			<node name="unk4" reader="UINT" />
 		</for>
 	</file>
-	<file pattern="36_master_class_p2_362" isSafePackage="true">
+	<file pattern="master_class_ch2" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="abnormal_edge_effect_data" size="#data" hidden="false">
 			<node name="id" reader="UINT" />

@@ -1100,7 +1100,7 @@
 			</for>
 		</for>
 	</file>
-	<file pattern="36_master_class_p2_362" isSafePackage="true">
+	<file pattern="master_class_ch2" isSafePackage="true">
 		<for name="Char" size="21" hidden="false">
 			<for name="hair" size="11">
 				<for name="class_name" size="15">

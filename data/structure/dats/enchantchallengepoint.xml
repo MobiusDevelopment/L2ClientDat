@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-    <file pattern="36_master_class_p2_362" isSafePackage="true">
+    <file pattern="master_class_ch2" isSafePackage="true">
         <node name="data" reader="UINT" />
         <for name="dyepotential_fee" size="#data" hidden="false">
             <node name="maxpoint" reader="USHORT" />
