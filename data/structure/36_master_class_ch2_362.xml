@@ -200,17 +200,17 @@
 	<link pattern="instantzonedata-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
 	<link pattern="InstantZoneData_Arena-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
 	<link pattern="InstantZoneData_Classic-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
-	<link pattern="item_baseinfo.dat" file="item_baseinfo" version="kor_prelude_of_war_p6" />
-	<link pattern="item_baseinfo_Classic.dat" file="item_baseinfo" version="kor_prelude_of_war_p6" />
-	<link pattern="item_baseinfo_ClassicAden.dat" file="item_baseinfo" version="kor_prelude_of_war_p6" />
+	<link pattern="item_baseinfo.dat" file="item_baseinfo" version="master_class_ch2" />
+	<link pattern="item_baseinfo_Classic.dat" file="item_baseinfo" version="master_class_ch2" />
+	<link pattern="item_baseinfo_ClassicAden.dat" file="item_baseinfo" version="master_class_ch2" />
 	<link pattern="itemname-[\w]+\.dat" file="itemname" version="kor_prelude_of_war_p10" />
 	<link pattern="ItemName_Arena-[\w]+\.dat" file="itemname" version="kor_prelude_of_war_p10" />
 	<link pattern="ItemName_Classic-[\w]+\.dat" file="itemname" version="kor_prelude_of_war_p10" />
 	<link pattern="ItemName_ClassicAden-[\w]+\.dat" file="itemname" version="kor_prelude_of_war_p10" />
-	<link pattern="itemstatdata.dat" file="itemstatdata" version="kor_helios_p3" />
-	<link pattern="ItemStatData_Arena.dat" file="itemstatdata" version="kor_helios_p3" />
-	<link pattern="ItemStatData_Classic.dat" file="itemstatdata" version="kor_helios_p3" />
-	<link pattern="ItemStatData_ClassicAden.dat" file="itemstatdata" version="kor_helios_p3" />
+	<link pattern="itemstatdata.dat" file="itemstatdata" version="master_class_ch2" />
+	<link pattern="ItemStatData_Arena.dat" file="itemstatdata" version="master_class_ch2" />
+	<link pattern="ItemStatData_Classic.dat" file="itemstatdata" version="master_class_ch2" />
+	<link pattern="ItemStatData_ClassicAden.dat" file="itemstatdata" version="master_class_ch2" />
 	<link pattern="ItemUseFilter.dat" file="itemusefilter" version="kor_prelude_of_war_p10" />
 	<link pattern="ItemUseFilter_Classic.dat" file="itemusefilter" version="kor_prelude_of_war_p10" />
 	<link pattern="ItemUseFilter_ClassicAden.dat" file="itemusefilter" version="kor_prelude_of_war_p10" />
