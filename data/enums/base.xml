@@ -168,6 +168,7 @@
 		<node index="60" name="hair2" />
 		<node index="61" name="rhand" />
 		<node index="62" name="lhand" />
+		<node index="63" name="lhand2" />
 	</enum>
 	<enum name="item_etc_type">
 		<node index="0" name="none" />
@@ -819,5 +820,12 @@
 		<node index="5" name="men" />
 		<node index="6" name="luc" />
 		<node index="7" name="cha" />
+	</enum>
+	<enum name="lcoin_reset_type">
+		<node index="0" name="always" />
+		<node index="1" name="one_day" />
+		<node index="2" name="one_week" />
+		<node index="3" name="one_month" />
+		<node index="4" name="type_max" />
 	</enum>
 </list>

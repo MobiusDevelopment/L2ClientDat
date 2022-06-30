@@ -6,6 +6,7 @@
 	<link pattern="AbnormalAgathion.dat" file="abnormalagathion" version="kor_fafurion" />
 	<link pattern="abnormaldefaulteffect.dat" file="abnormaldefaulteffect" version="master_class_ch2" />
 	<link pattern="AbnormalDefaultEffect_Classic.dat" file="abnormaldefaulteffect" version="master_class_ch2" />
+	<link pattern="AbnormalDefaultEffect_ClassicAden.dat" file="abnormaldefaulteffect" version="master_class_ch2" />
 	<link pattern="AbnormalEdgeEffectData\.dat" file="abnormaledgeeffectdata" version="master_class_ch2" />
 	<link pattern="actionname-[\w]+\.dat" file="actionname" version="kor_prelude_of_war_p7" />
 	<link pattern="Actionname_Arena-[\w]+\.dat" file="actionname" version="kor_helios_p3" />
@@ -36,10 +37,10 @@
 	<link pattern="AnimationCombo_Classic.dat" file="animationcombo" version="kor_helios_p2" />
 	<link pattern="ArmorGradeEffectSet.dat" file="armorgradeeffectset" version="kor_prelude_of_war_p6" />
 	<link pattern="ArmorGradeLookChange.dat" file="armorgradelookchange" version="master_class" />
-	<link pattern="Armorgrp.dat" file="armorgrp" version="master_class" />
-	<link pattern="Armorgrp_Arena.dat" file="armorgrp" version="master_class" />
-	<link pattern="Armorgrp_Classic.dat" file="armorgrp" version="master_class" />
-	<link pattern="Armorgrp_ClassicAden.dat" file="armorgrp" version="master_class" />
+	<link pattern="Armorgrp.dat" file="armorgrp" version="master_class_ch2" />
+	<link pattern="Armorgrp_Arena.dat" file="armorgrp" version="master_class_ch2" />
+	<link pattern="Armorgrp_Classic.dat" file="armorgrp" version="master_class_ch2" />
+	<link pattern="Armorgrp_ClassicAden.dat" file="armorgrp" version="master_class_ch2" />
 	<link pattern="ArtifactData.dat" file="artifactdata" version="kor_grand_crusade_salvation_p5_crofin" />
 	<link pattern="ArtifactEnchantSetting.dat" file="artifactenchantsetting" version="kor_grand_crusade_salvation_p5_crofin" />
 	<link pattern="ArtifactTypeSetting.dat" file="artifacttypesetting" version="kor_prelude_of_war" />
@@ -136,16 +137,16 @@
 	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
 	<link pattern="ensoul_option_client_classic-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
 	<link pattern="ensoul_option_client_ClassicAden-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
-	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="return_of_qa_ch2" />
-	<link pattern="ensoul_stone_client_classic.dat" file="ensoul_stone_client" version="return_of_qa_ch2_classic" />
-	<link pattern="ensoul_stone_client_ClassicAden.dat" file="ensoul_stone_client" version="return_of_qa_ch2_classic" />
+	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="master_class_ch2" />
+	<link pattern="ensoul_stone_client_classic.dat" file="ensoul_stone_client" version="master_class_ch2" />
+	<link pattern="ensoul_stone_client_ClassicAden.dat" file="ensoul_stone_client" version="master_class_ch2" />
 	<link pattern="entereventgrp.dat" file="entereventgrp" version="kor_helios_p3" />
 	<link pattern="EnterEventgrp_Arena.dat" file="entereventgrp" version="kor_helios_p3" />
 	<link pattern="EnterEventgrp_Classic.dat" file="entereventgrp" version="kor_helios_p3" />
-	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="master_class" />
-	<link pattern="EtcItemgrp_Arena.dat" file="etcitemgrp" version="master_class" />
-	<link pattern="EtcItemgrp_Classic.dat" file="etcitemgrp" version="master_class" />
-	<link pattern="EtcItemgrp_ClassicAden.dat" file="etcitemgrp" version="master_class" />
+	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="master_class_ch2" />
+	<link pattern="EtcItemgrp_Arena.dat" file="etcitemgrp" version="master_class_ch2" />
+	<link pattern="EtcItemgrp_Classic.dat" file="etcitemgrp" version="master_class_ch2" />
+	<link pattern="EtcItemgrp_ClassicAden.dat" file="etcitemgrp" version="master_class_ch2" />
 	<link pattern="EtcStatusData.dat" file="etcstatusdata" version="kor_prelude_of_war_p6" />
 	<link pattern="eula-[\w]+\.dat" file="eula" version="kor_lindvior" />
 	<link pattern="EventAlarmList-[\w]+\.dat" file="eventalarmlist" version="ru_grand_crusade" />
@@ -224,9 +225,9 @@
 	<link pattern="LCoinShopBanner-[\w]+\.dat" file="lcoinshopbanner" version="master_class" />
 	<link pattern="LCoinShopBanner_Classic-[\w]+\.dat" file="lcoinshopbanner" version="master_class" />
 	<link pattern="LCoinShopBanner_ClassicAden-[\w]+\.dat" file="lcoinshopbanner" version="master_class" />
-	<link pattern="LCoinShopProduct-[\w]+\.dat" file="lcoinshopproduct" version="master_class" />
-	<link pattern="LCoinShopProduct_Classic-[\w]+\.dat" file="lcoinshopproduct" version="master_class" />
-	<link pattern="LCoinShopProduct_ClassicAden-[\w]+\.dat" file="lcoinshopproduct" version="master_class" />
+	<link pattern="LCoinShopProduct-[\w]+\.dat" file="lcoinshopproduct" version="master_class_ch2" />
+	<link pattern="LCoinShopProduct_Classic-[\w]+\.dat" file="lcoinshopproduct" version="master_class_ch2" />
+	<link pattern="LCoinShopProduct_ClassicAden-[\w]+\.dat" file="lcoinshopproduct" version="master_class_ch2" />
 	<link pattern="LetterCollectData.dat" file="lettercollectdata" version="kor_prelude_of_war_p3" />
 	<link pattern="LetterCollectData_Classic.dat" file="lettercollectdata" version="kor_prelude_of_war_p3" />
 	<link pattern="LetterCollectData_ClassicAden.dat" file="lettercollectdata" version="kor_prelude_of_war_p3" />
@@ -252,6 +253,12 @@
 	<link pattern="MinimapRegion_Arena.dat" file="minimapregion" version="kor_grand_crusade" />
 	<link pattern="MinimapRegion_Classic.dat" file="minimapregion" version="ru_grand_crusade" />
 	<link pattern="MinimapRegion_ClassicAden.dat" file="minimapregion" version="ru_grand_crusade" />
+	<link pattern="MissionLevel.dat" file="missionlevel" version="master_class_ch2" />
+	<link pattern="MissionLevel_Classic.dat" file="missionlevel" version="master_class_ch2" />
+	<link pattern="MissionLevel_ClassicAden.dat" file="missionlevel" version="master_class_ch2" />
+	<link pattern="MissionLevel-[\w]+\.dat" file="missionlevel" version="master_class_ch2" />
+	<link pattern="MissionLevel_Classic-[\w]+\.dat" file="missionlevel" version="master_class_ch2" />
+	<link pattern="MissionLevel_ClassicAden-[\w]+\.dat" file="missionlevel" version="master_class_ch2" />
 	<link pattern="mobskillanimgrp.dat" file="mobskillanimgrp" version="kor_helios_p3" />
 	<link pattern="MobSkillAnimgrp_Classic.dat" file="mobskillanimgrp" version="kor_helios_p3" />
 	<link pattern="MobSkillAnimgrp_ClassicAden.dat" file="mobskillanimgrp" version="kor_helios_p3" />
@@ -437,10 +444,10 @@
 	<link pattern="WeaponEnchantEffectData_Arena.dat" file="weaponenchanteffectdata" version="kor_helios_p3" />
 	<link pattern="WeaponEnchantEffectData_Classic.dat" file="weaponenchanteffectdata" version="kor_prelude_of_war_p8" />
 	<link pattern="WeaponEnchantEffectData_ClassicAden.dat" file="weaponenchanteffectdata" version="kor_prelude_of_war_p8" />
-	<link pattern="Weapongrp.dat" file="weapongrp" version="master_class" />
-	<link pattern="Weapongrp_Arena.dat" file="weapongrp" version="master_class" />
-	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="master_class" />
-	<link pattern="Weapongrp_ClassicAden.dat" file="weapongrp" version="master_class" />
+	<link pattern="Weapongrp.dat" file="weapongrp" version="master_class_ch2" />
+	<link pattern="Weapongrp_Arena.dat" file="weapongrp" version="master_class_ch2" />
+	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="master_class_ch2" />
+	<link pattern="Weapongrp_ClassicAden.dat" file="weapongrp" version="master_class_ch2" />
 	<link pattern="WorldCastleWarMapData.dat" file="worldcastlewarmapdata" version="master_class" />
 	<link pattern="WorldCastleWarMapData_Classic.dat" file="worldcastlewarmapdata" version="master_class" />
 	<link pattern="WorldCastleWarMapData_ClassicAden.dat" file="worldcastlewarmapdata" version="master_class" />
