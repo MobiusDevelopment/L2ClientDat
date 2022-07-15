@@ -358,7 +358,7 @@
 	<link pattern="RideData_Classic.dat" file="ridedata" version="return_of_qa" />
 	<link pattern="RideData_ClassicAden.dat" file="ridedata" version="return_of_qa" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="kor_helios_p2" />
-	<link pattern="servername-[\w]+\.dat" file="servername" version="master_class" />
+	<link pattern="servername-[\w]+\.dat" file="servername" version="master_class_ch2" />
 	<link pattern="SetItemGrp-[\w]+\.dat" file="setitemgrp" version="kor_episodion" />
 	<link pattern="SetItemGrp_Arena-[\w]+\.dat" file="setitemgrp" version="kor_episodion" />
 	<link pattern="SetItemGrp_Classic-[\w]+\.dat" file="setitemgrp" version="kor_episodion" />
