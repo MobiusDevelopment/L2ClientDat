@@ -52,4 +52,15 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="master_class_ch2" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="server_name" size="#data" hidden="false">
+            <node name="id" reader="UINT" />
+            <node name="ext_id" reader="UINT" />
+            <node name="priority" reader="UINT" />
+            <node name="name" reader="ASCF" />
+            <node name="mark_name" reader="ASCF" />
+            <node name="brackets_value" reader="UINT" />
+        </for>
+    </file>
 </list>
