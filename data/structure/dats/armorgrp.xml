@@ -203,6 +203,119 @@
 			<node name="UNK_8" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="god_awakening" isSafePackage="true">
+		<node name="data" reader="UINT"/>
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT"/>
+			<node name="object_id" reader="UINT"/>
+			<node name="drop_type" reader="UINT"/>
+			<node name="drop_anim_type" reader="UINT"/>
+			<node name="drop_radius" reader="UINT"/>
+			<node name="drop_height" reader="UINT"/>
+			<node name="UNK_0" reader="UINT"/>
+			<for name="drop_texture" size="1">
+				<node name="drop_mesh1" reader="UNICODE"/>
+				<node name="drop_mesh2" reader="UNICODE"/>
+				<node name="drop_mesh3" reader="UNICODE"/>
+				<for name="drop_texture" size="4">
+					<node name="drop_texture" reader="UNICODE"/>
+				</for>
+			</for>
+			<wrapper name="newdata">
+				<node name="newdata1" reader="UINT" />
+				<node name="newdata2" reader="UINT" />
+				<node name="newdata3" reader="UINT" />
+				<node name="newdata4" reader="UINT" />
+				<node name="newdata5" reader="UINT" />
+				<node name="newdata6" reader="UINT" />
+				<node name="newdata7" reader="UINT" />
+				<node name="newdata8" reader="UINT" />
+			</wrapper>
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="INT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="UNK_1" reader="UINT" />
+
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
+			</for>
+
+			<wrapper name="UNK_2">
+				<node name="color1" reader="UINT" />
+				<node name="color2" reader="UINT" />
+				<node name="color3" reader="UINT" />
+			</wrapper>
+			<node name="icon_panel" reader="UNICODE" />
+
+			<node name="body_part" reader="UINT" />
+
+			<node name="m_HumnFigh" reader="MTX" />
+			<node name="m_HumnFigh_add" reader="MTX3" />
+			<node name="f_HumnFigh" reader="MTX" />
+			<node name="f_HumnFigh_add" reader="MTX3" />
+
+			<node name="m_DarkElf" reader="MTX" />
+			<node name="m_DarkElf_add" reader="MTX3" />
+			<node name="f_DarkElf" reader="MTX" />
+			<node name="f_DarkElf_add" reader="MTX3" />
+
+			<node name="m_Dorf" reader="MTX" />
+			<node name="m_Dorf_add" reader="MTX3" />
+			<node name="f_Dorf" reader="MTX" />
+			<node name="f_Dorf_add" reader="MTX3" />
+
+			<node name="m_Elf" reader="MTX" />
+			<node name="m_Elf_add" reader="MTX3" />
+			<node name="f_Elf" reader="MTX" />
+			<node name="f_Elf_add" reader="MTX3" />
+
+			<node name="m_HumnMyst" reader="MTX" />
+			<node name="m_HumnMyst_add" reader="MTX3" />
+			<node name="f_HumnMyst" reader="MTX" />
+			<node name="f_HumnMyst_add" reader="MTX3" />
+
+			<node name="m_OrcFigh" reader="MTX" />
+			<node name="m_OrcFigh_add" reader="MTX3" />
+			<node name="f_OrcFigh" reader="MTX" />
+			<node name="f_OrcFigh_add" reader="MTX3" />
+
+			<node name="m_OrcMage" reader="MTX" />
+			<node name="m_OrcMage_add" reader="MTX3" />
+			<node name="f_OrcMage" reader="MTX" />
+			<node name="f_OrcMage_add" reader="MTX3" />
+
+			<node name="m_Kamael" reader="MTX" />
+			<node name="m_Kamael_add" reader="MTX3" />
+			<node name="f_Kamael" reader="MTX" />
+			<node name="f_Kamael_add" reader="MTX3" />
+
+			<node name="NPC" reader="MTX" />
+			<node name="NPC_add" reader="MTX3" />
+
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="item_sound" reader="UINT" />
+			<for name="item_sound" size="#item_sound">
+				<node name="item_sound_txt" reader="UNICODE" />
+			</for>
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="UNK_6" reader="UINT" />
+			<node name="UNK_7" reader="UINT" />
+			<node name="armor_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+			<node name="avoid_mod" reader="UINT" />
+			<node name="UNK_8" reader="UINT" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item" size="#data" hidden="false">
