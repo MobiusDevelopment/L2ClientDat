@@ -7,6 +7,14 @@
 			<node name="EffectNames" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="god_awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="EffectName" reader="ASCF" />
+			<node name="MeshSocketName" reader="ASCF" />
+		</for>
+	</file>
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="add_effect" size="#data" hidden="false">

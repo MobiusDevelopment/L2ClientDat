@@ -243,6 +243,82 @@
 		</for>
 	</file>
 
+<file pattern="god_awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="npc" size="#data" hidden="false">
+			<node name="npc_id" reader="UINT" />
+			<node name="class_name" reader="UNICODE" />
+			<node name="mesh_name" reader="UNICODE" />
+			<node name="texture_name" reader="UINT" />
+			<for name="texture_name" size="#texture_name">
+				<node name="param_texture_name" reader="UNICODE" />
+			</for>
+			<node name="texture_name_second" reader="UINT" />
+			<for name="texture_name_second" size="#texture_name_second">
+				<node name="param_texture_name_second" reader="UNICODE" />
+			</for>
+			<node name="property_list" reader="CNTR" />
+			<for name="property_list" size="#property_list">
+				<node name="param_property_list" reader="UINT" />
+			</for>
+			<node name="npc_speed" reader="FLOAT" />
+			<!-- TODO -->
+			<node name="unk0_cnt" reader="UINT" />
+			<for name="unk0_cnt" size="#unk0_cnt">
+				<node name="unk0_tab" reader="UNICODE" />
+			</for>
+
+			<node name="attack_sound1" reader="UINT" />
+			<for name="attack_sound1" size="#attack_sound1">
+				<node name="param_attack_sound1" reader="UNICODE" />
+			</for>
+			<node name="defense_sound1" reader="UINT" />
+			<for name="defense_sound1" size="#defense_sound1">
+				<node name="param_defense_sound1" reader="UNICODE" />
+			</for>
+			<node name="damage_sound" reader="UINT" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+
+			<node name="deco_effect" reader="UINT" />
+			<for name="deco_effect" size="#deco_effect">
+				<node name="param_deco_effect" reader="UNICODE" />
+				<node name="param_deco_effect_scale" reader="FLOAT" />
+			</for>
+
+			<node name="quest" reader="CNTR" />
+			<for name="quest" size="#quest">
+				<node name="param_quest" reader="UINT" />
+			</for>
+			<node name="quest_step" reader="CNTR" />
+			<for name="quest_step" size="#quest_step">
+				<node name="param_quest_step" reader="UINT" />
+			</for>
+
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="unknown_2" reader="UINT" />
+			<node name="sound_vol" reader="FLOAT" />
+			<node name="sound_radius" reader="FLOAT" />
+			<node name="sound_random" reader="FLOAT" />
+
+			<node name="social" reader="UINT" />
+			<node name="hpshowable" reader="UINT" />
+
+			<node name="dialog_sound" reader="UINT" />
+			<for name="dialog_sound" size="#dialog_sound" >
+				<node name="param_dialog_sound" reader="ASCF" />
+			</for>
+			<wrapper name="unknown_3">
+				<node name="unk_03_01" reader="UINT" />
+				<node name="unk_03_02" reader="UINT" />
+				<node name="unk_03_03" reader="UINT" />
+				<node name="unk_03_04" reader="UINT" />
+			</wrapper>
+			<node name="icon" reader="ASCF" />
+		</for>
+	</file>
+	
 	<file pattern="kor_lindvior" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="npc" size="#data" hidden="false">
