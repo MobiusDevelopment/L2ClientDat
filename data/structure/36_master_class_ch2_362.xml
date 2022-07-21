@@ -68,9 +68,9 @@
 	<link pattern="ClassTree_Classic.dat" file="classtree" version="kor_fafurion" />
 	<link pattern="ClassTreeDesc-[\w]+\.dat" file="classtreedesc" version="kor_fafurion" />
 	<link pattern="ClassTreeDesc_Classic-[\w]+\.dat" file="classtreedesc" version="kor_fafurion" />
-	<link pattern="collection-[\w]+\.dat" file="collection" version="return_of_qa" />
-	<link pattern="collection_Classic-[\w]+\.dat" file="collection" version="return_of_qa" />
-	<link pattern="collection_ClassicAden-[\w]+\.dat" file="collection" version="return_of_qa" />
+	<link pattern="collection-[\w]+\.dat" file="collection" version="master_class_ch2" />
+	<link pattern="collection_Classic-[\w]+\.dat" file="collection" version="master_class_ch2" />
+	<link pattern="collection_ClassicAden-[\w]+\.dat" file="collection" version="master_class_ch2" />
 	<link pattern="collectionmain.dat" file="collectionmain" version="master_class" />
 	<link pattern="collectionmain_Classic.dat" file="collectionmain" version="master_class_classic" />
 	<link pattern="collectionmain_ClassicAden.dat" file="collectionmain" version="master_class_classic" />
@@ -157,7 +157,7 @@
 	<link pattern="EventHtml-[\w]+\.dat" file="eventhtml" version="master_class" />
 	<link pattern="EventHtml_Classic-[\w]+\.dat" file="eventhtml" version="master_class" />
 	<link pattern="EventHtml_ClassicAden-[\w]+\.dat" file="eventhtml" version="master_class" />
-	<link pattern="EventLookChange.dat" file="eventlookchange" version="kor_grand_crusade_salvation_p3" />
+	<link pattern="EventLookChange.dat" file="eventlookchange" version="master_class_ch2" />
 	<link pattern="exceptionminimapdata.dat" file="exceptionminimapdata" version="kor_lindvior" />
 	<link pattern="ExceptionMinimapData_Classic.dat" file="exceptionminimapdata" version="kor_lindvior" />
 	<link pattern="ExceptionMinimapData_ClassicAden.dat" file="exceptionminimapdata" version="kor_lindvior" />
@@ -183,7 +183,7 @@
 	<link pattern="goodsicon.dat" file="goodsicon" version="kor_helios_p2" />
 	<link pattern="hairaccessorylocgrp.dat" file="hairaccessorylocgrp" version="kor_helios_p2" />
 	<link pattern="Hairaccessorylocgrp_Classic.dat" file="hairaccessorylocgrp" version="kor_helios_p2" />
-	<link pattern="hairexgrp.dat" file="hairexgrp" version="kor_helios_p2" />
+	<link pattern="hairexgrp.dat" file="hairexgrp" version="master_class_ch2" />
 	<link pattern="hairExName-[\w]+\.dat" file="hairexname" version="kor_helios_p2" />
 	<link pattern="hennagrp-[\w]+\.dat" file="hennagrp" version="master_class" />
 	<link pattern="Hennagrp_Classic-[\w]+\.dat" file="hennagrp" version="master_class" />
@@ -320,8 +320,8 @@
 	<link pattern="PetRaceEmblem_Classic-[\w]+\.dat" file="petraceemblem" version="return_of_qa" />
 	<link pattern="PetRaceEmblem_ClassicAden-[\w]+\.dat" file="petraceemblem" version="return_of_qa" />
 	<link pattern="PIAgreement-[\w]+\.dat" file="piagreement" version="kor_episodion" />
-	<link pattern="PledgeLevel_Classic-[\w]+\.dat" file="pledgelevel" version="kor_prelude_of_war_p10" />
-	<link pattern="PledgeLevel_ClassicAden-[\w]+\.dat" file="pledgelevel" version="kor_prelude_of_war_p10" />
+	<link pattern="PledgeLevel_Classic-[\w]+\.dat" file="pledgelevel" version="master_class_ch2" />
+	<link pattern="PledgeLevel_ClassicAden-[\w]+\.dat" file="pledgelevel" version="master_class_ch2" />
 	<link pattern="PledgeLevelDesc-[\w]+\.dat" file="pledgeleveldesc" version="kor_grand_crusade_salvation" />
 	<link pattern="PledgeMasteryInfo-[\w]+\.dat" file="pledgemasteryinfo" version="kor_grand_crusade_salvation" />
 	<link pattern="PledgeMission-[\w]+\.dat" file="pledgemission" version="kor_salvation_p2" />
@@ -405,9 +405,9 @@
 	<link pattern="systemmsg-[\w]+\.dat" file="systemmsg" version="master_class" />
 	<link pattern="SystemMsg_Arena-[\w]+\.dat" file="systemmsg" version="master_class" />
 	<link pattern="SystemMsg_Classic-[\w]+\.dat" file="systemmsg" version="master_class" />
-	<link pattern="teleportlist.dat" file="teleportlist" version="return_of_qa" />
-	<link pattern="teleportlist_Classic.dat" file="teleportlist" version="return_of_qa" />
-	<link pattern="teleportlist_ClassicAden.dat" file="teleportlist" version="return_of_qa" />
+	<link pattern="teleportlist.dat" file="teleportlist" version="master_class_ch2" />
+	<link pattern="teleportlist_Classic.dat" file="teleportlist" version="master_class_ch2" />
+	<link pattern="teleportlist_ClassicAden.dat" file="teleportlist" version="master_class_ch2" />
 	<link pattern="testItemList.dat" file="testItemList" version="kor_prelude_of_war_p2" />
 	<link pattern="TimeZoneData-[\w]+\.dat" file="timezonedata" version="master_class_ch2" />
 	<link pattern="TimeZoneData_Classic-[\w]+\.dat" file="timezonedata" version="master_class_ch2" />

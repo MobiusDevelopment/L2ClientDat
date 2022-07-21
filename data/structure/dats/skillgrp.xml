@@ -763,7 +763,7 @@
 			<node name="icon_type" reader="UCHAR" />
 			<node name="enchant_skill_level" reader="UCHAR" />
 			<node name="enchant_icon" reader="MAP_INT" />
-			<node name="hp_consume" reader="SHORT" />
+			<node name="hp_consume" reader="USHORT" />
 			<node name="rumble_self" reader="UCHAR" />
 			<node name="rumble_target" reader="UCHAR" />
 			<node name="level_hide" reader="UINT" />
