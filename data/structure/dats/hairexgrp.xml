@@ -112,7 +112,6 @@
 			</for>
 		</for>
 	</file>
-	
 	<file pattern="master_class_ch2" isSafePackage="true">
 		<for name="HairEx" size="21" hidden="false">
 			<write name="\r\n" />

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-    <file pattern="kor_prelude_of_war_p10" isSafePackage="true">
-        <node name="data" reader="UINT" />
-        <for name="pledge_level" size="#data" hidden="false">
-            <node name="level" reader="USHORT" />
-            <node name="need_pledge_exp" reader="UINT" />
-            <node name="num_general" reader="USHORT" />
-            <node name="merit_desc" reader="ASCF" />
-        </for>
-    </file>
+	<file pattern="kor_prelude_of_war_p10" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pledge_level" size="#data" hidden="false">
+			<node name="level" reader="USHORT" />
+			<node name="need_pledge_exp" reader="UINT" />
+			<node name="num_general" reader="USHORT" />
+			<node name="merit_desc" reader="ASCF" />
+		</for>
+	</file>
 	
 	<file pattern="master_class_ch2" isSafePackage="true">
-        <node name="data" reader="UINT" />
-        <for name="pledge_level" size="#data" hidden="false">
-            <node name="level" reader="USHORT" />
-            <node name="need_pledge_exp" reader="UINT" />
-            <node name="num_general" reader="USHORT" />
-            <node name="merit_desc" reader="ASCF" />
+		<node name="data" reader="UINT" />
+		<for name="pledge_level" size="#data" hidden="false">
+			<node name="level" reader="USHORT" />
+			<node name="need_pledge_exp" reader="UINT" />
+			<node name="num_general" reader="USHORT" />
+			<node name="merit_desc" reader="ASCF" />
 
 			<node name="content_size" reader="UCHAR" />
 			<for name="open_contents" size="#content_size">
@@ -32,6 +32,6 @@
 			<for name="skill_name_list" size="#skill_size">
 				<node name="skill_name_list" reader="ASCF" />
 			</for>
-        </for>
-    </file>
+		</for>
+	</file>
 </list>

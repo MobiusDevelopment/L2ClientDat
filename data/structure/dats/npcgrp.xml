@@ -242,8 +242,8 @@
 			<node name="summon_sort" reader="UINT" />
 		</for>
 	</file>
-
-<file pattern="god_awakening" isSafePackage="true">
+	
+	<file pattern="god_awakening" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="npc" size="#data" hidden="false">
 			<node name="npc_id" reader="UINT" />

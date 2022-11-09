@@ -100,6 +100,7 @@
 	<link pattern="questmarkconditiondata.dat" file="questmarkconditiondata" version="kor_lindvior" />
 	<link pattern="QuestMarkConditionData_Classic.dat" file="questmarkconditiondata" version="kor_lindvior" />
 	<link pattern="questname-[\w]+\.dat" file="questname" version="kor_lindvior" />
+	<link pattern="Questname_Classic-[\w]+\.dat" file="questname" version="kor_lindvior" />
 	<link pattern="raiddata-[\w]+\.dat" file="raiddata" version="kor_lindvior" />
 	<link pattern="RaidData_Classic-[\w]+\.dat" file="raiddata" version="kor_lindvior" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="kor_lindvior" />
