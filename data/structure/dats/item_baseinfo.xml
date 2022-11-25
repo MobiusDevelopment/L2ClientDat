@@ -46,4 +46,18 @@
 			<node name="challenge_point_group_id" reader="UCHAR" />
 		</for>
 	</file>
+	<file pattern="master_class_ch3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_baseinfo" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_price" reader="LONG" />
+			<node name="grind_point" reader="UINT" />
+			<node name="grind_commission" reader="UINT" />
+			<node name="is_locked" reader="UCHAR" />
+			<node name="enchant_enable" reader="UCHAR" />
+			<node name="enchant_group_id" reader="UCHAR" />
+			<node name="challenge_point_group_id" reader="UCHAR" />
+			<node name="hero_book_points" reader="USHORT" />
+		</for>
+	</file>
 </list>

@@ -15,6 +15,7 @@
 		<node index="11" name="fr" />
 		<node index="12" name="pl" />
 		<node index="13" name="tr" />
+		<node index="14" name="es" />
 	</enum>
 	<enum name="armor_type">
 		<node index="0" name="none" />
@@ -347,6 +348,11 @@
 		<node index="89" name="vital_legacy_item_7d" />
 		<node index="90" name="vital_legacy_item_30d" />
 		<node index="91" name="bless_upgrade_wp" />
+		<node index="92" name="orb" />
+		<node index="93" name="item_restore_coin" />
+		<node index="94" name="special_enchant_weapon" />
+		<node index="95" name="special_enchant_armor" />
+		<node index="96" name="nick_colr_icon" />
 	</enum>
 	<enum name="item_weapon_v2_type">
 		<node index="0" name="fist" />
@@ -388,6 +394,9 @@
 		<node index="2" name="sale" />
 		<node index="3" name="best" />
 		<node index="4" name="limited" />
+		<node index="5" name="new" />
+		<node index="6" name="relay" />
+		<node index="7" name="max" />
 	</enum>
 	<enum name="lcoinshopproduct_buy1_type">
 		<node index="0" name="none" />
@@ -562,6 +571,7 @@
 		<node index="10" name="class_role_shaman" />
 		<node index="11" name="class_role_bard" />
 		<node index="12" name="class_role_deathknight" />
+		<node index="13" name="class_role_hunter" />
 	</enum>
 	<enum name="attribute_type">
 		<node index="-2" name="none" />
@@ -788,6 +798,19 @@
 		<node index="205" name="delf_deathknight_1" />
 		<node index="206" name="delf_deathknight_2" />
 		<node index="207" name="delf_deathknight_3" />
+		<node index="208" name="Sylph Gunner" />
+		<node index="209" name="Sharpshooter" />
+		<node index="210" name="Wind Sniper" />
+		<node index="211" name="Storm Blaster" />
+		<node index="212" name="Death Soldier" />
+		<node index="213" name="Death Warrior" />
+		<node index="214" name="Death Berserker" />
+		<node index="215" name="Death Knight" />
+		<node index="216" name="Sigel Death Knight" />
+		<node index="217" name="Orc Lancer" />
+		<node index="218" name="Rider" />
+		<node index="219" name="Dragoon" />
+		<node index="220" name="Vanguard Rider" />
 	</enum>
 	<enum name="mscond_stattype">
 		<node index="0" name="none" />
@@ -827,5 +850,41 @@
 		<node index="2" name="one_week" />
 		<node index="3" name="one_month" />
 		<node index="4" name="type_max" />
+	</enum>
+	<enum name="item_default_action">
+		<node index="0" name="[action_none]" />
+		<node index="1" name="[action_none ]" /> <!-- ? -->
+		<node index="2" name="[action_bless_spiritshot]" />
+		<node index="3" name="[action_calc]" />
+		<node index="4" name="[action_call_skill]" />
+		<node index="5" name="[action_capsule]" />
+		<node index="6" name="[action_create_mpcc]" />
+		<node index="7" name="[action_dice]" />
+		<node index="8" name="[action_equip]" />
+		<node index="9" name="[action_fishingshot]" />
+		<node index="10" name="[action_harvest]" />
+		<node index="11" name="[action_none  ]" /> <!-- ? -->
+		<node index="12" name="[action_hide_name]" />
+		<node index="13" name="[action_peel]" />
+		<node index="14" name="[action_keep_exp]" />
+		<node index="15" name="[action_nick_color]" />
+		<node index="16" name="[action_peel ]" /> <!-- 13 again? -->
+		<node index="17" name="[action_recipe]" />
+		<node index="18" name="[action_seed]" />
+		<node index="19" name="[action_show_html]" />
+		<node index="20" name="[action_show_ssq_status]" />
+		<node index="21" name="[action_show_tutorial]" />
+		<node index="22" name="[action_skill_maintain]" />
+		<node index="23" name="[action_skill_reduce]" />
+		<node index="24" name="[action_skill_reduce_on_skill_success]" />
+		<node index="25" name="[action_soulshot]" />
+		<node index="26" name="[action_spiritshot]" />
+		<node index="27" name="[action_start_quest]" />
+		<node index="28" name="[action_summon_soulshot]" />
+		<node index="29" name="[action_summon_spiritshot]" />
+		<node index="30" name="[action_use_count]" />
+		<node index="31" name="[action_variation_stone]" />
+		<node index="32" name="[action_xmas_open]" />
+		<node index="33" name="[action_skill_reduce_on_skill_success ]" /> <!-- 24 again? -->
 	</enum>
 </list>

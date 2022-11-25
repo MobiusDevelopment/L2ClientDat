@@ -76,9 +76,9 @@
 	<link pattern="collectionmain_ClassicAden.dat" file="collectionmain" version="master_class_classic" />
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="ru_episodion" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="kor_helios_p2" />
-	<link pattern="CombinationItemData.dat" file="combinationitemdata" version="master_class" />
-	<link pattern="CombinationItemData_Classic.dat" file="combinationitemdata" version="master_class" />
-	<link pattern="CombinationItemData_ClassicAden.dat" file="combinationitemdata" version="master_class" />
+	<link pattern="CombinationItemData.dat" file="combinationitemdata" version="master_class_ch3" />
+	<link pattern="CombinationItemData_Classic.dat" file="combinationitemdata" version="master_class_ch3" />
+	<link pattern="CombinationItemData_ClassicAden.dat" file="combinationitemdata" version="master_class_ch3" />
 	<link pattern="commandname-[\w]+\.dat" file="commandname" version="kor_lindvior" />
 	<link pattern="Commandname_Arena-[\w]+\.dat" file="commandname" version="kor_lindvior" />
 	<link pattern="Commandname_Classic-[\w]+\.dat" file="commandname" version="kor_lindvior" />
@@ -201,13 +201,13 @@
 	<link pattern="instantzonedata-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
 	<link pattern="InstantZoneData_Arena-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
 	<link pattern="InstantZoneData_Classic-[\w]+\.dat" file="instantzonedata" version="kor_lindvior" />
-	<link pattern="item_baseinfo.dat" file="item_baseinfo" version="master_class_ch2" />
-	<link pattern="item_baseinfo_Classic.dat" file="item_baseinfo" version="master_class_ch2" />
-	<link pattern="item_baseinfo_ClassicAden.dat" file="item_baseinfo" version="master_class_ch2" />
-	<link pattern="itemname-[\w]+\.dat" file="itemname" version="master_class_ch2" />
-	<link pattern="ItemName_Arena-[\w]+\.dat" file="itemname" version="master_class_ch2" />
-	<link pattern="ItemName_Classic-[\w]+\.dat" file="itemname" version="master_class_ch2" />
-	<link pattern="ItemName_ClassicAden-[\w]+\.dat" file="itemname" version="master_class_ch2" />
+	<link pattern="item_baseinfo.dat" file="item_baseinfo" version="master_class_ch3" />
+	<link pattern="item_baseinfo_Classic.dat" file="item_baseinfo" version="master_class_ch3" />
+	<link pattern="item_baseinfo_ClassicAden.dat" file="item_baseinfo" version="master_class_ch3" />
+	<link pattern="itemname-[\w]+\.dat" file="itemname" version="master_class_ch3" />
+	<link pattern="ItemName_Arena-[\w]+\.dat" file="itemname" version="master_class_ch3" />
+	<link pattern="ItemName_Classic-[\w]+\.dat" file="itemname" version="master_class_ch3" />
+	<link pattern="ItemName_ClassicAden-[\w]+\.dat" file="itemname" version="master_class_ch3" />
 	<link pattern="itemstatdata.dat" file="itemstatdata" version="master_class_ch2" />
 	<link pattern="ItemStatData_Arena.dat" file="itemstatdata" version="master_class_ch2" />
 	<link pattern="ItemStatData_Classic.dat" file="itemstatdata" version="master_class_ch2" />
