@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 <link pattern="weapongrp.dat" file="weapongrp" version="en_hellbound" />
+<link pattern="questname-e.dat" file="questname" version="en_hellbound" />
 </list>
