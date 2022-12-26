@@ -245,7 +245,7 @@
 		<node index="70" name="scrl_lock_item" />
 		<node index="71" name="scrl_unlock_item" />
 		<node index="72" name="bullet" />
-		<node index="73" name="magic_lamp" />			
+		<node index="73" name="magic_lamp" />
 		<node index="74" name="costume_book" />
 		<node index="75" name="costume_book_rd_all" />
 		<node index="76" name="costume_book_rd_part" />
@@ -447,6 +447,38 @@
 	<enum name="blessoption_type">
 		<node index="0" name="base_effect" />
 		<node index="1" name="enchant_effect" />
+	</enum>
+	<enum name="bless_item_type">
+		<node index="1" name="wpn_common" />
+		<node index="2" name="wpn_high" />
+		<node index="3" name="wpn_special" />
+		<node index="4" name="wpn_special_2" />
+		<node index="6" name="armor_common" />
+		<node index="7" name="armor_high" />
+		<node index="8" name="armor_special" />
+		<node index="9" name="armor_prot" />
+		<node index="10" name="armor_m_common" />
+		<node index="11" name="armor_m_high" />
+		<node index="12" name="armor_m_special" />
+		<node index="13" name="armor_m_prot" />
+	</enum>
+	<enum name="bless_weapon_type">
+		<node index="0" name="none" />
+		<node index="1" name="sword" />
+		<node index="2" name="twohandsword" />
+		<node index="3" name="buster" />
+		<node index="4" name="blunt" />
+		<node index="5" name="twohandblunt" />
+		<node index="6" name="staff" />
+		<node index="7" name="twohandstaff" />
+		<node index="8" name="dagger" />
+		<node index="9" name="pole" />
+		<node index="11" name="bow" />
+		<node index="13" name="dual" />
+		<node index="14" name="fist" />
+		<node index="16" name="rapier" />
+		<node index="18" name="ancientsword" />
+		<node index="25" name="pistols" />
 	</enum>
 	<enum name="system_message_group_type">
 		<node index="0" name="none" />

@@ -142,7 +142,7 @@
 			<node name="clan_pet_quest" reader="UINT" />
 			<node name="mark_type" reader="UINT" />
 			<node name="category_id" reader="UINT" />
-			<node name="category_id" reader="UINT" />
+			<node name="category_id2" reader="UINT" />
 		</for>
 	</file>
 

@@ -331,9 +331,9 @@
 	<link pattern="ProductName-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_Classic-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_ClassicAden-[\w]+\.dat" file="productname" version="kor_helios_p5" />
-	<link pattern="PurchaseLimitCraft-[\w]+\.dat" file="purchaselimitcraft" version="master_class" />
-	<link pattern="PurchaseLimitCraft_Classic-[\w]+\.dat" file="purchaselimitcraft" version="master_class" />
-	<link pattern="PurchaseLimitCraft_ClassicAden-[\w]+\.dat" file="purchaselimitcraft" version="master_class" />
+	<link pattern="PurchaseLimitCraft-[\w]+\.dat" file="purchaselimitcraft" version="master_class_ch2" />
+	<link pattern="PurchaseLimitCraft_Classic-[\w]+\.dat" file="purchaselimitcraft" version="master_class_ch2" />
+	<link pattern="PurchaseLimitCraft_ClassicAden-[\w]+\.dat" file="purchaselimitcraft" version="master_class_ch2" />
 	<link pattern="PvpbookRequiredItem_Classic.dat" file="pvpbookrequireditem" version="kor_prelude_of_war_p3" />
 	<link pattern="PvpbookRequiredItem_ClassicAden.dat" file="pvpbookrequireditem" version="kor_prelude_of_war_p3" />
 	<link pattern="questmarkconditiondata.dat" file="questmarkconditiondata" version="kor_lindvior" />
