@@ -44,4 +44,12 @@
 			<node name="yaw" reader="FLOAT" />
 		</for>
 	</file>
+	<file pattern="master_class_ch3" isSafePackage="true">
+		<for name="LogPawn" size="89" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
 </list>

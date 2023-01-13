@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="master_class_ch3" isRaw="false" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="slot_fee_data" size="#data" hidden="false">
+			<write name="\r\n" />
+			<node name="dyeSlotId" reader="UBYTE" />
+			<node name="dyePotentialMinLevel" reader="UCHAR" />
+			<node name="dyePotentialMaxLevel" reader="UCHAR" />
+			<node name="unkSize" reader="CNTR" />
+			<write name="\r\n" />
+			<for name="unkValues" size="#unkSize" hidden="false">
+				<write name="\r\n\t" />
+				<node name="optionId" reader="UBYTE" />
+				<node name="maxDailyStep" reader="UBYTE" />
+				<write name="\r\n" />
+				<node name="availableOptions_size" reader="CNTR" />
+				<for name="availableOptions" size="#availableOptions_size" hidden="false">
+					<node name="rollNumber" reader="UBYTE" />
+					<node name="chance" reader="FLOAT" />
+				</for>
+				<node name="feeItem_size" reader="CNTR" />
+				<for name="availableOptions" size="#feeItem_size" hidden="false">
+					<node name="itemId" reader="UINT" />
+					<node name="itemCount" reader="UINT" />
+				</for>
+			</for>
+		</for>
+	</file>
+</list>

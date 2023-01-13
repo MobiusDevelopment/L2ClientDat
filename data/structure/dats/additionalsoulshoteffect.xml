@@ -17,4 +17,13 @@
 			<node name="AttackCriticalEffect" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="master_class_ch3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="effect" size="#data" hidden="false">
+			<node name="ItemClassID" reader="UINT" />
+			<node name="Level" reader="UINT" />
+			<node name="AttackEffect" reader="ASCF" />
+			<node name="AttackCriticalEffect" reader="ASCF" />
+		</for>
+	</file>
 </list>

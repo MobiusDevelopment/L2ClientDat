@@ -49,7 +49,7 @@
 			<node name="name" reader="ASCF" />
 			<node name="desc" reader="ASCF" hidden="true" />
 			<node name="refill_item_list_count" reader="UCHAR" />
-			<for name="refill_item_list" size="#refill_item_list_count" hidden="true" >
+			<for name="refill_item_list" size="#refill_item_list_count" hidden="true">
 				<node name="itemId" reader="UINT" />
 			</for>
 			<node name="fieldImage" reader="MAP_INT" />

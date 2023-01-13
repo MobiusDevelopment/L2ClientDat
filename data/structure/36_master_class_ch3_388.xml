@@ -24,9 +24,10 @@
 	<link pattern="AdditionalNpcGrpParts.dat" file="additionalnpcgrpparts" version="master_class_ch2" />
 	<link pattern="AdditionalNpcGrpParts_Arena.dat" file="additionalnpcgrpparts" version="master_class_ch2" />
 	<link pattern="AdditionalNpcGrpParts_Classic.dat" file="additionalnpcgrpparts" version="master_class_ch2" />
-	<link pattern="AdditionalSoulshotEffect.dat" file="additionalsoulshoteffect" version="kor_prelude_of_war_p7" />
-	<link pattern="AdditionalSoulshotEffect_Classic.dat" file="additionalsoulshoteffect" version="kor_prelude_of_war_p7" />
-	<link pattern="AdditionalSoulshotEffect_ClassicAden.dat" file="additionalsoulshoteffect" version="kor_prelude_of_war_p7" />
+	<link pattern="AdditionalNpcGrpParts_ClassicAden.dat" file="additionalnpcgrpparts" version="master_class_ch2" />
+	<link pattern="AdditionalSoulshotEffect.dat" file="additionalsoulshoteffect" version="master_class_ch3" />
+	<link pattern="AdditionalSoulshotEffect_Classic.dat" file="additionalsoulshoteffect" version="master_class_ch3" />
+	<link pattern="AdditionalSoulshotEffect_ClassicAden.dat" file="additionalsoulshoteffect" version="master_class_ch3" />
 	<link pattern="agathiondata.dat" file="agathiondata" version="kor_salvation_p2" />
 	<link pattern="agathiondata_Classic.dat" file="agathiondata" version="kor_salvation_p2" />
 	<link pattern="agathiondata_ClassicAden.dat" file="agathiondata" version="kor_salvation_p2" />
@@ -45,6 +46,7 @@
 	<link pattern="ArtifactEnchantSetting.dat" file="artifactenchantsetting" version="kor_grand_crusade_salvation_p5_crofin" />
 	<link pattern="ArtifactTypeSetting.dat" file="artifacttypesetting" version="kor_prelude_of_war" />
 	<link pattern="ArtifactUpgrade.dat" file="artifactupgrade" version="kor_grand_crusade_salvation_p5_crofin" />
+	<link pattern="BlessOption.dat" file="blessoption" version="master_class_ch3" />
 	<link pattern="BlessOption_Classic.dat" file="blessoption" version="master_class_ch3" />
 	<link pattern="BlessOption_ClassicAden.dat" file="blessoption" version="master_class_ch3" />
 	<link pattern="CardCollectData-[\w]+\.dat" file="cardcollectdata" version="ru_orfen" />
@@ -59,7 +61,7 @@
 	<link pattern="Charcreategrp_Classic.dat" file="charcreategrp" version="master_class_ch2" />
 	<link pattern="Chargrp.dat" file="chargrp" version="master_class_ch2" />
 	<link pattern="Chargrp_Classic.dat" file="chargrp" version="master_class_ch2" />
-	<link pattern="CharHeadExgrp.dat" file="charheadexgrp" version="kor_prelude_of_war_p6" />
+	<link pattern="CharHeadExgrp.dat" file="charheadexgrp" version="master_class_ch3" />
 	<link pattern="classinfo-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
 	<link pattern="ClassInfo_Arena-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
 	<link pattern="ClassInfo_Classic-[\w]+\.dat" file="classinfo" version="kor_helios_p5" />
@@ -111,6 +113,8 @@
 	<link pattern="dyepotential_fee.dat" file="dyepotentialfee" version="master_class_ch2" />
 	<link pattern="dyepotential_fee_Classic.dat" file="dyepotentialfee" version="master_class_ch2" />
 	<link pattern="dyepotential_fee_ClassicAden.dat" file="dyepotentialfee" version="master_class_ch2" />
+	<link pattern="dyepotential_slot_fee_Classic.dat" file="dyepotentialslotfee" version="master_class_ch3" />
+	<link pattern="dyepotential_slot_fee_ClassicAden.dat" file="dyepotentialslotfee" version="master_class_ch3" />
 	<link pattern="dynamiccontentsname-[\w]+\.dat" file="dynamiccontentsname" version="kor_lindvior" />
 	<link pattern="ElementalSpirit_Classic.dat" file="elementalspirit" version="kor_prelude_of_war_p2" />
 	<link pattern="ElementalSpiritStat_Classic.dat" file="elementalspiritstat" version="kor_grand_crusade_salvation_p3" />
@@ -157,7 +161,7 @@
 	<link pattern="EventHtml-[\w]+\.dat" file="eventhtml" version="master_class" />
 	<link pattern="EventHtml_Classic-[\w]+\.dat" file="eventhtml" version="master_class" />
 	<link pattern="EventHtml_ClassicAden-[\w]+\.dat" file="eventhtml" version="master_class" />
-	<link pattern="EventLookChange.dat" file="eventlookchange" version="master_class_ch2" />
+	<link pattern="EventLookChange.dat" file="eventlookchange" version="master_class_ch3" />
 	<link pattern="exceptionminimapdata.dat" file="exceptionminimapdata" version="kor_lindvior" />
 	<link pattern="ExceptionMinimapData_Classic.dat" file="exceptionminimapdata" version="kor_lindvior" />
 	<link pattern="ExceptionMinimapData_ClassicAden.dat" file="exceptionminimapdata" version="kor_lindvior" />
@@ -171,9 +175,9 @@
 	<link pattern="GameDataBase-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
 	<link pattern="GameDataBase_Arena-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
 	<link pattern="GameDataBase_Classic-[\w]+\.dat" file="gamedatabase" version="kor_helios_p3" />
-	<link pattern="GamePlayData.dat" file="gameplaydata" version="master_class" />
-	<link pattern="GamePlayData_Classic.dat" file="gameplaydata" version="master_class" />
-	<link pattern="GamePlayData_ClassicAden.dat" file="gameplaydata" version="master_class" />
+	<link pattern="GamePlayData.dat" file="gameplaydata" version="master_class_ch3" />
+	<link pattern="GamePlayData_Classic.dat" file="gameplaydata" version="master_class_ch3" />
+	<link pattern="GamePlayData_ClassicAden.dat" file="gameplaydata" version="master_class_ch3" />
 	<link pattern="gametip-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
 	<link pattern="GameTip_Arena-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
 	<link pattern="GameTip_Classic-[\w]+\.dat" file="gametip" version="kor_helios_p3" />
@@ -186,12 +190,13 @@
 	<link pattern="hairexgrp.dat" file="hairexgrp" version="master_class_ch2" />
 	<link pattern="hairExName-[\w]+\.dat" file="hairexname" version="kor_helios_p2" />
 	<link pattern="hennagrp-[\w]+\.dat" file="hennagrp" version="master_class" />
+	<link pattern="Hero_Book.dat" file="herobook" version="master_class_ch3" />
 	<link pattern="Hennagrp_Classic-[\w]+\.dat" file="hennagrp" version="master_class" />
 	<link pattern="Hennagrp_ClassicAden-[\w]+\.dat" file="hennagrp" version="master_class" />
 	<link pattern="HomunCreate.dat" file="homuncreate" version="kor_prelude_of_war_p8" />
 	<link pattern="HomunEnchant.dat" file="homunenchant" version="kor_prelude_of_war_p8" />
 	<link pattern="HomunList.dat" file="homunlist" version="return_of_qa" />
-	<link pattern="HomunNpc.dat" file="homunnpc" version="kor_prelude_of_war_p10" />
+	<link pattern="HomunNpc.dat" file="homunnpc" version="master_class_ch3" />
 	<link pattern="HomunNpcLevel.dat" file="homunnpclevel" version="kor_prelude_of_war_p8" />
 	<link pattern="homunslot.dat" file="homunslot" version="return_of_qa" />
 	<link pattern="huntingzone-[\w]+\.dat" file="huntingzone" version="master_class" />
@@ -237,10 +242,10 @@
 	<link pattern="Localize.dat" file="localize" version="ru_prelude_of_war_p7" />
 	<link pattern="Localize_Classic.dat" file="localize" version="ru_prelude_of_war_p7" />
 	<link pattern="Localize_ClassicAden.dat" file="localize" version="ru_prelude_of_war_p7" />
-	<link pattern="logongrp.dat" file="logongrp" version="master_class" />
-	<link pattern="Logongrp_Arena.dat" file="logongrp" version="master_class" />
-	<link pattern="Logongrp_Classic.dat" file="logongrp" version="master_class" />
-	<link pattern="Logongrp_ClassicAden.dat" file="logongrp" version="master_class" />
+	<link pattern="logongrp.dat" file="logongrp" version="master_class_ch3" />
+	<link pattern="Logongrp_Arena.dat" file="logongrp" version="master_class_ch3" />
+	<link pattern="Logongrp_Classic.dat" file="logongrp" version="master_class_ch3" />
+	<link pattern="Logongrp_ClassicAden.dat" file="logongrp" version="master_class_ch3" />
 	<link pattern="LollyCubeData.dat" file="lollycubedata" version="kor_ertheia" />
 	<link pattern="mable_game-[\w]+\.dat" file="mable_game" version="kor_prelude_of_war_p8" />
 	<link pattern="mable_game_Classic-[\w]+\.dat" file="mable_game" version="kor_prelude_of_war_p8" />
@@ -328,6 +333,7 @@
 	<link pattern="PledgeShopProduct_Classic-[\w]+\.dat" file="pledgeshopproduct" version="return_of_qa_ch2" />
 	<link pattern="PledgeShopProduct_ClassicAden-[\w]+\.dat" file="pledgeshopproduct" version="return_of_qa_ch2" />
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="kor_helios_p3" />
+	<link pattern="PrisonData.dat" file="prisondata" version="master_class_ch3" />
 	<link pattern="ProductName-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_Classic-[\w]+\.dat" file="productname" version="kor_helios_p5" />
 	<link pattern="ProductName_ClassicAden-[\w]+\.dat" file="productname" version="kor_helios_p5" />
