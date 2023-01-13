@@ -36,7 +36,7 @@
 	<link pattern="AnimationCombo.dat" file="animationcombo" version="kor_helios_p2" />
 	<link pattern="AnimationCombo_Classic.dat" file="animationcombo" version="kor_helios_p2" />
 	<link pattern="ArmorGradeEffectSet.dat" file="armorgradeeffectset" version="kor_prelude_of_war_p6" />
-	<link pattern="ArmorGradeLookChange.dat" file="armorgradelookchange" version="master_class" />
+	<link pattern="ArmorGradeLookChange.dat" file="armorgradelookchange" version="master_class_ch3" />
 	<link pattern="Armorgrp.dat" file="armorgrp" version="master_class_ch2" />
 	<link pattern="Armorgrp_Arena.dat" file="armorgrp" version="master_class_ch2" />
 	<link pattern="Armorgrp_Classic.dat" file="armorgrp" version="master_class_ch2" />
@@ -222,9 +222,9 @@
 	<link pattern="L2PassReward.dat" file="l2passreward" version="master_class" />
 	<link pattern="L2PassReward_Classic.dat" file="l2passreward" version="master_class" />
 	<link pattern="L2PassReward_ClassicAden.dat" file="l2passreward" version="master_class" />
-	<link pattern="LCoinShopBanner-[\w]+\.dat" file="lcoinshopbanner" version="master_class" />
-	<link pattern="LCoinShopBanner_Classic-[\w]+\.dat" file="lcoinshopbanner" version="master_class" />
-	<link pattern="LCoinShopBanner_ClassicAden-[\w]+\.dat" file="lcoinshopbanner" version="master_class" />
+	<link pattern="LCoinShopBanner-[\w]+\.dat" file="lcoinshopbanner" version="master_class_ch3" />
+	<link pattern="LCoinShopBanner_Classic-[\w]+\.dat" file="lcoinshopbanner" version="master_class_ch3" />
+	<link pattern="LCoinShopBanner_ClassicAden-[\w]+\.dat" file="lcoinshopbanner" version="master_class_ch3" />
 	<link pattern="LCoinShopProduct-[\w]+\.dat" file="lcoinshopproduct" version="master_class_ch2" />
 	<link pattern="LCoinShopProduct_Classic-[\w]+\.dat" file="lcoinshopproduct" version="master_class_ch2" />
 	<link pattern="LCoinShopProduct_ClassicAden-[\w]+\.dat" file="lcoinshopproduct" version="master_class_ch2" />
@@ -409,9 +409,9 @@
 	<link pattern="teleportlist_Classic.dat" file="teleportlist" version="master_class_ch2" />
 	<link pattern="teleportlist_ClassicAden.dat" file="teleportlist" version="master_class_ch2" />
 	<link pattern="testItemList.dat" file="testItemList" version="kor_prelude_of_war_p2" />
-	<link pattern="TimeZoneData-[\w]+\.dat" file="timezonedata" version="master_class_ch2" />
-	<link pattern="TimeZoneData_Classic-[\w]+\.dat" file="timezonedata" version="master_class_ch2" />
-	<link pattern="TimeZoneData_ClassicAden-[\w]+\.dat" file="timezonedata" version="master_class_ch2" />
+	<link pattern="TimeZoneData-[\w]+\.dat" file="timezonedata" version="master_class_ch3" />
+	<link pattern="TimeZoneData_Classic-[\w]+\.dat" file="timezonedata" version="master_class_ch3" />
+	<link pattern="TimeZoneData_ClassicAden-[\w]+\.dat" file="timezonedata" version="master_class_ch3" />
 	<link pattern="transformdata.dat" file="transformdata" version="kor_helios_p2" />
 	<link pattern="TransformData_Classic.dat" file="transformdata" version="kor_helios_p2" />
 	<link pattern="TransformData_ClassicAden.dat" file="transformdata" version="kor_helios_p2" />

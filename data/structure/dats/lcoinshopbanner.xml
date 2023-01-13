@@ -15,4 +15,12 @@
 			<node name="banner_link" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="master_class_ch3" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="banner" size="#data" hidden="false">
+			<node name="banner_image" reader="MAP_INT" />
+			<node name="unk1" reader="UBYTE" />
+			<node name="banner_link" reader="ASCF" />
+		</for>
+	</file>
 </list>

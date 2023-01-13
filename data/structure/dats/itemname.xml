@@ -662,7 +662,7 @@
 			<node name="DBdelete" reader="LONG" />
 			<node name="create_items_list" reader="CNTR" />
 			<for name="create_items_list" size="#create_items_list">
-				<node name="unk_1" reader="UBYTE"/>
+				<node name="drop_type" reader="UBYTE"/>
 				<node name="random_create_list_size" reader="CNTR" />
 				<for name="unk_1_list" size="#random_create_list_size">
 					<node name="ItemClassID" reader="UINT" />
