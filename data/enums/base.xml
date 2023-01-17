@@ -462,24 +462,6 @@
 		<node index="12" name="armor_m_special" />
 		<node index="13" name="armor_m_prot" />
 	</enum>
-	<enum name="bless_weapon_type">
-		<node index="0" name="none" />
-		<node index="1" name="sword" />
-		<node index="2" name="twohandsword" />
-		<node index="3" name="buster" />
-		<node index="4" name="blunt" />
-		<node index="5" name="twohandblunt" />
-		<node index="6" name="staff" />
-		<node index="7" name="twohandstaff" />
-		<node index="8" name="dagger" />
-		<node index="9" name="pole" />
-		<node index="11" name="bow" />
-		<node index="13" name="dual" />
-		<node index="14" name="fist" />
-		<node index="16" name="rapier" />
-		<node index="18" name="ancientsword" />
-		<node index="25" name="pistols" />
-	</enum>
 	<enum name="system_message_group_type">
 		<node index="0" name="none" />
 		<node index="1" name="battle" />
@@ -918,5 +900,12 @@
 		<node index="31" name="[action_variation_stone]" />
 		<node index="32" name="[action_xmas_open]" />
 		<node index="33" name="[action_skill_reduce_on_skill_success ]" /> <!-- 24 again? -->
+	</enum>
+	<enum name="enchant_add_stat_type">
+		<node index="0" name="pdef" />
+		<node index="1" name="mdef" />
+		<node index="2" name="patk" />
+		<node index="3" name="matk" />
+		<node index="12" name="shdef" />
 	</enum>
 </list>

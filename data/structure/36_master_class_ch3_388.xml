@@ -118,11 +118,9 @@
 	<link pattern="dynamiccontentsname-[\w]+\.dat" file="dynamiccontentsname" version="kor_lindvior" />
 	<link pattern="ElementalSpirit_Classic.dat" file="elementalspirit" version="kor_prelude_of_war_p2" />
 	<link pattern="ElementalSpiritStat_Classic.dat" file="elementalspiritstat" version="kor_grand_crusade_salvation_p3" />
-
 	<link pattern="EnchantChallengePoint.dat" file="enchantchallengepoint" version="master_class_ch2" />
 	<link pattern="EnchantChallengePoint_Classic.dat" file="enchantchallengepoint" version="master_class_ch2" />
 	<link pattern="EnchantChallengePoint_ClassicAden.dat" file="enchantchallengepoint" version="master_class_ch2" />
-
 	<link pattern="EnchantedCloakEffectData.dat" file="enchantedcloakeffect" version="master_class" />
 	<link pattern="EnchantedCloakEffectData_Classic.dat" file="enchantedcloakeffect" version="master_class" />
 	<link pattern="EnchantedCloakEffectData_ClassicAden.dat" file="enchantedcloakeffect" version="master_class" />
@@ -136,6 +134,12 @@
 	<link pattern="EnchantStatBonus_Arena.dat" file="enchantstatbonus" version="kor_ertheia" />
 	<link pattern="EnchantStatBonus_Classic.dat" file="enchantstatbonus" version="kor_ertheia" />
 	<link pattern="EnchantStatBonus_ClassicAden.dat" file="enchantstatbonus" version="kor_ertheia" />
+	<link pattern="EnchantValidate.dat" file="enchantvalidate" version="master_class_ch2" />
+	<link pattern="EnchantValidate_Classic.dat" file="enchantvalidate" version="master_class_ch2" />
+	<link pattern="EnchantValidate_ClassicAden.dat" file="enchantvalidate" version="master_class_ch2" />
+	<link pattern="EnchantValidateExItem.dat" file="enchantvalidateexitem" version="master_class_ch2" />
+	<link pattern="EnchantValidateExItem_Classic.dat" file="enchantvalidateexitem" version="master_class_ch2" />
+	<link pattern="EnchantValidateExItem_ClassicAden.dat" file="enchantvalidateexitem" version="master_class_ch2" />
 	<link pattern="ensoul_fee_client.dat" file="ensoul_fee_client" version="kor_helios_p5" />
 	<link pattern="ensoul_fee_client_classic.dat" file="ensoul_fee_client" version="kor_helios_p5" />
 	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />

@@ -26,7 +26,7 @@
 			<node name="grade" reader="UCHAR" enumName="grade_type" />
 			<node name="unk_1" reader="UCHAR"/>
 			<node name="bodypart" reader="UCHAR" enumName="bodypart_v2_type"/>
-			<node name="wpn_type" reader="UCHAR" enumName="bless_weapon_type"/>
+			<node name="wpn_type" reader="UCHAR" enumName="item_weapon_v2_type"/>
 			<write name="\r\n"/>
 			<node name="effect_count" reader="CNTR" />
             <for name="effect" size="#effect_count">
