@@ -440,9 +440,9 @@
 	<link pattern="variationdata_fee.dat" file="variationdata_fee" version="kor_prelude_of_war_p10" />
 	<link pattern="variationdata_fee_Classic.dat" file="variationdata_fee" version="kor_prelude_of_war_p10" />
 	<link pattern="variationdata_fee_ClassicAden.dat" file="variationdata_fee" version="kor_prelude_of_war_p10" />
-	<link pattern="variationdata_option-[\w]+\.dat" file="variationdata_option" version="kor_prelude_of_war_p10" />
-	<link pattern="variationdata_option_Classic-[\w]+\.dat" file="variationdata_option" version="kor_prelude_of_war_p10" />
-	<link pattern="variationdata_option_ClassicAden-[\w]+\.dat" file="variationdata_option" version="kor_prelude_of_war_p10" />
+	<link pattern="variationdata_option-[\w]+\.dat" file="variationdata_option" version="master_class_ch2" />
+	<link pattern="variationdata_option_Classic-[\w]+\.dat" file="variationdata_option" version="master_class_ch2" />
+	<link pattern="variationdata_option_ClassicAden-[\w]+\.dat" file="variationdata_option" version="master_class_ch2" />
 	<link pattern="variationdata_stone.dat" file="variationdata_stone" version="kor_prelude_of_war_p10" />
 	<link pattern="variationdata_stone_Classic.dat" file="variationdata_stone" version="kor_prelude_of_war_p10" />
 	<link pattern="variationdata_stone_ClassicAden.dat" file="variationdata_stone" version="kor_prelude_of_war_p10" />
