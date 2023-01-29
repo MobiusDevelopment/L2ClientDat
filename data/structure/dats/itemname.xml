@@ -253,7 +253,7 @@
 			<node name="is_npctrade3" reader="UINT" />
 		</for>
 	</file>
-	<file pattern="ru_infinite_odyssey_hymn_of_doul" isSafePackage="true">
+	<file pattern="ru_infinite_odyssey_hymn_of_soul" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="item_name" size="#data" hidden="false">
 			<node name="id" reader="UINT" />

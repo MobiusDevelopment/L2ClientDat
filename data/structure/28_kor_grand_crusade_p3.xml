@@ -93,7 +93,7 @@
 	<link pattern="Weapongrp.dat" file="weapongrp" version="kor_helios_p3" />
 	<link pattern="zonename-[\w]+\.dat" file="zonename" version="kor_grand_crusade" />
 	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
-	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="ensoul_fee_client.dat" file="ensoul_fee_client" version="kor_helios_p5" />
 	<link pattern="TutorialName-[\w]+\.dat" file="tutorialname" version="kor_infinite_odyssey_will_of_the_ancients" />
 	<link pattern="nservice_topping_buff.dat" file="nservice_topping_buff" version="kor_infinite_odyssey_will_of_the_ancients" />

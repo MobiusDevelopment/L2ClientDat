@@ -4482,7 +4482,7 @@
 			</for>
 		</for>
 	</file>
-	<file pattern="kor_infinite_odyssey_hymn_of_doul" isSafePackage="true">
+	<file pattern="kor_infinite_odyssey_hymn_of_soul" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="pawnanim_data" size="#data" hidden="false">
 			<node name="name" reader="UNICODE" />
@@ -5327,7 +5327,7 @@
 			</for>
 		</for>
 	</file>
-	<file pattern="ru_infinite_odyssey_hymn_of_doul" isSafePackage="true">
+	<file pattern="ru_infinite_odyssey_hymn_of_soul" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="pawnanim_data" size="#data" hidden="false">
 			<node name="name" reader="UNICODE" />

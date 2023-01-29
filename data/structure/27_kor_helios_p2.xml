@@ -76,7 +76,7 @@
 	<link pattern="shortcutalias.dat" file="shortcutalias" version="kor_lindvior" />
 	<link pattern="shuttledata.dat" file="shuttledata" version="kor_lindvior" />
 	<link pattern="skillgrp.dat" file="skillgrp" version="kor_helios_p2" />
-	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="skillsoundgrp.dat" file="skillsoundgrp" version="kor_helios_p2" />
 	<link pattern="skillsoundsource.dat" file="skillsoundsource" version="kor_lindvior" />
 	<link pattern="staticobject-[\w]+\.dat" file="staticobject" version="kor_helios_p2" />
@@ -93,8 +93,8 @@
 	<link pattern="Weapongrp.dat" file="weapongrp" version="kor_helios_p2" />
 	<link pattern="zonename-[\w]+\.dat" file="zonename" version="kor_lindvior" />
 	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p2" />
-	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="ensoul_fee_client.dat" file="ensoul_fee_client" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="ensoul_fee_client.dat" file="ensoul_fee_client" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="TutorialName-[\w]+\.dat" file="tutorialname" version="kor_infinite_odyssey_will_of_the_ancients" />
 	<link pattern="nservice_topping_buff.dat" file="nservice_topping_buff" version="kor_infinite_odyssey_will_of_the_ancients" />
 	<link pattern="ShortcutRegisterData_Arena.dat" file="shortcutregisterdata" version="kor_helios" />
@@ -116,7 +116,7 @@
 	<link pattern="StaticObject_Classic-[\w]+\.dat" file="staticobject" version="kor_helios_p2" />
 	<link pattern="SkillSoundSource_Classic.dat" file="skillsoundsource" version="kor_lindvior" />
 	<link pattern="SkillSoundgrp_Classic.dat" file="skillsoundgrp" version="kor_helios_p2" />
-	<link pattern="Skillname_Classic-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="Skillname_Classic-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="Skillgrp_Classic.dat" file="skillgrp" version="kor_helios_p2" />
 	<link pattern="ShuttleData_Classic.dat" file="shuttledata" version="kor_lindvior" />
 	<link pattern="ShortcutAlias_Classic.dat" file="shortcutalias" version="kor_lindvior" />
@@ -164,7 +164,7 @@
 	<link pattern="RideData_Classic.dat" file="ridedata" version="kor_helios_p2" />
 	<!-- Arena -->
 	<link pattern="MSConditionData_Arena.dat" file="msconditiondata" version="kor_helios_p2" />
-	<link pattern="Skillname_Arena-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="Skillname_Arena-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="EtcItemgrp_Arena.dat" file="etcitemgrp" version="kor_helios_p2" />
 	<link pattern="Weapongrp_Arena.dat" file="weapongrp" version="kor_helios_p2" />
 	<link pattern="Npcgrp_Arena.dat" file="npcgrp" version="kor_helios_p2" />

@@ -111,8 +111,8 @@
 	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
 	<link pattern="ensoul_option_client_classic-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
 	<link pattern="ensoul_option_client_ClassicAden-[\w]+\.dat" file="ensoul_option_client" version="kor_helios_p5" />
-	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="ensoul_stone_client_classic.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="ensoul_stone_client_classic.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="entereventgrp.dat" file="entereventgrp" version="kor_helios_p3" />
 	<link pattern="EnterEventgrp_Arena.dat" file="entereventgrp" version="kor_helios_p3" />
 	<link pattern="EnterEventgrp_Classic.dat" file="entereventgrp" version="kor_helios_p3" />

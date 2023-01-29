@@ -98,8 +98,8 @@
 	<link pattern="obscene-[\w]+\.dat" file="obscene" version="kor_lindvior" />
 	<link pattern="optiondata_client-[\w]+\.dat" file="optiondata_client" version="kor_lindvior" />
 	<link pattern="optiondata_client_Classic-[\w]+\.dat" file="optiondata_client" version="kor_lindvior" />
-	<link pattern="PawnAnimData.dat" file="pawnanimdata" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="PawnAnimData_Classic.dat" file="pawnanimdata" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="PawnAnimData.dat" file="pawnanimdata" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="PawnAnimData_Classic.dat" file="pawnanimdata" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="kor_lindvior" />
 	<link pattern="ProductName-[\w]+\.dat" file="productname" version="kor_lindvior" />
 	<link pattern="questmarkconditiondata.dat" file="questmarkconditiondata" version="kor_lindvior" />
@@ -119,8 +119,8 @@
 	<link pattern="ShuttleData_Classic.dat" file="shuttledata" version="kor_lindvior" />
 	<link pattern="skillgrp.dat" file="skillgrp" version="kor_ertheia" />
 	<link pattern="Skillgrp_Classic.dat" file="skillgrp" version="kor_ertheia" />
-	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="Skillname_Classic-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="skillname-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="Skillname_Classic-[\w]+\.dat" file="skillname" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="skillsoundgrp.dat" file="skillsoundgrp" version="kor_ertheia" />
 	<link pattern="SkillSoundgrp_Classic.dat" file="skillsoundgrp" version="kor_ertheia" />
 	<link pattern="skillsoundsource.dat" file="skillsoundsource" version="kor_lindvior" />
@@ -141,13 +141,13 @@
 	<link pattern="warningnotice-[\w]+\.dat" file="warningnotice" version="kor_lindvior" />
 	<link pattern="weaponenchanteffectdata.dat" file="weaponenchanteffectdata" version="kor_lindvior" />
 	<link pattern="WeaponEnchantEffectData_Classic.dat" file="weaponenchanteffectdata" version="kor_lindvior" />
-	<link pattern="Weapongrp.dat" file="weapongrp" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="Weapongrp.dat" file="weapongrp" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="Weapongrp_Classic.dat" file="weapongrp" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="zonename-[\w]+\.dat" file="zonename" version="kor_lindvior" />
 	<link pattern="Zonename_Classic-[\w]+\.dat" file="zonename" version="kor_lindvior" />
-	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_doul" />
-	<link pattern="ensoul_fee_client.dat" file="ensoul_fee_client" version="kor_infinite_odyssey_hymn_of_doul" />
+	<link pattern="ensoul_option_client-[\w]+\.dat" file="ensoul_option_client" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="ensoul_stone_client.dat" file="ensoul_stone_client" version="kor_infinite_odyssey_hymn_of_soul" />
+	<link pattern="ensoul_fee_client.dat" file="ensoul_fee_client" version="kor_infinite_odyssey_hymn_of_soul" />
 	<link pattern="TutorialName-[\w]+\.dat" file="tutorialname" version="kor_infinite_odyssey_will_of_the_ancients" />
 	<link pattern="TutorialName_Classic-[\w]+\.dat" file="tutorialname" version="kor_infinite_odyssey_will_of_the_ancients" />
 	<link pattern="nservice_topping_buff.dat" file="nservice_topping_buff" version="kor_infinite_odyssey_will_of_the_ancients" />
