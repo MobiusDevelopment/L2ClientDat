@@ -23,4 +23,15 @@
 			<node name="banner_link" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="the_source_of_flame" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="banner" size="#data" hidden="false">
+			<node name="banner_image" reader="MAP_INT" />
+			<node name="html" reader="ASCF" />
+			<node name="UNK_1" reader="UBYTE" />
+			<for name="UNK_1" size="#UNK_1">
+				<node name="UNK_2" reader="UINT" />
+			</for>
+		</for>
+	</file>
 </list>

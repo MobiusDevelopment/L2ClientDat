@@ -730,4 +730,60 @@ material_type
 			<node name="scroll_set_id" reader="UCHAR" />
 		</for>
 	</file>
+	<file pattern="the_source_of_flame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UINT" />
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UINT" />
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+				<node name="drop_texture3" reader="MAP_INT" />
+				<node name="drop_texture4" reader="MAP_INT" />
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<!-- MTX_NEW2 -->
+			<node name="mesh" reader="UINT" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="consume_type" reader="UCHAR" enumName="consume_type" />
+			<node name="etcitem_type" reader="UINT" enumName="item_etc_v2_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+			<node name="scroll_set_id" reader="UCHAR" />
+		</for>
+	</file>
 </list>

@@ -398,6 +398,50 @@
 			<node name="stattype" reader="UCHAR" enumName="mscond_stattype" />
 			<node name="statpercentage" reader="UCHAR" />
 			<node name="up" reader="UCHAR" enumName="mscond_statup" />
+			<node name="UNK_2" reader="UBYTE" />
+			<node name="UNK_3" reader="UBYTE" />
+			<node name="UNK_4" reader="UBYTE" />
+			<node name="hpconsume" reader="USHORT" />
+			<node name="mpconsume1" reader="USHORT" />
+			<node name="mpconsume2" reader="USHORT" />
+			<node name="itemid" reader="UINT" />
+			<node name="itemnum" reader="USHORT" />
+			<node name="casterpriorskilllist" reader="CNTR" />
+			<for name="casterpriorskilllist" size="#casterpriorskilllist">
+				<node name="caster_skill_id" reader="UINT" />
+				<node name="caster_skill_level" reader="UCHAR" />
+				<node name="caster_skill_sublevel" reader="USHORT" />
+			</for>
+			<node name="targetpriorskilllist" reader="CNTR" />
+			<for name="targetpriorskilllist" size="#targetpriorskilllist">
+				<node name="target_skill_id" reader="UINT" />
+				<node name="target_skill_level" reader="UCHAR" />
+				<node name="target_skill_sublevel" reader="USHORT" />
+			</for>
+			<node name="classtype" reader="CNTR" />
+			<for name="classtype" size="#classtype">
+				<node name="classID" reader="UINT" enumName="class" />
+			</for>
+		</for>
+	</file>
+	<file pattern="the_source_of_flame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UCHAR" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="UNK_1" reader="SHORT" />
+			<node name="equiptype" reader="UCHAR" enumName="mscond_equiptype" />
+			<node name="attackitemtype" reader="CNTR" />
+			<for name="attackitemtype" size="#attackitemtype">
+				<node name="param_attackitemtype" reader="UCHAR" enumName="item_weapon_v2_type" />
+			</for>
+			<node name="stattype" reader="UCHAR" enumName="mscond_stattype" />
+			<node name="statpercentage" reader="UCHAR" />
+			<node name="up" reader="UCHAR" enumName="mscond_statup" />
+			<node name="UNK_2" reader="UBYTE" />
+			<node name="UNK_3" reader="UBYTE" />
+			<node name="UNK_4" reader="UBYTE" />
 			<node name="hpconsume" reader="USHORT" />
 			<node name="mpconsume1" reader="USHORT" />
 			<node name="mpconsume2" reader="USHORT" />

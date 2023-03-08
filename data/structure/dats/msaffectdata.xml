@@ -11,4 +11,15 @@
 			<node name="is_directional" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="the_source_of_flame" isSafePackage="true">
+		<node name="data" reader="UINT"/>
+		<for name="msaffectdata" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="UINT" />
+			<node name="skill_sublevel" reader="UINT" />
+			<node name="affect_range" reader="UINT" />
+			<node name="decal" reader="ASCF" />
+			<node name="is_directional" reader="UINT" />
+		</for>
+	</file>
 </list>

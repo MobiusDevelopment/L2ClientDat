@@ -102,4 +102,24 @@
 			<node name="bUseDropEffect" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="the_source_of_flame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="Attach_Bone_Name" reader="MAP_INT" />
+			<node name="EffectNames" reader="CNTR" />
+			<for name="EffectNames" size="#EffectNames">
+				<node name="EffectNames0" reader="MAP_INT" />
+			</for>
+			<node name="MeshSocketNames" reader="CNTR" />
+			<for name="MeshSocketNames" size="#MeshSocketNames">
+				<node name="MeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="EffectScales" reader="CNTR" />
+			<for name="EffectScales" size="#EffectScales">
+				<node name="EffectScales0" reader="FLOAT" />
+			</for>
+			<node name="bUsePawnScale" reader="UINT" />
+		</for>
+	</file>
 </list>
