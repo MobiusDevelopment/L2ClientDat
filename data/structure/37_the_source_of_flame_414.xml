@@ -284,6 +284,8 @@
 	<link pattern="MSConditionData_ClassicAden.dat" file="msconditiondata" version="the_source_of_flame" />
 	<link pattern="musicinfo.dat" file="musicinfo" version="kor_helios_p2" />
 	<link pattern="MusicInfo_Classic.dat" file="musicinfo" version="kor_helios_p2" />
+	<link pattern="NewQuestDialog_Classic-[\w]+\.dat" file="newquestdialog" version="the_source_of_flame" />
+	<link pattern="NewQuestDialog_ClassicAden-[\w]+\.dat" file="newquestdialog" version="the_source_of_flame" />
 	<link pattern="NickNameItem.dat" file="nicknameitem" version="master_class" />
 	<link pattern="NickNameItem_Classic.dat" file="nicknameitem" version="master_class" />
 	<link pattern="NickNameItem_ClassicAden.dat" file="nicknameitem" version="master_class" />
