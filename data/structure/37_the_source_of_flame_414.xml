@@ -56,9 +56,9 @@
 	<link pattern="CharacterAbility_Classic-[\w]+\.dat" file="characterability" version="master_class_ch2" />
 	<link pattern="CharacterAbility_ClassicAden-[\w]+\.dat" file="characterability" version="master_class_ch2" />
 	<link pattern="CharacterInitialStatExData.dat" file="characterinitialstatexdata" version="kor_grand_crusade_salvation" />
-	<link pattern="charcreategrp.dat" file="charcreategrp" version="master_class_ch2" />
-	<link pattern="Charcreategrp_Arena.dat" file="charcreategrp" version="master_class_ch2" />
-	<link pattern="Charcreategrp_Classic.dat" file="charcreategrp" version="master_class_ch2" />
+	<link pattern="charcreategrp.dat" file="charcreategrp" version="the_source_of_flame" />
+	<link pattern="Charcreategrp_Arena.dat" file="charcreategrp" version="the_source_of_flame" />
+	<link pattern="Charcreategrp_Classic.dat" file="charcreategrp" version="the_source_of_flame" />
 	<link pattern="Chargrp.dat" file="chargrp" version="master_class_ch2" />
 	<link pattern="Chargrp_Classic.dat" file="chargrp" version="master_class_ch2" />
 	<link pattern="CharHeadExgrp.dat" file="charheadexgrp" version="master_class_ch3" />

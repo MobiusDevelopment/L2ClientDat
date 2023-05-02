@@ -141,4 +141,23 @@
 			<node name="class" reader="UBYTE" />
 		</for>
 	</file>
+	<file pattern="the_source_of_flame" isSafePackage="true">
+		<for name="Char" size="91" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
 </list>
