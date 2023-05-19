@@ -1289,8 +1289,10 @@
 				<node name="param_variation_icon3" reader="UNICODE" />
 				<node name="param_variation_icon4" reader="UNICODE" />
 			</wrapper>
-			<node name="ensoul_slot_count" reader="UINT" />
-			<node name="is_ensoul" reader="UINT" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UINT" />
+				<node name="special_ensoul_count" reader="UINT" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="kor_helios_p2" isSafePackage="true">
@@ -1439,8 +1441,10 @@
 				<node name="param_variation_icon3" reader="MAP_INT" />
 				<node name="param_variation_icon4" reader="MAP_INT" />
 			</wrapper>
-			<node name="ensoul_slot_count" reader="UINT" />
-			<node name="is_ensoul" reader="UINT" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UINT" />
+				<node name="special_ensoul_count" reader="UINT" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="kor_helios_p3" isSafePackage="true">
@@ -1564,8 +1568,10 @@
 			<for name="variation_icon" size="#variation_icon">
 				<node name="param_variation_icon" reader="MAP_INT" />
 			</for>
-			<node name="ensoul_slot_count" reader="UCHAR" />
-			<node name="is_ensoul" reader="UCHAR" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="master_class" isSafePackage="true">
@@ -1689,8 +1695,10 @@
 			<for name="variation_icon" size="#variation_icon">
 				<node name="param_variation_icon" reader="MAP_INT" />
 			</for>
-			<node name="ensoul_normal" reader="UCHAR" />
-			<node name="ensoul_special" reader="UCHAR" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="master_class_ch2" isSafePackage="true">
@@ -1813,8 +1821,10 @@
 			<for name="variation_icon" size="#variation_icon">
 				<node name="param_variation_icon" reader="MAP_INT" />
 			</for>
-			<node name="ensoul_normal" reader="UCHAR" />
-			<node name="ensoul_special" reader="UCHAR" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="the_source_of_flame" isSafePackage="true">
@@ -1939,8 +1949,10 @@
 			<for name="variation_icon" size="#variation_icon">
 				<node name="param_variation_icon" reader="MAP_INT" />
 			</for>
-			<node name="ensoul_normal" reader="UCHAR" />
-			<node name="ensoul_special" reader="UCHAR" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 </list>

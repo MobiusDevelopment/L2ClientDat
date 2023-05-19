@@ -1136,7 +1136,10 @@
 			<node name="underwear_body_part1" reader="UCHAR" />
 			<node name="underwear_body_part2" reader="UCHAR" />
 			<node name="full_armor_enchant_effect_type" reader="UCHAR" />
-			<node name="ensoul_slot_count" reader="SHORT" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="master_class" isSafePackage="true">
@@ -1236,7 +1239,10 @@
 			<node name="underwear_body_part1" reader="UCHAR" />
 			<node name="underwear_body_part2" reader="UCHAR" />
 			<node name="full_armor_enchant_effect_type" reader="UCHAR" />
-			<node name="ensoul_slot_count" reader="SHORT" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="master_class_ch2" isSafePackage="true">
@@ -1335,7 +1341,10 @@
 			<node name="underwear_body_part1" reader="UCHAR" />
 			<node name="underwear_body_part2" reader="UCHAR" />
 			<node name="full_armor_enchant_effect_type" reader="UCHAR" />
-			<node name="ensoul_slot_count" reader="USHORT" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
 		</for>
 	</file>
 	<file pattern="the_source_of_flame" isSafePackage="true">
