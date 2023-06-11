@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="EtinasFate" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="card_collect_reward" size="#data" hidden="false">
+			<node name="event_id" reader="UINT" />
+			<node name="collect_group_id" reader="UINT" />
+			<node name="card_id" reader="UCHAR" />
+			<for name="card_id" size="#card_id">
+				<node name="card_id_txt" reader="UINT" />
+			</for>
+			<node name="card_reward_Texture" reader="UCHAR" />
+			<for name="card_reward_Texture" size="#card_reward_Texture">
+				<node name="card_reward_Texture_txt" reader="MAP_INT" />
+			</for>
+			<node name="sub_title" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

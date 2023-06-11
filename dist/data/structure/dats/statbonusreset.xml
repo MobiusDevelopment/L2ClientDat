@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="statbonus" size="#data" hidden="false">
+			<node name="reset_item_id" reader="UINT" />
+			<node name="reset_item_count" reader="LONG" />
+		</for>
+	</file>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="statbonus" size="#data" hidden="false">
+			<node name="range" reader="UINT" />
+			<node name="consume_items" reader="CNTR" />
+			<for name="consume_items" size="#consume_items">
+				<node name="reset_item_id" reader="UINT" />
+				<node name="reset_item_count" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

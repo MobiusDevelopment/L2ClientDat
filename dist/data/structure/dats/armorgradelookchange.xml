@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ArmorGradeLookChange" size="#data" hidden="false">
+			<node name="Class" reader="MAP_INT" />
+			<node name="Grade" reader="UINT" enumName="grade_type" />
+			<node name="ArmorID" reader="UINT" />
+			<node name="EffectSetID" reader="UINT" />
+		</for>
+	</file>
+	
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ArmorGradeLookChange" size="#data" hidden="false">
+			<node name="Class" reader="UINT" />
+			<node name="Grade" reader="UINT" />
+			<node name="size1" reader="CNTR" />
+			<for name="ArmorID" size="#size1">
+				<node name="ArmorID_0" reader="UINT" />
+			</for>
+			<node name="size2" reader="CNTR" />
+			<for name="EffectSetID" size="#size2">
+				<node name="EffectSetID_0" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ArmorGradeLookChange" size="#data" hidden="false">
+			<node name="Class" reader="UINT" />
+			<node name="Grade" reader="UINT" />
+			<node name="size1" reader="CNTR" />
+			<for name="ArmorID" size="#size1">
+				<node name="ArmorID_0" reader="UINT" />
+			</for>
+			<node name="size2" reader="CNTR" />
+			<for name="EffectSetID" size="#size2">
+				<node name="EffectSetID_0" reader="UINT" />
+			</for>
+			<node name="size3" reader="CNTR" />
+			<for name="applyCountry_size" size="#size3">
+				<node name="applyCountry" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="outer_name" reader="UNICODE" />
+			<node name="description" reader="ASCF" />
+			<node name="icon" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="Lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="outer_name" reader="UNICODE" />
+			<node name="description" reader="ASCF" />
+			<node name="icon" reader="UNICODE" />
+			<node name="mainsubject" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Underground" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="outer_name" reader="UNICODE" />
+			<node name="description" reader="ASCF" />
+			<node name="icon" reader="UNICODE" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="mainsubject" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="outer_name" reader="MAP_INT" />
+			<node name="description" reader="ASCF" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="mainsubject" reader="ASCF" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="EtinasFate" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="artifact_enchant_setting" size="#data" hidden="false">
+			<node name="enchant" reader="UINT" />
+			<node name="min_enchant_material" reader="UINT" />
+		</for>
+	</file>
+</list>

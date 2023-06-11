@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="UINT"/>
+		<for name="nonattackingskillanim" size="#data" hidden="false">
+			<node name="Animation" reader="MAP_INT" />
+			<node name="NonAtkAnimation" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

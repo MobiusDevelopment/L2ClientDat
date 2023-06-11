@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+etcitem_type
+	case 1: scroll
+	case 2: arrow
+	case 3: potion
+	case 5: recipe
+	case 6: material
+	case 7: pet_collar
+	case 8: castle_guard
+	case 9: dye
+	case 10: seed
+	case 11: seed2
+	case 12: harvest
+	case 13: lotto
+	case 14: race_ticket
+	case 15: ticket_of_lord
+	case 16: lure
+	case 17: crop
+	case 18: maturecrop
+	case 19: encht_wp
+	case 20: encht_am
+	case 21: bless_encht_wp
+	case 22: bless_encht_am
+	case 23: coupon
+	case 24: elixir
+	case 25: encht_attr
+	case 26: encht_attr_cursed
+	case 27: bolt
+	case 28: encht_attr_inc_prop_encht_wp
+	case 29: encht_attr_inc_prop_encht_am
+	case 32: encht_attr_ancient_crystal_enchant_am
+	case 33: encht_attr_ancient_crystal_enchant_wp
+	case 34: encht_attr_rune
+	case 35: encht_attrt_rune_select
+	case 36: teleportbookmark
+	case 37: change_attr
+	case 38: soulshot
+	case 39: shape_shifting_wp
+	case 40: bless_shape_shifting_wp
+	case 41: shape_shifting_wp_fixed
+	case 42: shape_shifting_am
+	case 43: bless_shape_shifting_am
+	case 44: shape_shifting_am_fixed
+	case 45: shape_shifting_hairacc
+	case 46: bless_shape_shifting_hairacc
+	case 47: shape_shifting_hairacc_fixed
+	case 48: restore_shape_shifting_wp
+	case 49: restore_shape_shifting_am
+	case 50: restore_shape_shifting_hairacc
+	case 51: restore_shape_shifting_allitem
+	case 52: bless_inc_prop_encht_wp
+	case 53: bless_inc_prop_encht_am
+	case 54: card_event
+	case 56: multi_encht_wp
+	case 57: multi_encht_am
+	case 58: multi_inc_prob_encht_wp
+	case 59: multi_inc_prob_encht_am
+	case 60: ensoul_stone
+	case 61: nick_color_old
+	case 62: nick_color_new
+	case 63: encht_ag
+	case 64: bless_encht_ag
+	case 65: multi_encht_ag
+	case 66: ancient_crystal_enchant_ag
+	case 67: inc_prop_encht_ag
+	case 68: bless_inc_prop_encht_ag
+	case 69: multi_inc_prob_encht_ag
+material_type
+	case 1: oriharukon
+	case 2: mithril
+	case 3: gold
+	case 4: silver
+	case 6: bronze
+	case 8: steel
+	case 13: wood
+	case 14: bone
+	case 17: cloth
+	case 18: paper
+	case 19: leather
+	case 23: crystal
+	case 33: cotton
+	case 37: cobweb
+	case 38: dyestuff
+	case 46: scale_of_dragon
+	case 47: adamantaite
+	case 48: blood_steel
+	case 49: chrysolite
+	case 50: damascus
+	case 51: fine_steel
+	case 52: horn
+	case 53: liquid
+-->
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<wrapper name="drop_mesh">
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="drop_texture">
+				<node name="drop_tex1" reader="UNICODE" />
+				<node name="drop_tex2" reader="UNICODE" />
+				<node name="drop_tex3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="UINT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="type1" reader="UINT" />
+			<node name="mesh_tex_pair" reader="MTX" />
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="stackable" reader="UINT" />
+			<node name="etcitem_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<wrapper name="drop_mesh">
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="drop_texture">
+				<node name="drop_tex1" reader="UNICODE" />
+				<node name="drop_tex2" reader="UNICODE" />
+				<node name="drop_tex3" reader="UNICODE" />
+				<node name="drop_tex4" reader="UNICODE" />
+			</wrapper>
+			<node name="newdata1" reader="UINT" />
+			<node name="newdata2" reader="UINT" />
+			<node name="newdata3" reader="UINT" />
+			<node name="newdata4" reader="UINT" />
+			<node name="newdata5" reader="UINT" />
+			<node name="newdata6" reader="UINT" />
+			<node name="newdata7" reader="UINT" />
+			<node name="newdata8" reader="UINT" />
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="UINT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="UNK_1" reader="RGBA" />
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
+			</for>
+			<node name="color" reader="UINT" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="mesh" reader="INT" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="UNICODE" />
+			</for>
+			<node name="texture" reader="INT" />
+			<for name="texture" size="#texture">
+				<node name="tab2" reader="UNICODE" />
+			</for>
+
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="consume_type" reader="UINT" />
+			<node name="etcitem_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<wrapper name="drop_mesh">
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="drop_texture">
+				<node name="drop_tex1" reader="UNICODE" />
+				<node name="drop_tex2" reader="UNICODE" />
+				<node name="drop_tex3" reader="UNICODE" />
+				<node name="drop_tex4" reader="UNICODE" />
+				<node name="drop_tex5" reader="UNICODE" />
+				<node name="drop_tex6" reader="UNICODE" />
+				<node name="drop_tex7" reader="UNICODE" />
+				<node name="drop_tex8" reader="UNICODE" />
+				<node name="drop_tex9" reader="UNICODE" />
+			</wrapper>
+			<node name="UNK_6" reader="UINT" />
+			<node name="UNK_7" reader="UINT" />
+			<node name="UNK_8" reader="UINT" />
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="UINT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="UNK_9" reader="UINT" />
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
+			</for>
+			<node name="color" reader="UINT" />
+			<node name="is_attribution" reader="UINT" />
+			<node name="property_params" reader="UINT" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="mesh" reader="UINT" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="UNICODE" />
+			</for>
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="UNICODE" />
+			</for>
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="consume_type" reader="UINT" />
+			<node name="etcitem_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Valiance" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<wrapper name="drop_mesh">
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="drop_texture">
+				<node name="drop_tex1" reader="UNICODE" />
+				<node name="drop_tex2" reader="UNICODE" />
+				<node name="drop_tex3" reader="UNICODE" />
+				<node name="drop_tex4" reader="UNICODE" />
+				<node name="drop_tex5" reader="UNICODE" />
+				<node name="drop_tex6" reader="UNICODE" />
+				<node name="drop_tex7" reader="UNICODE" />
+				<node name="drop_tex8" reader="UNICODE" />
+				<node name="drop_tex9" reader="UNICODE" />
+			</wrapper>
+			<node name="UNK_6" reader="UINT" />
+			<node name="UNK_7" reader="UINT" />
+			<node name="UNK_8" reader="UINT" />
+			<wrapper name="icon">
+				<node name="icon1" reader="UNICODE" />
+				<node name="icon2" reader="UNICODE" />
+				<node name="icon3" reader="UNICODE" />
+				<node name="icon4" reader="UNICODE" />
+				<node name="icon5" reader="UNICODE" />
+			</wrapper>
+			<node name="durability" reader="UINT" />
+			<node name="weight" reader="UINT" />
+			<node name="material_type" reader="UINT" />
+			<node name="crystallizable" reader="UINT" />
+			<node name="UNK_9" reader="UINT" />
+			<node name="related_quest_id" reader="UINT" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="UINT" />
+			</for>
+			<node name="color" reader="UINT" />
+			<node name="is_attribution" reader="UINT" />
+			<node name="property_params" reader="UINT" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="complete_item_dropsound_type" reader="ASCF" />
+			<node name="inventory_type" reader="UINT" />
+			<!-- MTX -->
+			<node name="mesh" reader="UINT" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="UNICODE" />
+			</for>
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="UNICODE" />
+			</for>
+			<node name="drop_sound" reader="UNICODE" />
+			<node name="equip_sound" reader="UNICODE" />
+			<node name="consume_type" reader="UINT" />
+			<node name="etcitem_type" reader="UINT" />
+			<node name="crystal_type" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UCHAR" />
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UCHAR" />
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="property_params" reader="SHORT" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<!-- MTX_NEW2 -->
+			<node name="mesh" reader="UCHAR" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="UCHAR" />
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="consume_type" reader="UCHAR" enumName="consume_type" />
+			<node name="etcitem_type" reader="UINT" enumName="item_etc_v2_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UCHAR" />
+			<wrapper name="unk1">
+				<node name="unk1_1" reader="UCHAR" />
+				<node name="unk1_2" reader="UCHAR" />
+				<node name="unk1_3" reader="UCHAR" />
+			</wrapper>
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UCHAR" />
+				<wrapper name="unk2">
+					<node name="unk2_1" reader="UCHAR" />
+					<node name="unk2_2" reader="UCHAR" />
+					<node name="unk2_3" reader="UCHAR" />
+				</wrapper>
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="property_params" reader="SHORT" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<!-- MTX_NEW2 -->
+			<node name="mesh" reader="UCHAR" />
+			<wrapper name="unk3">
+				<node name="unk3_1" reader="UCHAR" />
+				<node name="unk3_2" reader="UCHAR" />
+				<node name="unk3_3" reader="UCHAR" />
+			</wrapper>
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="UCHAR" />
+			<wrapper name="unk4">
+				<node name="unk4_1" reader="UCHAR" />
+				<node name="unk4_2" reader="UCHAR" />
+				<node name="unk4_3" reader="UCHAR" />
+			</wrapper>
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="consume_type" reader="UCHAR" enumName="consume_type" />
+			<node name="etcitem_type" reader="UINT" enumName="item_etc_v2_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+		</for>
+	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UCHAR" />
+			<wrapper name="unk1">
+				<node name="unk1_1" reader="UCHAR" />
+				<node name="unk1_2" reader="UCHAR" />
+				<node name="unk1_3" reader="UCHAR" />
+			</wrapper>
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UCHAR" />
+				<wrapper name="unk2">
+					<node name="unk2_1" reader="UCHAR" />
+					<node name="unk2_2" reader="UCHAR" />
+					<node name="unk2_3" reader="UCHAR" />
+				</wrapper>
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<!-- MTX_NEW2 -->
+			<node name="mesh" reader="UCHAR" />
+			<wrapper name="unk3">
+				<node name="unk3_1" reader="UCHAR" />
+				<node name="unk3_2" reader="UCHAR" />
+				<node name="unk3_3" reader="UCHAR" />
+			</wrapper>
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="UCHAR" />
+			<wrapper name="unk4">
+				<node name="unk4_1" reader="UCHAR" />
+				<node name="unk4_2" reader="UCHAR" />
+				<node name="unk4_3" reader="UCHAR" />
+			</wrapper>
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="consume_type" reader="UCHAR" enumName="consume_type" />
+			<node name="etcitem_type" reader="UINT" enumName="item_etc_v2_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+			<node name="scroll_set_id" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UINT" />
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UINT" />
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+				<node name="drop_texture3" reader="MAP_INT" />
+				<node name="drop_texture4" reader="MAP_INT" />
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<!-- MTX_NEW2 -->
+			<node name="mesh" reader="UINT" />
+			<for name="mesh" size="#mesh">
+				<node name="tab" reader="MAP_INT" />
+			</for>
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="tab1" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="consume_type" reader="UCHAR" enumName="consume_type" />
+			<node name="etcitem_type" reader="UINT" enumName="item_etc_v2_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+			<node name="scroll_set_id" reader="UCHAR" />
+		</for>
+	</file>
+</list>

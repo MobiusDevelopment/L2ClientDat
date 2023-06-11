@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="ev_len" reader="CNTR" />
+		<for name="EnchantValue" size="#ev_len" hidden="false">
+			<node name="ea_len" reader="CNTR" />
+			<for name="enchant_add" size="#ea_len">
+				<node name="value" reader="FLOAT" />
+			</for>
+		</for>
+		<node name="ip_len" reader="UINT" />
+		<for name="ItemProperty" size="#ip_len" hidden="false">
+			<node name="item_id" reader="UINT" />
+			<node name="ea_len_2" reader="CNTR" />
+			<for name="enchant_add" size="#ea_len_2">
+				<node name="enchant_add_type" reader="UBYTE" enumName="enchant_add_stat_type" />
+				<node name="enchant_add_index" reader="USHORT" />
+			</for>
+		</for>
+	</file>
+</list>

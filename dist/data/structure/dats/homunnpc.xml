@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="homun_npc" size="#data" hidden="false">
+			<node name="index" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<wrapper name="base_skill">
+				<node name="skill_id" reader="USHORT" />
+				<node name="skill_level" reader="UBYTE" />
+			</wrapper>
+			<node name="img_name" reader="MAP_INT" />
+		</for>
+	</file>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="homun_npc" size="#data" hidden="false">
+			<node name="index" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<wrapper name="base_skill">
+				<node name="skill_id" reader="UINT" />
+				<node name="skill_level" reader="UBYTE" />
+			</wrapper>
+			<node name="img_name" reader="MAP_INT" />
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="homun_npc" size="#data" hidden="false">
+			<node name="index" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<wrapper name="base_skill">
+				<node name="skill_id" reader="USHORT" />
+				<node name="skill_level" reader="USHORT" />
+			</wrapper>
+			<node name="npc_grade" reader="UBYTE" />
+			<node name="img_name" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

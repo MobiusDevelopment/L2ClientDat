@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Valiance" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="event_look_change" size="#data" hidden="false">
+			<node name="event_ave_id" reader="UINT" />
+			<node name="event_name" reader="ASCF" />
+			<node name="priority" reader="UINT" />
+			<node name="change_weapon" reader="UINT" />
+			<node name="attackitem_enchant" reader="UINT" />
+			<node name="change_back" reader="UINT" />
+			<node name="change_armor" reader="UINT" />
+			<node name="standard_item_slot" reader="UINT" />
+			<node name="need_equipped" reader="UINT" />
+			<node name="change_accessory" reader="UINT" />
+			<node name="ignore_beautyshop" reader="UINT" />
+			<node name="none" reader="UINT" />
+			<node name="sword" reader="UINT" />
+			<node name="blunt" reader="UINT" />
+			<node name="dagger" reader="UINT" />
+			<node name="pole" reader="UINT" />
+			<node name="fist" reader="UINT" />
+			<node name="bow" reader="UINT" />
+			<node name="etc" reader="UINT" />
+			<node name="dual" reader="UINT" />
+			<node name="dualfist" reader="UINT" />
+			<node name="fishingrod" reader="UINT" />
+			<node name="rapier" reader="UINT" />
+			<node name="crossbow" reader="UINT" />
+			<node name="ancientsword" reader="UINT" />
+			<node name="flag" reader="UINT" />
+			<node name="dualdagger" reader="UINT" />
+			<node name="ownthing" reader="UINT" />
+			<node name="twohandcrossbow" reader="UINT" />
+			<node name="dualblunt" reader="UINT" />
+			<node name="twohandsword" reader="UINT" />
+			<node name="twohandblunt" reader="UINT" />
+			<node name="mage_sword" reader="UINT" />
+			<node name="mage_blunt" reader="UINT" />
+			<node name="mage_twohandsword" reader="UINT" />
+			<node name="mage_twohandblunt" reader="UINT" />
+			<node name="shield" reader="UINT" />
+			<node name="sigil" reader="UINT" />
+			<wrapper name="gloves">
+				<node name="param_gloves1" reader="UINT" />
+				<node name="param_gloves2" reader="UINT" />
+				<node name="param_gloves3" reader="UINT" />
+			</wrapper>
+			<wrapper name="chest">
+				<node name="param_chest1" reader="UINT" />
+				<node name="param_chest2" reader="UINT" />
+				<node name="param_chest3" reader="UINT" />
+			</wrapper>
+			<wrapper name="legs">
+				<node name="param_legs1" reader="UINT" />
+				<node name="param_legs2" reader="UINT" />
+				<node name="param_legs3" reader="UINT" />
+			</wrapper>
+			<wrapper name="feet">
+				<node name="param_feet1" reader="UINT" />
+				<node name="param_feet2" reader="UINT" />
+				<node name="param_feet3" reader="UINT" />
+			</wrapper>
+			<node name="back" reader="UINT" />
+			<node name="accessory" reader="UINT" />
+			<node name="accessory1" reader="UINT" />
+			<node name="accessory3" reader="UINT" />
+			<node name="accessory4" reader="UINT" />
+			<node name="accessory5" reader="UINT" />
+			<node name="accessory6" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="event_look_change" size="#data" hidden="false">
+			<node name="event_ave_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="change_weapon" reader="UINT" />
+			<node name="attackitem_enchant" reader="UINT" />
+			<node name="change_back" reader="UINT" />
+			<node name="change_armor" reader="UINT" />
+			<node name="standard_item_slot" reader="UINT" />
+			<node name="need_equipped" reader="UINT" />
+			<node name="change_accessory" reader="UINT" />
+			<node name="ignore_beautyshop" reader="UINT" />
+			<node name="none" reader="UINT" />
+			<node name="sword" reader="UINT" />
+			<node name="blunt" reader="UINT" />
+			<node name="dagger" reader="UINT" />
+			<node name="pole" reader="UINT" />
+			<node name="fist" reader="UINT" />
+			<node name="bow" reader="UINT" />
+			<node name="etc" reader="UINT" />
+			<node name="dual" reader="UINT" />
+			<node name="dualfist" reader="UINT" />
+			<node name="fishingrod" reader="UINT" />
+			<node name="rapier" reader="UINT" />
+			<node name="crossbow" reader="UINT" />
+			<node name="ancientsword" reader="UINT" />
+			<node name="flag" reader="UINT" />
+			<node name="dualdagger" reader="UINT" />
+			<node name="ownthing" reader="UINT" />
+			<node name="twohandcrossbow" reader="UINT" />
+			<node name="dualblunt" reader="UINT" />
+			<node name="twohandsword" reader="UINT" />
+			<node name="twohandblunt" reader="UINT" />
+			<node name="mage_sword" reader="UINT" />
+			<node name="mage_blunt" reader="UINT" />
+			<node name="mage_twohandsword" reader="UINT" />
+			<node name="mage_twohandblunt" reader="UINT" />
+			<node name="findme" reader="UINT" />
+			<node name="shield" reader="UINT" />
+			<node name="sigil" reader="UINT" />
+			<wrapper name="gloves">
+				<node name="param_gloves1" reader="UINT" />
+				<node name="param_gloves2" reader="UINT" />
+				<node name="param_gloves3" reader="UINT" />
+			</wrapper>
+			<wrapper name="chest">
+				<node name="param_chest1" reader="UINT" />
+				<node name="param_chest2" reader="UINT" />
+				<node name="param_chest3" reader="UINT" />
+			</wrapper>
+			<wrapper name="legs">
+				<node name="param_legs1" reader="UINT" />
+				<node name="param_legs2" reader="UINT" />
+				<node name="param_legs3" reader="UINT" />
+			</wrapper>
+			<wrapper name="feet">
+				<node name="param_feet1" reader="UINT" />
+				<node name="param_feet2" reader="UINT" />
+				<node name="param_feet3" reader="UINT" />
+			</wrapper>
+			<node name="back" reader="UINT" />
+			<node name="accessory" reader="UINT" />
+			<node name="accessory1" reader="UINT" />
+			<node name="accessory2" reader="UINT" />
+			<node name="accessory3" reader="UINT" />
+			<node name="accessory4" reader="UINT" />
+			<node name="accessory5" reader="UINT" />
+		</for>
+	</file>
+
+	<file pattern="EtinasFate" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="event_look_change" size="#data" hidden="false">
+			<node name="event_ave_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="change_weapon" reader="UINT" />
+			<node name="attackitem_enchant" reader="UINT" />
+			<node name="change_back" reader="UINT" />
+			<node name="change_armor" reader="UINT" />
+			<node name="standard_item_slot" reader="UINT" />
+			<node name="need_equipped" reader="UINT" />
+			<node name="change_accessory" reader="UINT" />
+			<node name="ignore_beautyshop" reader="UINT" />
+			<node name="none" reader="UINT" />
+			<node name="sword" reader="UINT" />
+			<node name="twohandsword" reader="UINT" />
+			<node name="buster" reader="UINT" />
+			<node name="blunt" reader="UINT" />
+			<node name="twohandblunt" reader="UINT" />
+			<node name="staff" reader="UINT" />
+			<node name="twohandstaff" reader="UINT" />
+			<node name="dagger" reader="UINT" />
+			<node name="pole" reader="UINT" />
+			<node name="dualfist" reader="UINT" />
+			<node name="bow" reader="UINT" />
+			<node name="etc" reader="UINT" />
+			<node name="dual" reader="UINT" />
+			<node name="fist" reader="UINT" />
+			<node name="fishingrod" reader="UINT" />
+			<node name="rapier" reader="UINT" />
+			<node name="crossbow" reader="UINT" />
+			<node name="ancientsword" reader="UINT" />
+			<node name="flag" reader="UINT" />
+			<node name="dualdagger" reader="UINT" />
+			<node name="ownthing" reader="UINT" />
+			<node name="twohandcrossbow" reader="UINT" />
+			<node name="dualblunt" reader="UINT" />
+			<node name="pistol" reader="UINT" />
+			<node name="shield" reader="UINT" />
+			<node name="sigil" reader="UINT" />
+			<for name="sets" size="4">
+				<node name="param_gloves" reader="UINT" />
+				<node name="param_chest" reader="UINT" />
+				<node name="param_legs" reader="UINT" />
+				<node name="param_feet" reader="UINT" />
+			</for>
+			<node name="back" reader="UINT" />
+			<node name="accessory" reader="UINT" />
+			<node name="accessory2" reader="UINT" />
+		</for>
+	</file>
+	
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="event_look_change" size="#data" hidden="false">
+			<node name="event_ave_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="change_weapon" reader="UINT" />
+			<node name="attackitem_enchant" reader="UINT" />
+			<node name="change_back" reader="UINT" />
+			<node name="change_armor" reader="UINT" />
+			<node name="standard_item_slot" reader="UINT" />
+			<node name="need_equipped" reader="UINT" />
+			<node name="change_accessory" reader="UINT" />
+			<node name="ignore_beautyshop" reader="UINT" />
+			<node name="none" reader="UINT" />
+			<node name="sword" reader="UINT" />
+			<node name="blunt" reader="UINT" />
+			<node name="dagger" reader="UINT" />
+			<node name="pole" reader="UINT" />
+			<node name="fist" reader="UINT" />
+			<node name="bow" reader="UINT" />
+			<node name="etc" reader="UINT" />
+			<node name="dual" reader="UINT" />
+			<node name="dualfist" reader="UINT" />
+			<node name="fishingrod" reader="UINT" />
+			<node name="rapier" reader="UINT" />
+			<node name="crossbow" reader="UINT" />
+			<node name="ancientsword" reader="UINT" />
+			<node name="flag" reader="UINT" />
+			<node name="dualdagger" reader="UINT" />
+			<node name="ownthing" reader="UINT" />
+			<node name="twohandcrossbow" reader="UINT" />
+			<node name="dualblunt" reader="UINT" />
+			<node name="twohandsword" reader="UINT" />
+			<node name="twohandblunt" reader="UINT" />
+			<node name="mage_sword" reader="UINT" />
+			<node name="mage_blunt" reader="UINT" />
+			<node name="mage_twohandsword" reader="UINT" />
+			<node name="mage_twohandblunt" reader="UINT" />
+			<node name="shooter" reader="UINT" />
+			<node name="shield" reader="UINT" />
+			<node name="sigil" reader="UINT" />
+			<wrapper name="gloves">
+				<node name="gloves_value01" reader="UINT" />
+				<node name="gloves_value02" reader="UINT" />
+				<node name="gloves_value03" reader="UINT" />
+			</wrapper>
+			<wrapper name="chest">
+				<node name="chest_value01" reader="UINT" />
+				<node name="chest_value02" reader="UINT" />
+				<node name="chest_value03" reader="UINT" />
+			</wrapper>
+			<wrapper name="legs">
+				<node name="legs_value01" reader="UINT" />
+				<node name="legs_value02" reader="UINT" />
+				<node name="legs_value03" reader="UINT" />
+			</wrapper>
+			<wrapper name="feet">
+				<node name="feet_value01" reader="UINT" />
+				<node name="feet_value02" reader="UINT" />
+				<node name="feet_value03" reader="UINT" />
+			</wrapper>
+			<node name="back" reader="UINT" />
+			<node name="accessory" reader="UINT" />
+			<node name="accessory1" reader="UINT" />
+			<node name="accessory2" reader="UINT" />
+			<node name="accessory3" reader="UINT" />
+			<node name="accessory4" reader="UINT" />
+			<node name="accessory5" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="event_look_change" size="#data" hidden="false">
+			<node name="event_ave_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="change_weapon" reader="UINT" />
+			<node name="attackitem_enchant" reader="UINT" />
+			<node name="change_back" reader="UINT" />
+			<node name="change_armor" reader="UINT" />
+			<node name="standard_item_slot" reader="UINT" />
+			<node name="need_equipped" reader="UINT" />
+			<node name="change_accessory" reader="UINT" />
+			<node name="ignore_beautyshop" reader="UINT" />
+			<node name="none" reader="UINT" />
+			<node name="sword" reader="UINT" />
+			<node name="blunt" reader="UINT" />
+			<node name="dagger" reader="UINT" />
+			<node name="pole" reader="UINT" />
+			<node name="fist" reader="UINT" />
+			<node name="bow" reader="UINT" />
+			<node name="etc" reader="UINT" />
+			<node name="dual" reader="UINT" />
+			<node name="dualfist" reader="UINT" />
+			<node name="fishingrod" reader="UINT" />
+			<node name="rapier" reader="UINT" />
+			<node name="crossbow" reader="UINT" />
+			<node name="ancientsword" reader="UINT" />
+			<node name="flag" reader="UINT" />
+			<node name="dualdagger" reader="UINT" />
+			<node name="ownthing" reader="UINT" />
+			<node name="twohandcrossbow" reader="UINT" />
+			<node name="dualblunt" reader="UINT" />
+			<node name="twohandsword" reader="UINT" />
+			<node name="twohandblunt" reader="UINT" />
+			<node name="mage_sword" reader="UINT" />
+			<node name="mage_blunt" reader="UINT" />
+			<node name="mage_twohandsword" reader="UINT" />
+			<node name="mage_twohandblunt" reader="UINT" />
+			<node name="shooter" reader="UINT" />
+			<node name="shield" reader="UINT" />
+			<node name="sigil" reader="UINT" />
+			<wrapper name="gloves">
+				<node name="gloves_value01" reader="UINT" />
+				<node name="gloves_value02" reader="UINT" />
+				<node name="gloves_value03" reader="UINT" />
+			</wrapper>
+			<wrapper name="chest">
+				<node name="chest_value01" reader="UINT" />
+				<node name="chest_value02" reader="UINT" />
+				<node name="chest_value03" reader="UINT" />
+			</wrapper>
+			<wrapper name="legs">
+				<node name="legs_value01" reader="UINT" />
+				<node name="legs_value02" reader="UINT" />
+				<node name="legs_value03" reader="UINT" />
+			</wrapper>
+			<wrapper name="feet">
+				<node name="feet_value01" reader="UINT" />
+				<node name="feet_value02" reader="UINT" />
+				<node name="feet_value03" reader="UINT" />
+			</wrapper>
+			<node name="back" reader="UINT" />
+			<node name="accessory" reader="UINT" />
+			<node name="accessory1" reader="UINT" />
+			<node name="accessory2" reader="UINT" />
+			<node name="accessory3" reader="UINT" />
+			<node name="accessory4" reader="UINT" />
+			<node name="accessory5" reader="UINT" />
+			<node name="UNK_1" reader="UINT" />
+			<node name="exceptionItem_size" reader="CNTR" />
+			<for name="exceptionItem" size="#exceptionItem_size">
+				<node name="exceptionItems" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

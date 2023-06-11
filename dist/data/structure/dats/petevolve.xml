@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pet_evolve" size="#data" hidden="false">
+			<node name="pet_id" reader="UINT" />
+			<node name="evolve_step" reader="UINT" />
+			<node name="evolve_condition" reader="CNTR" />
+			<for name="evolve_condition" size="#evolve_condition">
+				<node name="ConditionType" reader="UBYTE" enumName="pet_evolve_condition_type" />
+				<node name="Value" reader="UINT" />
+			</for>
+			<node name="evolve_cost" reader="CNTR" />
+			<for name="evolve_cost" size="#evolve_cost">
+				<node name="evolve_cost_id" reader="UINT" />
+				<node name="evolve_cost_count" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

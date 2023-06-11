@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="sceneplayer_data" size="#data" hidden="false">
+			<node name="scene_id" reader="UINT" />
+			<node name="scene_name" reader="UNICODE" />
+			<node name="play_time" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="Underground" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="sceneplayer_data" size="#data" hidden="false">
+			<node name="scene_id" reader="UINT" />
+			<node name="scene_name" reader="ASCF" />
+			<node name="play_time" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="sceneplayer_data" size="#data" hidden="false">
+			<node name="scene_id" reader="UINT" />
+			<node name="scene_name" reader="MAP_INT" />
+			<node name="play_time" reader="FLOAT" />
+		</for>
+	</file>
+</list>

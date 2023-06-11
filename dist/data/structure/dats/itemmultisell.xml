@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="itemMultisell" size="#data" hidden="false">
+			<node name="itemClassID" reader="UINT" />
+			<node name="multisell_id_list" reader="UBYTE" />
+			<for name="multisell_id_list" size="#multisell_id_list">
+				<node name="multisell_id" reader="UINT" />
+			</for>
+			<node name="multisell_name" reader="UBYTE" />
+			<for name="multisell_name" size="#multisell_name">
+				<node name="name" reader="ASCF" />
+			</for>
+			<node name="unk" reader="UBYTE" />
+			<for name="unk" size="#unk">
+				<node name="unk_" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

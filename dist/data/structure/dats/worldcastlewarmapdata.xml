@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="WorldCastleWarMapData" size="#data" hidden="false">
+			<node name="npc_type" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="tier" reader="UINT" />
+			<wrapper name="loc">
+				<node name="loc_x" reader="FLOAT" />
+				<node name="loc_y" reader="FLOAT" />
+				<node name="loc_z" reader="FLOAT" />
+			</wrapper>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="UNK_npc1" reader="UINT" />
+			<node name="UNK_npc2" reader="UINT" />
+			<node name="UNK_npc3" reader="UINT" />
+			<node name="entity_name" reader="ASCF" />
+			<wrapper name="unk">
+				<node name="UNK_1" reader="UINT" />
+				<node name="UNK_2" reader="UINT" />
+				<node name="UNK_3" reader="UINT" />
+				<node name="UNK_4" reader="UINT" />
+			</wrapper>
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="param_class_limit" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+		</for>
+	</file>
+
+	<file pattern="Interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="lvl_min" reader="UINT" />
+			<node name="lvl_max" reader="UINT" />
+			<node name="quest_type" reader="UINT" />
+			<node name="entity_name" reader="ASCF" />
+			<node name="get_item_in_quest" reader="UINT" />
+			<node name="UNK_1" reader="UINT" />
+			<node name="UNK_2" reader="UINT" />
+			<node name="start_npc_id" reader="UINT" />
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="INT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="INT" />
+			</for>
+			<node name="clan_pet_quest" reader="UINT" />
+			<node name="req_quest_complete" reader="UINT" />
+			<node name="UNK_3" reader="UINT" />
+			<node name="area_id" reader="UINT" />
+		</for>
+	</file>
+
+	<file pattern="Epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="lvl_min" reader="UINT" />
+			<node name="lvl_max" reader="UINT" />
+			<node name="quest_type" reader="UINT" />
+			<node name="entity_name" reader="ASCF" />
+			<node name="get_item_in_quest" reader="UINT" />
+			<node name="UNK_1" reader="UINT" />
+			<node name="UNK_2" reader="UINT" />
+			<node name="start_npc_id" reader="UINT" />
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="UINT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="UINT" />
+			</for>
+			<node name="clan_pet_quest" reader="UINT" />
+			<node name="req_quest_complete" reader="UINT" />
+			<node name="category_id" reader="UINT" />
+			<node name="search_zoneid" reader="UINT" />
+			<node name="iscategory" reader="UINT" />
+			<node name="reward_id" reader="CNTR" />
+			<for name="reward_id" size="#reward_id">
+				<node name="param_reward_id" reader="UINT" />
+			</for>
+			<node name="reward_num" reader="CNTR" />
+			<for name="reward_num" size="#reward_num">
+				<node name="param_reward_num" reader="UINT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="HighFive" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="lvl_min" reader="UINT" />
+			<node name="lvl_max" reader="UINT" />
+			<node name="quest_type" reader="UINT" />
+			<node name="entity_name" reader="ASCF" />
+			<node name="get_item_in_quest" reader="UINT" />
+			<node name="UNK_1" reader="UINT" />
+			<node name="UNK_2" reader="UINT" />
+			<node name="start_npc_id" reader="UINT" />
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="UINT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="UINT" />
+			</for>
+			<node name="clan_pet_quest" reader="UINT" />
+			<node name="mark_type" reader="UINT" />
+			<node name="category_id" reader="UINT" />
+			<node name="search_zoneid" reader="UINT" />
+			<node name="iscategory" reader="UINT" />
+			<node name="reward_id" reader="CNTR" />
+			<for name="reward_id" size="#reward_id">
+				<node name="param_reward_id" reader="UINT" />
+			</for>
+			<node name="reward_num" reader="CNTR" />
+			<for name="reward_num" size="#reward_num">
+				<node name="param_reward_num" reader="UINT" />
+			</for>
+			<node name="pre_level" reader="CNTR" />
+			<for name="pre_level" size="#pre_level">
+				<node name="param_pre_level" reader="UINT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_type" reader="CNTR" />
+			<for name="goal_type" size="#goal_type">
+				<node name="param_goal_type" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<!-- TODO goal_num_disp -->
+			<node name="add_target_locs" reader="CNTR" />
+			<for name="add_target_locs" size="#add_target_locs">
+				<node name="quest_x1" reader="FLOAT" />
+				<node name="quest_y2" reader="FLOAT" />
+				<node name="quest_z3" reader="FLOAT" />
+			</for>
+			<node name="q_level" reader="CNTR" />
+			<for name="q_level" size="#q_level">
+				<node name="param_q_level" reader="UINT" />
+			</for>
+			<node name="lvl_min" reader="UINT" />
+			<!-- TODO -->
+			<node name="lvl_max" reader="UINT" />
+			<!-- TODO -->
+			<node name="quest_type" reader="UINT" />
+			<!-- TODO -->
+			<node name="entity_name" reader="ASCF" />
+			<!-- TODO -->
+			<node name="get_item_in_quest" reader="UINT" />
+			<!-- TODO -->
+			<node name="UNK_1" reader="UINT" />
+			<!-- TODO -->
+			<node name="UNK_2" reader="UINT" />
+			<!-- TODO -->
+			<node name="start_npc_id" reader="CNTR" />
+			<for name="start_npc_id" size="#start_npc_id">
+				<node name="param_start_npc_id" reader="UINT" />
+			</for>
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="UINT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="UINT" />
+			</for>
+			<node name="or_and" reader="UINT" />
+			<!-- TODO or_and -->
+			<node name="cleared_quest" reader="UINT" />
+			<node name="mark_type" reader="UINT" />
+			<node name="search_zoneid" reader="UINT" />
+			<node name="iscategory" reader="UINT" />
+			<node name="reward_id" reader="CNTR" />
+			<for name="reward_id" size="#reward_id">
+				<node name="param_reward_id" reader="UINT" />
+			</for>
+			<node name="reward_num" reader="CNTR" />
+			<for name="reward_num" size="#reward_num">
+				<node name="param_reward_num" reader="UINT" />
+			</for>
+			<node name="pre_level" reader="CNTR" />
+			<for name="pre_level" size="#pre_level">
+				<node name="param_pre_level" reader="UINT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Underground" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_type" reader="CNTR" />
+			<for name="goal_type" size="#goal_type">
+				<node name="param_goal_type" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<!-- TODO goal_num_disp -->
+			<node name="add_target_locs" reader="CNTR" />
+			<for name="add_target_locs" size="#add_target_locs">
+				<node name="quest_x1" reader="FLOAT" />
+				<node name="quest_y2" reader="FLOAT" />
+				<node name="quest_z3" reader="FLOAT" />
+			</for>
+			<node name="q_level" reader="CNTR" />
+			<for name="q_level" size="#q_level">
+				<node name="param_q_level" reader="UINT" />
+			</for>
+			<node name="lvl_min" reader="UINT" />
+			<!-- TODO -->
+			<node name="lvl_max" reader="UINT" />
+			<!-- TODO -->
+			<node name="quest_type" reader="UINT" />
+			<!-- TODO -->
+			<node name="entity_name" reader="ASCF" />
+			<!-- TODO -->
+			<node name="get_item_in_quest" reader="UINT" />
+			<!-- TODO -->
+			<node name="UNK_1" reader="UINT" />
+			<!-- TODO -->
+			<node name="UNK_2" reader="UINT" />
+			<!-- TODO -->
+			<node name="start_npc_id" reader="CNTR" />
+			<for name="start_npc_id" size="#start_npc_id">
+				<node name="param_start_npc_id" reader="UINT" />
+			</for>
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="UINT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="UINT" />
+			</for>
+			<node name="or_and" reader="UINT" />
+			<!-- TODO or_and -->
+			<node name="cleared_quest" reader="UINT" />
+			<node name="mark_type" reader="UINT" />
+			<node name="search_zoneid" reader="UINT" />
+			<node name="iscategory" reader="UINT" />
+			<node name="reward_id" reader="CNTR" />
+			<for name="reward_id" size="#reward_id">
+				<node name="param_reward_id" reader="UINT" />
+			</for>
+			<node name="reward_num" reader="CNTR" />
+			<for name="reward_num" size="#reward_num">
+				<node name="param_reward_num" reader="LONG" />
+			</for>
+			<node name="pre_level" reader="CNTR" />
+			<for name="pre_level" size="#pre_level">
+				<node name="param_pre_level" reader="UINT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_type" reader="CNTR" />
+			<for name="goal_type" size="#goal_type">
+				<node name="param_goal_type" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="add_target_locs" reader="CNTR" />
+			<for name="add_target_locs" size="#add_target_locs">
+				<node name="quest_x1" reader="FLOAT" />
+				<node name="quest_y2" reader="FLOAT" />
+				<node name="quest_z3" reader="FLOAT" />
+			</for>
+			<node name="q_level" reader="CNTR" />
+			<for name="q_level" size="#q_level">
+				<node name="param_q_level" reader="UINT" />
+			</for>
+			<node name="lvl_min" reader="UINT" />
+			<node name="lvl_max" reader="UINT" />
+			<node name="journal_disp" reader="UINT" />
+			<node name="entity_name" reader="ASCF" />
+			<node name="get_item_in_quest" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<node name="start_npc_id" reader="CNTR" />
+			<for name="start_npc_id" size="#start_npc_id">
+				<node name="param_start_npc_id" reader="UINT" />
+			</for>
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="UINT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="UINT" />
+			</for>
+			<node name="or_and" reader="UINT" />
+			<node name="cleared_quest" reader="UINT" />
+			<node name="mark_type" reader="UINT" />
+			<node name="search_zoneid" reader="UINT" />
+			<node name="iscategory" reader="UINT" />
+			<node name="reward_id" reader="CNTR" />
+			<for name="reward_id" size="#reward_id">
+				<node name="param_reward_id" reader="UINT" />
+			</for>
+			<node name="reward_num" reader="CNTR" />
+			<for name="reward_num" size="#reward_num">
+				<node name="param_reward_num" reader="LONG" />
+			</for>
+			<node name="pre_level" reader="CNTR" />
+			<for name="pre_level" size="#pre_level">
+				<node name="param_pre_level" reader="UINT" />
+			</for>
+			<node name="faction_id" reader="UINT" />
+			<node name="faction_level_min" reader="UINT" />
+			<node name="faction_level_max" reader="UINT" />
+		</for>
+	</file>
+
+	<file pattern="Fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="quest" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="title" reader="ASCF" />
+			<node name="sub_name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="goal_id" reader="CNTR" />
+			<for name="goal_id" size="#goal_id">
+				<node name="param_goal_id" reader="UINT" />
+			</for>
+			<node name="goal_type" reader="CNTR" />
+			<for name="goal_type" size="#goal_type">
+				<node name="param_goal_type" reader="UINT" />
+			</for>
+			<node name="goal_num" reader="CNTR" />
+			<for name="goal_num" size="#goal_num">
+				<node name="param_goal_num" reader="UINT" />
+			</for>
+			<wrapper name="target_loc">
+				<node name="target_loc_x" reader="FLOAT" />
+				<node name="target_loc_y" reader="FLOAT" />
+				<node name="target_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="add_target_locs" reader="CNTR" />
+			<for name="add_target_locs" size="#add_target_locs">
+				<node name="quest_x1" reader="FLOAT" />
+				<node name="quest_y2" reader="FLOAT" />
+				<node name="quest_z3" reader="FLOAT" />
+			</for>
+			<node name="q_level" reader="CNTR" />
+			<for name="q_level" size="#q_level">
+				<node name="param_q_level" reader="UINT" />
+			</for>
+			<node name="lvl_min" reader="UINT" />
+			<node name="lvl_max" reader="UINT" />
+			<node name="journal_disp" reader="UINT" />
+			<node name="entity_name" reader="ASCF" />
+			<node name="get_item_in_quest" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<node name="start_npc_id" reader="CNTR" />
+			<for name="start_npc_id" size="#start_npc_id">
+				<node name="param_start_npc_id" reader="UINT" />
+			</for>
+			<wrapper name="start_npc_loc">
+				<node name="start_npc_loc_x" reader="FLOAT" />
+				<node name="start_npc_loc_y" reader="FLOAT" />
+				<node name="start_npc_loc_z" reader="FLOAT" />
+			</wrapper>
+			<node name="q_requirement" reader="ASCF" />
+			<node name="quest_intro" reader="ASCF" />
+			<node name="class_limit" reader="CNTR" />
+			<for name="class_limit" size="#class_limit">
+				<node name="param_class_limit" reader="UINT" />
+			</for>
+			<node name="have_item" reader="CNTR" />
+			<for name="have_item" size="#have_item">
+				<node name="param_have_item" reader="UINT" />
+			</for>
+			<node name="clan_pet_quest" reader="UINT" />
+			<node name="cleared_quest" reader="UINT" />
+			<node name="mark_type" reader="UINT" />
+			<node name="category_id" reader="UINT" />
+			<node name="priority_level" reader="UINT" />
+			<node name="search_zoneid" reader="UINT" />
+			<node name="iscategory" reader="UINT" />
+			<node name="reward_id" reader="CNTR" />
+			<for name="reward_id" size="#reward_id">
+				<node name="param_reward_id" reader="UINT" />
+			</for>
+			<node name="reward_num" reader="CNTR" />
+			<for name="reward_num" size="#reward_num">
+				<node name="param_reward_num" reader="LONG" />
+			</for>
+			<node name="pre_level" reader="CNTR" />
+			<for name="pre_level" size="#pre_level">
+				<node name="param_pre_level" reader="UINT" />
+			</for>
+			<node name="faction_id" reader="UINT" />
+			<node name="faction_level_min" reader="UINT" />
+			<node name="faction_level_max" reader="UINT" />
+		</for>
+	</file>
+</list>

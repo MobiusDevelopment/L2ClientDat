@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Epilogue" isSafePackage="true">
+		<for name="Char" size="20" hidden="false">
+			<node name="flts_1" reader="FLOAT" />
+			<node name="flts_2" reader="FLOAT" />
+			<node name="flts_3" reader="FLOAT" />
+			<node name="flts_4" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Awakening" isSafePackage="true">
+		<for name="Char" size="20" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Ertheia" isSafePackage="true">
+		<for name="Char" size="24" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Salvation" isSafePackage="true">
+		<for name="Char" size="82" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<for name="Char" size="82" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="UINT" />
+			<node name="IntroWaitAnimName" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<for name="Char" size="85" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+	</file>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<for name="Char" size="87" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+	
+	<file pattern="MasterClass" isSafePackage="true">
+		<for name="Char" size="88" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<for name="Char" size="89" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<for name="Char" size="91" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+</list>

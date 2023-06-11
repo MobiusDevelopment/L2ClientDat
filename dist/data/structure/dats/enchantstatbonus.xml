@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_enchant_stat" size="#data" hidden="false">
+			<node name="weapon_grade" reader="UINT" enumName="grade_type" />
+			<node name="magic_weapon" reader="UINT" />
+			<node name="unk" reader="UINT" />
+			<node name="weapon_type" reader="CNTR" />
+			<for name="weapon_type" size="#weapon_type">
+				<node name="type" reader="UINT" enumName="item_weapon_v2_type" />
+			</for>
+			<node name="soulshotpower" reader="FLOAT" />
+			<node name="spiritshotpower" reader="FLOAT" />
+		</for>
+	</file>
+</list>

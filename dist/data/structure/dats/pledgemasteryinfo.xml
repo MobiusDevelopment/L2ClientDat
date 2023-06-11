@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pledge_mastery" size="#data" hidden="false">
+			<node name="mastery_id" reader="USHORT" />
+			<node name="mastery_type" reader="USHORT" />
+			<node name="mastery_name" reader="ASCF" />
+			<node name="req_mastery" reader="CNTR" />
+			<for name="req_mastery" size="#req_mastery">
+				<node name="param_req_mastery" reader="USHORT" />
+			</for>
+			<node name="and_or" reader="UINT" />
+			<node name="req_point" reader="UINT" />
+			<node name="req_namevalue" reader="UINT" />
+			<node name="pledge_skill" reader="CNTR" />
+			<for name="pledge_skill" size="#pledge_skill">
+				<node name="param_pledge_skill" reader="UINT" />
+			</for>
+			<node name="mastery_skill" reader="CNTR" />
+			<for name="mastery_skill" size="#mastery_skill">
+				<node name="param_mastery_skill" reader="UINT" />
+			</for>
+			<node name="duration" reader="UINT" />
+			<node name="merit" reader="ASCF" />
+			<node name="description" reader="ASCF" />
+		</for>
+	</file>
+</list>

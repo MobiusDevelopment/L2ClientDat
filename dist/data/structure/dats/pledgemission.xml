@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pledge_mission" size="#data" hidden="false">
+			<node name="id" reader="USHORT" />
+			<node name="category" reader="UBYTE" enumName="pledgemission_category" />
+			<node name="is_repeat" reader="UBYTE" />
+			<node name="name" reader="ASCF" />
+			<node name="pledge_level" reader="UBYTE" />
+			<node name="c_pledge_mastery" reader="USHORT" />
+			<wrapper name="rc_level">
+				<node name="min_level" reader="UBYTE" />
+				<node name="max_level" reader="UBYTE" />
+			</wrapper>
+			<wrapper name="jobs">
+				<node name="job_main" reader="UBYTE" />
+				<node name="job_dual" reader="UBYTE" />
+				<node name="job_sub" reader="UBYTE" />
+			</wrapper>
+			<node name="pre_mission_id" reader="USHORT" />
+			<node name="start_date" reader="UINT" />
+			<node name="start_time" reader="UINT" />
+			<node name="end_date" reader="USHORT" />
+			<node name="end_time" reader="USHORT" />
+			<node name="activate_time" reader="USHORT" />
+			<node name="deactivate_time" reader="USHORT" />
+			<wrapper name="available_day">
+				<node name="sun" reader="UBYTE" />
+				<node name="mon" reader="UBYTE" />
+				<node name="tue" reader="UBYTE" />
+				<node name="wed" reader="UBYTE" />
+				<node name="thu" reader="UBYTE" />
+				<node name="fri" reader="UBYTE" />
+				<node name="sat" reader="UBYTE" />
+			</wrapper>
+			<node name="goal_desc" reader="ASCF" />
+			<node name="goal_count" reader="UINT" />
+			<node name="reward_pledge_name_value" reader="UINT" />
+			<node name="reward_pvp_point" reader="UINT" />
+			<node name="reward_items" reader="CNTR" />
+			<for name="reward_items" size="#reward_items">
+				<node name="param_item_id" reader="UINT" />
+				<node name="param_item_count" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

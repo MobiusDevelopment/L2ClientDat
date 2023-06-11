@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="subjugation" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+			<node name="banner" reader="ASCF" />
+			<node name="min_level" reader="UINT" />
+			<node name="max_level" reader="UINT" />
+			<node name="max_subjugation_point" reader="UINT" />
+			<node name="max_gacha_point" reader="UINT" />
+			<node name="max_periodic_gacha_point" reader="UINT" />
+			<node name="gacha_cost_item" reader="UINT" />
+			<node name="gacha_cost_num" reader="UINT" />
+			<node name="max_use_point" reader="UINT" />
+			<node name="teleport_id" reader="UINT" />
+			<node name="size_1" reader="UCHAR" />
+			<for name="cycle" size="#size_1">
+				<node name="cycle_0" reader="UINT" />
+			</for>
+			<node name="size_2" reader="UCHAR" />
+			<for name="hot_times" size="#size_2">
+				<node name="hot_times_0" reader="UINT" />
+			</for>
+			<node name="size_3" reader="UCHAR" />
+			<for name="show_gacha_main" size="#size_3">
+				<node name="show_gacha_main_0" reader="UINT" />
+			</for>
+			<node name="size_4" reader="UCHAR" />
+			<for name="show_gacha_sub" size="#size_4">
+				<node name="show_gacha_sub_0" reader="UINT" />
+			</for>
+			<node name="size_5" reader="UCHAR" />
+			<for name="reward_rank1" size="#size_5">
+				<node name="reward_rank1_0" reader="UINT" />
+			</for>
+			<node name="size_6" reader="UCHAR" />
+			<for name="reward_rank2" size="#size_6">
+				<node name="reward_rank2_0" reader="UINT" />
+			</for>
+			<node name="size_7" reader="UCHAR" />
+			<for name="reward_rank3" size="#size_7">
+				<node name="reward_rank3_0" reader="UINT" />
+			</for>
+			<node name="size_8" reader="UCHAR" />
+			<for name="reward_rank4" size="#size_8">
+				<node name="reward_rank4_0" reader="UINT" />
+			</for>
+			<node name="size_9" reader="UCHAR" />
+			<for name="reward_rank5" size="#size_9">
+				<node name="reward_rank5_0" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

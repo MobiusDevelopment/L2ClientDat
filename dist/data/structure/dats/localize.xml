@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="localize" size="#data" hidden="false">
+			<node name="target" reader="ASCF" /> 
+			<node name="targettype" reader="UINT" /> 
+			<node name="targetid" reader="UINT" /> 
+			<node name="skilllv" reader="UINT" /> 
+			<node name="value" reader="ASCF" /> 
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+		</for>
+	</file>
+</list>

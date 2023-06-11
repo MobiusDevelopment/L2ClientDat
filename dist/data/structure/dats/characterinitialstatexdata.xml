@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="char_init_stat_ex" size="#data" hidden="false">
+			<node name="class" reader="UINT" enumName="class" />
+			<node name="race" reader="UBYTE" enumName="race" />
+			<node name="sex" reader="UBYTE" enumName="sex" />
+			<node name="str" reader="USHORT" />
+			<node name="dex" reader="USHORT" />
+			<node name="con" reader="USHORT" />
+			<node name="int" reader="USHORT" />
+			<node name="wit" reader="USHORT" />
+			<node name="men" reader="USHORT" />
+			<node name="luc" reader="USHORT" />
+			<node name="cha" reader="USHORT" />
+		</for>
+	</file>
+</list>

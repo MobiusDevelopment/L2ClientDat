@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+        <for name="homun_enchant" size="1" hidden="false">
+            <node name="point_max" reader="UINT" />
+            <node name="point_need_exp" reader="UINT" />
+            <node name="point_reset_max" reader="UINT" />
+            <node name="point_reset_item" reader="UINT" />
+            <node name="bonus_max" reader="UINT" />
+            <node name="bonus_need_vp" reader="UINT" />
+            <node name="bonus_reset_max" reader="UINT" />
+            <node name="bonus_reset_item" reader="UINT" />
+            <node name="enchant_exp_point" reader="UINT" />
+            <wrapper name="communion_need_point">
+                <node name="communion_need_point_min" reader="UINT" />
+                <node name="communion_need_point_max" reader="UINT" />
+            </wrapper>
+            <for name="point_reset_item" size="#point_reset_item">
+                <node name="param_reset_item_id" reader="UINT" />
+                <node name="param_reset_item_count" reader="UINT" />
+            </for>
+            <for name="bonus_reset_item" size="#bonus_reset_item">
+                <node name="param_bonus_reset_item_id" reader="UINT" />
+                <node name="param_bonus_reset_item_count" reader="UINT" />
+            </for>
+        </for>
+    </file>
+</list>

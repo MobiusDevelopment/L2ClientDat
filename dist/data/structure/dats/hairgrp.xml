@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Interlude" isSafePackage="true">
+		<for name="hairgrp" hidden="false">
+			<wrapper name="hairgrp">
+				<node name="hairgrp_data1" reader="UCHAR" />
+				<node name="hairgrp_data2" reader="UCHAR" />
+				<node name="hairgrp_data3" reader="UCHAR" />
+				<node name="hairgrp_data4" reader="UCHAR" />
+			</wrapper>
+		</for>
+	</file>
+</list>

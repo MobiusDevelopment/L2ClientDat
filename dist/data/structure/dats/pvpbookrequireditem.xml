@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pvpbook_required_item" size="#data" hidden="false">
+			<node name="type" reader="ASCF" />
+			<node name="item_id" reader="UINT" />
+			<node name="item_amount" reader="CNTR" />
+			<for name="item_amount" size="#item_amount">
+				<node name="param_item_amount" reader="LONG" />
+			</for>
+		</for>
+	</file>
+</list>

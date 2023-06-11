@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Underground" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+			<node name="option_list" reader="CNTR" />
+			<for name="option_list" size="#option_list">
+				<node name="option_list_node" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="ReturnOfTheQueenAnt2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+
+			<node name="ensoul_option_list_armor" reader="UINT" />
+			<for name="ensoul_option_list_armor" size="#ensoul_option_list_armor">
+				<node name="unk_list_node" reader="UINT" />
+				<node name="unk_list_node1" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_weapon" reader="UINT" />
+			<for name="ensoul_option_list_weapon" size="#ensoul_option_list_weapon">
+				<node name="unk_list_node2" reader="UINT" />
+				<node name="unk_list_node12" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_accessory" reader="UINT" />
+			<for name="ensoul_option_list_accessory" size="#ensoul_option_list_accessory">
+				<node name="unk_list_node3" reader="UINT" />
+				<node name="unk_list_node13" reader="UINT" />
+			</for>
+
+			<node name="option_list" reader="CNTR" />
+			<for name="option_list" size="#option_list">
+				<node name="option_list_node" reader="UINT" />
+			</for>
+
+			<node name="ensoul_fee" reader="UCHAR" />
+			<node name="ensoul_refee" reader="UCHAR" />
+			<node name="ensoul_extraction" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="FrostLord" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+
+			<node name="ensoul_option_list_armor" reader="UINT" />
+			<for name="ensoul_option_list_armor" size="#ensoul_option_list_armor">
+				<node name="unk_list_node" reader="UINT" />
+				<node name="unk_list_node1" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_weapon" reader="UINT" />
+			<for name="ensoul_option_list_weapon" size="#ensoul_option_list_weapon">
+				<node name="unk_list_node2" reader="UINT" />
+				<node name="unk_list_node12" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_accessory" reader="UINT" />
+			<for name="ensoul_option_list_accessory" size="#ensoul_option_list_accessory">
+				<node name="unk_list_node3" reader="UINT" />
+				<node name="unk_list_node13" reader="UINT" />
+			</for>
+
+			<node name="ensoul_fee" reader="UCHAR" />
+			<node name="ensoul_refee" reader="UCHAR" />
+
+			<node name="option_list" reader="CNTR" />
+			<for name="option_list" size="#option_list">
+				<node name="option_list_node" reader="UINT" />
+			</for>
+			<node name="ensoul_extraction" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_stone" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="slot_type" reader="UINT" />
+			<node name="ensoul_option_list_armor" reader="UINT" />
+			<for name="ensoul_option_list_armor" size="#ensoul_option_list_armor">
+				<node name="unk_list_node" reader="UINT" />
+				<node name="unk_list_node1" reader="UINT" />
+			</for>
+			<node name="ensoul_option_list_weapon" reader="UINT" />
+			<for name="ensoul_option_list_weapon" size="#ensoul_option_list_weapon">
+				<node name="unk_list_node2" reader="UINT" />
+				<node name="unk_list_node12" reader="UINT" />
+			</for>
+			<node name="ensoul_cost_" reader="UINT" />
+			<for name="ensoul_cost" size="#ensoul_cost_">
+				<node name="item_id" reader="UINT" />
+				<node name="count" reader="UINT" />
+			</for>
+			<node name="option_list_1" reader="CNTR" />
+			<for name="list_legs" size="#option_list_1">
+				<node name="option_list_node_1" reader="UINT" />
+			</for>
+			<node name="option_list_2" reader="CNTR" />
+			<for name="list_feet" size="#option_list_2">
+				<node name="option_list_node_2" reader="UINT" />
+			</for>
+			<node name="option_list_3" reader="CNTR" />
+			<for name="list_head" size="#option_list_3">
+				<node name="option_list_node_3" reader="UINT" />
+			</for>
+			<node name="option_list_4" reader="CNTR" />
+			<for name="list_gloves" size="#option_list_4">
+				<node name="option_list_node_4" reader="UINT" />
+			</for>
+			<node name="option_list_5" reader="CNTR" />
+			<for name="list_onepiece" size="#option_list_5">
+				<node name="option_list_node_5" reader="UINT" />
+			</for>
+			<node name="option_list_6" reader="CNTR" />
+			<for name="list_chest" size="#option_list_6">
+				<node name="option_list_node_6" reader="UINT" />
+			</for>
+			<node name="option_list_7" reader="CNTR" />
+			<for name="list_finger" size="#option_list_7">
+				<node name="option_list_node_7" reader="UINT" />
+			</for>
+			<node name="option_list_8" reader="CNTR" />
+			<for name="list_ear" size="#option_list_8">
+				<node name="option_list_node_8" reader="UINT" />
+			</for>
+			<node name="option_list_9" reader="CNTR" />
+			<for name="list_neck" size="#option_list_9">
+				<node name="option_list_node_9" reader="UINT" />
+			</for>
+			<node name="option_list_10" reader="CNTR" />
+			<for name="list_shield" size="#option_list_10">
+				<node name="option_list_node_10" reader="UINT" />
+			</for>
+			<node name="option_list_11" reader="CNTR" />
+			<for name="list_sigil" size="#option_list_11">
+				<node name="option_list_node_11" reader="UINT" />
+			</for>
+			<node name="option_list_12" reader="CNTR" />
+			<for name="list_weapon" size="#option_list_12">
+				<node name="option_list_node_12" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

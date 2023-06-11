@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="homun_list" size="#data" hidden="false">
+			<node name="itemid" reader="UINT" />
+			<node name="amount" reader="UINT" />
+			<node name="fee" reader="LONG" />
+			<node name="grade" reader="UINT" />
+			<node name="event" reader="UINT" />
+		</for>
+	</file>
+</list>

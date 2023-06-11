@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="action" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="type" reader="INT" />
+			<node name="category" reader="UINT" />
+			<node name="category2" reader="CNTR" />
+			<for name="category2" size="#category2">
+				<node name="class" reader="INT" />
+			</for>
+			<node name="cmd" reader="ASCF" />
+			<node name="icon" reader="ASCF" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="Awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="action" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="category" reader="UINT" />
+			<node name="category2" reader="CNTR" />
+			<for name="category2" size="#category2">
+				<node name="class" reader="INT" />
+			</for>
+			<node name="cmd" reader="ASCF" />
+			<node name="icon" reader="ASCF" />
+			<node name="iconEx1" reader="ASCF" />
+			<node name="name" reader="ASCF" />
+			<node name="toggle_group_id" reader="UINT" />
+			<node name="desc" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="action" size="#data" hidden="false">
+			<node name="tag" reader="UINT" />
+			<node name="id" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="category" reader="UINT" />
+			<node name="category2" reader="CNTR" />
+			<for name="category2" size="#category2">
+				<node name="class" reader="INT" />
+			</for>
+			<node name="cmd" reader="ASCF" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="iconEx1" reader="MAP_INT" />
+			<node name="name" reader="ASCF" />
+			<node name="toggle_group_id" reader="UINT" />
+			<node name="desc" reader="MAP_INT" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="action" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="category" reader="UBYTE" enumName="action_category" />
+			<node name="category2" reader="CNTR" />
+			<for name="category2" size="#category2">
+				<node name="class" reader="INT" />
+			</for>
+			<node name="name" reader="ASCF" />
+			<node name="icon" reader="MAP_INT" />
+			<node name="iconEx1" reader="MAP_INT" />
+			<node name="desc" reader="ASCF" />
+			<node name="toggle_group_id" reader="UBYTE" />
+			<node name="automatic_use" reader="UBYTE" />
+			<node name="cmd" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

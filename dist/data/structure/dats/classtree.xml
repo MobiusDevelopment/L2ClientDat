@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="classtree" size="#data" hidden="false">
+			<node name="id" reader="UINT" enumName="class" />
+			<node name="tree" reader="CNTR" />
+			<for name="tree" size="#tree">
+				<node name="class_id" reader="UINT" enumName="class" />
+			</for>
+		</for>
+	</file>
+</list>

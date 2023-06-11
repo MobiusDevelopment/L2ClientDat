@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="nicknameitem" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="par" reader="CNTR" />
+			<for name="colors" size="#par">
+				<node name="color" reader="RGBA" />
+			</for>
+			<node name="icon" reader="CNTR" />
+			<for name="icons" size="#icon">
+				<node name="icon_param" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

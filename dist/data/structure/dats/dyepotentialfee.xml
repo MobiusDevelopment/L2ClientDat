@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="dyepotential_fee" size="#data" hidden="false">
+			<node name="enchant_fee_step" reader="UCHAR" />
+			<node name="daily_count" reader="UCHAR" />
+			<node name="unk1" reader="CNTR" />
+			<for name="enchant_exp" size="#unk1">
+				<node name="unk" reader="UCHAR" />
+				<node name="unk_param_0" reader="USHORT" />
+				<node name="unk_param_1" reader="USHORT" />
+			</for>
+			<node name="upgrade_item_id" reader="UINT" />
+			<node name="items_count" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="dyepotential_fee" size="#data" hidden="false">
+			<node name="enchant_fee_step" reader="UCHAR" />
+			<node name="daily_count" reader="UCHAR" />
+			<node name="unk1" reader="CNTR" />
+			<for name="enchant_exp" size="#unk1">
+				<node name="unk" reader="UCHAR" />
+				<node name="unk_param_0" reader="USHORT" />
+				<node name="unk_param_1" reader="USHORT" />
+			</for>
+			<node name="unk2" reader="UCHAR" />
+			<node name="upgrade_item_id" reader="UINT" />
+			<node name="items_count" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="extract_pet" size="#data" hidden="false">
+			<wrapper name="key">
+				<node name="key_pet_id" reader="UINT" />
+				<node name="key_pet_level" reader="UINT" />
+			</wrapper>
+			<node name="pet_id" reader="UINT" />
+			<node name="pet_level" reader="UINT" />
+			<node name="extract_exp" reader="LONG" />
+			<node name="extract_item" reader="UINT" />
+			<wrapper name="default_cost">
+				<node name="default_cost_id" reader="UINT" />
+				<node name="default_cost_count" reader="UINT" />
+			</wrapper>
+			<wrapper name="extract_cost">
+				<node name="extract_cost_id" reader="UINT" />
+				<node name="extract_cost_count" reader="UINT" />
+			</wrapper>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="L2pass_advance" size="#data" hidden="false">
+			<node name="advance_id" reader="UINT" />
+			<node name="advance_type" reader="UINT" />
+			<node name="advance_type_name" reader="ASCF" />
+			<node name="target_item" reader="CNTR" />
+			<for name="target_items" size="#target_item">
+				<node name="id" reader="UINT" />
+			</for>
+			<node name="target_enchantvalue" reader="CNTR" />
+			<for name="target_enchants_level" size="#target_enchantvalue">
+				<node name="enchant" reader="UINT" />
+			</for>
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+</list>

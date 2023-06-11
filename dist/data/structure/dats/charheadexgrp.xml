@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="Char" size="#data" hidden="false">
+			<node name="class_name" reader="MAP_INT" />
+			<for name="hair" size="11">
+				<for name="hair_name" size="15">
+					<node name="ahair_mesh0" reader="MAP_INT" />
+					<node name="ahair_texture0" reader="MAP_INT" />
+					<node name="bhair_mesh0" reader="MAP_INT" />
+					<node name="bhair_texture0" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<for name="CharHeadEx" size="19" hidden="false">
+			<for name="hair" size="11" hidden="false">
+				<for name="hair_name" size="15">
+					<node name="ahair_mesh0" reader="MAP_INT" />
+					<node name="ahair_texture0" reader="MAP_INT" />
+					<node name="bhair_mesh0" reader="MAP_INT" />
+					<node name="bhair_texture0" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

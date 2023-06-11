@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="rankingsystem" size="#data" hidden="false">
+			<node name="type" reader="UINT" enumName="ranking_type" />
+			<node name="grouptype" reader="UINT" enumName="ranking_group_type" />
+			<node name="grade" reader="UINT" />
+			<wrapper name="gradescope">
+				<node name="from" reader="UINT" />
+				<node name="to" reader="UINT" />
+			</wrapper>
+			<node name="rewardskillID" reader="UINT" />
+		</for>
+	</file>
+</list>

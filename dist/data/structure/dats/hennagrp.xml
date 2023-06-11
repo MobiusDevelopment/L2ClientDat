@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="symbol" size="#data" hidden="false">
+			<node name="symbol_id" reader="UINT" />
+			<node name="dye_item_id" reader="UINT" />
+			<node name="symbol_name" reader="ASCF" />
+			<node name="symbol_icon" reader="ASCF" />
+			<node name="symbol_add_name" reader="ASCF" />
+			<node name="symbol_description" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="symbol" size="#data" hidden="false">
+			<node name="symbol_id" reader="UINT" />
+			<node name="dye_item_id" reader="UINT" />
+			<node name="symbol_name" reader="ASCF" />
+			<node name="symbol_icon" reader="MAP_INT" />
+			<node name="symbol_add_name" reader="ASCF" />
+			<node name="symbol_description" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="symbol" size="#data" hidden="false">
+			<node name="symbol_id" reader="UINT" />
+			<node name="dye_item_id" reader="UINT" />
+			<node name="symbol_name" reader="ASCF" />
+			<node name="symbol_icon" reader="MAP_INT" />
+			<node name="symbol_add_name" reader="ASCF" />
+			<node name="symbol_description" reader="ASCF" />
+			<node name="need_count" reader="UINT" />
+			<node name="cancel_count" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="symbol" size="#data" hidden="false">
+			<node name="symbol_id" reader="UINT" />
+			<node name="dye_item_id" reader="UINT" />
+			<node name="symbol_name" reader="ASCF" />
+			<node name="symbol_icon" reader="MAP_INT" />
+			<node name="henna_wnd" reader="MAP_INT" />
+			<node name="symbol_add_name" reader="ASCF" />
+			<node name="symbol_description" reader="ASCF" />
+			<node name="need_count" reader="UINT" />
+			<node name="cancel_count" reader="UINT" />
+			<node name="newhenna_hidden_power" reader="UCHAR" />
+		</for>
+	</file>
+</list>

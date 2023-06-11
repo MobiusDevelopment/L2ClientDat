@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="linked_anim" size="#data" hidden="false">
+			<node name="name" reader="MAP_INT" />
+			<node name="action" reader="UINT" />
+			<for name="action" size="#action">
+				<node name="param_1" reader="MAP_INT" />
+				<node name="param_2" reader="MAP_INT" />
+			</for>
+			<node name="social" reader="UINT" />
+			<for name="social" size="#social">
+				<node name="param_social" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

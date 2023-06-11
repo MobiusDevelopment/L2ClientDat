@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_baseinfo" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_price" reader="LONG" />
+			<node name="is_premium" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_baseinfo" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_price" reader="LONG" />
+			<node name="is_locked" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_baseinfo" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_price" reader="LONG" />
+			<node name="grind_point" reader="UINT" />
+			<node name="grind_commission" reader="UINT" />
+			<node name="is_locked" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_baseinfo" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_price" reader="LONG" />
+			<node name="grind_point" reader="UINT" />
+			<node name="grind_commission" reader="UINT" />
+			<node name="is_locked" reader="UCHAR" />
+			<node name="enchant_enable" reader="UCHAR" />
+			<node name="enchant_group_id" reader="UCHAR" />
+			<node name="challenge_point_group_id" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_baseinfo" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_price" reader="LONG" />
+			<node name="grind_point" reader="UINT" />
+			<node name="grind_commission" reader="UINT" />
+			<node name="is_locked" reader="UCHAR" />
+			<node name="enchant_enable" reader="UCHAR" />
+			<node name="enchant_group_id" reader="UCHAR" />
+			<node name="challenge_point_group_id" reader="UCHAR" />
+			<node name="hero_book_points" reader="USHORT" />
+		</for>
+	</file>
+</list>

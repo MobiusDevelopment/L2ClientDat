@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="statistic" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="type_reserved" reader="UINT" />
+			<node name="category" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="unit" reader="ASCF" />
+			<node name="unit_type" reader="UINT" />
+			<node name="zero_invisible" reader="UINT" />
+			<node name="category_list" reader="UINT" />
+			<for name="category_list" size="#category_list">
+				<node name="seteffect_3" reader="UINT" />
+			</for>
+		</for>
+		<for name="statistic2" size="151" hidden="false">
+			<node name="id2" reader="UINT" />
+			<node name="type2" reader="UINT" />
+			<node name="type_reserved2" reader="UINT" />
+			<node name="category2" reader="UINT" />
+			<node name="name2" reader="ASCF" />
+			<node name="unit2" reader="ASCF" />
+			<node name="unit_type2" reader="UINT" />
+			<node name="zero_invisible2" reader="UINT" />
+			<node name="category_list2" reader="UINT" />
+			<for name="category_list2" size="#category_list2">
+				<node name="seteffect_32" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="Valiance" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="statistic" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="type_reserved" reader="UINT" />
+			<node name="category" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="unit" reader="ASCF" />
+			<node name="unit_type" reader="UINT" />
+			<node name="zero_invisible" reader="UINT" />
+			<node name="category_list" reader="UINT" />
+			<for name="category_list" size="#category_list">
+				<node name="seteffect_3" reader="UINT" />
+			</for>
+		</for>
+		<for name="statistic2" size="150" hidden="false">
+			<node name="id2" reader="UINT" />
+			<node name="type2" reader="UINT" />
+			<node name="type_reserved2" reader="UINT" />
+			<node name="category2" reader="UINT" />
+			<node name="name2" reader="ASCF" />
+			<node name="unit2" reader="ASCF" />
+			<node name="unit_type2" reader="UINT" />
+			<node name="zero_invisible2" reader="UINT" />
+			<node name="category_list2" reader="UINT" />
+			<for name="category_list2" size="#category_list2">
+				<node name="seteffect_32" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

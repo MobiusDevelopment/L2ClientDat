@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ArmorGradeEffectSet" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />
+			<node name="attach_bone_name" reader="MAP_INT" />
+			<node name="attach_type" reader="UINT" />
+			<wrapper name="offset_position">
+				<node name="param_offset_position_x" reader="FLOAT" />
+				<node name="param_offset_position_y" reader="FLOAT" />
+				<node name="param_offset_position_z" reader="FLOAT" />
+			</wrapper>
+			<wrapper name="offset_rotation">
+				<node name="param_offset_rotation_x" reader="FLOAT" />
+				<node name="param_offset_rotation_y" reader="FLOAT" />
+				<node name="param_offset_rotation_z" reader="FLOAT" />
+			</wrapper>
+			<node name="effect_scale" reader="FLOAT" />
+			<node name="is_scaling_by_cylinder" reader="UINT" />
+		</for>
+	</file>
+</list>

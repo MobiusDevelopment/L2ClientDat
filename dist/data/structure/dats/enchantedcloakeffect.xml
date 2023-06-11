@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enchanted_cloak_effect" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="enchant_param" reader="CNTR" />
+			<for name="enchant_effect" size="#enchant_param">
+				<node name="enchant_level" reader="UINT" />
+				<node name="Effect_name" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

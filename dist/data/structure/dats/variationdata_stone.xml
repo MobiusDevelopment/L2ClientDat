@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <file pattern="Homunculus2" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="variation_stone" size="#data" hidden="false">
+            <node name="item_group_name" reader="UINT" />
+            <node name="mineral_item_id" reader="UINT" />
+            <node name="item_enchant" reader="UINT" />
+            <node name="item_list" reader="CNTR" />
+            <for name="item_list" size="#item_list">
+                <node name="item_id" reader="UINT" />
+            </for>
+        </for>
+    </file>
+</list>

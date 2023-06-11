@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="etc_status" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="fixed_level" reader="UINT" />
+		</for>
+	</file>
+</list>

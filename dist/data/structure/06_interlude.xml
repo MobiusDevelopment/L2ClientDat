@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list name="CT0 Interlude">
+	<link pattern="ActionName-[\w]+\.dat" file="actionname" version="ScionsOfDestiny" />
+	<link pattern="armorgrp.dat" file="armorgrp" version="ScionsOfDestiny" />
+	<link pattern="castlename-[\w]+\.dat" file="castlename" version="ScionsOfDestiny" />
+	<link pattern="chargrp.dat" file="chargrp" version="ScionsOfDestiny" />
+	<link pattern="classinfo-[\w]+\.dat" file="classinfo" version="ScionsOfDestiny" />
+	<link pattern="clientdata.dat" file="clientdata" version="ScionsOfDestiny" />
+	<link pattern="commandname-[\w]+\.dat" file="commandname" version="ScionsOfDestiny" />
+	<link pattern="creditgrp-[\w]+\.dat" file="credit" version="ScionsOfDestiny" />
+	<link pattern="EnterEventgrp.dat" file="entereventgrp" version="ScionsOfDestiny" />
+	<link pattern="etcitemgrp.dat" file="etcitemgrp" version="ScionsOfDestiny" />
+	<link pattern="eula-[\w]+\.dat" file="eula" version="Interlude" />
+	<link pattern="gametip-[\w]+\.dat" file="gametip" version="ScionsOfDestiny" /> <!-- unk0 ?? -->
+	<!-- <link pattern="hairaccessarygrp.dat" file="hairaccessarygrp" version="" /> no struct -->
+	<link pattern="hairaccessorylocgrp.dat" file="hairaccessorylocgrp" version="ScionsOfDestiny" />
+	<!-- <link pattern="hairgrp.dat" file="hairgrp" version="Interlude" /> cant write data -->
+	<!-- <link pattern="helmetgrp.dat" file="helmetgrp" version="Interlude" /> no struct -->
+	<link pattern="hennagrp-[\w]+\.dat" file="hennagrp" version="ScionsOfDestiny" />
+	<link pattern="huntingzone-[\w]+\.dat" file="huntingzone" version="ScionsOfDestiny" />
+	<link pattern="itemname-[\w]+\.dat" file="itemname" version="Interlude" />
+	<link pattern="logongrp.dat" file="logongrp" version="ScionsOfDestiny" />
+	<link pattern="mobskillanimgrp.dat" file="mobskillanimgrp" version="ScionsOfDestiny" />
+	<link pattern="musicinfo.dat" file="musicinfo" version="ScionsOfDestiny" />
+	<link pattern="npcgrp.dat" file="npcgrp" version="Interlude" />
+	<link pattern="npcname-[\w]+\.dat" file="npcname" version="ScionsOfDestiny" />
+	<link pattern="obscene-[\w]+\.dat" file="obscene" version="ScionsOfDestiny" />
+	<link pattern="optiondata_client-[\w]+\.dat" file="optiondata_client" version="ScionsOfDestiny" />
+	<link pattern="QuestName-[\w]+\.dat" file="questname" version="Interlude" />
+	<link pattern="RaidData-[\w]+\.dat" file="raiddata" version="ScionsOfDestiny" />
+	<link pattern="recipe-c.dat" file="recipe-c" version="Interlude" />
+	<link pattern="servername-[\w]+\.dat" file="servername" version="Interlude" />
+	<link pattern="skillgrp.dat" file="skillgrp" version="ScionsOfDestiny" />
+	<link pattern="SkillName-[\w]+\.dat" file="skillname" version="ScionsOfDestiny" />
+	<link pattern="SkillSoundgrp.dat" file="skillsoundgrp" version="ScionsOfDestiny" />
+	<link pattern="staticobject-[\w]+\.dat" file="staticobject" version="ScionsOfDestiny" />
+	<link pattern="symbolname-[\w]+\.dat" file="symbolname" version="ScionsOfDestiny" />
+	<link pattern="sysstring-[\w]+\.dat" file="sysstring" version="ScionsOfDestiny" />
+	<link pattern="systemmsg-[\w]+\.dat" file="systemmsg" version="Interlude" />
+	<link pattern="variationeffectgrp-[\w]+\.dat" file="variationeffectgrp" version="Interlude" />
+	<link pattern="weapongrp.dat" file="weapongrp" version="Interlude" />
+	<link pattern="ZoneName-[\w]+\.dat" file="zonename" version="Interlude" />
+</list>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combo" size="#data" hidden="false">
+			<node name="name" reader="UNICODE" />
+			<node name="anim0" reader="ASCF" />
+			<node name="anim1" reader="ASCF" />
+			<node name="anim2" reader="ASCF" />
+			<node name="loop" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combo" size="#data" hidden="false">
+			<node name="name" reader="MAP_INT" />
+			<node name="anim0" reader="ASCF" />
+			<node name="anim1" reader="ASCF" />
+			<node name="anim2" reader="ASCF" />
+			<node name="loop" reader="UINT" />
+		</for>
+	</file>
+</list>

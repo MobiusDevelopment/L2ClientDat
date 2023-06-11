@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <file pattern="Homunculus" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="cell_info" size="#data" hidden="false">
+            <node name="cell_id" reader="UINT" />
+            <node name="cell_color" reader="UBYTE" />
+            <node name="cell_name" reader="ASCF" />
+            <node name="cell_reward" reader="CNTR" />
+            <for name="cell_reward" size="#cell_reward">
+                <node name="cell_reward_param_1" reader="UINT" />
+                <node name="cell_reward_param_2" reader="UINT" />
+            </for>
+            <node name="event_group_Id" reader="CNTR" />
+            <for name="event_group_Id" size="#event_group_Id">
+                <node name="event_group_Id_param" reader="UINT" />
+            </for>
+        </for>
+    </file>
+</list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="levelup_itembonus_data" size="#data" hidden="false">
+			<node name="object_id" reader="UINT" />
+			<node name="stats" reader="CNTR" />
+			<write name="\r\n" />
+			<for name="stats" size="#stats" hidden="false">
+				<node name="end_lv" reader="UBYTE" />
+				<node name="pattack" reader="USHORT" />
+				<node name="mattack" reader="USHORT" />
+				<node name="pdefense" reader="USHORT" />
+				<node name="mdefense" reader="USHORT" />
+				<node name="pattack_Accum" reader="USHORT" />
+				<node name="mattack_Accum" reader="USHORT" />
+				<node name="pdefense_Accum" reader="USHORT" />
+				<node name="mdefense_Accum" reader="USHORT" />
+			</for>
+		</for>
+	</file>
+</list>

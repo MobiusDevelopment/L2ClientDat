@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="class" size="#data" hidden="false">
+			<node name="class" reader="UINT" />
+			<node name="description" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="class" size="#data" hidden="false">
+			<node name="class" reader="UINT" />
+			<node name="str" reader="UINT" />
+			<node name="dex" reader="UINT" />
+			<node name="con" reader="UINT" />
+			<node name="int" reader="UINT" />
+			<node name="wit" reader="UINT" />
+			<node name="men" reader="UINT" />
+			<node name="description" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="class" size="#data" hidden="false">
+			<node name="class" reader="UINT" />
+			<node name="str" reader="UINT" />
+			<node name="dex" reader="UINT" />
+			<node name="con" reader="UINT" />
+			<node name="int" reader="UINT" />
+			<node name="wit" reader="UINT" />
+			<node name="men" reader="UINT" />
+			<node name="luc" reader="UINT" />
+			<node name="cha" reader="UINT" />
+			<node name="description" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="GrandCrusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="class" size="#data" hidden="false">
+			<node name="class" reader="UINT" enumName="class" />
+			<node name="classrole" reader="MAP_INT" />
+			<node name="classrole_name" reader="UCHAR" enumName="classrole_type" />
+			<node name="classtransfer_degree" reader="UCHAR" />
+			<node name="str" reader="UINT" />
+			<node name="dex" reader="UINT" />
+			<node name="con" reader="UINT" />
+			<node name="int" reader="UINT" />
+			<node name="wit" reader="UINT" />
+			<node name="men" reader="UINT" />
+			<node name="luc" reader="UINT" />
+			<node name="cha" reader="UINT" />
+			<node name="description" reader="ASCF" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="elementalstat" size="#data" hidden="false">
+			<node name="elementalstat_Statlevel" reader="USHORT" /> 
+			<node name="elementalstat_Statid" reader="USHORT" /> 
+			<node name="elementalstat_type" reader="UINT" enumName="elemental_type" /> 
+			<node name="elementalstat_level" reader="UINT" /> 
+			<node name="elementalstat_atk" reader="UINT" /> 
+			<node name="elementalstat_def" reader="UINT" /> 
+			<node name="elementalstat_crirate" reader="UINT" /> 
+			<node name="elementalstat_cripow" reader="UINT" />
+		</for>
+	</file>
+</list>

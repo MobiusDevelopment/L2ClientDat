@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="classtreedesc" size="#data" hidden="false">
+			<node name="classID" reader="UINT" enumName="class" />
+			<node name="desc1" reader="ASCF" />
+			<node name="desc2" reader="ASCF" />
+		</for>
+	</file>
+</list>

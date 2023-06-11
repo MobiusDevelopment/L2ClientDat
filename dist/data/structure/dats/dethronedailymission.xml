@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="DailyMission" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<node name="id" reader="UINT" />
+			<node name="npc_kill_max_count" reader="UINT" />
+			<node name="reward_personal_dethrone_point" reader="UINT" />
+			<node name="reward_server_dethrone_point" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="DailyMission" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<node name="id" reader="UINT" />
+			<node name="npc_kill_max_count" reader="UINT" />
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+</list>

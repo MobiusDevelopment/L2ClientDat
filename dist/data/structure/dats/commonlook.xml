@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="UINT"/>
+		<for name="commonlook" size="#data" hidden="false">
+			<node name="item_type" reader="USHORT" />
+			<node name="item_id" reader="UINT" />
+		</for>
+	</file>
+</list>

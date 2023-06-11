@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Underground" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_fee" size="#data" hidden="false">
+			<node name="crystal_type" reader="UINT" />
+			<node name="ensoul_fee_normal" reader="UINT" />
+			<for name="ensoul_fee_normal" size="#ensoul_fee_normal">
+				<node name="ensoul_fee_normal_id" reader="UINT" />
+				<node name="ensoul_fee_normal_count" reader="UINT" />
+			</for>
+			<node name="ensoul_fee_bm" reader="UINT" />
+			<for name="ensoul_fee_bm" size="#ensoul_fee_bm">
+				<node name="ensoul_fee_bm_id" reader="UINT" />
+				<node name="ensoul_fee_bm_count" reader="UINT" />
+			</for>
+			<node name="ensoul_refee_normal" reader="UINT" />
+			<for name="ensoul_refee_normal" size="#ensoul_refee_normal">
+				<node name="ensoul_refee_normal_id" reader="UINT" />
+				<node name="ensoul_refee_normal_count" reader="UINT" />
+			</for>
+			<node name="ensoul_refee_bm" reader="UINT" />
+			<for name="ensoul_refee_bm" size="#ensoul_refee_bm">
+				<node name="ensoul_refee_bm_id" reader="UINT" />
+				<node name="ensoul_refee_bm_count" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ensoul_fee" size="#data" hidden="false">
+			<node name="crystal_type" reader="UINT" enumName="grade_type" />
+			<node name="ensoul_fee_normal" reader="UINT" />
+			<for name="ensoul_fee_normal" size="#ensoul_fee_normal">
+				<node name="ensoul_fee_normal_id" reader="UINT" />
+				<node name="ensoul_fee_normal_count" reader="UINT" />
+			</for>
+			<node name="ensoul_fee_bm" reader="UINT" />
+			<for name="ensoul_fee_bm" size="#ensoul_fee_bm">
+				<node name="ensoul_fee_bm_id" reader="UINT" />
+				<node name="ensoul_fee_bm_count" reader="UINT" />
+			</for>
+			<node name="ensoul_refee_normal" reader="UINT" />
+			<for name="ensoul_refee_normal" size="#ensoul_refee_normal">
+				<node name="ensoul_refee_normal_id" reader="UINT" />
+				<node name="ensoul_refee_normal_count" reader="UINT" />
+			</for>
+			<node name="ensoul_refee_bm" reader="UINT" />
+			<for name="ensoul_refee_bm" size="#ensoul_refee_bm">
+				<node name="ensoul_refee_bm_id" reader="UINT" />
+				<node name="ensoul_refee_bm_count" reader="UINT" />
+			</for>
+			<node name="ensoul_extraction_normal" reader="UINT" />
+			<for name="ensoul_extraction_normal" size="#ensoul_extraction_normal">
+				<node name="ensoul_extraction_normal_id" reader="UINT" />
+				<node name="ensoul_extraction_normal_count" reader="UINT" />
+			</for>
+			<node name="ensoul_extraction_bm" reader="UINT" />
+			<for name="ensoul_extraction_bm" size="#ensoul_extraction_bm">
+				<node name="ensoul_extraction_bm_id" reader="UINT" />
+				<node name="ensoul_extraction_bm_count" reader="UINT" />
+			</for>
+		</for>
+	</file>	
+</list>

@@ -1,0 +1,919 @@
+<list>
+	<enum name="localization_type">
+		<node index="-1" name="all" />
+		<node index="0" name="kr" />
+		<node index="1" name="e" />
+		<node index="2" name="j" />
+		<node index="3" name="tw" />
+		<node index="4" name="cn" />
+		<node index="5" name="th" />
+		<node index="6" name="ph" />
+		<node index="7" name="id" />
+		<node index="8" name="ru" />
+		<node index="9" name="eu" />
+		<node index="10" name="de" />
+		<node index="11" name="fr" />
+		<node index="12" name="pl" />
+		<node index="13" name="tr" />
+		<node index="14" name="es" />
+	</enum>
+	<enum name="armor_type">
+		<node index="0" name="none" />
+		<node index="1" name="light" />
+		<node index="2" name="heavy" />
+		<node index="3" name="magic" />
+		<node index="4" name="sigil" />
+	</enum>
+	<enum name="consume_type">
+		<node index="0" name="consume_type_normal" />
+		<node index="1" name="consume_type_charge" />
+		<node index="2" name="consume_type_stackable" />
+		<node index="3" name="consume_type_asset" />
+	</enum>
+	<enum name="grade_type">
+		<node index="0" name="none" />
+		<node index="1" name="d" />
+		<node index="2" name="c" />
+		<node index="3" name="b" />
+		<node index="4" name="a" />
+		<node index="5" name="s" />
+		<node index="6" name="s80" />
+		<node index="7" name="s84" />
+		<node index="8" name="r" />
+		<node index="9" name="r95" />
+		<node index="10" name="r99" />
+		<node index="11" name="r110" />
+		<node index="12" name="event" />
+		<node index="13" name="crystal_free" />
+	</enum>
+	<enum name="material_type">
+		<node index="0" name="fish" />
+		<node index="1" name="oriharukon" />
+		<node index="2" name="mithril" />
+		<node index="3" name="gold" />
+		<node index="4" name="silver" />
+		<node index="5" name="brass" />
+		<node index="6" name="bronze" />
+		<node index="7" name="diamond" />
+		<node index="8" name="steel" />
+		<node index="9" name="damascus_steel" />
+		<node index="10" name="bone_of_dragon" />
+		<node index="11" name="air" />
+		<node index="12" name="water" />
+		<node index="13" name="wood" />
+		<node index="14" name="bone" />
+		<node index="15" name="branch_of_orbis_arbor" />
+		<node index="16" name="branch_of_worldtree" />
+		<node index="17" name="cloth" />
+		<node index="18" name="paper" />
+		<node index="19" name="leather" />
+		<node index="20" name="skull" />
+		<node index="21" name="feather" />
+		<node index="22" name="sand" />
+		<node index="23" name="crystal" />
+		<node index="24" name="fur" />
+		<node index="25" name="parchment" />
+		<node index="26" name="eyeball" />
+		<node index="27" name="insect" />
+		<node index="28" name="corpse" />
+		<node index="29" name="crow" />
+		<node index="30" name="hatching_egg" />
+		<node index="31" name="skull_of_wyvern" />
+		<node index="32" name="drug" />
+		<node index="33" name="cotton" />
+		<node index="34" name="silk" />
+		<node index="35" name="wool" />
+		<node index="36" name="flax" />
+		<node index="37" name="cobweb" />
+		<node index="38" name="dyestuff" />
+		<node index="39" name="leather_of_puma" />
+		<node index="40" name="leather_of_lion" />
+		<node index="41" name="leather_of_manticore" />
+		<node index="42" name="leather_of_drake" />
+		<node index="43" name="leather_of_salamander" />
+		<node index="44" name="leather_of_unicorn" />
+		<node index="45" name="leather_of_dragon" />
+		<node index="46" name="scale_of_dragon" />
+		<node index="47" name="adamantaite" />
+		<node index="48" name="blood_steel" />
+		<node index="49" name="chrysolite" />
+		<node index="50" name="damascus" />
+		<node index="51" name="fine_steel" />
+		<node index="52" name="horn" />
+		<node index="53" name="liquid" />
+		<node index="54" name="rune_xp" />
+		<node index="55" name="rune_sp" />
+		<node index="56" name="rune_remove_penalty" />
+	</enum>
+	<enum name="bodypart_v2_type">
+		<node index="0" name="underwear" />
+		<node index="1" name="rear" />
+		<node index="2" name="lear" />
+		<node index="3" name="neck" />
+		<node index="4" name="rfinger" />
+		<node index="5" name="lfinger" />
+		<node index="6" name="head" />
+		<node index="7" name="lrhand" />
+		<node index="8" name="onepiece" />
+		<node index="9" name="alldress" />
+		<node index="10" name="hairall" />
+		<node index="11" name="rbracelet" />
+		<node index="12" name="lbracelet" />
+		<node index="13" name="deco1" />
+		<node index="14" name="deco2" />
+		<node index="15" name="deco3" />
+		<node index="16" name="deco4" />
+		<node index="17" name="deco5" />
+		<node index="18" name="deco6" />
+		<node index="19" name="waist" />
+		<node index="20" name="brooch" />
+		<node index="21" name="jewel1" />
+		<node index="22" name="jewel2" />
+		<node index="23" name="jewel3" />
+		<node index="24" name="jewel4" />
+		<node index="25" name="jewel5" />
+		<node index="26" name="jewel6" />
+		<node index="27" name="agathion_main" />
+		<node index="28" name="agathion_sub1" />
+		<node index="29" name="agathion_sub2" />
+		<node index="30" name="agathion_sub3" />
+		<node index="31" name="agathion_sub4" />
+		<node index="32" name="artifactbook" />
+		<node index="33" name="artifact_a1" />
+		<node index="34" name="artifact_a2" />
+		<node index="35" name="artifact_a3" />
+		<node index="36" name="artifact_a4" />
+		<node index="37" name="artifact_a5" />
+		<node index="38" name="artifact_a6" />
+		<node index="39" name="artifact_a7" />
+		<node index="40" name="artifact_a8" />
+		<node index="41" name="artifact_a9" />
+		<node index="42" name="artifact_a10" />
+		<node index="43" name="artifact_a11" />
+		<node index="44" name="artifact_a12" />
+		<node index="45" name="artifact_b1" />
+		<node index="46" name="artifact_b2" />
+		<node index="47" name="artifact_b3" />
+		<node index="48" name="artifact_c1" />
+		<node index="49" name="artifact_c2" />
+		<node index="50" name="artifact_c3" />
+		<node index="51" name="artifact_d1" />
+		<node index="52" name="artifact_d2" />
+		<node index="53" name="artifact_d3" />
+		<node index="54" name="gloves" />
+		<node index="55" name="chest" />
+		<node index="56" name="legs" />
+		<node index="57" name="feet" />
+		<node index="58" name="back" />
+		<node index="59" name="hair" />
+		<node index="60" name="hair2" />
+		<node index="61" name="rhand" />
+		<node index="62" name="lhand" />
+		<node index="63" name="lhand2" />
+	</enum>
+	<enum name="item_etc_type">
+		<node index="0" name="none" />
+		<node index="1" name="scroll" />
+		<node index="2" name="arrow" />
+		<node index="3" name="potion" />
+		<node index="4" name="spellbook" />
+		<node index="5" name="recipe" />
+		<node index="6" name="material" />
+		<node index="7" name="pet_collar" />
+		<node index="8" name="castle_guard" />
+		<node index="9" name="dye" />
+		<node index="10" name="seed" />
+		<node index="11" name="seed2" />
+		<node index="12" name="harvest" />
+		<node index="13" name="lotto" />
+		<node index="14" name="race_ticket" />
+		<node index="15" name="ticket_of_lord" />
+		<node index="16" name="lure" />
+		<node index="17" name="crop" />
+		<node index="18" name="maturecrop" />
+		<node index="23" name="coupon" />
+		<node index="24" name="elixir" />
+		<node index="34" name="rune" />
+		<node index="35" name="rune_select" />
+		<node index="20" name="scrl_enchant_am" />
+		<node index="19" name="scrl_enchant_wp" />
+		<node index="22" name="bless_scrl_enchant_am" />
+		<node index="21" name="bless_scrl_enchant_wp" />
+		<node index="29" name="scrl_inc_enchant_prop_am" />
+		<node index="28" name="scrl_inc_enchant_prop_wp" />
+		<node index="52" name="bless_scrl_inc_enchant_prop_wp" />
+		<node index="53" name="bless_scrl_inc_enchant_prop_am" />
+		<node index="30" name="crystal_enchant_am" />
+		<node index="31" name="crystal_enchant_wp" />
+		<node index="32" name="ancient_crystal_enchant_am" />
+		<node index="33" name="ancient_crystal_enchant_wp" />
+		<node index="25" name="scrl_enchant_attr" />
+		<node index="26" name="scrl_enchant_attr_cursed" />
+		<node index="37" name="scrl_change_attr" />
+		<node index="54" name="card_event" />
+		<node index="36" name="teleportbookmark" />
+		<node index="38" name="soul_shot" />
+		<node index="27" name="bolt" />
+		<node index="39" name="scrl_shape_shifting_wp" />
+		<node index="40" name="bless_scrl_shape_shifting_wp" />
+		<node index="41" name="scrl_shape_shifting_wp_fixed" />
+		<node index="42" name="scrl_shape_shifting_am" />
+		<node index="43" name="bless_scrl_shape_shifting_am" />
+		<node index="44" name="scrl_shape_shifting_am_fixed" />
+		<node index="45" name="scrl_shape_shifting_hair_acc" />
+		<node index="46" name="bless_scrl_shape_shifting_hair_acc" />
+		<node index="47" name="scrl_shape_shifting_hair_acc_fixed" />
+		<node index="48" name="scrl_restore_shape_shifting_wp" />
+		<node index="49" name="scrl_restore_shape_shifting_am" />
+		<node index="50" name="scrl_restore_shape_shifting_hair_acc" />
+		<node index="51" name="scrl_restore_shape_shifting_all_item" />
+		<node index="55" name="scrl_shape_shifting_allitem_fixed" />
+		<node index="56" name="multi_encht_wp" />
+		<node index="57" name="multi_encht_am" />
+		<node index="58" name="multi_inc_prob_encht_wp" />
+		<node index="59" name="multi_inc_prob_encht_am" />
+		<node index="60" name="ensoul_stone" />
+		<node index="61" name="nick_color_old" />
+		<node index="62" name="nick_color_new" />
+		<node index="63" name="scrl_enchant_ag" />
+		<node index="64" name="bless_scrl_enchant_ag" />
+		<node index="65" name="scrl_multi_enchant_ag" />
+		<node index="66" name="ancient_crystal_enchant_ag" />
+		<node index="67" name="scrl_inc_enchant_prop_ag" />
+		<node index="68" name="bless_scrl_inc_enchant_prop_ag" />
+		<node index="69" name="scrl_multi_inc_enchant_prob_ag" />
+		<node index="70" name="scrl_lock_item" />
+		<node index="71" name="scrl_unlock_item" />
+		<node index="72" name="bullet" />
+		<node index="73" name="magic_lamp" />
+		<node index="74" name="costume_book" />
+		<node index="75" name="costume_book_rd_all" />
+		<node index="76" name="costume_book_rd_part" />
+		<node index="77" name="costume_book_1" />
+		<node index="78" name="costume_book_2" />
+		<node index="79" name="costume_book_3" />
+		<node index="80" name="costume_book_4" />
+		<node index="81" name="costume_book_5" />
+	</enum>
+	<enum name="item_etc_v2_type">
+		<node index="0" name="none" />
+		<node index="1" name="scroll" />
+		<node index="2" name="arrow" />
+		<node index="3" name="potion" />
+		<node index="4" name="spellbook" />
+		<node index="5" name="recipe" />
+		<node index="6" name="material" />
+		<node index="7" name="pet_collar" />
+		<node index="8" name="castle_guard" />
+		<node index="9" name="dye" />
+		<node index="10" name="seed" />
+		<node index="11" name="seed2" />
+		<node index="12" name="harvest" />
+		<node index="13" name="lotto" />
+		<node index="14" name="race_ticket" />
+		<node index="15" name="ticket_of_lord" />
+		<node index="16" name="lure" />
+		<node index="17" name="crop" />
+		<node index="18" name="maturecrop" />
+		<node index="23" name="coupon" />
+		<node index="24" name="elixir" />
+		<node index="34" name="rune" />
+		<node index="35" name="rune_select" />
+		<node index="20" name="scrl_enchant_am" />
+		<node index="19" name="scrl_enchant_wp" />
+		<node index="22" name="bless_scrl_enchant_am" />
+		<node index="21" name="bless_scrl_enchant_wp" />
+		<node index="29" name="scrl_inc_enchant_prop_am" />
+		<node index="28" name="scrl_inc_enchant_prop_wp" />
+		<node index="52" name="bless_scrl_inc_enchant_prop_wp" />
+		<node index="53" name="bless_scrl_inc_enchant_prop_am" />
+		<node index="30" name="crystal_enchant_am" />
+		<node index="31" name="crystal_enchant_wp" />
+		<node index="32" name="ancient_crystal_enchant_am" />
+		<node index="33" name="ancient_crystal_enchant_wp" />
+		<node index="25" name="scrl_enchant_attr" />
+		<node index="26" name="scrl_enchant_attr_cursed" />
+		<node index="37" name="scrl_change_attr" />
+		<node index="54" name="card_event" />
+		<node index="36" name="teleportbookmark" />
+		<node index="38" name="soul_shot" />
+		<node index="27" name="bolt" />
+		<node index="39" name="scrl_shape_shifting_wp" />
+		<node index="40" name="bless_scrl_shape_shifting_wp" />
+		<node index="41" name="scrl_shape_shifting_wp_fixed" />
+		<node index="42" name="scrl_shape_shifting_am" />
+		<node index="43" name="bless_scrl_shape_shifting_am" />
+		<node index="44" name="scrl_shape_shifting_am_fixed" />
+		<node index="45" name="scrl_shape_shifting_hair_acc" />
+		<node index="46" name="bless_scrl_shape_shifting_hair_acc" />
+		<node index="47" name="scrl_shape_shifting_hair_acc_fixed" />
+		<node index="48" name="scrl_restore_shape_shifting_wp" />
+		<node index="49" name="scrl_restore_shape_shifting_am" />
+		<node index="50" name="scrl_restore_shape_shifting_hair_acc" />
+		<node index="51" name="scrl_restore_shape_shifting_all_item" />
+		<node index="55" name="scrl_shape_shifting_allitem_fixed" />
+		<node index="56" name="multi_encht_wp" />
+		<node index="57" name="multi_encht_am" />
+		<node index="58" name="multi_inc_prob_encht_wp" />
+		<node index="59" name="multi_inc_prob_encht_am" />
+		<node index="60" name="ensoul_stone" />
+		<node index="61" name="nick_color_old" />
+		<node index="62" name="nick_color_new" />
+		<node index="63" name="scrl_enchant_ag" />
+		<node index="64" name="bless_scrl_enchant_ag" />
+		<node index="65" name="scrl_multi_enchant_ag" />
+		<node index="66" name="ancient_crystal_enchant_ag" />
+		<node index="67" name="scrl_inc_enchant_prop_ag" />
+		<node index="68" name="bless_scrl_inc_enchant_prop_ag" />
+		<node index="69" name="scrl_multi_inc_enchant_prob_ag" />
+		<node index="70" name="scrl_lock_item" />
+		<node index="71" name="scrl_unlock_item" />
+		<node index="72" name="bullet" />
+		<node index="73" name="costume_book" />
+		<node index="74" name="costume_book_rd_all" />
+		<node index="75" name="costume_book_rd_part" />
+		<node index="76" name="costume_book_1" />
+		<node index="77" name="costume_book_2" />
+		<node index="78" name="costume_book_3" />
+		<node index="79" name="costume_book_4" />
+		<node index="80" name="costume_book_5" />
+		<node index="81" name="magic_lamp" />
+		<node index="82" name="poly_enchant_wp" />
+		<node index="83" name="poly_enchant_am" />
+		<node index="84" name="poly_inc_enchant_prop_wp" />
+		<node index="85" name="poly_inc_enchant_prop_am" />
+		<node index="86" name="cursed_enchant_wp" />
+		<node index="87" name="cursed_enchant_am" />
+		<node index="88" name="vital_legacy_item_1d" />
+		<node index="89" name="vital_legacy_item_7d" />
+		<node index="90" name="vital_legacy_item_30d" />
+		<node index="91" name="bless_upgrade_wp" />
+		<node index="92" name="orb" />
+		<node index="93" name="item_restore_coin" />
+		<node index="94" name="special_enchant_weapon" />
+		<node index="95" name="special_enchant_armor" />
+		<node index="96" name="nick_colr_icon" />
+	</enum>
+	<enum name="item_weapon_v2_type">
+		<node index="0" name="fist" />
+		<node index="1" name="sword" />
+		<node index="2" name="twohandsword" />
+		<node index="3" name="buster" />
+		<node index="4" name="blunt" />
+		<node index="5" name="twohandblunt" />
+		<node index="6" name="staff" />
+		<node index="7" name="twohandstaff" />
+		<node index="8" name="dagger" />
+		<node index="9" name="pole" />
+		<node index="10" name="dualfist" />
+		<node index="11" name="bow" />
+		<node index="12" name="weapon_etc" />
+		<node index="13" name="dual" />
+		<node index="14" name="fist2" />
+		<node index="15" name="fishingrod" />
+		<node index="16" name="rapier" />
+		<node index="17" name="crossbow" />
+		<node index="18" name="ancientsword" />
+		<node index="20" name="dualdagger" />
+		<node index="22" name="twohandcrossbow" />
+		<node index="23" name="dualblunt" />
+		<node index="25" name="pistols" />
+	</enum>
+	<enum name="inventory_type">
+		<node index="0" name="none" />
+		<node index="1" name="equipment" />
+		<node index="2" name="consumable" />
+		<node index="3" name="material" />
+		<node index="4" name="etc" />
+		<node index="5" name="quest" />
+		<node index="6" name="artifact" />
+	</enum>
+	<enum name="lcoinshopproduct_mark_type">
+		<node index="0" name="none" />
+		<node index="1" name="event" />
+		<node index="2" name="sale" />
+		<node index="3" name="best" />
+		<node index="4" name="limited" />
+		<node index="5" name="new" />
+		<node index="6" name="relay" />
+		<node index="7" name="max" />
+	</enum>
+	<enum name="lcoinshopproduct_buy1_type">
+		<node index="0" name="none" />
+		<node index="1" name="character" />
+		<node index="2" name="account" />
+	</enum>
+	<enum name="lcoinshopproduct_buy2_type">
+		<node index="0" name="always" />
+		<node index="1" name="oneday" />
+	</enum>
+	<enum name="lcoinshopproduct_filter">
+		<node index="0" name="none" />
+		<node index="1" name="rare_weapon" />
+		<node index="2" name="normal_weapon" />
+		<node index="3" name="rare_armor" />
+		<node index="4" name="heavy_armor" />
+		<node index="5" name="light_armor" />
+		<node index="6" name="robe" />
+		<node index="7" name="shield" />
+		<node index="8" name="dye" />
+		<node index="9" name="scroll" />
+		<node index="10" name="etc" />
+		<node index="11" name="belt" />
+		<node index="12" name="elixir" />
+		<node index="13" name="skillbook_s1" />
+		<node index="14" name="skillbook_s2" />
+		<node index="15" name="skillbook_s3" />
+	</enum>
+	<enum name="keep_type_selection">
+		<node index="0" name="normal" />
+		<node index="1" name="enchant" />
+	</enum>
+	<enum name="tutorialname_type">
+		<node index="0" name="[novice]" />
+		<node index="1" name="[content]" />
+	</enum>
+	<enum name="mable_game_event_group">
+		<node index="1" name="back" />
+		<node index="2" name="next" />
+		<node index="3" name="warp" />
+		<node index="4" name="prison" />
+		<node index="5" name="reward" />
+	</enum>
+	<enum name="combinationitem_result_effecttype">
+		<node index="0" name="default" />
+		<node index="1" name="nofail" />
+	</enum>
+	<enum name="blessoption_type">
+		<node index="0" name="base_effect" />
+		<node index="1" name="enchant_effect" />
+	</enum>
+	<enum name="bless_item_type">
+		<node index="1" name="wpn_common" />
+		<node index="2" name="wpn_high" />
+		<node index="3" name="wpn_special" />
+		<node index="4" name="wpn_special_2" />
+		<node index="6" name="armor_common" />
+		<node index="7" name="armor_high" />
+		<node index="8" name="armor_special" />
+		<node index="9" name="armor_prot" />
+		<node index="10" name="armor_m_common" />
+		<node index="11" name="armor_m_high" />
+		<node index="12" name="armor_m_special" />
+		<node index="13" name="armor_m_prot" />
+	</enum>
+	<enum name="system_message_group_type">
+		<node index="0" name="none" />
+		<node index="1" name="battle" />
+		<node index="2" name="server" />
+		<node index="3" name="damage" />
+		<node index="4" name="popup" />
+		<node index="5" name="error" />
+		<node index="6" name="petition" />
+		<node index="7" name="useitems" />
+		<node index="8" name="popupwithmsg" />
+		<node index="9" name="damagetext" />
+		<node index="10" name="client_debug_msg" />
+		<node index="11" name="getitems" />
+		<node index="12" name="dice" />
+	</enum>
+	<enum name="ranking_type">
+		<node index="0" name="character" />
+		<node index="1" name="olympiad" />
+		<node index="2" name="pledge" />
+		<node index="3" name="pvp" />
+	</enum>
+	<enum name="ranking_group_type">
+		<node index="0" name="server" />
+		<node index="1" name="race" />
+		<node index="2" name="pledge" />
+		<node index="3" name="friends" />
+		<node index="4" name="class" />
+	</enum>
+	<enum name="onedayreward_reset_period">
+		<node index="1" name="day" />
+		<node index="2" name="week" />
+		<node index="3" name="month" />
+		<node index="4" name="onetime" />
+	</enum>
+	<enum name="onedayreward_condition_level">
+		<node index="0" name="none" />
+		<node index="1" name="new" />
+		<node index="2" name="event" />
+	</enum>
+	<enum name="onedayreward_day">
+		<node index="1" name="sun" />
+		<node index="2" name="mon" />
+		<node index="3" name="tue" />
+		<node index="4" name="wed" />
+		<node index="5" name="thu" />
+		<node index="6" name="fri" />
+		<node index="7" name="sat" />
+	</enum>
+	<enum name="onedayreward_check_type">
+		<node index="0" name="char" />
+		<node index="1" name="account" />
+	</enum>
+	<enum name="onedayreward_category">
+		<node index="0" name="hunt" />
+		<node index="1" name="raid" />
+		<node index="2" name="system" />
+		<node index="3" name="grown" />
+	</enum>
+	<enum name="pledgemission_category">
+		<node index="1" name="normal" />
+		<node index="2" name="deepening" />
+		<node index="3" name="achievements" />
+		<node index="4" name="event" />
+	</enum>
+	<enum name="citizen_npc_type">
+		<node index="-1" name="hide" />
+		<node index="0" name="citizen_normal" />
+		<node index="1" name="citizen_gatekeeper" />
+		<node index="2" name="citizen_teleport_device" />
+		<node index="3" name="citizen_seed_teleport_device" />
+		<node index="4" name="citizen_blessing_benefactor" />
+		<node index="5" name="citizen_trade_broker" />
+		<node index="6" name="citizen_vitamin_manager" />
+		<node index="7" name="citizen_beauty_manager" />
+		<node index="8" name="citizen_guard_captain" />
+		<node index="9" name="citizen_warehouse_keeper" />
+		<node index="1000" name="monster_normal" />
+		<node index="2000" name="arena_citizen" />
+		<node index="2001" name="arena_monster" />
+		<node index="2002" name="arena_cannon" />
+		<node index="2003" name="arena_raid" />
+		<node index="2004" name="arena_boss" />
+		<node index="2005" name="arena_giant" />
+		<node index="2006" name="arena_tree" />
+		<node index="2007" name="arena_occupy" />
+	</enum>
+	<!--<enum name="npc_color_type">-->
+		<!-- 0FFA9E89Ch <node index="4289325212" name="default" />-->
+		<!-- 0FFFF8000h <node index="4294934528" name="quest" />-->
+		<!-- 0FFEF1431h <node index="4293858353" name="bloody" /> -->
+		<!-- 0FFFE8B3Fh <node index="4294871871" name="raid" />-->
+		<!-- 0FFEF1431h <node index="4293858353" name="boss" />-->
+		<!-- 0FFFF42ADh <node index="4294918829" name="raidsuper" />-->
+		<!-- 0FFFFCC00h <node index="4294953984" name="raidhigh" />-->
+		<!-- 0FFFFFF00h <node index="4294967040" name="raidnormal" />-->
+	<!--</enum>-->
+	<enum name="action_category">
+		<node index="0" name="none" />
+		<node index="1" name="basic" />
+		<node index="2" name="party" />
+		<node index="3" name="tacticalsign" />
+		<node index="4" name="social" />
+		<node index="5" name="pet" />
+		<node index="6" name="summon" />
+		<node index="7" name="summon_direct" />
+		<node index="8" name="summon_ai" />
+		<node index="9" name="summon_react" />
+		<node index="10" name="summon_skill" />
+	</enum>
+	<enum name="classrole_type">
+		<node index="0" name="class_role_none" />
+		<node index="1" name="class_role_knight" />
+		<node index="2" name="class_role_warrior" />
+		<node index="3" name="class_role_rogue" />
+		<node index="4" name="class_role_archor" />
+		<node index="5" name="class_role_wizard" />
+		<node index="6" name="class_role_summoner" />
+		<node index="7" name="class_role_enchanter" />
+		<node index="8" name="class_role_support" />
+		<node index="9" name="class_role_novice" />
+		<node index="10" name="class_role_shaman" />
+		<node index="11" name="class_role_bard" />
+		<node index="12" name="class_role_deathknight" />
+		<node index="13" name="class_role_hunter" />
+	</enum>
+	<enum name="attribute_type">
+		<node index="-2" name="none" />
+		<node index="0" name="fire" />
+		<node index="1" name="water" />
+		<node index="2" name="wind" />
+		<node index="3" name="earth" />
+		<node index="4" name="holy" />
+		<node index="5" name="unholy" />
+	</enum>
+	<enum name="elemental_type">
+		<node index="1" name="fire" />
+		<node index="2" name="water" />
+		<node index="3" name="wind" />
+		<node index="4" name="earth" />
+	</enum>
+	<enum name="skill_magic_type">
+		<node index="0" name="default" />
+		<node index="1" name="earth" />
+		<node index="2" name="wind" />
+		<node index="3" name="water" />
+		<node index="4" name="fire" />
+		<node index="5" name="holy" />
+		<node index="6" name="unholy" />
+		<node index="7" name="applied" />
+		<node index="8" name="alter" />
+		<node index="9" name="ultimate" />
+	</enum>
+	<enum name="race">
+		<node index="0" name="human" />
+		<node index="1" name="elf" />
+		<node index="2" name="dark_elf" />
+		<node index="3" name="orc" />
+		<node index="4" name="dwarf" />
+		<node index="5" name="kamael" />
+		<node index="6" name="ertheia" />
+	</enum>
+	<enum name="sex">
+		<node index="0" name="male" />
+		<node index="1" name="female" />
+	</enum>
+	<enum name="create_item_list_mark_type">
+		<node index="0" name="none" />
+		<node index="1" name="fixed" />
+		<node index="2" name="random" />
+	</enum>
+	<enum name="respawn_type">
+		<node index="0" name="no_use" />
+		<node index="1" name="unknown" />
+		<node index="2" name="after_death" />
+		<node index="3" name="specific_time" />
+		<node index="4" name="specific_day_time" />
+	</enum>
+	<enum name="class">
+		<node index="-1" name="all" />
+		<node index="0" name="fighter" />
+		<node index="1" name="warrior" />
+		<node index="2" name="gladiator" />
+		<node index="3" name="warlord" />
+		<node index="4" name="knight" />
+		<node index="5" name="paladin" />
+		<node index="6" name="dark_avenger" />
+		<node index="7" name="rogue" />
+		<node index="8" name="treasure_hunter" />
+		<node index="9" name="hawkeye" />
+		<node index="10" name="mage" />
+		<node index="11" name="wizard" />
+		<node index="12" name="sorcerer" />
+		<node index="13" name="necromancer" />
+		<node index="14" name="warlock" />
+		<node index="15" name="cleric" />
+		<node index="16" name="bishop" />
+		<node index="17" name="prophet" />
+		<node index="18" name="elven_fighter" />
+		<node index="19" name="elven_knight" />
+		<node index="20" name="temple_knight" />
+		<node index="21" name="swordsinger" />
+		<node index="22" name="elven_scout" />
+		<node index="23" name="plain_walker" />
+		<node index="24" name="silver_ranger" />
+		<node index="25" name="elven_mage" />
+		<node index="26" name="elven_wizard" />
+		<node index="27" name="spellsinger" />
+		<node index="28" name="elemental_summoner" />
+		<node index="29" name="oracle" />
+		<node index="30" name="elder" />
+		<node index="31" name="dark_fighter" />
+		<node index="32" name="palus_knight" />
+		<node index="33" name="shillien_knight" />
+		<node index="34" name="bladedancer" />
+		<node index="35" name="assasin" />
+		<node index="36" name="abyss_walker" />
+		<node index="37" name="phantom_ranger" />
+		<node index="38" name="dark_mage" />
+		<node index="39" name="dark_wizard" />
+		<node index="40" name="spellhowler" />
+		<node index="41" name="phantom_summoner" />
+		<node index="42" name="shillien_oracle" />
+		<node index="43" name="shillien_elder" />
+		<node index="44" name="orc_fighter" />
+		<node index="45" name="orc_raider" />
+		<node index="46" name="destroyer" />
+		<node index="47" name="orc_monk" />
+		<node index="48" name="tyrant" />
+		<node index="49" name="orc_mage" />
+		<node index="50" name="orc_shaman" />
+		<node index="51" name="overlord" />
+		<node index="52" name="warcryer" />
+		<node index="53" name="dwarven_fighter" />
+		<node index="54" name="scavenger" />
+		<node index="55" name="bounty_hunter" />
+		<node index="56" name="artisan" />
+		<node index="57" name="warsmith" />
+		<node index="88" name="duelist" />
+		<node index="89" name="dreadnought" />
+		<node index="90" name="phoenix_knight" />
+		<node index="91" name="hell_knight" />
+		<node index="92" name="sagittarius" />
+		<node index="93" name="adventurer" />
+		<node index="94" name="archmage" />
+		<node index="95" name="soultaker" />
+		<node index="96" name="arcana_lord" />
+		<node index="97" name="cardinal" />
+		<node index="98" name="hierophant" />
+		<node index="99" name="evas_templar" />
+		<node index="100" name="sword_muse" />
+		<node index="101" name="wind_rider" />
+		<node index="102" name="moonlight_sentinel" />
+		<node index="103" name="mystic_muse" />
+		<node index="104" name="elemental_master" />
+		<node index="105" name="evas_saint" />
+		<node index="106" name="shillien_templar" />
+		<node index="107" name="spectral_dancer" />
+		<node index="108" name="ghost_hunter" />
+		<node index="109" name="ghost_sentinel" />
+		<node index="110" name="storm_screamer" />
+		<node index="111" name="spectral_master" />
+		<node index="112" name="shillien_saint" />
+		<node index="113" name="titan" />
+		<node index="114" name="grand_khavatari" />
+		<node index="115" name="dominator" />
+		<node index="116" name="doomcryer" />
+		<node index="117" name="fortune_seeker" />
+		<node index="118" name="maestro" />
+		<node index="123" name="kamael_m_soldier" />
+		<node index="124" name="kamael_f_soldier" />
+		<node index="125" name="trooper" />
+		<node index="126" name="warder" />
+		<node index="127" name="berserker" />
+		<node index="128" name="m_soul_breaker" />
+		<node index="129" name="f_soul_breaker" />
+		<node index="130" name="arbalester" />
+		<node index="131" name="doombringer" />
+		<node index="132" name="m_soul_hound" />
+		<node index="133" name="f_soul_hound" />
+		<node index="134" name="trickster" />
+		<node index="135" name="inspector" />
+		<node index="136" name="judicator" />
+		<node index="139" name="sigel_knight" />
+		<node index="140" name="tir_warrior" />
+		<node index="141" name="othel_rogue" />
+		<node index="142" name="yr_archer" />
+		<node index="143" name="feoh_wizard" />
+		<node index="144" name="is_enchanter" />
+		<node index="145" name="wynn_summoner" />
+		<node index="146" name="eolh_healer" />
+		<node index="148" name="sigel_phoenix_knight" />
+		<node index="149" name="sigel_hell_knight" />
+		<node index="150" name="sigel_evas_templar" />
+		<node index="151" name="sigel_shilien_templar" />
+		<node index="152" name="tir_duelist" />
+		<node index="153" name="tir_dreadnought" />
+		<node index="154" name="tir_titan" />
+		<node index="155" name="tir_grand_khavatari" />
+		<node index="156" name="tir_maestro" />
+		<node index="157" name="tir_doombringer" />
+		<node index="158" name="othel_adventurer" />
+		<node index="159" name="othel_wind_rider" />
+		<node index="160" name="othel_ghost_hunter" />
+		<node index="161" name="othel_fortune_seeker" />
+		<node index="162" name="yr_sagittarius" />
+		<node index="163" name="yr_moonlight_sentinel" />
+		<node index="164" name="yr_ghost_sentinel" />
+		<node index="165" name="yr_trickster" />
+		<node index="166" name="feoh_archmage" />
+		<node index="167" name="feoh_soultaker" />
+		<node index="168" name="feoh_mystic_muse" />
+		<node index="169" name="feoh_storm_screamer" />
+		<node index="170" name="feoh_soul_hound" />
+		<node index="171" name="is_hierophant" />
+		<node index="172" name="is_sword_muse" />
+		<node index="173" name="is_spectral_dancer" />
+		<node index="174" name="is_dominator" />
+		<node index="175" name="is_doomcryer" />
+		<node index="176" name="wynn_arcana_lord" />
+		<node index="177" name="wynn_elemental_master" />
+		<node index="178" name="wynn_spectral_master" />
+		<node index="179" name="eolh_cardinal" />
+		<node index="180" name="eolh_evas_saint" />
+		<node index="181" name="eolh_shilien_saint" />
+		<node index="182" name="ertheia_fighter" />
+		<node index="183" name="ertheia_wizard" />
+		<node index="184" name="marauder" />
+		<node index="185" name="menace" />
+		<node index="186" name="lenker" />
+		<node index="187" name="storm_menace" />
+		<node index="188" name="strato_lenker" />
+		<node index="189" name="sayhas_seer" />
+		<node index="190" name="mass_lenker" />
+		<node index="191" name="seer" />
+		<node index="192" name="jin_kamael_soldier" />
+		<node index="193" name="soul_finder" />
+		<node index="194" name="soul_breaker" />
+		<node index="195" name="soul_hound" />
+		<node index="196" name="human_deathknight_0" />
+		<node index="197" name="human_deathknight_1" />
+		<node index="198" name="human_deathknight_2" />
+		<node index="199" name="human_deathknight_3" />
+		<node index="200" name="elf_deathknight_0" />
+		<node index="201" name="elf_deathknight_1" />
+		<node index="202" name="elf_deathknight_2" />
+		<node index="203" name="elf_deathknight_3" />
+		<node index="204" name="delf_deathknight_0" />
+		<node index="205" name="delf_deathknight_1" />
+		<node index="206" name="delf_deathknight_2" />
+		<node index="207" name="delf_deathknight_3" />
+		<node index="208" name="Sylph Gunner" />
+		<node index="209" name="Sharpshooter" />
+		<node index="210" name="Wind Sniper" />
+		<node index="211" name="Storm Blaster" />
+		<node index="212" name="Death Soldier" />
+		<node index="213" name="Death Warrior" />
+		<node index="214" name="Death Berserker" />
+		<node index="215" name="Death Knight" />
+		<node index="216" name="Sigel Death Knight" />
+		<node index="217" name="Orc Lancer" />
+		<node index="218" name="Rider" />
+		<node index="219" name="Dragoon" />
+		<node index="220" name="Vanguard Rider" />
+		<node index="221" name="Assassin" />
+		<node index="222" name="Assassin" />
+		<node index="223" name="Assassin" />
+		<node index="224" name="Assassin" />
+		<node index="225" name="Assassin" />
+		<node index="226" name="Assassin" />
+		<node index="227" name="Assassin" />
+		<node index="228" name="Assassin" />
+	</enum>
+	<enum name="mscond_stattype">
+		<node index="0" name="none" />
+		<node index="1" name="myhp" />
+		<node index="2" name="mymp" />
+		<node index="3" name="mycp" />
+		<node index="4" name="targethp" />
+		<node index="5" name="targetmp" />
+		<node index="6" name="targetcp" />
+	</enum>
+	<enum name="mscond_statup">
+		<node index="0" name="less" />
+		<node index="1" name="more" />
+	</enum>
+	<enum name="mscond_equiptype">
+		<node index="0" name="none" />
+		<node index="1" name="shield" />
+		<node index="2" name="weapon" />
+	</enum>
+	<enum name="pet_evolve_condition_type">
+		<node index="0" name="none" />
+		<node index="1" name="level" />
+	</enum>
+	<enum name="base_stat_type">
+		<node index="0" name="str" />
+		<node index="1" name="int" />
+		<node index="2" name="dex" />
+		<node index="3" name="wit" />
+		<node index="4" name="con" />
+		<node index="5" name="men" />
+		<node index="6" name="luc" />
+		<node index="7" name="cha" />
+	</enum>
+	<enum name="lcoin_reset_type">
+		<node index="0" name="always" />
+		<node index="1" name="one_day" />
+		<node index="2" name="one_week" />
+		<node index="3" name="one_month" />
+		<node index="4" name="type_max" />
+	</enum>
+	<enum name="item_default_action">
+		<node index="0" name="[action_none]" />
+		<node index="1" name="[action_none ]" /> <!-- ? -->
+		<node index="2" name="[action_bless_spiritshot]" />
+		<node index="3" name="[action_calc]" />
+		<node index="4" name="[action_call_skill]" />
+		<node index="5" name="[action_capsule]" />
+		<node index="6" name="[action_create_mpcc]" />
+		<node index="7" name="[action_dice]" />
+		<node index="8" name="[action_equip]" />
+		<node index="9" name="[action_fishingshot]" />
+		<node index="10" name="[action_harvest]" />
+		<node index="11" name="[action_none  ]" /> <!-- ? -->
+		<node index="12" name="[action_hide_name]" />
+		<node index="13" name="[action_peel]" />
+		<node index="14" name="[action_keep_exp]" />
+		<node index="15" name="[action_nick_color]" />
+		<node index="16" name="[action_peel ]" /> <!-- 13 again? -->
+		<node index="17" name="[action_recipe]" />
+		<node index="18" name="[action_seed]" />
+		<node index="19" name="[action_show_html]" />
+		<node index="20" name="[action_show_ssq_status]" />
+		<node index="21" name="[action_show_tutorial]" />
+		<node index="22" name="[action_skill_maintain]" />
+		<node index="23" name="[action_skill_reduce]" />
+		<node index="24" name="[action_skill_reduce_on_skill_success]" />
+		<node index="25" name="[action_soulshot]" />
+		<node index="26" name="[action_spiritshot]" />
+		<node index="27" name="[action_start_quest]" />
+		<node index="28" name="[action_summon_soulshot]" />
+		<node index="29" name="[action_summon_spiritshot]" />
+		<node index="30" name="[action_use_count]" />
+		<node index="31" name="[action_variation_stone]" />
+		<node index="32" name="[action_xmas_open]" />
+		<node index="33" name="[action_skill_reduce_on_skill_success ]" /> <!-- 24 again? -->
+	</enum>
+	<enum name="enchant_add_stat_type">
+		<node index="0" name="pdef" />
+		<node index="1" name="mdef" />
+		<node index="2" name="patk" />
+		<node index="3" name="matk" />
+		<node index="12" name="shdef" />
+	</enum>
+</list>

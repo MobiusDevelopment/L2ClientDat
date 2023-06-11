@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="costume_collection" size="#data" hidden="false">
+			<node name="costume_collection_id" reader="UINT" />
+			<node name="costume_list" reader="CNTR" />
+			<for name="costume_list" size="#costume_list">
+				<node name="param_costume" reader="UINT" />
+			</for>
+			<wrapper name="collection_skill">
+				<node name="skill_id" reader="UINT" />
+				<node name="skill_level" reader="UINT" />
+			</wrapper>
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="param_applycountry" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

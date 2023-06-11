@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="EtinasFate" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="artifact_upgrade" size="#data" hidden="false">
+			<wrapper name="artifact_item_id">
+				<node name="item_id" reader="UINT" />
+				<node name="level" reader="UINT" />
+			</wrapper>
+			<node name="artifact_group_id" reader="UINT" />
+			<node name="count" reader="UINT" />
+			<node name="result_prob" reader="UINT" />
+		</for>
+	</file>
+</list>

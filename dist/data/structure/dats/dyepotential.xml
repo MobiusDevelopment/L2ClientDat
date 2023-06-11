@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="dyepotential" size="#data" hidden="false">
+			<node name="dyepotential_id" reader="USHORT" />
+			<node name="dye_slot_id" reader="UCHAR" />
+			<node name="max_skill_level" reader="UCHAR" />
+			<node name="skill_id" reader="UINT" />
+			<node name="effect_name" reader="MAP_INT" />			
+		</for>
+	</file>
+</list>

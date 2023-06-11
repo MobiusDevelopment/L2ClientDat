@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="staticobject" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UNICODE" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="staticobject" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="MAP_INT" />
+		</for>
+	</file>
+</list>

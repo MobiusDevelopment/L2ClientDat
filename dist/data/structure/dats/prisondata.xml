@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass3" isRaw="false" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="prison_data" size="#data" hidden="false">
+			<node name="prison_type" reader="UBYTE" />
+			<node name="min_PK_count" reader="UINT" />
+			<node name="max_PK_count" reader="UINT" />
+			<node name="req_adena_for_leave" reader="UINT" />
+			<wrapper name="req_items_for_leave">
+				<node name="item_ID" reader="UINT" />
+				<node name="item_amount" reader="UINT" />
+			</wrapper>
+			<node name="holding_time" reader="UINT" />
+		</for>
+	</file>
+</list>

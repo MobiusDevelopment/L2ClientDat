@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pet_action" size="#data" hidden="false">
+			<node name="pet_id" reader="UINT" />
+			<node name="pet_step" reader="UINT" />
+			<node name="add_pet_action" reader="CNTR" />
+			<for name="add_pet_action" size="#add_pet_action">
+				<node name="add_pet_action_id" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

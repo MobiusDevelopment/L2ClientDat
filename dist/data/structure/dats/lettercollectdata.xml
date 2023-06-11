@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="letter_collect_data" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="letter_item_ids" reader="CNTR" />
+			<for name="letter_item_ids" size="#letter_item_ids">
+				<node name="param_item_id" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="use_count_item" size="#data" hidden="false">
+			<node name="item_id" reader="UINT" />
+			<node name="reuse_delay" reader="FLOAT" />
+			<node name="max_use_count" reader="UCHAR" />
+			<node name="fixed_reward_order" reader="CNTR" />
+			<for name="fixed_reward_order" size="#fixed_reward_order">
+				<node name="param_fixed_reward_order" reader="UCHAR" />
+			</for>
+		</for>
+	</file>
+</list>

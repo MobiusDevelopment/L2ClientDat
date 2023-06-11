@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="ability" size="#data" hidden="false">
+			<node name="category" reader="MAP_INT" />
+			<node name="name" reader="ASCF" />
+			<node name="unk1" reader="UCHAR" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="ability" size="#data" hidden="false">
+			<node name="category" reader="MAP_INT" />
+			<node name="name" reader="ASCF" />
+			<node name="unk1" reader="UCHAR" />
+			<node name="detail" reader="ASCF" />
+		</for>
+	</file>
+</list>

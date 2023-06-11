@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="GrandCrusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="event" size="#data" hidden="false">
+			<node name="event_id" reader="SHORT" />
+			<node name="event_type" reader="SHORT" />
+			<node name="event_icon" reader="MAP_INT" />
+			<node name="event_title" reader="ASCF" />
+			<node name="start_date" reader="UINT" />
+			<node name="start_time" reader="UINT" />
+			<node name="end_date" reader="UINT" />
+			<node name="end_time" reader="UINT" />
+			<node name="activate_time" reader="UINT" />
+			<node name="deactivate_time" reader="UINT" />
+			<wrapper name="event_day">
+				<node name="sun" reader="UINT" />
+				<node name="mon" reader="UINT" />
+				<node name="tue" reader="UINT" />
+				<node name="wed" reader="UINT" />
+				<node name="thu" reader="UINT" />
+				<node name="fri" reader="UINT" />
+				<node name="sat" reader="UINT" />
+			</wrapper>
+			<node name="event_desc" reader="ASCF" />
+		</for>
+	</file>
+</list>

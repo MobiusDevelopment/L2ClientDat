@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="HighFive" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="EffectNames" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="EffectName" reader="ASCF" />
+			<node name="MeshSocketName" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="EffectNames" reader="CNTR" />
+			<for name="EffectNames" size="#EffectNames">
+				<node name="EffectNames0" reader="ASCF" />
+			</for>
+			<node name="MeshSocketNames" reader="CNTR" />
+			<for name="MeshSocketNames" size="#MeshSocketNames">
+				<node name="MeshSocketNames0" reader="ASCF" />
+			</for>
+			<node name="EffectScales" reader="CNTR" />
+			<for name="EffectScales" size="#EffectScales">
+				<node name="EffectScales0" reader="FLOAT" />
+			</for>
+			<node name="bUsePawnScale" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="EffectNames" reader="CNTR" />
+			<for name="EffectNames" size="#EffectNames">
+				<node name="EffectNames0" reader="MAP_INT" />
+			</for>
+			<node name="MeshSocketNames" reader="CNTR" />
+			<for name="MeshSocketNames" size="#MeshSocketNames">
+				<node name="MeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="EffectScales" reader="CNTR" />
+			<for name="EffectScales" size="#EffectScales">
+				<node name="EffectScales0" reader="FLOAT" />
+			</for>
+			<node name="bUsePawnScale" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="EffectNames" reader="CNTR" />
+			<for name="EffectNames" size="#EffectNames">
+				<node name="EffectNames0" reader="MAP_INT" />
+			</for>
+			<node name="MeshSocketNames" reader="CNTR" />
+			<for name="MeshSocketNames" size="#MeshSocketNames">
+				<node name="MeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="DropMeshSocketNames" reader="CNTR" />
+			<for name="DropMeshSocketNames" size="#DropMeshSocketNames">
+				<node name="DropMeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="EffectScales" reader="CNTR" />
+			<for name="EffectScales" size="#EffectScales">
+				<node name="EffectScales0" reader="FLOAT" />
+			</for>
+			<node name="bUsePawnScale" reader="UINT" />
+			<node name="bUseDropEffect" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="Attach_Bone_Name" reader="MAP_INT" />
+			<node name="EffectNames" reader="CNTR" />
+			<for name="EffectNames" size="#EffectNames">
+				<node name="EffectNames0" reader="MAP_INT" />
+			</for>
+			<node name="MeshSocketNames" reader="CNTR" />
+			<for name="MeshSocketNames" size="#MeshSocketNames">
+				<node name="MeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="DropMeshSocketNames" reader="CNTR" />
+			<for name="DropMeshSocketNames" size="#DropMeshSocketNames">
+				<node name="DropMeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="EffectScales" reader="CNTR" />
+			<for name="EffectScales" size="#EffectScales">
+				<node name="EffectScales0" reader="FLOAT" />
+			</for>
+			<node name="bUsePawnScale" reader="UINT" />
+			<node name="bUseDropEffect" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="add_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="Attach_Bone_Name" reader="MAP_INT" />
+			<node name="EffectNames" reader="CNTR" />
+			<for name="EffectNames" size="#EffectNames">
+				<node name="EffectNames0" reader="MAP_INT" />
+			</for>
+			<node name="MeshSocketNames" reader="CNTR" />
+			<for name="MeshSocketNames" size="#MeshSocketNames">
+				<node name="MeshSocketNames0" reader="MAP_INT" />
+			</for>
+			<node name="EffectScales" reader="CNTR" />
+			<for name="EffectScales" size="#EffectScales">
+				<node name="EffectScales0" reader="FLOAT" />
+			</for>
+			<node name="bUsePawnScale" reader="UINT" />
+		</for>
+	</file>
+</list>

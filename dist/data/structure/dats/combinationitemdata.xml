@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="GrandCrusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<node name="slotone" reader="UINT" />
+			<node name="slottwo" reader="UINT" />
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="itemid" reader="UINT" />
+				<node name="count" reader="UINT" />
+			</for>
+			<node name="result_effecttype" reader="UCHAR" />
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<wrapper name="slotone">
+				<node name="slotone_itemId" reader="UINT" />
+				<node name="slotone_itemEnchant" reader="UINT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_itemId" reader="UINT" />
+				<node name="slottwo_itemEnchant" reader="UINT" />
+			</wrapper>
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="resultitem_itemId" reader="UINT" />
+				<node name="resultitem_itemEnchant" reader="UINT" />
+				<node name="resultitem_itemCount" reader="UINT" />
+			</for>
+			<node name="result_effecttype" reader="UCHAR" />
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+		</for>
+	</file>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<wrapper name="slotone">
+				<node name="slotone_itemId" reader="UINT" />
+				<node name="slotone_itemEnchant" reader="UINT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_itemId" reader="UINT" />
+				<node name="slottwo_itemEnchant" reader="UINT" />
+			</wrapper>
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="resultitem_itemId" reader="UINT" />
+				<node name="resultitem_itemEnchant" reader="UINT" />
+				<node name="resultitem_itemCount" reader="UINT" />
+			</for>
+			<node name="result_effecttype" reader="UCHAR" />
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+			<node name="commission" reader="LONG" />
+		</for>
+	</file>
+	<file pattern="ReturnOfTheQueenAnt2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<wrapper name="slotone">
+				<node name="slotone_itemId" reader="UINT" />
+				<node name="slotone_itemEnchant" reader="UINT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_itemId" reader="UINT" />
+				<node name="slottwo_itemEnchant" reader="UINT" />
+			</wrapper>
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="resultitem_itemId" reader="UINT" />
+				<node name="resultitem_itemEnchant" reader="UINT" />
+				<node name="resultitem_itemCount" reader="UINT" />
+				<node name="unk" reader="UINT" />
+			</for>
+			<node name="result_effecttype" reader="UCHAR" />
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+			<node name="commission" reader="LONG" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<wrapper name="slotone">
+				<node name="slotone_itemId" reader="UINT" />
+				<node name="slotone_itemEnchant" reader="UINT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_itemId" reader="UINT" />
+				<node name="slottwo_itemEnchant" reader="UINT" />
+			</wrapper>
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="resultitem_itemId" reader="UINT" />
+				<node name="resultitem_itemEnchant" reader="UINT" />
+				<node name="resultitem_itemCount" reader="UINT" />
+				<node name="unk1" reader="UINT" />
+				<node name="unk2" reader="USHORT" />
+			</for>
+			<node name="result_effecttype" reader="UCHAR" />
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+			<node name="commission" reader="LONG" />
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<node name="unk_1" reader="USHORT" />
+			<node name="unk_2" reader="UBYTE" />
+			<node name="unk_3" reader="UBYTE" />
+			<node name="unk_4" reader="USHORT" />
+			<wrapper name="slotone">
+				<node name="slotone_itemId" reader="UINT" />
+				<node name="slotone_itemEnchant" reader="UINT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_itemId" reader="UINT" />
+				<node name="slottwo_itemEnchant" reader="UINT" />
+			</wrapper>
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="resultitem_itemId" reader="UINT" />
+				<node name="resultitem_itemEnchant" reader="UINT" />
+				<node name="resultitem_itemCount" reader="UINT" />
+				<node name="unk1" reader="UINT" />
+				<node name="unk2" reader="USHORT" />
+			</for>
+			<node name="result_effecttype" reader="UBYTE" />
+			<node name="size" reader="CNTR" />
+			<for name="applycountry" size="#size">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+			<node name="commission" reader="LONG" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="combinationitem" size="#data" hidden="false">
+			<node name="UNK_1" reader="USHORT" />
+			<node name="UNK_2" reader="UCHAR" />
+			<node name="UNK_3" reader="UCHAR" />
+			<node name="max_level" reader="UCHAR" />
+			<node name="UNK_4" reader="UCHAR" />
+			<wrapper name="slotone">
+				<node name="slotone_itemId" reader="UINT" />
+				<node name="slotone_itemEnchant" reader="UINT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_itemId" reader="UINT" />
+				<node name="slottwo_itemEnchant" reader="UINT" />
+			</wrapper>
+			<node name="resultitem" reader="CNTR" />
+			<for name="resultitem" size="#resultitem">
+				<node name="resultitem_itemId" reader="UINT" />
+				<node name="resultitem_itemEnchant" reader="UINT" />
+				<node name="resultitem_itemCount" reader="UINT" />
+				<node name="success" reader="UINT" />
+				<node name="chance" reader="UINT" />
+			</for>
+			<node name="result_effecttype" reader="UBYTE" />
+			<node name="size" reader="CNTR" />
+			<for name="applycountry" size="#size">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+			<node name="commission" reader="LONG" />
+		</for>
+	</file>
+</list>

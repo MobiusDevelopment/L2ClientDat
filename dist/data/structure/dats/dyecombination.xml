@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="dyepotential_exp" size="#data" hidden="false">
+			<wrapper name="slotone">
+				<node name="slotone_0" reader="USHORT" />
+				<node name="unk0" reader="USHORT" />
+			</wrapper>
+			<wrapper name="slottwo">
+				<node name="slottwo_0" reader="USHORT" />
+				<node name="unk1" reader="USHORT" />
+			</wrapper>
+			<node name="commission" reader="UINT" />
+			<node name="prob" reader="FLOAT" />
+		</for>
+	</file>
+</list>

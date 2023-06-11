@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="GrandCrusade" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="upgradesystem" size="#data" hidden="false">
+			<node name="upgrade_id" reader="UINT" />
+			<wrapper name="upgrade_item">
+				<node name="upgrade_item_id" reader="UINT" />
+				<node name="upgrade_item_enchant" reader="UINT" />
+			</wrapper>
+			<node name="material_items" reader="CNTR" />
+			<for name="material_items" size="#material_items">
+				<node name="itemid" reader="UINT" />
+				<node name="itemcount" reader="UINT" />
+			</for>
+			<node name="commission" reader="LONG" />
+			<wrapper name="result_item">
+				<node name="result_item_id" reader="UINT" />
+				<node name="result_item_enchant" reader="UINT" />
+			</wrapper>
+		</for>
+	</file>
+	<file pattern="EtinasFate" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="upgradesystem" size="#data" hidden="false">
+			<node name="upgrade_id" reader="UINT" />
+			<wrapper name="upgrade_item">
+				<node name="upgrade_item_id" reader="UINT" />
+				<node name="upgrade_item_enchant" reader="UINT" />
+			</wrapper>
+			<node name="material_items" reader="CNTR" />
+			<for name="material_items" size="#material_items">
+				<node name="itemid" reader="UINT" />
+				<node name="itemcount" reader="UINT" />
+			</for>
+			<node name="commission" reader="LONG" />
+			<wrapper name="result_item">
+				<node name="result_item_id" reader="UINT" />
+				<node name="result_item_enchant" reader="UINT" />
+			</wrapper>
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="id" reader="UINT" enumName="localization_type" />
+			</for>
+		</for>
+	</file>
+</list>

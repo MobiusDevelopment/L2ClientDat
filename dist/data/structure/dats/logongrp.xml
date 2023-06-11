@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<for name="LogPawn" size="26" hidden="false">
+			<node name="x" reader="UINT" />
+			<node name="y" reader="UINT" />
+			<node name="z" reader="UINT" />
+			<node name="yaw" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Epilogue" isSafePackage="true">
+		<for name="LogPawn" size="8" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<for name="LogPawn" size="85" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<for name="LogPawn" size="87" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<for name="LogPawn" size="88" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<for name="LogPawn" size="89" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
+</list>

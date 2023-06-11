@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true"> <!-- NOT FULL, maybe because using korean symbols -->
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="tag_?" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="tag_?" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Lindvior" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UINT" />
+			<for name="name" size="#name">
+				<node name="param_name" reader="ASCF" />
+			</for>
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="UINT" />
+			<for name="name" size="#name">
+				<node name="param_name" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="ext_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="mark_name" reader="ASCF" />
+			<for name="desc" size="4">
+				<node name="desc_param" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="ext_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="mark_name" reader="ASCF" />
+			<node name="brackets_value" reader="UINT" />
+		</for>
+	</file>
+</list>

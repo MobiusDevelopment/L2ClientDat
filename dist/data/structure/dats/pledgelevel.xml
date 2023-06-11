@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pledge_level" size="#data" hidden="false">
+			<node name="level" reader="USHORT" />
+			<node name="need_pledge_exp" reader="UINT" />
+			<node name="num_general" reader="USHORT" />
+			<node name="merit_desc" reader="ASCF" />
+		</for>
+	</file>
+	
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pledge_level" size="#data" hidden="false">
+			<node name="level" reader="USHORT" />
+			<node name="need_pledge_exp" reader="UINT" />
+			<node name="num_general" reader="USHORT" />
+			<node name="merit_desc" reader="ASCF" />
+
+			<node name="content_size" reader="UCHAR" />
+			<for name="open_contents" size="#content_size">
+				<node name="open_contents" reader="ASCF" />
+			</for>
+			
+			<node name="selling_size" reader="UCHAR" />
+			<for name="selling_item_list" size="#selling_size">
+				<node name="selling_item_list" reader="UINT" />
+			</for>
+			
+			<node name="skill_size" reader="UCHAR" />
+			<for name="skill_name_list" size="#skill_size">
+				<node name="skill_name_list" reader="ASCF" />
+			</for>
+		</for>
+	</file>
+</list>

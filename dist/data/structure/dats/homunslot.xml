@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="homun_slot" size="#data" hidden="false">
+			<node name="slotid" reader="UINT" />
+			<node name="costitems" reader="CNTR" />
+			<for name="costitems" size="#costitems">
+				<node name="item_id" reader="UINT" />
+				<node name="item_count" reader="LONG" />
+			</for>
+		</for>
+	</file>
+</list>

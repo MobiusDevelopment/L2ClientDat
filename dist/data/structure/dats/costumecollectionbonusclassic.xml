@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Fafurion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="costume_collection_skill" size="#data" hidden="false">
+			<node name="need_collection_count" reader="UINT" />
+			<node name="time" reader="FLOAT" />
+			<node name="reuse" reader="FLOAT" />
+			<node name="bonus1" reader="FLOAT" />
+			<node name="bonus2" reader="FLOAT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="homun_npc_level" size="#data" hidden="false">
+            <node name="index" reader="UINT" />
+            <node name="level" reader="UBYTE" />
+            <node name="exp" reader="UINT" />
+            <node name="hp" reader="UINT" />
+            <node name="attack" reader="UINT" />
+            <node name="defence" reader="UINT" />
+            <node name="critical" reader="UINT" />
+            <for name="option_skill" size="3">
+                <node name="option_skill_id" reader="UINT" />
+                <node name="option_skill_level" reader="UINT" />
+            </for>
+        </for>
+    </file>
+</list>

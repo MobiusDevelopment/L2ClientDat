@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="tutorial_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="type" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="tutorial_name" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="type" reader="UINT" />
+			<node name="category" reader="UINT" />
+			<node name="order_id" reader="UINT" />
+			<node name="level" reader="UINT" />
+			<node name="desc" reader="ASCF" />
+			<node name="display_type" reader="UINT" />
+		</for>
+	</file>
+</list>

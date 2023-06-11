@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Awakening" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_enchant_effect_data" size="#data" hidden="false">
+			<node name="type" reader="UINT" />
+			<node name="grade" reader="ASCF" />
+			<node name="radiance_effect_name" reader="ASCF" />
+			<node name="radiance_effect_show_value" reader="UINT" />
+			<node name="radiance_effect_RGB_opacity_e1" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e2" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e3" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e4" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e5" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e6" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e7" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e8" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e9" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e10" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e11" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e12" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e13" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e14" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e15" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e16" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e17" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e18" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e19" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e20" reader="RGB_TEST" />
+			<node name="sword_flow_effect_show_value" reader="UINT" />
+			<node name="sword_flow_effect_max_particle_e1" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e2" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e3" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e4" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e5" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e6" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e7" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e8" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e9" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e10" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e11" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e12" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e13" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e14" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e15" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e16" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e17" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e18" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e19" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e20" reader="FLOAT" />
+			<node name="particle_effect_name" reader="ASCF" />
+			<node name="particle_effect_show_value" reader="UINT" />
+			<node name="ring_effect_name" reader="ASCF" />
+			<node name="ring_effect_show_value" reader="UINT" />
+			<node name="ring_effect_RGB_e1" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e2" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e3" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e4" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e5" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e6" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e7" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e8" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e9" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e10" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e11" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e12" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e13" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e14" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e15" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e16" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e17" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e18" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e19" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e20" reader="RGB_TEST" />
+		</for>
+	</file>
+	<file pattern="Ertheia" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_enchant_effect_data" size="#data" hidden="false">
+			<node name="type" reader="RGBA" />
+			<node name="grade" reader="ASCF" />
+			<node name="radiance_effect_name" reader="UINT" />
+			<for name="radiance_effect_name" size="#radiance_effect_name">
+				<node name="radiance_effect_name0" reader="ASCF" />
+			</for>
+			<node name="radiance_effect_show_value" reader="UINT" />
+			<for name="radiance_effect_show_value" size="#radiance_effect_show_value">
+				<node name="radiance_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="radiance_effect_RGB_opacity_e1" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e2" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e3" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e4" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e5" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e6" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e7" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e8" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e9" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e10" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e11" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e12" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e13" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e14" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e15" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e16" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e17" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e18" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e19" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e20" reader="RGB_TEST" />
+			<node name="sword_flow_effect_show_value" reader="UINT" />
+			<node name="sword_flow_effect_max_particle_e1" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e2" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e3" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e4" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e5" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e6" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e7" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e8" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e9" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e10" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e11" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e12" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e13" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e14" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e15" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e16" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e17" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e18" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e19" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e20" reader="FLOAT" />
+			<node name="particle_effect_name" reader="UINT" />
+			<for name="particle_effect_name" size="#particle_effect_name">
+				<node name="particle_effect_name0" reader="ASCF" />
+			</for>
+			<node name="particle_effect_show_value" reader="UINT" />
+			<for name="particle_effect_show_value" size="#particle_effect_show_value">
+				<node name="particle_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="ring_effect_name" reader="UINT" />
+			<for name="ring_effect_name" size="#ring_effect_name">
+				<node name="ring_effect_name0" reader="ASCF" />
+			</for>
+			<node name="ring_effect_show_value" reader="UINT" />
+			<for name="ring_effect_show_value" size="#ring_effect_show_value">
+				<node name="ring_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="ring_effect_RGB_e1" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e2" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e3" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e4" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e5" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e6" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e7" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e8" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e9" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e10" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e11" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e12" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e13" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e14" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e15" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e16" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e17" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e18" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e19" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e20" reader="RGB_TEST" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_enchant_effect_data" size="#data" hidden="false">
+			<node name="type" reader="RGBA" />
+			<node name="grade" reader="ASCF" />
+			<node name="radiance_effect_name" reader="UINT" />
+			<for name="radiance_effect_name" size="#radiance_effect_name">
+				<node name="radiance_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="radiance_effect_show_value" reader="UINT" />
+			<for name="radiance_effect_show_value" size="#radiance_effect_show_value">
+				<node name="radiance_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="radiance_effect_RGB_opacity_e1" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e2" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e3" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e4" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e5" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e6" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e7" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e8" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e9" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e10" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e11" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e12" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e13" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e14" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e15" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e16" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e17" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e18" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e19" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e20" reader="RGB_TEST" />
+			<node name="sword_flow_effect_show_value" reader="UINT" />
+			<node name="sword_flow_effect_max_particle_e1" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e2" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e3" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e4" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e5" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e6" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e7" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e8" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e9" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e10" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e11" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e12" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e13" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e14" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e15" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e16" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e17" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e18" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e19" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e20" reader="FLOAT" />
+			<node name="particle_effect_name" reader="UINT" />
+			<for name="particle_effect_name" size="#particle_effect_name">
+				<node name="particle_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="particle_effect_show_value" reader="UINT" />
+			<for name="particle_effect_show_value" size="#particle_effect_show_value">
+				<node name="particle_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="ring_effect_name" reader="UINT" />
+			<for name="ring_effect_name" size="#ring_effect_name">
+				<node name="ring_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="ring_effect_show_value" reader="UINT" />
+			<for name="ring_effect_show_value" size="#ring_effect_show_value">
+				<node name="ring_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="ring_effect_RGB_e1" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e2" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e3" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e4" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e5" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e6" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e7" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e8" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e9" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e10" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e11" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e12" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e13" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e14" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e15" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e16" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e17" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e18" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e19" reader="RGB_TEST" />
+			<node name="ring_effect_RGB_e20" reader="RGB_TEST" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_enchant_effect_data" size="#data" hidden="false">
+			<node name="type" reader="RGBA" />
+			<node name="grade" reader="ASCF" />
+			<node name="radiance_effect_name" reader="UINT" />
+			<for name="radiance_effect_name" size="#radiance_effect_name">
+				<node name="radiance_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="radiance_effect_show_value" reader="UINT" />
+			<for name="radiance_effect_show_value" size="#radiance_effect_show_value">
+				<node name="radiance_effect_show_value0" reader="UINT" />
+			</for>
+			<wrapper name="radiance_effect_RGB_opacity">
+				<node name="radiance_effect_RGB_opacity_e1" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e2" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e3" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e4" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e5" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e6" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e7" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e8" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e9" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e10" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e11" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e12" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e13" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e14" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e15" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e16" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e17" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e18" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e19" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e20" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e21" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e22" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e23" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e24" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e25" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e26" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e27" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e28" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e29" reader="RGB_TEST" />
+				<node name="radiance_effect_RGB_opacity_e30" reader="RGB_TEST" />
+			</wrapper>
+			<node name="sword_flow_effect_show_value" reader="UINT" />
+			<wrapper name="radiance_effect_RGB_opacity">
+				<node name="sword_flow_effect_max_particle_e1" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e2" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e3" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e4" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e5" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e6" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e7" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e8" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e9" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e10" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e11" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e12" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e13" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e14" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e15" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e16" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e17" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e18" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e19" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e20" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e21" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e22" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e23" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e24" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e25" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e26" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e27" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e28" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e29" reader="FLOAT" />
+				<node name="sword_flow_effect_max_particle_e30" reader="FLOAT" />
+			</wrapper>
+			<node name="particle_effect_name" reader="UINT" />
+			<for name="particle_effect_name" size="#particle_effect_name">
+				<node name="particle_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="particle_effect_show_value" reader="UINT" />
+			<for name="particle_effect_show_value" size="#particle_effect_show_value">
+				<node name="particle_effect_show_value0" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_enchant_effect_data" size="#data" hidden="false">
+			<node name="type" reader="RGBA" />
+			<node name="grade" reader="ASCF" />
+			<node name="group_name" reader="ASCF" />
+			<node name="radiance_effect_name" reader="UINT" />
+			<for name="radiance_effect_name" size="#radiance_effect_name">
+				<node name="radiance_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="radiance_effect_show_value" reader="UINT" />
+			<for name="radiance_effect_show_value" size="#radiance_effect_show_value">
+				<node name="radiance_effect_show_value0" reader="UINT" />
+			</for>
+			<node name="radiance_effect_RGB_opacity_e1" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e2" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e3" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e4" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e5" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e6" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e7" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e8" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e9" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e10" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e11" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e12" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e13" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e14" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e15" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e16" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e17" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e18" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e19" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e20" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e21" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e22" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e23" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e24" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e25" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e26" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e27" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e28" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e29" reader="RGB_TEST" />
+			<node name="radiance_effect_RGB_opacity_e30" reader="RGB_TEST" />
+			<node name="sword_flow_effect_show_value" reader="UINT" />
+			<node name="sword_flow_effect_max_particle_e1" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e2" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e3" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e4" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e5" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e6" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e7" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e8" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e9" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e10" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e11" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e12" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e13" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e14" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e15" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e16" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e17" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e18" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e19" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e20" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e21" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e22" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e23" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e24" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e25" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e26" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e27" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e28" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e29" reader="FLOAT" />
+			<node name="sword_flow_effect_max_particle_e30" reader="FLOAT" />
+			<node name="particle_effect_name" reader="UINT" />
+			<for name="particle_effect_name" size="#particle_effect_name">
+				<node name="particle_effect_name0" reader="MAP_INT" />
+			</for>
+			<node name="particle_effect_show_value" reader="UINT" />
+			<for name="particle_effect_show_value" size="#particle_effect_show_value">
+				<node name="particle_effect_show_value0" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

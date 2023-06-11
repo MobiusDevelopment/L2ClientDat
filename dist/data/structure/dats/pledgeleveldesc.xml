@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pledge_level" size="#data" hidden="false">
+			<node name="level" reader="USHORT" />
+			<node name="num_general" reader="USHORT" />
+			<node name="num_elite" reader="USHORT" />
+			<node name="level_desc" reader="CNTR" />
+			<for name="level_desc" size="#level_desc">
+				<node name="param_level_desc" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

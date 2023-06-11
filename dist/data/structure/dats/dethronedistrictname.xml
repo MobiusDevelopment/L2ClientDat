@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="DistrictName" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<node name="id" reader="UINT" />
+			<node name="category" reader="UINT" />
+		</for>
+	</file>
+</list>

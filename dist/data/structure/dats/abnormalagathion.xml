@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="abnormal_agathion" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<wrapper name="offset_position">
+				<node name="var1" reader="FLOAT" />
+				<node name="var2" reader="FLOAT" />
+				<node name="var3" reader="FLOAT" />
+			</wrapper>
+		</for>
+	</file>
+</list>

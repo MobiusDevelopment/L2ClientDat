@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<project name="L2ClientDat" default="cleanup" basedir=".">
+	<description>
+		This file is part of the L2ClientDat project.
+		
+		This program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+		
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details.
+		
+		You should have received a copy of the GNU General Public License
+		along with this program. If not, see [http://www.gnu.org/licenses/].
+	</description>
+
+	<property name="build" location="../build" />
+	<property name="build.bin" location="${build}/bin" />
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.libs" location="${build.dist}/libs" />
+	<property name="dist" location="dist" />
+	<property name="libs" location="${dist}/libs" />
+	<property name="src" location="java" />
+
+	<target name="checkRequirements" description="Check Requirements.">
+		<fail message="Ant 1.8.2 is required. But your version is ${ant.version} and if you are using Eclipse probably is outdated.">
+			<condition>
+				<not>
+					<antversion atleast="1.8.2" />
+				</not>
+			</condition>
+		</fail>
+		<available classname="java.util.stream.Stream" property="JDK17.present" />
+		<fail unless="JDK17.present" message="Java 17 is required. But your version is Java ${ant.java.version} and probably JDK is not installed." />
+	</target>
+
+	<target name="init" depends="checkRequirements" description="Create the output directories.">
+		<delete dir="${build.bin}" quiet="true" />
+		<mkdir dir="${build.bin}" />
+	</target>
+
+	<target name="compile" depends="init" description="Compile the source.">
+		<javac srcdir="${src}" destdir="${build.bin}" compiler="modern" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="17" target="17" encoding="UTF-8" />
+	</target>
+
+	<target name="jar" depends="compile" description="Create the jar files.">
+		<tstamp>
+			<format property="time.stamp" pattern="yyyy-MM-dd HH:mm:ss z" />
+		</tstamp>
+
+		<jar destfile="${build.dist.libs}/L2ClientDat.jar" level="9">
+			<fileset dir="${build.bin}" />
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.org/" />
+				<attribute name="Main-Class" value="org.l2jmobius.L2ClientDat" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="adding-core" depends="jar" description="Adding the compiled jars to the Zip file.">
+		<zip destfile="${build}/L2ClientDat.zip" basedir="${build.dist}" level="9" />
+	</target>
+
+	<target name="adding-dist" depends="adding-core" description="Updating the Zip file with distribution content.">
+		<zip destfile="${build}/L2ClientDat.zip" basedir="${dist}" excludes="**/*-sources.jar" update="true" level="9" />
+	</target>
+
+	<target name="cleanup" depends="adding-dist" description="Cleaning the build folder.">
+		<delete dir="${build.dist}" />
+	</target>
+</project>

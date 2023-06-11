@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="gacha_shop" size="#data" hidden="false">
+			<node name="shop_id" reader="USHORT" />
+
+			<wrapper name="item_list">
+				<wrapper name="item_1">
+					<node name="Item_1_ClassID" reader="UINT" />
+					<node name="Item_1_Count" reader="UINT" />
+				</wrapper>
+				<wrapper name="item_2">
+					<node name="Item_2_ClassID" reader="UINT" />
+					<node name="Item_2_Count" reader="UINT" />
+				</wrapper>
+			</wrapper>
+			<write name="\r\n" />
+
+			<node name="size1" reader="UINT" />
+			<for name="group_node" size="#size1" hidden="false">
+				<node name="group_id" reader="USHORT" />
+				<node name="group_prob" reader="FLOAT" />
+
+				<wrapper name="item_list">
+					<wrapper name="item_3">
+						<node name="Item_3_ClassID" reader="UINT" />
+						<node name="Item_3_Count" reader="UINT" />
+					</wrapper>
+					<wrapper name="item_4">
+						<node name="Item_4_ClassID" reader="UINT" />
+						<node name="Item_4_Count" reader="UINT" />
+					</wrapper>
+				</wrapper>
+
+				<node name="title_item_id" reader="UINT" />
+				<node name="cost" reader="UCHAR" />
+				<for name="cost" size="#cost">
+					<node name="ClassID" reader="UINT" />
+					<node name="Count" reader="UINT" />
+					<node name="ItemProb" reader="FLOAT" />
+				</for>
+
+			</for>
+		</for>
+	</file>
+</list>

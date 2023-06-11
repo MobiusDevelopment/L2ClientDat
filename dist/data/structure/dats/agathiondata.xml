@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="agathiondata" size="#data" hidden="false">
+			<node name="item_id" reader="UINT" />
+			<node name="enchant" reader="UINT" />
+			<node name="main_skill_id" reader="UINT" />
+			<for name="main_skill_id" size="#main_skill_id">
+				<node name="m_skill_id" reader="UINT" />
+				<node name="m_skill_level" reader="UINT" />
+			</for>
+			<node name="sub_skill_id" reader="UINT" />
+			<for name="sub_skill_id" size="#sub_skill_id">
+				<node name="s_skill_id" reader="UINT" />
+				<node name="s_skill_level" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="mission_level" size="#data" hidden="false">
+			<node name="season_date" reader="UINT" />
+			<node name="based_max_level" reader="UINT" />		
+			<node name="size1" reader="CNTR" />
+			<for name="base_reward" size="#size1">
+				<node name="base_reward_id" reader="UINT" />
+				<node name="base_reward_count" reader="UINT" />
+				<node name="unk1" reader="UINT" />
+			</for>
+			<node name="size2" reader="CNTR" />
+			<for name="key_reward" size="#size2">
+				<node name="key_reward_id" reader="UINT" />
+				<node name="key_reward_count" reader="UINT" />
+				<node name="unk2" reader="UINT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<wrapper name="special_reward">
+				<node name="final_reward_id" reader="UINT" />
+				<node name="final_reward_count" reader="UINT" />
+			</wrapper>
+			<node name="unk4" reader="UINT" />
+			<wrapper name="bonus_reward">
+				<node name="bonus_reward_id" reader="UINT" />
+				<node name="bonus_reward_count" reader="UINT" />
+			</wrapper>
+		</for>
+	</file>
+</list>

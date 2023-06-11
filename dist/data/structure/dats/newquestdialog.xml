@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="NewQuestDialog" size="#data" hidden="false">
+			<node name="QuestId" reader="UINT" />
+			<node name="Text0" reader="ASCF" />
+			<node name="Text1" reader="ASCF" />
+			<node name="Text2" reader="ASCF" />
+			<node name="Text3" reader="ASCF" />
+			<node name="Text4" reader="ASCF" />
+		</for>
+	</file>
+</list>

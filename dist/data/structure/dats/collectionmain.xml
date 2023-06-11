@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<for name="collectionmain" size="1" hidden="false">
+			<node name="data" reader="UINT"/>
+			<write name="\r\n" />
+			<for name="collection" size="7" hidden="false">
+				<node name="main_id" reader="UINT" />
+				<node name="background_level" reader="UINT" />
+				<node name="category" reader="UINT" />
+				<node name="collection_id" reader="UINT" />
+				<node name="key_item_id" reader="UINT" />
+				<node name="key_effect" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="ReturnOfTheQueenAnt2" isSafePackage="true">
+		<for name="collectionmain" size="1" hidden="false">
+			<node name="data" reader="UINT"/>
+			<write name="\r\n" />
+			<for name="collection" size="18" hidden="false">
+				<node name="main_id" reader="UINT" />
+				<node name="background_level" reader="UINT" />
+				<node name="category" reader="UINT" />
+				<node name="collection_id" reader="UINT" />
+				<node name="key_item_id" reader="UINT" />
+				<node name="key_effect" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<for name="collectionmain" size="1" hidden="false">
+			<node name="data" reader="UINT"/>
+			<write name="\r\n" />
+			<for name="collection" size="9" hidden="false">
+				<node name="main_id" reader="UINT" />
+				<node name="background_level" reader="UINT" />
+				<node name="category" reader="UINT" />
+				<node name="collection_id" reader="UINT" />
+				<node name="key_item_id" reader="UINT" />
+				<node name="key_effect" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="BattleChronicle" isSafePackage="true">
+		<for name="collectionmain" size="1" hidden="false">
+			<node name="data" reader="UINT"/>
+			<write name="\r\n" />
+			<for name="collection" size="18" hidden="false">
+				<node name="main_id" reader="UINT" />
+				<node name="background_level" reader="UINT" />
+				<node name="category" reader="UINT" />
+				<node name="collection_id" reader="UINT" />
+				<node name="key_item_id" reader="UINT" />
+				<node name="key_effect" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<for name="Char" size="15" hidden="false">
+			<node name="face_icon" reader="UNICODE" />
+			<node name="hair_mesh" reader="UINT" />
+			<node name="hair_texture" reader="UINT" />
+			<node name="face_mesh" reader="UINT" />
+			<node name="face_texture" reader="UINT" />
+			<for name="hair_mesh" size="#hair_mesh">
+				<node name="param_hair_mesh" reader="UNICODE" />
+			</for>
+			<for name="hair_texture" size="#hair_texture">
+				<node name="param_hair_texture" reader="UNICODE" />
+			</for>
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="UNICODE" />
+			</for>
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="UNICODE" />
+			</for>
+			<wrapper name="body_mesh">
+				<node name="body_mesh1" reader="UNICODE" />
+				<node name="body_mesh2" reader="UNICODE" />
+				<node name="body_mesh3" reader="UNICODE" />
+				<node name="body_mesh4" reader="UNICODE" />
+			</wrapper>
+			<wrapper name="body_texture">
+				<node name="body_texture1" reader="UNICODE" />
+				<node name="body_texture2" reader="UNICODE" />
+				<node name="body_texture3" reader="UNICODE" />
+				<node name="body_texture4" reader="UNICODE" />
+			</wrapper>
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="UINT" />
+			<node name="defense_sound" reader="UINT" />
+			<node name="damage_sound" reader="UINT" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="UNICODE" />
+			</for>
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="UNICODE" />
+			</for>
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_hand" reader="UINT" />
+			<for name="voice_snd_hand" size="#voice_snd_hand">
+				<node name="cnth" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_1hs" reader="UINT" />
+			<for name="voice_snd_1hs" size="#voice_snd_1hs">
+				<node name="cnt1h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_2hs" reader="UINT" />
+			<for name="voice_snd_2hs" size="#voice_snd_2hs">
+				<node name="cnt2h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_dual" reader="UINT" />
+			<for name="voice_snd_dual" size="#voice_snd_dual">
+				<node name="cntd" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_pole" reader="UINT" />
+			<for name="voice_snd_pole" size="#voice_snd_pole">
+				<node name="cntp" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_bow" reader="UINT" />
+			<for name="voice_snd_bow" size="#voice_snd_bow">
+				<node name="cntb" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_unknown" reader="UINT" />
+			<for name="voice_snd_unknown" size="#voice_snd_unknown">
+				<node name="cntu" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_fist" reader="UINT" />
+			<for name="voice_snd_fist" size="#voice_snd_fist">
+				<node name="cntf" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Epilogue" isSafePackage="true">
+		<for name="Char" size="17" hidden="false">
+			<for name="hair_tab" size="75">
+				<node name="ahair_mesh0" reader="UNICODE" />
+				<node name="ahair_texture0" reader="UNICODE" />
+				<node name="bhair_mesh0" reader="UNICODE" />
+				<node name="bhair_texture0" reader="UNICODE" />
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="UNICODE" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="UNICODE" />
+			</for>
+
+			<for name="filler_01" size="360" hidden="true" >
+				<node name="filler_01_var" reader="UCHAR" />
+			</for>
+
+			<node name="glove_mesh" reader="UINT" />
+			<for name="glove_mesh" size="#glove_mesh">
+				<node name="param_glove_meshh" reader="UNICODE" />
+			</for>
+			<node name="glove_tex" reader="UINT" />
+			<for name="glove_tex" size="#glove_tex">
+				<node name="param_glove_tex" reader="UNICODE" />
+			</for>
+			<node name="glove_mesh_add" reader="UINT" />
+			<for name="glove_mesh_add" size="#glove_mesh_add">
+				<node name="param_glove_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="glove_tex_add" reader="UINT" />
+			<for name="glove_tex_add" size="#glove_tex_add">
+				<node name="param_glove_tex_add" reader="UNICODE" />
+			</for>
+			<node name="glove_tab_byte1" reader="CNTR" />
+			<for name="glove_tab_byte1" size="#glove_tab_byte1">
+				<node name="param_glove_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="glove_tab_byte2" reader="CNTR" />
+			<for name="glove_tab_byte2" size="#glove_tab_byte2">
+				<node name="param_glove_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="upper_mesh" reader="UINT" />
+			<for name="upper_mesh" size="#upper_mesh">
+				<node name="param_upper_mesh" reader="UNICODE" />
+			</for>
+			<node name="upper_tex" reader="UINT" />
+			<for name="upper_tex" size="#upper_tex">
+				<node name="param_upper_tex" reader="UNICODE" />
+			</for>
+			<node name="upper_mesh_add" reader="UINT" />
+			<for name="upper_mesh_add" size="#upper_mesh_add">
+				<node name="param_upper_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="upper_tex_add" reader="UINT" />
+			<for name="upper_tex_add" size="#upper_tex_add">
+				<node name="param_upper_tex_add" reader="UNICODE" />
+			</for>
+			<node name="upper_tab_byte1" reader="CNTR" />
+			<for name="upper_tab_byte1" size="#upper_tab_byte1">
+				<node name="param_upper_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="upper_tab_byte2" reader="CNTR" />
+			<for name="upper_tab_bytee2" size="#upper_tab_byte2">
+				<node name="param_upper_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="lower_mesh" reader="UINT" />
+			<for name="lower_mesh" size="#lower_mesh">
+				<node name="param_lower_mesh" reader="UNICODE" />
+			</for>
+			<node name="lower_tex" reader="UINT" />
+			<for name="lower_tex" size="#lower_tex">
+				<node name="param_lower_tex" reader="UNICODE" />
+			</for>
+			<node name="lower_mesh_add" reader="UINT" />
+			<for name="lower_mesh_add" size="#lower_mesh_add">
+				<node name="param_lower_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="lower_tex_add" reader="UINT" />
+			<for name="lower_tex_add" size="#lower_tex_add">
+				<node name="param_lower_tex_add" reader="UNICODE" />
+			</for>
+			<node name="lower_tab_byte1" reader="CNTR" />
+			<for name="lower_tab_byte1" size="#lower_tab_byte1">
+				<node name="param_lower_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="lower_tab_byte2" reader="CNTR" />
+			<for name="lower_tab_byte2" size="#lower_tab_byte2">
+				<node name="param_lower_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="boot_mesh" reader="UINT" />
+			<for name="boot_mesh" size="#boot_mesh">
+				<node name="param_boot_mesh" reader="UNICODE" />
+			</for>
+			<node name="boot_tex" reader="UINT" />
+			<for name="boot_tex" size="#boot_tex">
+				<node name="param_boot_tex" reader="UNICODE" />
+			</for>
+			<node name="boot_mesh_add" reader="UINT" />
+			<for name="boot_mesh_add" size="#boot_mesh_add">
+				<node name="param_boot_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="boot_tex_add" reader="UINT" />
+			<for name="boot_tex_add" size="#boot_tex_add">
+				<node name="param_boot_tex_add" reader="UNICODE" />
+			</for>
+			<node name="boot_tab_byte1" reader="CNTR" />
+			<for name="boot_tab_byte1" size="#boot_tab_byte1">
+				<node name="param_boot_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="boot_tab_byte2" reader="CNTR" />
+			<for name="boot_tab_byte2" size="#boot_tab_byte2">
+				<node name="param_boot_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<for name="filler_02" size="90" hidden="true" >
+				<node name="filler_02_var" reader="UCHAR" />
+			</for>
+
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="UINT" />
+			<node name="defense_sound" reader="UINT" />
+			<node name="damage_sound" reader="UINT" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="UNICODE" />
+			</for>
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="UNICODE" />
+			</for>
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_hand" reader="UINT" />
+			<for name="voice_snd_hand" size="#voice_snd_hand">
+				<node name="cnth" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_1hs" reader="UINT" />
+			<for name="voice_snd_1hs" size="#voice_snd_1hs">
+				<node name="cnt1h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_2hs" reader="UINT" />
+			<for name="voice_snd_2hs" size="#voice_snd_2hs">
+				<node name="cnt2h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_dual" reader="UINT" />
+			<for name="voice_snd_dual" size="#voice_snd_dual">
+				<node name="cntd" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_pole" reader="UINT" />
+			<for name="voice_snd_pole" size="#voice_snd_pole">
+				<node name="cntp" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve1" reader="UINT" />
+			<for name="voice_snd_reserve1" size="#voice_snd_reserve1">
+				<node name="param_voice_snd_reserve1" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve2" reader="UINT" />
+			<for name="voice_snd_reserve2" size="#voice_snd_reserve2">
+				<node name="param_voice_snd_reserve2" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve3" reader="UINT" />
+			<for name="voice_snd_reserve3" size="#voice_snd_reserve3">
+				<node name="param_voice_snd_reserve3" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve4" reader="UINT" />
+			<for name="voice_snd_reserve4" size="#voice_snd_reserve4">
+				<node name="param_voice_snd_reserve4" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve5" reader="UINT" />
+			<for name="voice_snd_reserve5" size="#voice_snd_reserve5">
+				<node name="param_voice_snd_reserve5" reader="UNICODE" />
+			</for>
+
+			<wrapper name="final">
+				<node name="final_01" reader="UINT" />
+				<node name="final_02" reader="UINT" />
+			</wrapper>
+
+			<node name="name" reader="ASCF" />
+
+			<wrapper name="unk_00">
+				<node name="unk_01" reader="UINT" />
+				<node name="unk_02" reader="UINT" />
+				<node name="unk_03" reader="UINT" />
+			</wrapper>
+
+			<node name="p1" reader="UINT" />
+			<for name="p1" size="#p1">
+				<node name="cntp1" reader="UNICODE" />
+			</for>
+			<node name="p2" reader="UINT" />
+			<for name="p2" size="#p2">
+				<node name="cntp2" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="HighFive" isSafePackage="true">
+		<for name="Char" size="17" hidden="false">
+			<for name="hair_tab" size="75">
+				<node name="ahair_mesh0" reader="UNICODE" />
+				<node name="ahair_texture0" reader="UNICODE" />
+				<node name="bhair_mesh0" reader="UNICODE" />
+				<node name="bhair_texture0" reader="UNICODE" />
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="UNICODE" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="UNICODE" />
+			</for>
+
+			<for name="filler_01" size="360" hidden="true" >
+				<node name="filler_01_var" reader="UCHAR" />
+			</for>
+			<node name="glove_mesh" reader="UINT" />
+			<for name="glove_mesh" size="#glove_mesh">
+				<node name="param_glove_meshh" reader="UNICODE" />
+			</for>
+			<node name="glove_tex" reader="UINT" />
+			<for name="glove_tex" size="#glove_tex">
+				<node name="param_glove_tex" reader="UNICODE" />
+			</for>
+			<node name="glove_mesh_add" reader="UINT" />
+			<for name="glove_mesh_add" size="#glove_mesh_add">
+				<node name="param_glove_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="glove_tex_add" reader="UINT" />
+			<for name="glove_tex_add" size="#glove_tex_add">
+				<node name="param_glove_tex_add" reader="UNICODE" />
+			</for>
+			<node name="glove_tab_byte1" reader="CNTR" />
+			<for name="glove_tab_byte1" size="#glove_tab_byte1">
+				<node name="param_glove_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="glove_tab_byte2" reader="CNTR" />
+			<for name="glove_tab_byte2" size="#glove_tab_byte2">
+				<node name="param_glove_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="upper_mesh" reader="UINT" />
+			<for name="upper_mesh" size="#upper_mesh">
+				<node name="param_upper_mesh" reader="UNICODE" />
+			</for>
+			<node name="upper_tex" reader="UINT" />
+			<for name="upper_tex" size="#upper_tex">
+				<node name="param_upper_tex" reader="UNICODE" />
+			</for>
+			<node name="upper_mesh_add" reader="UINT" />
+			<for name="upper_mesh_add" size="#upper_mesh_add">
+				<node name="param_upper_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="upper_tex_add" reader="UINT" />
+			<for name="upper_tex_add" size="#upper_tex_add">
+				<node name="param_upper_tex_add" reader="UNICODE" />
+			</for>
+			<node name="upper_tab_byte1" reader="CNTR" />
+			<for name="upper_tab_byte1" size="#upper_tab_byte1">
+				<node name="param_upper_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="upper_tab_byte2" reader="CNTR" />
+			<for name="upper_tab_bytee2" size="#upper_tab_byte2">
+				<node name="param_upper_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="lower_mesh" reader="UINT" />
+			<for name="lower_mesh" size="#lower_mesh">
+				<node name="param_lower_mesh" reader="UNICODE" />
+			</for>
+			<node name="lower_tex" reader="UINT" />
+			<for name="lower_tex" size="#lower_tex">
+				<node name="param_lower_tex" reader="UNICODE" />
+			</for>
+			<node name="lower_mesh_add" reader="UINT" />
+			<for name="lower_mesh_add" size="#lower_mesh_add">
+				<node name="param_lower_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="lower_tex_add" reader="UINT" />
+			<for name="lower_tex_add" size="#lower_tex_add">
+				<node name="param_lower_tex_add" reader="UNICODE" />
+			</for>
+			<node name="lower_tab_byte1" reader="CNTR" />
+			<for name="lower_tab_byte1" size="#lower_tab_byte1">
+				<node name="param_lower_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="lower_tab_byte2" reader="CNTR" />
+			<for name="lower_tab_byte2" size="#lower_tab_byte2">
+				<node name="param_lower_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="boot_mesh" reader="UINT" />
+			<for name="boot_mesh" size="#boot_mesh">
+				<node name="param_boot_mesh" reader="UNICODE" />
+			</for>
+			<node name="boot_tex" reader="UINT" />
+			<for name="boot_tex" size="#boot_tex">
+				<node name="param_boot_tex" reader="UNICODE" />
+			</for>
+			<node name="boot_mesh_add" reader="UINT" />
+			<for name="boot_mesh_add" size="#boot_mesh_add">
+				<node name="param_boot_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="boot_tex_add" reader="UINT" />
+			<for name="boot_tex_add" size="#boot_tex_add">
+				<node name="param_boot_tex_add" reader="UNICODE" />
+			</for>
+			<node name="boot_tab_byte1" reader="CNTR" />
+			<for name="boot_tab_byte1" size="#boot_tab_byte1">
+				<node name="param_boot_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="boot_tab_byte2" reader="CNTR" />
+			<for name="boot_tab_byte2" size="#boot_tab_byte2">
+				<node name="param_boot_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<for name="filler_02" size="90" hidden="true" >
+				<node name="filler_02_var" reader="UCHAR" />
+			</for>
+
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="UINT" />
+			<node name="defense_sound" reader="UINT" />
+			<node name="damage_sound" reader="UINT" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="UNICODE" />
+			</for>
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="UNICODE" />
+			</for>
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_hand" reader="UINT" />
+			<for name="voice_snd_hand" size="#voice_snd_hand">
+				<node name="cnth" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_1hs" reader="UINT" />
+			<for name="voice_snd_1hs" size="#voice_snd_1hs">
+				<node name="cnt1h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_2hs" reader="UINT" />
+			<for name="voice_snd_2hs" size="#voice_snd_2hs">
+				<node name="cnt2h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_dual" reader="UINT" />
+			<for name="voice_snd_dual" size="#voice_snd_dual">
+				<node name="cntd" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_pole" reader="UINT" />
+			<for name="voice_snd_pole" size="#voice_snd_pole">
+				<node name="cntp" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve1" reader="UINT" />
+			<for name="voice_snd_reserve1" size="#voice_snd_reserve1">
+				<node name="param_voice_snd_reserve1" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve2" reader="UINT" />
+			<for name="voice_snd_reserve2" size="#voice_snd_reserve2">
+				<node name="param_voice_snd_reserve2" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve3" reader="UINT" />
+			<for name="voice_snd_reserve3" size="#voice_snd_reserve3">
+				<node name="param_voice_snd_reserve3" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve4" reader="UINT" />
+			<for name="voice_snd_reserve4" size="#voice_snd_reserve4">
+				<node name="param_voice_snd_reserve4" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve5" reader="UINT" />
+			<for name="voice_snd_reserve5" size="#voice_snd_reserve5">
+				<node name="param_voice_snd_reserve5" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve6" reader="UINT" />
+			<for name="voice_snd_reserve6" size="#voice_snd_reserve6">
+				<node name="param_voice_snd_reserve6" reader="UNICODE" />
+			</for>
+
+			<node name="final" reader="UINT" />
+
+			<node name="name" reader="ASCF" />
+
+			<wrapper name="unk_00">
+				<node name="unk_01" reader="UINT" />
+				<node name="unk_02" reader="UINT" />
+				<node name="unk_03" reader="UINT" />
+			</wrapper>
+
+			<node name="p1" reader="UINT" />
+			<for name="p1" size="#p1">
+				<node name="cntp1" reader="UNICODE" />
+			</for>
+			<node name="p2" reader="UINT" />
+			<for name="p2" size="#p2">
+				<node name="cntp2" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Awakening" isSafePackage="true">
+		<for name="Char" size="17" hidden="false">
+			<for name="hair_tab" size="90">
+				<node name="ahair_mesh0" reader="UNICODE" />
+				<node name="ahair_texture0" reader="UNICODE" />
+				<node name="bhair_mesh0" reader="UNICODE" />
+				<node name="bhair_texture0" reader="UNICODE" />
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="UNICODE" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="UNICODE" />
+			</for>
+		
+			<for name="filler_01" size="360" hidden="true" >
+				<node name="filler_01_var" reader="UCHAR" />
+			</for>
+
+			<node name="glove_mesh" reader="UINT" />
+			<for name="glove_mesh" size="#glove_mesh">
+				<node name="param_glove_meshh" reader="UNICODE" />
+			</for>
+			<node name="glove_tex" reader="UINT" />
+			<for name="glove_tex" size="#glove_tex">
+				<node name="param_glove_tex" reader="UNICODE" />
+			</for>
+			<node name="glove_mesh_add" reader="UINT" />
+			<for name="glove_mesh_add" size="#glove_mesh_add">
+				<node name="param_glove_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="glove_tex_add" reader="UINT" />
+			<for name="glove_tex_add" size="#glove_tex_add">
+				<node name="param_glove_tex_add" reader="UNICODE" />
+			</for>
+			<node name="glove_tab_byte1" reader="CNTR" />
+			<for name="glove_tab_byte1" size="#glove_tab_byte1">
+				<node name="param_glove_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="glove_tab_byte2" reader="CNTR" />
+			<for name="glove_tab_byte2" size="#glove_tab_byte2">
+				<node name="param_glove_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="upper_mesh" reader="UINT" />
+			<for name="upper_mesh" size="#upper_mesh">
+				<node name="param_upper_mesh" reader="UNICODE" />
+			</for>
+			<node name="upper_tex" reader="UINT" />
+			<for name="upper_tex" size="#upper_tex">
+				<node name="param_upper_tex" reader="UNICODE" />
+			</for>
+			<node name="upper_mesh_add" reader="UINT" />
+			<for name="upper_mesh_add" size="#upper_mesh_add">
+				<node name="param_upper_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="upper_tex_add" reader="UINT" />
+			<for name="upper_tex_add" size="#upper_tex_add">
+				<node name="param_upper_tex_add" reader="UNICODE" />
+			</for>
+			<node name="upper_tab_byte1" reader="CNTR" />
+			<for name="upper_tab_byte1" size="#upper_tab_byte1">
+				<node name="param_upper_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="upper_tab_byte2" reader="CNTR" />
+			<for name="upper_tab_bytee2" size="#upper_tab_byte2">
+				<node name="param_upper_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="lower_mesh" reader="UINT" />
+			<for name="lower_mesh" size="#lower_mesh">
+				<node name="param_lower_mesh" reader="UNICODE" />
+			</for>
+			<node name="lower_tex" reader="UINT" />
+			<for name="lower_tex" size="#lower_tex">
+				<node name="param_lower_tex" reader="UNICODE" />
+			</for>
+			<node name="lower_mesh_add" reader="UINT" />
+			<for name="lower_mesh_add" size="#lower_mesh_add">
+				<node name="param_lower_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="lower_tex_add" reader="UINT" />
+			<for name="lower_tex_add" size="#lower_tex_add">
+				<node name="param_lower_tex_add" reader="UNICODE" />
+			</for>
+			<node name="lower_tab_byte1" reader="CNTR" />
+			<for name="lower_tab_byte1" size="#lower_tab_byte1">
+				<node name="param_lower_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="lower_tab_byte2" reader="CNTR" />
+			<for name="lower_tab_byte2" size="#lower_tab_byte2">
+				<node name="param_lower_tab_byte2" reader="UCHAR" />
+			</for>
+
+			<node name="boot_mesh" reader="UINT" />
+			<for name="boot_mesh" size="#boot_mesh">
+				<node name="param_boot_mesh" reader="UNICODE" />
+			</for>
+			<node name="boot_tex" reader="UINT" />
+			<for name="boot_tex" size="#boot_tex">
+				<node name="param_boot_tex" reader="UNICODE" />
+			</for>
+			<node name="boot_mesh_add" reader="UINT" />
+			<for name="boot_mesh_add" size="#boot_mesh_add">
+				<node name="param_boot_mesh_add" reader="UNICODE" />
+			</for>
+			<node name="boot_tex_add" reader="UINT" />
+			<for name="boot_tex_add" size="#boot_tex_add">
+				<node name="param_boot_tex_add" reader="UNICODE" />
+			</for>
+			<node name="boot_tab_byte1" reader="CNTR" />
+			<for name="boot_tab_byte1" size="#boot_tab_byte1">
+				<node name="param_boot_tab_byte1" reader="UCHAR" />
+			</for>
+			<node name="boot_tab_byte2" reader="CNTR" />
+			<for name="boot_tab_byte2" size="#boot_tab_byte2">
+				<node name="param_boot_tab_byte2" reader="UCHAR" />
+			</for>
+			
+			<for name="filler_02" size="90" hidden="true" >
+				<node name="filler_02_var" reader="UCHAR" />
+			</for>
+
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="UINT" />
+			<node name="defense_sound" reader="UINT" />
+			<node name="damage_sound" reader="UINT" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="UNICODE" />
+			</for>
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="UNICODE" />
+			</for>
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_hand" reader="UINT" />
+			<for name="voice_snd_hand" size="#voice_snd_hand">
+				<node name="cnth" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_1hs" reader="UINT" />
+			<for name="voice_snd_1hs" size="#voice_snd_1hs">
+				<node name="cnt1h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_2hs" reader="UINT" />
+			<for name="voice_snd_2hs" size="#voice_snd_2hs">
+				<node name="cnt2h" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_dual" reader="UINT" />
+			<for name="voice_snd_dual" size="#voice_snd_dual">
+				<node name="cntd" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_pole" reader="UINT" />
+			<for name="voice_snd_pole" size="#voice_snd_pole">
+				<node name="cntp" reader="UNICODE" />
+			</for>
+
+			<node name="voice_snd_reserve1" reader="UINT" />
+			<for name="voice_snd_reserve1" size="#voice_snd_reserve1">
+				<node name="param_voice_snd_reserve1" reader="UNICODE" />
+			</for>
+			
+			<node name="voice_snd_reserve2" reader="UINT" />
+			<for name="voice_snd_reserve2" size="#voice_snd_reserve2">
+				<node name="param_voice_snd_reserve2" reader="UNICODE" />
+			</for>
+			
+			
+			<node name="voice_snd_reserve3" reader="UINT" />
+			<for name="voice_snd_reserve3" size="#voice_snd_reserve3">
+				<node name="param_voice_snd_reserve3" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve4" reader="UINT" />
+			<for name="voice_snd_reserve4" size="#voice_snd_reserve4">
+				<node name="param_voice_snd_reserve4" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve5" reader="UINT" />
+			<for name="voice_snd_reserve5" size="#voice_snd_reserve5">
+				<node name="param_voice_snd_reserve5" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve6" reader="UINT" />
+			<for name="voice_snd_reserve6" size="#voice_snd_reserve6">
+				<node name="param_voice_snd_reserve6" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve7" reader="UINT" />
+			<for name="voice_snd_reserve7" size="#voice_snd_reserve7">
+				<node name="param_voice_snd_reserve7" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve8" reader="UINT" />
+			<for name="voice_snd_reserve8" size="#voice_snd_reserve8">
+				<node name="param_voice_snd_reserve8" reader="UNICODE" />
+			</for>
+			<node name="voice_snd_reserve9" reader="UINT" />
+			<for name="voice_snd_reserve9" size="#voice_snd_reserve9">
+				<node name="param_voice_snd_reserve9" reader="UNICODE" />
+			</for>
+
+			<node name="final" reader="UINT" />
+		
+			<node name="name" reader="ASCF" />
+
+			<wrapper name="unk_00">
+				<node name="unk_01" reader="UINT" />
+				<node name="unk_02" reader="UINT" />
+				<node name="unk_03" reader="UINT" />
+			</wrapper>
+
+			<node name="p1" reader="UINT" />
+			<for name="p1" size="#p1">
+				<node name="cntp1" reader="UNICODE" />
+			</for>
+			<node name="p2" reader="UINT" />
+			<for name="p2" size="#p2">
+				<node name="cntp2" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+	
+	<file pattern="Lindvior" isSafePackage="true">
+		<for name="Char" size="17" hidden="false">
+			<for name="hair" size="10">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh0" reader="UNICODE" />
+					<node name="ahair_texture0" reader="UNICODE" />
+					<node name="bhair_mesh0" reader="UNICODE" />
+					<node name="bhair_texture0" reader="UNICODE" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="UNICODE" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="UNICODE" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="UNICODE" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="UNICODE" />
+			</for>
+			<for name="test" size="29">
+				<node name="chest" reader="UINT" />
+				<for name="chest" size="#chest">
+					<node name="param_chest" reader="UNICODE" />
+				</for>
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="UNICODE" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="UNICODE" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="UNICODE" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="UNICODE" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="UNICODE" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="UNICODE" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="UNICODE" />
+				</for>
+			</for>
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="UNICODE" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="UNICODE" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+			<for name="voice_sound_weapon" size="14">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="UNICODE" />
+				</for>
+			</for>
+			<node name="unk1" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<for name="unk2" size="#unk2">
+				<node name="parse" reader="UNICODE" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<for name="unk3" size="#unk3">
+				<node name="param_unk3" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Ertheia" isSafePackage="true">
+		<for name="Char" size="19" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh0" reader="UNICODE" />
+					<node name="ahair_texture0" reader="UNICODE" />
+					<node name="bhair_mesh0" reader="UNICODE" />
+					<node name="bhair_texture0" reader="UNICODE" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="UNICODE" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="UNICODE" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="UNICODE" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="UNICODE" />
+			</for>
+			<for name="test" size="36">
+				<node name="chest" reader="UINT" />
+				<for name="chest" size="#chest">
+					<node name="param_chest" reader="UNICODE" />
+				</for>
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="UNICODE" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="UNICODE" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="UNICODE" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="UNICODE" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="UNICODE" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="UNICODE" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="UNICODE" />
+				</for>
+			</for>
+			<node name="attack_effect" reader="UNICODE" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="UNICODE" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="UNICODE" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="UNICODE" />
+			</for>
+			<for name="voice_sound_weapon" size="15">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="UNICODE" />
+				</for>
+			</for>
+			<node name="unk1" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<for name="unk2" size="#unk2">
+				<node name="parse" reader="UNICODE" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<for name="unk3" size="#unk3">
+				<node name="param_unk3" reader="UNICODE" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="Helios" isSafePackage="true">
+		<for name="Char" size="19" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh0" reader="MAP_INT" />
+					<node name="ahair_texture0" reader="MAP_INT" />
+					<node name="bhair_mesh0" reader="MAP_INT" />
+					<node name="bhair_texture0" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="MAP_INT" />
+			</for>
+			<for name="test" size="36">
+				<node name="chest" reader="UINT" />
+				<for name="chest" size="#chest">
+					<node name="param_chest" reader="MAP_INT" />
+				</for>			
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="MAP_INT" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="MAP_INT" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="MAP_INT" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="MAP_INT" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="MAP_INT" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="MAP_INT" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="MAP_INT" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="MAP_INT" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="MAP_INT" />
+			</for>
+			<for name="voice_sound_weapon" size="15">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="MAP_INT" />
+				</for>	
+			</for>
+			<node name="unk1" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<for name="unk2" size="#unk2">
+				<node name="parse" reader="MAP_INT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<for name="unk3" size="#unk3">
+				<node name="param_unk3" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<for name="Char" size="19" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh0" reader="MAP_INT" />
+					<node name="ahair_texture0" reader="MAP_INT" />
+					<node name="bhair_mesh0" reader="MAP_INT" />
+					<node name="bhair_texture0" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="MAP_INT" />
+			</for>
+			<for name="test" size="63">
+				<node name="chest" reader="UINT" />
+				<for name="chest" size="#chest">
+					<node name="param_chest" reader="MAP_INT" />
+				</for>			
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="MAP_INT" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="MAP_INT" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="MAP_INT" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="MAP_INT" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="MAP_INT" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="MAP_INT" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="MAP_INT" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="MAP_INT" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="MAP_INT" />
+			</for>
+			<for name="voice_sound_weapon" size="16">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="MAP_INT" />
+				</for>	
+			</for>
+			<node name="unk1" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<for name="unk2" size="#unk2">
+				<node name="parse" reader="MAP_INT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<for name="unk3" size="#unk3">
+				<node name="param_unk3" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<for name="Char" size="19" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh0" reader="MAP_INT" />
+					<node name="ahair_texture0" reader="MAP_INT" />
+					<node name="bhair_mesh0" reader="MAP_INT" />
+					<node name="bhair_texture0" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture" reader="MAP_INT" />
+			</for>
+			<for name="test" size="63">
+				<node name="chest" reader="UINT" />
+				<for name="chest" size="#chest">
+					<node name="param_chest" reader="MAP_INT" />
+				</for>			
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="MAP_INT" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="MAP_INT" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="MAP_INT" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="MAP_INT" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="MAP_INT" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="MAP_INT" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="MAP_INT" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="MAP_INT" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="MAP_INT" />
+			</for>
+			<for name="voice_sound_weapon" size="17">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="MAP_INT" />
+				</for>	
+			</for>
+			<node name="unk1" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<for name="unk2" size="#unk2">
+				<node name="parse" reader="MAP_INT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<for name="unk3" size="#unk3">
+				<node name="param_unk3" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
+		<for name="Char" size="21" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh1" reader="MAP_INT" />
+					<node name="ahair_texture1" reader="MAP_INT" />
+					<node name="bhair_mesh1" reader="MAP_INT" />
+					<node name="bhair_texture1" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh1" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture1" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh1" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture1" reader="MAP_INT" />
+			</for>
+			<for name="test" size="63">
+				<node name="chest_mesh" reader="UINT" />
+				<for name="chest_mesh" size="#chest_mesh">
+					<node name="param_chest" reader="MAP_INT" />
+				</for>			
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="MAP_INT" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="MAP_INT" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="MAP_INT" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="MAP_INT" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="MAP_INT" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="MAP_INT" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="MAP_INT" />
+				</for>			
+			</for>
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="MAP_INT" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="MAP_INT" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="MAP_INT" />
+			</for>
+			<for name="voice_sound_weapon" size="17">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="MAP_INT" />
+				</for>	
+			</for>
+			<node name="unk2" reader="UINT" />
+			<for name="unk2" size="#unk2">
+				<node name="unk2_0" reader="UINT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk4" reader="UINT" />
+			<for name="unk4" size="#unk4">
+				<node name="parse" reader="MAP_INT" />
+			</for>
+			<node name="unk5" reader="UINT" />
+			<for name="unk5" size="#unk5">
+				<node name="param_unk3" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="MasterClass" isSafePackage="true">
+		<for name="Char" size="21" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh1" reader="MAP_INT" />
+					<node name="ahair_texture1" reader="MAP_INT" />
+					<node name="bhair_mesh1" reader="MAP_INT" />
+					<node name="bhair_texture1" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh1" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture1" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh1" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture1" reader="MAP_INT" />
+			</for>
+			<for name="test" size="63">
+				<node name="chest_mesh" reader="UINT" />
+				<for name="chest_mesh" size="#chest_mesh">
+					<node name="param_chest" reader="MAP_INT" />
+				</for>			
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="MAP_INT" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="MAP_INT" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="MAP_INT" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="MAP_INT" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="MAP_INT" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="MAP_INT" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="MAP_INT" />
+				</for>			
+			</for>
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="MAP_INT" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="MAP_INT" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="MAP_INT" />
+			</for>
+			<for name="voice_sound_weapon" size="20">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="MAP_INT" />
+				</for>	
+			</for>
+			<node name="voice_sound_weapon2" reader="UINT" />
+			<for name="voice_sound_weapon02" size="#voice_sound_weapon2">
+				<node name="voice_sound_param" reader="MAP_INT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk4" reader="UINT" />
+			<for name="unk4" size="#unk4">
+				<node name="parse" reader="MAP_INT" />
+			</for>
+			<node name="unk5" reader="UINT" />
+			<for name="unk5" size="#unk5">
+				<node name="param_unk3" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+
+	<file pattern="MasterClass2" isSafePackage="true">
+		<for name="Char" size="21" hidden="false">
+			<for name="hair" size="11">
+				<for name="class_name" size="15">
+					<node name="ahair_mesh1" reader="MAP_INT" />
+					<node name="ahair_texture1" reader="MAP_INT" />
+					<node name="bhair_mesh1" reader="MAP_INT" />
+					<node name="bhair_texture1" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="face_mesh" reader="UINT" />
+			<for name="face_mesh" size="#face_mesh">
+				<node name="param_face_mesh1" reader="MAP_INT" />
+			</for>
+			<node name="face_texture" reader="UINT" />
+			<for name="face_texture" size="#face_texture">
+				<node name="param_face_texture1" reader="MAP_INT" />
+			</for>
+			<node name="beard_mesh" reader="UINT" />
+			<for name="beard_mesh" size="#beard_mesh">
+				<node name="param_beard_mesh1" reader="MAP_INT" />
+			</for>
+			<node name="beard_texture" reader="UINT" />
+			<for name="beard_texture" size="#beard_texture">
+				<node name="param_beard_texture1" reader="MAP_INT" />
+			</for>
+			<for name="test" size="64">
+				<node name="chest_mesh" reader="UINT" />
+				<for name="chest_mesh" size="#chest_mesh">
+					<node name="param_chest" reader="MAP_INT" />
+				</for>
+				<node name="legs" reader="UINT" />
+				<for name="legs" size="#legs">
+					<node name="param_legs" reader="MAP_INT" />
+				</for>
+				<node name="feet" reader="UINT" />
+				<for name="feet" size="#feet">
+					<node name="param_feet" reader="MAP_INT" />
+				</for>
+				<node name="gloves" reader="UINT" />
+				<for name="gloves" size="#gloves">
+					<node name="param_gloves" reader="MAP_INT" />
+				</for>
+				<node name="parse1" reader="UCHAR" />
+				<for name="parse1" size="#parse1">
+					<node name="param_parse1" reader="UCHAR" />
+				</for>
+				<node name="parse2" reader="UCHAR" hide="false" />
+				<for name="parse2" size="#parse2">
+					<node name="param_parse2" reader="UCHAR" />
+				</for>
+				<node name="global_chest" reader="UINT" />
+				<for name="global_chest" size="#global_chest">
+					<node name="param_global_chest" reader="MAP_INT" />
+				</for>
+				<node name="global_legs" reader="UINT" />
+				<for name="global_legs" size="#global_legs">
+					<node name="param_global_legs" reader="MAP_INT" />
+				</for>
+				<node name="global_feet" reader="UINT" />
+				<for name="global_feet" size="#global_feet">
+					<node name="param_global_feet" reader="MAP_INT" />
+				</for>
+				<node name="global_gloves" reader="UINT" />
+				<for name="global_gloves" size="#global_gloves">
+					<node name="param_global_gloves" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="walkanimframe" reader="UINT" />
+			<node name="attack_sound" reader="CNTR" />
+			<for name="attack_sound" size="#attack_sound">
+				<node name="param_attack_sound" reader="MAP_INT" />
+			</for>
+			<node name="defense_sound" reader="CNTR" />
+			<for name="defense_sound" size="#defense_sound">
+				<node name="param_defense_sound" reader="MAP_INT" />
+			</for>
+			<node name="damage_sound" reader="CNTR" />
+			<for name="damage_sound" size="#damage_sound">
+				<node name="param_damage_sound" reader="MAP_INT" />
+			</for>
+			<for name="voice_sound_weapon" size="20">
+				<node name="voice_sound_weapon1" reader="UINT" />
+				<for name="voice_sound_weapon1" size="#voice_sound_weapon1">
+					<node name="param_voice_sound_weapon1" reader="MAP_INT" />
+				</for>
+			</for>
+			<node name="voice_sound_weapon2" reader="UINT" />
+			<for name="voice_sound_weapon02" size="#voice_sound_weapon2">
+				<node name="voice_sound_param" reader="MAP_INT" />
+			</for>
+			<node name="unk3" reader="UINT" />
+			<node name="class_name" reader="ASCF" />
+			<node name="race" reader="UINT" />
+			<node name="class_id" reader="UINT" />
+			<node name="class_type" reader="UINT" />
+			<node name="unk4" reader="UINT" />
+			<for name="unk4" size="#unk4">
+				<node name="parse" reader="MAP_INT" />
+			</for>
+			<node name="unk5" reader="UINT" />
+			<for name="unk5" size="#unk5">
+				<node name="param_unk3" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <file pattern="MasterClass2" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="dyepotential_fee" size="#data" hidden="false">
+            <node name="maxpoint" reader="USHORT" />
+            <node name="aMaxTicketCharg" reader="USHORT" />
+            <node name="aProbInc1Fee" reader="UBYTE" />
+            <!--<for name="aProbInc1Fee_data" size="#aProbInc1Fee">
+                <node name="aProbInc1Fee_param1" reader="USHORT" />
+                <node name="aProbInc1Fee_param2" reader="USHORT" />
+            </for>-->
+            <node name="aProbInc2Fee" reader="USHORT" />
+            <node name="aOverUpProbFee" reader="USHORT" />
+            <node name="aNumResetProbFe" reader="USHORT" />
+            <node name="aNumDownProbFee" reader="USHORT" />
+            <node name="aNumProtectProb" reader="USHORT" />
+        </for>
+    </file>
+</list>

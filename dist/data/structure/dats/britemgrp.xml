@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Epilogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="britemgrp" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="int1" reader="UINT" />
+			<node name="int2" reader="UINT" />
+			<node name="name" reader="UNICODE" />
+			<node name="IDconn" reader="UINT" />
+			<wrapper name="vals">
+				<node name="vals1" reader="UINT" />
+				<node name="vals2" reader="UINT" />
+				<node name="vals3" reader="UINT" />
+				<node name="vals4" reader="UINT" />
+				<node name="vals5" reader="UINT" />
+				<node name="vals6" reader="UINT" />
+				<node name="vals7" reader="UINT" />
+				<node name="vals8" reader="UINT" />
+				<node name="vals9" reader="UINT" />
+			</wrapper>
+			<node name="tail" reader="UINT" />
+		</for>
+	</file>
+</list>

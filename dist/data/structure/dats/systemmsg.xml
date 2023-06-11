@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" />
+			<wrapper name="color">
+				<node name="r" reader="HEX" />
+				<node name="g" reader="HEX" />
+				<node name="b" reader="HEX" />
+			</wrapper>
+			<node name="UNK_1" reader="UCHAR" />
+			<node name="sound" reader="ASCF" />
+			<node name="scrnmsg" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Interlude" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" />
+			<node name="color" reader="RGBA" />
+			<node name="sound" reader="ASCF" />
+			<node name="voice" reader="ASCF" />
+			<node name="win" reader="UINT" />
+			<node name="font" reader="UINT" />
+			<node name="lftime" reader="UINT" />
+			<node name="bkg" reader="UINT" />
+			<node name="anim" reader="UINT" />
+			<node name="scrnmsg" reader="ASCF" />
+			<node name="type" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="Helios" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" />
+			<node name="color" reader="RGBA" />
+			<node name="sound" reader="MAP_INT" />
+			<node name="voice" reader="MAP_INT" />
+			<node name="win" reader="UINT" />
+			<node name="font" reader="UINT" />
+			<node name="lftime" reader="UINT" />
+			<node name="bkg" reader="UINT" />
+			<node name="anim" reader="UINT" />
+			<node name="scrnmsg" reader="ASCF" />
+			<node name="gfxscrnmsg" reader="ASCF" />
+			<node name="gfxscrnparam" reader="ASCF" />
+			<node name="type" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="PreludeOfWar" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" enumName="system_message_group_type" />
+			<node name="color" reader="RGBA" />
+			<node name="sound" reader="MAP_INT" />
+			<node name="voice" reader="MAP_INT" />
+			<node name="win" reader="UINT" />
+			<node name="font" reader="UINT" />
+			<node name="lftime" reader="UINT" />
+			<node name="bkg" reader="UINT" />
+			<node name="anim" reader="UINT" />
+			<node name="scrnmsg" reader="ASCF" />
+			<node name="scrnparam" reader="ASCF" />
+			<node name="gfxscrnmsg" reader="ASCF" />
+			<node name="gfxscrnparam" reader="ASCF" />
+			<node name="type" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" enumName="system_message_group_type" />
+			<node name="color" reader="RGBA" />
+			<node name="sound" reader="MAP_INT" />
+			<node name="voice" reader="MAP_INT" />
+			<node name="win" reader="UINT" />
+			<node name="font" reader="UINT" />
+			<node name="lftime" reader="UINT" />
+			<node name="bkg" reader="UINT" />
+			<node name="anim" reader="UINT" />
+			<node name="scrnmsg" reader="ASCF" />
+			<node name="scrcrnparam" reader="ASCF" />
+			<node name="gfxscrnmsg" reader="ASCF" />
+			<node name="gfxscrnparam" reader="ASCF" />
+			<node name="type" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="msg" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="UNK_1" reader="UINT" />
+			<node name="message" reader="ASCF" />
+			<node name="group" reader="UINT" enumName="system_message_group_type" />
+			<node name="color" reader="RGBA" />
+			<node name="sound" reader="MAP_INT" />
+			<node name="voice" reader="MAP_INT" />
+			<node name="UNK_2" reader="UINT" />
+			<node name="win" reader="UINT" />
+			<node name="font" reader="UINT" />
+			<node name="lftime" reader="UINT" />
+			<node name="bkg" reader="UINT" />
+			<node name="anim" reader="UINT" />
+			<node name="scrnmsg" reader="ASCF" />
+			<node name="scrcrnparam" reader="ASCF" />
+			<node name="gfxscrnmsg" reader="ASCF" />
+			<node name="gfxscrnparam" reader="ASCF" />
+			<node name="type" reader="ASCF" />
+		</for>
+	</file>
+</list>

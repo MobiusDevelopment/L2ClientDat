@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <file pattern="Homunculus" isSafePackage="true">
+        <node name="data" reader="UINT" />
+        <for name="mable_game_event" size="#data" hidden="false">
+            <node name="event_group" reader="UBYTE" enumName="mable_game_event_group" />
+            <node name="event_id" reader="UINT" />
+            <node name="event_group_description" reader="MAP_INT" />
+            <node name="event_description" reader="ASCF" />
+        </for>
+    </file>
+</list>

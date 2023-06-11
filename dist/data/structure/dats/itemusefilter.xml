@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item_use_filter" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="enchanted_item" reader="UINT" />
+			<node name="blessed_item" reader="UINT" />
+			<node name="ensoul_item" reader="UINT" />
+			<node name="variation_item" reader="UINT" />
+			<node name="lookchange_item" reader="UINT" />
+			<node name="attribute_item" reader="UINT" />
+			<node name="locked_item" reader="UINT" />
+			<node name="equipped_item" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Homunculus" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="pet_look" size="#data" hidden="false">
+			<node name="look_id" reader="UINT" />
+			<node name="ave" reader="UINT" />
+			<node name="name" reader="ASCF" />
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="ScionsOfDestiny" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="data" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+</list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Salvation" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="elemental" size="#data" hidden="false">
+			<node name="elementalid" reader="UINT" />
+			<node name="elementalnpcid" reader="UINT" />
+			<node name="elementaltype" reader="UINT" />
+			<node name="elementalgrade" reader="UINT" />
+			<node name="elementalatk" reader="UINT" />
+			<node name="elementaldef" reader="UINT" />
+			<node name="elementalcrirate" reader="UINT" />
+			<node name="elementalcripow" reader="UINT" />
+			<node name="elementalexp" reader="UINT" />
+			<node name="elementalnpcstringid" reader="CNTR" />
+			<for name="elementalnpcstringid" size="#elementalnpcstringid">
+				<node name="elementallevel_node" reader="UINT" />
+				<node name="elementalnpcstringid_node" reader="UINT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="PreludeOfWar2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="elemental" size="#data" hidden="false">
+			<node name="elementallevel" reader="USHORT" />
+			<node name="elementalid" reader="USHORT" />
+			<node name="elementalnpcid" reader="UINT" />
+			<node name="elementaltype" reader="UINT" enumName="elemental_type" />
+			<node name="elementalgrade" reader="UINT" />
+			<node name="elementalatk" reader="UINT" />
+			<node name="elementaldef" reader="UINT" />
+			<node name="elementalcrirate" reader="UINT" />
+			<node name="elementalcripow" reader="UINT" />
+			<node name="elementalexp" reader="LONG" />
+			<node name="elementalnpcstringid" reader="CNTR" />
+			<for name="elementalnpcstringid" size="#elementalnpcstringid">
+				<node name="elementallevel_node" reader="UINT" />
+				<node name="elementalnpcstringid_node" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

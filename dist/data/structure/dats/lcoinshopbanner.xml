@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PreludeOfWar3" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="banner" size="#data" hidden="false">
+			<node name="banner_image" reader="MAP_INT" />
+			<node name="banner_link" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="MasterClass" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="banner" size="#data" hidden="false">
+			<node name="banner_image" reader="MAP_INT" />
+			<node name="unk1" reader="USHORT" />
+			<node name="banner_link" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="MasterClass3" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="banner" size="#data" hidden="false">
+			<node name="banner_image" reader="MAP_INT" />
+			<node name="unk1" reader="UBYTE" />
+			<node name="banner_link" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="banner" size="#data" hidden="false">
+			<node name="banner_image" reader="MAP_INT" />
+			<node name="html" reader="ASCF" />
+			<node name="UNK_1" reader="UBYTE" />
+			<for name="UNK_1" size="#UNK_1">
+				<node name="UNK_2" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>
