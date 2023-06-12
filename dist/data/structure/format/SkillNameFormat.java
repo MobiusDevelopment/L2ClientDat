@@ -80,8 +80,8 @@ public class SkillNameFormat implements FormatListener
 		while (m.find())
 		{
 			final Map<String, String> params = Util.stringToMap(m.group(1));
-			final String text = params.get("text");
-			indexes.put(Integer.valueOf(params.get("index")), text.substring(1, text.length() - 1));
+			final String name = params.get("str_name");
+			indexes.put(Integer.valueOf(params.get("index")), name.substring(1, name.length() - 1));
 			
 			if (actionTask.isCancelled())
 			{
