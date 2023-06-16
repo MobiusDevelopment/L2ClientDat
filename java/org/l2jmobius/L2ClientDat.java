@@ -86,7 +86,7 @@ public class L2ClientDat extends JFrame
 	public static final String DISABLED_STR = "Disabled";
 	private static final String OPEN_BTN_STR = "Open";
 	private static final String SAVE_TXT_BTN_STR = "Save (TXT)";
-	private static final String SAVE_DAT_BTN_STR = "Save (ENC)";
+	private static final String SAVE_DAT_BTN_STR = "Save (DAT)";
 	private static final String DECRYPT_ALL_BTN_STR = "Unpack all";
 	private static final String ENCRYPT_ALL_BTN_STR = "Pack all";
 	private static final String PATCH_ALL_BTN_STR = "Patch all";
