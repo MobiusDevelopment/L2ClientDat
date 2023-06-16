@@ -96,61 +96,60 @@ public class DescriptorParser
 		}
 	}
 	
-	private void parseEnum(final File file)
+	private void parseEnum(File file)
 	{
 		if (!file.exists())
 		{
 			DebugUtil.debug("File " + file.getName() + " not found.");
+			return;
 		}
-		if (file.exists())
+		
+		try
 		{
 			final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			factory.setValidating(false);
 			factory.setIgnoringElementContentWhitespace(true);
 			factory.setIgnoringComments(true);
-			try
+			final Document doc = factory.newDocumentBuilder().parse(file);
+			for (Node defsNode = doc.getFirstChild(); defsNode != null; defsNode = doc.getNextSibling())
 			{
-				final Document doc = factory.newDocumentBuilder().parse(file);
-				for (Node defsNode = doc.getFirstChild(); defsNode != null; defsNode = doc.getNextSibling())
+				if (defsNode.getNodeName().equals("list"))
 				{
-					if (defsNode.getNodeName().equals("list"))
+					for (Node defNode = defsNode.getFirstChild(); defNode != null; defNode = defNode.getNextSibling())
 					{
-						for (Node defNode = defsNode.getFirstChild(); defNode != null; defNode = defNode.getNextSibling())
+						if (defNode.getNodeName().equals("enum"))
 						{
-							if (defNode.getNodeName().equals("enum"))
+							final Node nodeName = defNode.getAttributes().getNamedItem("name");
+							if (nodeName == null)
 							{
-								final Node nodeName = defNode.getAttributes().getNamedItem("name");
-								if (nodeName == null)
+								LOGGER.log(Level.WARNING, ("parseEnum name == null, fileName: " + file.getName()));
+							}
+							else
+							{
+								final String defName = nodeName.getNodeValue();
+								if (_enumMap.containsKey(defName))
 								{
-									LOGGER.log(Level.WARNING, ("parseEnum name == null, fileName: " + file.getName()));
+									LOGGER.log(Level.WARNING, ("parseEnum Node name duplicated [" + defName + "]  fileName: " + file.getName()));
 								}
-								else
+								
+								final Map<Integer, String> eTypes = _enumMap.computeIfAbsent(defName, m -> new HashMap<>());
+								final Map<String, String> eReverseTypes = _enumReverseMap.computeIfAbsent(defName, m -> new HashMap<>());
+								for (Node node = defNode.getFirstChild(); node != null; node = node.getNextSibling())
 								{
-									final String defName = nodeName.getNodeValue();
-									if (_enumMap.containsKey(defName))
+									if (node.getNodeName().equals("node"))
 									{
-										LOGGER.log(Level.WARNING, ("parseEnum Node name duplicated [" + defName + "]  fileName: " + file.getName()));
-									}
-									
-									final Map<Integer, String> eTypes = _enumMap.computeIfAbsent(defName, m -> new HashMap<>());
-									final Map<String, String> eReverseTypes = _enumReverseMap.computeIfAbsent(defName, m -> new HashMap<>());
-									for (Node node = defNode.getFirstChild(); node != null; node = node.getNextSibling())
-									{
-										if (node.getNodeName().equals("node"))
+										final String eName = node.getAttributes().getNamedItem("name").getNodeValue();
+										final int eIndex = Integer.parseInt(node.getAttributes().getNamedItem("index").getNodeValue());
+										if (eReverseTypes.containsKey(eName))
 										{
-											final String eName = node.getAttributes().getNamedItem("name").getNodeValue();
-											final int eIndex = Integer.parseInt(node.getAttributes().getNamedItem("index").getNodeValue());
-											if (eReverseTypes.containsKey(eName))
-											{
-												LOGGER.log(Level.WARNING, ("parseEnum Node name duplicated [" + eName + "]  fileName: " + file.getName() + " name: " + defName));
-											}
-											if (eTypes.containsKey(eIndex))
-											{
-												LOGGER.log(Level.WARNING, ("parseEnum Node index duplicated [" + eIndex + "]  fileName: " + file.getName() + " name: " + defName));
-											}
-											eTypes.put(eIndex, eName);
-											eReverseTypes.put(eName, String.valueOf(eIndex));
+											LOGGER.log(Level.WARNING, ("parseEnum Node name duplicated [" + eName + "]  fileName: " + file.getName() + " name: " + defName));
 										}
+										if (eTypes.containsKey(eIndex))
+										{
+											LOGGER.log(Level.WARNING, ("parseEnum Node index duplicated [" + eIndex + "]  fileName: " + file.getName() + " name: " + defName));
+										}
+										eTypes.put(eIndex, eName);
+										eReverseTypes.put(eName, String.valueOf(eIndex));
 									}
 								}
 							}
@@ -158,10 +157,10 @@ public class DescriptorParser
 					}
 				}
 			}
-			catch (final Exception e)
-			{
-				LOGGER.log(Level.WARNING, e.getMessage(), e);
-			}
+		}
+		catch (Exception e)
+		{
+			LOGGER.log(Level.WARNING, e.getMessage(), e);
 		}
 	}
 	
@@ -170,7 +169,9 @@ public class DescriptorParser
 		if (!file.exists())
 		{
 			DebugUtil.debug("File " + file.getName() + " not found.");
+			return;
 		}
+		
 		try
 		{
 			final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
