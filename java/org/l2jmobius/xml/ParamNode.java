@@ -30,10 +30,11 @@ public class ParamNode
 	private ArrayList<ParamNode> _sub;
 	private boolean _isIterator;
 	private boolean _skipWriteSize;
+	private String _enumName;
 	private String _paramIf;
 	private String _valIf;
-	private String paramMask;
-	private int valMask;
+	private String _paramMask;
+	private int _valMask;
 	
 	ParamNode(String name, ParamNodeType entityType, ParamType type)
 	{
@@ -183,23 +184,38 @@ public class ParamNode
 		_cycleName = cycleName;
 	}
 	
+	public boolean isEnum()
+	{
+		return _enumName != null;
+	}
+	
+	public void setEnumName(String enumName)
+	{
+		_enumName = enumName;
+	}
+	
+	public String getEnumName()
+	{
+		return _enumName;
+	}
+	
 	public String getParamMask()
 	{
-		return paramMask;
+		return _paramMask;
 	}
 	
 	public void setParamMask(String paramMask)
 	{
-		this.paramMask = paramMask;
+		_paramMask = paramMask;
 	}
 	
 	public int getValMask()
 	{
-		return valMask;
+		return _valMask;
 	}
 	
 	public void setValMask(int valMask)
 	{
-		this.valMask = valMask;
+		_valMask = valMask;
 	}
 }

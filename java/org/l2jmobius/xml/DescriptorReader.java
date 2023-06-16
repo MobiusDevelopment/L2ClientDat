@@ -370,19 +370,33 @@ public class DescriptorReader
 					final short value = (byte) ByteReader.readChar(data);
 					if (!node.isIterator())
 					{
-						out.append(value);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
 					vars.put(node.getName(), new Variant(value, Short.class));
 					break;
 				}
 				case UBYTE:
 				{
-					final int value2 = ByteReader.readUByte(data);
+					final int value = ByteReader.readUByte(data);
 					if (!node.isIterator())
 					{
-						out.append(value2);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
-					vars.put(node.getName(), new Variant(value2, Integer.class));
+					vars.put(node.getName(), new Variant(value, Integer.class));
 					break;
 				}
 				case SHORT:
@@ -390,49 +404,84 @@ public class DescriptorReader
 					final short value = ByteReader.readShort(data);
 					if (!node.isIterator())
 					{
-						out.append(value);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
 					vars.put(node.getName(), new Variant(value, Short.class));
 					break;
 				}
 				case USHORT:
 				{
-					final int value2 = ByteReader.readShort(data) & 0xFFFF;
+					final int value = ByteReader.readShort(data) & 0xFFFF;
 					if (!node.isIterator())
 					{
-						out.append(value2);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
-					vars.put(node.getName(), new Variant(value2, Integer.class));
+					vars.put(node.getName(), new Variant(value, Integer.class));
 					break;
 				}
 				case UINT:
 				{
-					final int value2 = ByteReader.readUInt(data);
+					final int value = ByteReader.readUInt(data);
 					if (!node.isIterator())
 					{
-						out.append(value2);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
-					vars.put(node.getName(), new Variant(value2, Integer.class));
+					vars.put(node.getName(), new Variant(value, Integer.class));
 					break;
 				}
 				case INT:
 				{
-					final int value2 = ByteReader.readInt(data);
+					final int value = ByteReader.readInt(data);
 					if (!node.isIterator())
 					{
-						out.append(value2);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
-					vars.put(node.getName(), new Variant(value2, Integer.class));
+					vars.put(node.getName(), new Variant(value, Integer.class));
 					break;
 				}
 				case CNTR:
 				{
-					final int value2 = ByteReader.readCompactInt(data);
+					final int value = ByteReader.readCompactInt(data);
 					if (!node.isIterator())
 					{
-						out.append(value2);
+						if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+						{
+							out.append(DescriptorParser.getInstance().getEnumNameByIndex(node.getEnumName(), value));
+						}
+						else
+						{
+							out.append(value);
+						}
 					}
-					vars.put(node.getName(), new Variant(value2, Integer.class));
+					vars.put(node.getName(), new Variant(value, Integer.class));
 					break;
 				}
 				case UNICODE:

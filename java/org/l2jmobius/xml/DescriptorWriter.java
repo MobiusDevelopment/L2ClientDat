@@ -362,6 +362,12 @@ public class DescriptorWriter
 			}
 			return null;
 		}
+		
+		if (ConfigDebug.DAT_REPLACEMENT_ENUMS && node.isEnum())
+		{
+			data = String.valueOf(DescriptorParser.getInstance().getEnumNameByName(node.getEnumName(), data)).trim();
+		}
+		
 		try
 		{
 			switch (nodeType)

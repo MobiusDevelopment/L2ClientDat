@@ -825,14 +825,14 @@
 		<node index="218" name="Rider" />
 		<node index="219" name="Dragoon" />
 		<node index="220" name="Vanguard Rider" />
-		<node index="221" name="Assassin" />
-		<node index="222" name="Assassin" />
-		<node index="223" name="Assassin" />
-		<node index="224" name="Assassin" />
-		<node index="225" name="Assassin" />
-		<node index="226" name="Assassin" />
-		<node index="227" name="Assassin" />
-		<node index="228" name="Assassin" />
+		<node index="221" name="AssassinM1" />
+		<node index="222" name="AssassinM2" />
+		<node index="223" name="AssassinM3" />
+		<node index="224" name="AssassinM4" />
+		<node index="225" name="AssassinF1" />
+		<node index="226" name="AssassinF2" />
+		<node index="227" name="AssassinF3" />
+		<node index="228" name="AssassinF4" />
 	</enum>
 	<enum name="mscond_stattype">
 		<node index="0" name="none" />

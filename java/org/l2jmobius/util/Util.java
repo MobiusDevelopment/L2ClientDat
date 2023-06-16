@@ -251,37 +251,29 @@ public class Util
 			paramString = paramString.substring(1, paramString.length() - 1);
 		}
 		
-		final ArrayList<String> arrayList = new ArrayList<>();
-		StringBuilder stringBuffer = new StringBuilder();
-		byte a = 0;
-		boolean b = false;
-		for (char c : paramString.toCharArray())
+		int level = 0;
+		StringBuilder sb = new StringBuilder();
+		final List<String> arrayList = new ArrayList<>();
+		for (char part : paramString.toCharArray())
 		{
-			if (c == '{')
+			if ((part == '{') || (part == '['))
 			{
-				++a;
+				++level;
 			}
-			else if (c == '}')
+			else if ((part == '}') || (part == ']'))
 			{
-				--a;
+				--level;
 			}
-			else if (c == '[')
+			else if ((part == ';') && (level == 0))
 			{
-				b = true;
+				arrayList.add(sb.toString());
+				sb = new StringBuilder();
+				continue; // Skip the rest of the loop and go to the next iteration.
 			}
-			else if (c == ']')
-			{
-				b = false;
-			}
-			else if ((c == ';') && (a == 0) && !b)
-			{
-				arrayList.add(stringBuffer.toString());
-				stringBuffer = new StringBuilder();
-				break;
-			}
-			stringBuffer.append(c);
+			sb.append(part);
 		}
-		arrayList.add(stringBuffer.toString());
+		arrayList.add(sb.toString());
+		
 		return arrayList;
 	}
 	

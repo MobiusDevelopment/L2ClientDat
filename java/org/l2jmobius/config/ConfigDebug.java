@@ -29,6 +29,7 @@ public class ConfigDebug
 	public static boolean DAT_DEBUG_POS_BUFFER;
 	public static int DAT_DEBUG_POS_LIMIT;
 	public static boolean DAT_REPLACEMENT_NAMES;
+	public static boolean DAT_REPLACEMENT_ENUMS;
 	public static boolean ENCRYPT;
 	public static boolean SAVE_DECODE;
 	
@@ -42,6 +43,7 @@ public class ConfigDebug
 			DAT_DEBUG_POS = parser.getBoolean("DAT_DEBUG_POS", false);
 			DAT_DEBUG_POS_LIMIT = parser.getInt("DAT_DEBUG_POS_LIMIT", 100000);
 			DAT_REPLACEMENT_NAMES = parser.getBoolean("DAT_REPLACEMENT_NAMES", true);
+			DAT_REPLACEMENT_ENUMS = parser.getBoolean("DAT_REPLACEMENT_ENUMS", true);
 			ENCRYPT = parser.getBoolean("ENCRYPT", true);
 			SAVE_DECODE = parser.getBoolean("SAVE_DECODE", false);
 		}

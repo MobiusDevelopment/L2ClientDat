@@ -44,6 +44,8 @@ public class DescriptorParser
 {
 	private static final Logger LOGGER = Logger.getLogger(DescriptorParser.class.getName());
 	
+	private final Map<String, Map<Integer, String>> _enumMap = new HashMap<>();
+	private final Map<String, Map<String, String>> _enumReverseMap = new HashMap<>();
 	private final Map<String, Map<String, Descriptor>> _descriptors = new HashMap<>();
 	private final Map<String, List<ParamNode>> _definitions = new HashMap<>();
 	private final Map<String, List<DescriptorLink>> _links = new LinkedHashMap<>();
@@ -55,6 +57,7 @@ public class DescriptorParser
 	public void parse()
 	{
 		parseDefinitions();
+		Util.loadFiles("./data/enums/", ".xml").forEach(this::parseEnum);
 		Util.loadFiles("./data/structure/", ".xml").forEach(this::parseDescriptor);
 	}
 	
@@ -87,6 +90,75 @@ public class DescriptorParser
 				}
 			}
 			catch (Exception e)
+			{
+				LOGGER.log(Level.WARNING, e.getMessage(), e);
+			}
+		}
+	}
+	
+	private void parseEnum(final File file)
+	{
+		if (!file.exists())
+		{
+			DebugUtil.debug("File " + file.getName() + " not found.");
+		}
+		if (file.exists())
+		{
+			final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			factory.setValidating(false);
+			factory.setIgnoringElementContentWhitespace(true);
+			factory.setIgnoringComments(true);
+			try
+			{
+				final Document doc = factory.newDocumentBuilder().parse(file);
+				for (Node defsNode = doc.getFirstChild(); defsNode != null; defsNode = doc.getNextSibling())
+				{
+					if (defsNode.getNodeName().equals("list"))
+					{
+						for (Node defNode = defsNode.getFirstChild(); defNode != null; defNode = defNode.getNextSibling())
+						{
+							if (defNode.getNodeName().equals("enum"))
+							{
+								final Node nodeName = defNode.getAttributes().getNamedItem("name");
+								if (nodeName == null)
+								{
+									LOGGER.log(Level.WARNING, ("parseEnum name == null, fileName: " + file.getName()));
+								}
+								else
+								{
+									final String defName = nodeName.getNodeValue();
+									if (_enumMap.containsKey(defName))
+									{
+										LOGGER.log(Level.WARNING, ("parseEnum Node name duplicated [" + defName + "]  fileName: " + file.getName()));
+									}
+									
+									final Map<Integer, String> eTypes = _enumMap.computeIfAbsent(defName, m -> new HashMap<>());
+									final Map<String, String> eReverseTypes = _enumReverseMap.computeIfAbsent(defName, m -> new HashMap<>());
+									for (Node node = defNode.getFirstChild(); node != null; node = node.getNextSibling())
+									{
+										if (node.getNodeName().equals("node"))
+										{
+											final String eName = node.getAttributes().getNamedItem("name").getNodeValue();
+											final int eIndex = Integer.parseInt(node.getAttributes().getNamedItem("index").getNodeValue());
+											if (eReverseTypes.containsKey(eName))
+											{
+												LOGGER.log(Level.WARNING, ("parseEnum Node name duplicated [" + eName + "]  fileName: " + file.getName() + " name: " + defName));
+											}
+											if (eTypes.containsKey(eIndex))
+											{
+												LOGGER.log(Level.WARNING, ("parseEnum Node index duplicated [" + eIndex + "]  fileName: " + file.getName() + " name: " + defName));
+											}
+											eTypes.put(eIndex, eName);
+											eReverseTypes.put(eName, String.valueOf(eIndex));
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			catch (final Exception e)
 			{
 				LOGGER.log(Level.WARNING, e.getMessage(), e);
 			}
@@ -196,6 +268,11 @@ public class DescriptorParser
 						beginNode.setParamIf(prevNode.getParamIf());
 						beginNode.setValIf(prevNode.getValIf());
 						beginNode.addSubNodes(parseNodes(node, false, names, fileName, nodes));
+						final Node enumName = node.getAttributes().getNamedItem("enumName");
+						if (enumName != null)
+						{
+							beginNode.setEnumName(enumName.getNodeValue());
+						}
 						nodes.add(beginNode);
 						DebugUtil.debug("Found [else] data: " + prevNode.getName());
 					}
@@ -220,6 +297,7 @@ public class DescriptorParser
 							{
 								defsCounter.put(type, defsCounter.get(type) + 1);
 							}
+							
 							final List<ParamNode> defNodes = _definitions.get(type);
 							for (ParamNode defNode : defNodes)
 							{
@@ -239,6 +317,13 @@ public class DescriptorParser
 							{
 								dataNode.setHidden();
 							}
+							
+							final Node enumName = node.getAttributes().getNamedItem("enumName");
+							if (enumName != null)
+							{
+								dataNode.setEnumName(enumName.getNodeValue());
+							}
+							
 							nodes.add(dataNode);
 							DebugUtil.debug("Found node: " + dataNode.getName());
 						}
@@ -277,10 +362,18 @@ public class DescriptorParser
 						{
 							beginNode2.setSize(size);
 						}
+						
 						if (isHide)
 						{
 							beginNode2.setHidden();
 						}
+						
+						final Node enumName = node.getAttributes().getNamedItem("enumName");
+						if (enumName != null)
+						{
+							beginNode2.setEnumName(enumName.getNodeValue());
+						}
+						
 						beginNode2.setSkipWriteSize(skipWriteSize);
 						beginNode2.addSubNodes(parseNodes(node, false, names, fileName, nodes));
 						beginNode2.setCycleName(iteratorName);
@@ -319,6 +412,11 @@ public class DescriptorParser
 					{
 						final ParamNode beginNode = new ParamNode(entityName, ParamNodeType.WRAPPER, null);
 						beginNode.addSubNodes(parseNodes(node, true, names, fileName, nodes));
+						final Node enumName = node.getAttributes().getNamedItem("enumName");
+						if (enumName != null)
+						{
+							beginNode.setEnumName(enumName.getNodeValue());
+						}
 						nodes.add(beginNode);
 						DebugUtil.debug("Found [wrapper] data " + entityName);
 					}
@@ -326,6 +424,11 @@ public class DescriptorParser
 					{
 						final ParamNode beginNode = new ParamNode(entityName, ParamNodeType.CONSTANT, ParamType.STRING);
 						beginNode.setHidden();
+						final Node enumName = node.getAttributes().getNamedItem("enumName");
+						if (enumName != null)
+						{
+							beginNode.setEnumName(enumName.getNodeValue());
+						}
 						nodes.add(beginNode);
 						DebugUtil.debug("Found [constant] data: " + entityName);
 					}
@@ -343,6 +446,11 @@ public class DescriptorParser
 						beginNode3.setParamIf(paramName);
 						beginNode3.setValIf(vsl);
 						beginNode3.addSubNodes(parseNodes(node, false, names, fileName, nodes));
+						final Node enumName = node.getAttributes().getNamedItem("enumName");
+						if (enumName != null)
+						{
+							beginNode3.setEnumName(enumName.getNodeValue());
+						}
 						nodes.add(beginNode3);
 						DebugUtil.debug("Found [if] data: " + entityName);
 					}
@@ -360,6 +468,11 @@ public class DescriptorParser
 						beginNode3.setParamMask(paramName);
 						beginNode3.setValMask(value);
 						beginNode3.addSubNodes(parseNodes(node, false, names, fileName, nodes));
+						final Node enumName = node.getAttributes().getNamedItem("enumName");
+						if (enumName != null)
+						{
+							beginNode3.setEnumName(enumName.getNodeValue());
+						}
 						nodes.add(beginNode3);
 						DebugUtil.debug("Found [mask] data: " + entityName);
 					}
@@ -416,6 +529,42 @@ public class DescriptorParser
 		}
 		
 		return node.getAttributes().getNamedItem(name).getNodeValue();
+	}
+	
+	public String getEnumNameByIndex(String eName, int index)
+	{
+		if (!_enumMap.containsKey(eName))
+		{
+			LOGGER.log(Level.WARNING, ("Enum [" + eName + "] enum not found! index: " + index));
+			return String.valueOf(index);
+		}
+		
+		final String result = _enumMap.get(eName).get(index);
+		if (result == null)
+		{
+			LOGGER.log(Level.WARNING, ("Enum [" + eName + "] Enum var not found! var: " + index));
+			return String.valueOf(index);
+		}
+		
+		return result;
+	}
+	
+	public String getEnumNameByName(String eName, String index)
+	{
+		if (!_enumReverseMap.containsKey(eName))
+		{
+			LOGGER.log(Level.WARNING, ("Enum [" + eName + "] enum not found! index: " + index));
+			return index;
+		}
+		
+		final String result = _enumReverseMap.get(eName).get(index);
+		if (result == null)
+		{
+			LOGGER.log(Level.WARNING, ("Enum [" + eName + "] Enum var not found! var: " + index));
+			return index;
+		}
+		
+		return result;
 	}
 	
 	public Set<String> getChronicleNames()
