@@ -32,7 +32,7 @@
 	<file pattern="Helios" isSafePackage="true" format="SkillNameFormat">
 		<node name="data" reader="CNTR" />
 		<for name="skill_txt" size="#data" hidden="false">
-			<node name="str_name" reader="ASCF" />
+			<node name="text" reader="ASCF" />
 			<node name="index" reader="UINT" />
 		</for>
 		<node name="size1" reader="UINT" />
@@ -55,7 +55,7 @@
 	<file pattern="EtinasFate" isSafePackage="true" format="SkillNameFormat">
 		<node name="data" reader="CNTR" />
 		<for name="skill_txt" size="#data" hidden="false">
-			<node name="str_name" reader="ASCF" />
+			<node name="text" reader="ASCF" />
 			<node name="index" reader="UINT" />
 		</for>
 		<node name="size1" reader="UINT" />
@@ -75,7 +75,7 @@
 	<file pattern="Homunculus2" isSafePackage="true" format="SkillNameFormat">
 		<node name="data" reader="CNTR" />
 		<for name="skill_txt" size="#data" hidden="false">
-			<node name="str_name" reader="ASCF" />
+			<node name="text" reader="ASCF" />
 			<node name="index" reader="UINT" />
 		</for>
 		<node name="size1" reader="UINT" />
