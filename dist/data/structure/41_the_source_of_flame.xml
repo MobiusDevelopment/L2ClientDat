@@ -176,6 +176,7 @@
 	<link pattern="SetItemGrp(_Classic(Aden)?)?-[\w]+\.dat" file="setitemgrp" version="Valiance" />
 	<link pattern="ShortcutAlias(_Classic)?.dat" file="shortcutalias" version="Epilogue" />
 	<link pattern="ShuttleData(_Classic)?.dat" file="shuttledata" version="Helios" />
+	<link pattern="SkillAcquire(_Classic(Aden)?)?.dat" file="skillacquire" version="TheSourceOfFlame" />
 	<link pattern="Skillgrp(_Classic(Aden)?)?.dat" file="skillgrp" version="TheSourceOfFlame" />
 	<link pattern="SkillName(_Classic(Aden)?)?-[\w]+\.dat" file="skillname" version="Homunculus2" />
 	<link pattern="SkillSoundgrp(_Classic(Aden)?)?.dat" file="skillsoundgrp" version="TheSourceOfFlame" />
