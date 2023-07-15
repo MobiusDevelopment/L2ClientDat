@@ -212,8 +212,7 @@
 		<node name="data" reader="UINT" />
 		<for name="skill" size="#data" hidden="false">
 			<node name="skill_id" reader="UINT" />
-			<node name="skill_level" reader="SHORT" />
-			<node name="skill_sublevel" reader="SHORT" />
+			<node name="skill_level" reader="UINT" />
 			<node name="operate_type" reader="UINT" />
 			<node name="resist_cast" reader="UINT" />
 			<!--
@@ -240,7 +239,6 @@
 			<node name="hit_time" reader="FLOAT" />
 			<node name="cool_time" reader="FLOAT" />
 			<node name="reuse_delay" reader="FLOAT" />
-			<node name="effect_point" reader="UINT" />
 			<node name="is_magic" reader="UINT" />
 			<!--
 			is_magic=0 P ( physical )
