@@ -56,4 +56,18 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true">
+		<for name="collectionmain" size="1" hidden="false">
+			<node name="data" reader="UINT"/>
+			<write name="\r\n" />
+			<for name="collection" size="#data" hidden="false">
+				<node name="main_id" reader="UINT" />
+				<node name="background_level" reader="UINT" />
+				<node name="category" reader="UINT" />
+				<node name="collection_id" reader="UINT" />
+				<node name="key_item_id" reader="UINT" />
+				<node name="key_effect" reader="UINT" />
+			</for>
+		</for>
+	</file>
 </list>

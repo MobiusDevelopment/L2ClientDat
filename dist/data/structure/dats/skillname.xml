@@ -92,4 +92,24 @@
 			<node name="enchant_desc_param" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true" format="SkillNameFormat">
+		<node name="data" reader="CNTR" />
+		<for name="skill_txt" size="#data" hidden="false">
+			<node name="text" reader="ASCF" />
+			<node name="index" reader="UINT" />
+		</for>
+		<node name="size1" reader="UINT" />
+		<for name="skill" size="#size1" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="SHORT" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="name" reader="UINT" />
+			<node name="desc" reader="UINT" />
+			<node name="desc_param" reader="UINT" />
+			<node name="enchant_name" reader="UINT" />
+			<node name="enchant_name_param" reader="UINT" />
+			<node name="enchant_desc" reader="UINT" />
+			<node name="enchant_desc_param" reader="UINT" />
+		</for>
+	</file>
 </list>

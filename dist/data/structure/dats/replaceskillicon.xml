@@ -19,4 +19,27 @@
 			<node name="replace_lv" reader="UCHAR" />
 		</for>
 	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="Replace_skill_Icon" size="#data" hidden="false">
+			<node name="abnormal_status" reader="UINT" />
+			<node name="abnormal_status_level" reader="UINT" />
+			<node name="original_skill_id" reader="UINT" />
+			<node name="replace_skill_id" reader="UINT" />
+			<node name="replace_lv" reader="UCHAR" />
+			<node name="reuse_delay_group" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="Replace_skill_Icon" size="#data" hidden="false">
+			<node name="abnormal_status" reader="UINT" />
+			<node name="abnormal_status_level" reader="UINT" />
+			<node name="abnormal_status_sub_level" reader="UINT" />
+			<node name="original_skill_id" reader="UINT" />
+			<node name="replace_skill_id" reader="UINT" />
+			<node name="replace_lv" reader="UCHAR" />
+			<node name="reuse_delay_group" reader="UINT" />
+		</for>
+	</file>
 </list>

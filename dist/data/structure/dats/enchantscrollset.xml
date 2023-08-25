@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enchant_scroll_set" size="#data" hidden="false">
+			<node name="scroll_set_id" reader="UCHAR" />
+			<node name="failure_base" reader="UCHAR" />
+			<node name="failure_decrease" reader="UCHAR" />
+			<node name="failure_maintain" reader="UCHAR" />
+			<node name="failure_crush" reader="UCHAR" />
+			<node name="inc_base" reader="UCHAR" />
+			<node name="enchant_range" reader="UCHAR" />
+			<node name="great_success_effect" reader="UCHAR" />
+			<node name="enchant_group_id" reader="CNTR" />
+			<for name="enchant_group_id" size="#enchant_group_id">
+				<node name="id1" reader="UCHAR" />
+				<node name="id2" reader="UCHAR" />
+				<node name="id3" reader="UCHAR" />
+			</for>
+		</for>
+	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enchant_scroll_set" size="#data" hidden="false">
+			<node name="scroll_set_id" reader="UBYTE" />
+			<node name="failure_base" reader="UBYTE" />
+			<node name="failure_decrease" reader="UBYTE" />
+			<node name="failure_maintain" reader="UCHAR" />
+			<node name="failure_crush" reader="UBYTE" />
+			<node name="inc_base" reader="UBYTE" />
+			<node name="enchant_range" reader="UBYTE" />
+			<node name="great_success_effect" reader="UBYTE" />
+			<node name="enchant_group_id" reader="CNTR" />
+			<for name="enchant_group_id" size="#enchant_group_id">
+				<node name="id1" reader="UBYTE" />
+				<node name="id2" reader="UBYTE" />
+				<node name="id3" reader="UBYTE" />
+			</for>
+			<node name="desc" reader="ASCF" />
+		</for>
+	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enchant_scroll_set" size="#data" hidden="false">
+			<node name="scroll_set_id" reader="UBYTE" />
+			<node name="failure_base" reader="UBYTE" />
+			<node name="failure_decrease" reader="UBYTE" />
+			<node name="failure_maintain" reader="UBYTE" />
+			<node name="failure_crush" reader="UBYTE" />
+			<node name="inc_base" reader="UBYTE" />
+			<node name="enchant_range" reader="UBYTE" />
+			<node name="great_success_effect" reader="UBYTE" />
+			<node name="enchant_group_id" reader="CNTR" />
+			<for name="enchant_group_id" size="#enchant_group_id">
+				<node name="id1" reader="UBYTE" />
+				<node name="id2" reader="UBYTE" />
+				<node name="id3" reader="UBYTE" />
+			</for>
+			<node name="id" reader="UBYTE" />
+		</for>
+	</file>
+</list>

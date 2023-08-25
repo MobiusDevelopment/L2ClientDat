@@ -209,4 +209,57 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product" size="#data" hidden="false">
+			<node name="shop_index" reader="UCHAR" />
+			<node name="product_id" reader="USHORT" />
+
+			<node name="category" reader="UCHAR" />
+			<node name="category_sub" reader="UINT" />
+			<wrapper name="unk">
+				<node name="mark_type" reader="UBYTE" />
+				<node name="max_buy_count" reader="UCHAR" />
+			</wrapper>
+
+			<node name="product_name" reader="ASCF" />
+			<node name="product_item" reader="UINT" />
+			<node name="product_enchant" reader="UINT" />
+			<node name="buy_item" reader="UCHAR" />
+			<for name="buy_item" size="#buy_item">
+				<node name="ItemClassID" reader="UINT" />
+				<node name="Count" reader="UINT" />
+				<node name="Prob" reader="FLOAT" />
+				<node name="Enchant" reader="UINT" />
+				<node name="ProductRank" reader="UINT" />
+				<node name="IsLimitServer" reader="UBYTE" />
+			</for>
+			<wrapper name="limit_lv">
+				<node name="LevelMin" reader="SHORT" />
+				<node name="LevelMax" reader="SHORT" />
+			</wrapper>
+			<wrapper name="buy_type">
+				<node name="LimitType" reader="UCHAR" />
+				<node name="ResetType" reader="UCHAR" />
+				<node name="LimitCountMax" reader="UINT" />
+				<node name="ServerCountMax" reader="UINT" />
+			</wrapper>
+			<node name="LimitServerBuyCountMax" reader="UINT" />
+			<node name="RequirementBuySkills" reader="UBYTE" />
+			<for name="RequirementBuySkills">
+				<node name="skill_id" reader="UINT" />
+			</for>
+			<node name="KeepOptionFee" reader="UBYTE" />
+			<for name="KeepOptionFee">
+				<node name="KeepItemClassID" reader="UINT" />
+				<node name="KeepCount" reader="UINT" />
+				<node name="KeepProb" reader="FLOAT" />
+				<node name="KeepEnchant" reader="UINT" />
+				<node name="KeepProductRank" reader="UINT" />
+				<node name="KeepIsLimitServer" reader="UBYTE" />
+			</for>
+			<node name="KeepOption" reader="UBYTE" />
+			<node name="automatic_type" reader="UBYTE" />
+		</for>
+	</file>
 </list>

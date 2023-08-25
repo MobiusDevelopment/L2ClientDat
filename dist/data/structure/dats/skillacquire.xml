@@ -26,4 +26,30 @@
 			<node name="category_index" reader="UBYTE" />
 		</for>
 	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skillacquire" size="#data" hidden="false">
+			<node name="block_skill_id_size" reader="UINT" />
+			<for name="block_skill_id" size="#block_skill_id_size" hidden="true">
+				<node name="block_skill_id1" reader="UINT" />
+			</for>
+			<node name="class_id" reader="UINT" enum_name="class" />
+			<node name="skill_id" reader="UINT" />
+			<node name="consume_sp" reader="LONG" />
+			<node name="consume_adena" reader="LONG" />
+			<wrapper name="consume_priority_item">
+				<node name="consume_priority_item_id" reader="UINT" />
+				<node name="consume_priority_item_count" reader="UINT" />
+			</wrapper>
+			<wrapper name="consume_item">
+				<node name="consume_item_id" reader="UINT" />
+				<node name="consume_item_count" reader="UINT" />
+			</wrapper>
+			<node name="system_msg_id" reader="UINT" />
+			<node name="block_skill_id" reader="UINT" />
+			<node name="level" reader="USHORT" />
+			<node name="get_level" reader="UBYTE" />
+			<node name="category_index" reader="UBYTE" />
+		</for>
+	</file>
 </list>

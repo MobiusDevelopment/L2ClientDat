@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="newquestnpcportrait" size="#data" hidden="false">
+			<node name="npc_id" reader="INT" />
+			<node name="view_offsetX" reader="INT" />
+			<node name="view_offsetY" reader="INT" />
+			<node name="view_offsetZ" reader="INT" />
+			<node name="view_dist" reader="INT" />
+			<node name="view_rotationYaw" reader="INT" />
+			<node name="view_scale" reader="FLOAT" />
+		</for>
+	</file>
+</list>

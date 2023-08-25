@@ -43,8 +43,9 @@
 		<node index="9" name="r95" />
 		<node index="10" name="r99" />
 		<node index="11" name="r110" />
-		<node index="12" name="event" />
-		<node index="13" name="crystal_free" />
+		<node index="12" name="l" />
+		<node index="13" name="event" />
+		<node index="14" name="crystal_free" />
 	</enum>
 	<enum name="material_type">
 		<node index="0" name="fish" />
@@ -165,11 +166,11 @@
 		<node index="56" name="legs" />
 		<node index="57" name="feet" />
 		<node index="58" name="back" />
-		<node index="59" name="hair" />
-		<node index="60" name="hair2" />
-		<node index="61" name="rhand" />
-		<node index="62" name="lhand" />
-		<node index="63" name="lhand2" />
+		<node index="59" name="hair_old" /> <!-- ? -->
+		<node index="60" name="hair" />
+		<node index="61" name="rhand1" /> <!-- ? -->
+		<node index="62" name="rhand" />
+		<node index="63" name="lhand" />
 	</enum>
 	<enum name="item_etc_type">
 		<node index="0" name="none" />
@@ -908,6 +909,7 @@
 		<node index="31" name="[action_variation_stone]" />
 		<node index="32" name="[action_xmas_open]" />
 		<node index="33" name="[action_skill_reduce_on_skill_success ]" /> <!-- 24 again? -->
+		<node index="34" name="[action_none   ]" /> <!-- mutisell selection item -->
 	</enum>
 	<enum name="enchant_add_stat_type">
 		<node index="0" name="pdef" />

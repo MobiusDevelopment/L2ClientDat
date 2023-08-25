@@ -50,4 +50,29 @@
 			<node name="newhenna_hidden_power" reader="UCHAR" />
 		</for>
 	</file>
+	<file pattern="AgeOfMagic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="symbol" size="#data" hidden="false">
+			<node name="symbol_id" reader="UINT" />
+			<node name="dye_item_id" reader="UINT" />
+			<node name="symbol_name" reader="ASCF" />
+			<node name="symbol_icon" reader="MAP_INT" />
+			<node name="henna_wnd" reader="MAP_INT" />
+			<node name="symbol_add_name" reader="ASCF" />
+			<node name="symbol_description" reader="ASCF" />
+			<node name="need_count" reader="UINT" />
+			<node name="cancel_count" reader="UINT" />
+			<node name="dye_item_level" reader="UCHAR" />
+			<node name="wear_fee_item_size" reader="UCHAR" />
+			<for name="wear_fee_item" size="#wear_fee_item_size">
+				<node name="wear_item_id" reader="UINT" />
+				<node name="wear_item_count" reader="LONG" />
+			</for>
+			<node name="cancel_fee_item_size" reader="UCHAR" />
+			<for name="cancel_fee_item" size="#cancel_fee_item_size">
+				<node name="cancel_item_id" reader="UINT" />
+				<node name="cancel_item_count" reader="LONG" />
+			</for>
+		</for>
+	</file>
 </list>
