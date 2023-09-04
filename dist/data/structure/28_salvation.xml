@@ -19,7 +19,7 @@
 	<link pattern="Castlename(_Classic)?-[\w]+\.dat" file="castlename" version="GrandCrusade" />
 	<link pattern="CharacterInitialStatExData.dat" file="characterinitialstatexdata" version="Salvation" />
 	<link pattern="Charcreategrp(_Classic)?.dat" file="charcreategrp" version="Salvation" />
-	<link pattern="Chargrp(_Classic)?.dat" file="chargrp" version="Helios" />
+	<link pattern="Chargrp(_Classic)?.dat" file="chargrp" version="Salvation" />
 	<link pattern="ClassInfo(_Classic)?-[\w]+\.dat" file="classinfo" version="GrandCrusade" />
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="Valiance" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="Helios" />
