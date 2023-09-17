@@ -39,4 +39,29 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="MasterClass2" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enchanted_item_skill" size="#data" hidden="false">
+			<node name="item_id" reader="UINT" />
+			<write name="\r\n"/>
+			<node name="desc" reader="CNTR" />
+			<for name="desc" size="#desc" hidden="false">
+				<node name="RequiredEnchant" reader="UBYTE" />
+				<node name="font_level" reader="UBYTE" />
+				<wrapper name="icon">
+					<node name="icon1" reader="MAP_INT" />
+					<node name="icon2" reader="MAP_INT" />
+					<node name="icon3" reader="MAP_INT" />
+					<node name="icon4" reader="MAP_INT" />
+					<node name="icon5" reader="MAP_INT" />
+				</wrapper>
+				<node name="icon_panel" reader="MAP_INT" />
+				<node name="text" reader="CNTR" />
+				<for name="text" size="#text">
+					<node name="desc_param" reader="MAP_INT" />
+					<node name="ids_param" reader="UINT" />
+				</for>
+			</for>
+		</for>
+	</file>
 </list>

@@ -63,7 +63,7 @@
 	<link pattern="ElementalSpiritStat_Classic.dat" file="elementalspiritstat" version="Salvation" />
 	<link pattern="EnchantChallengePoint(_Classic(Aden)?)?.dat" file="enchantchallengepoint" version="MasterClass2" />
 	<link pattern="EnchantedCloakEffectData_Classic.dat" file="enchantedcloakeffect" version="MasterClass" />
-	<link pattern="EnchantedItemSkills(_Classic(Aden)?)?-[\w]+\.dat" file="enchanteditemskills" version="Homunculus2" />
+	<link pattern="EnchantedItemSkills(_Classic(Aden)?)?-[\w]+\.dat" file="enchanteditemskills" version="MasterClass2" />
 	<link pattern="EnchantedWeaponFlowEffectData(_Classic(Aden)?)?.dat" file="enchantedweaponfloweffectdata" version="Homunculus" />
 	<link pattern="EnchantScrollSet(_Classic(Aden)?)?.dat" file="enchantscrollset" version="MasterClass2" />
 	<link pattern="EnchantStatBonus(_Classic(Aden)?)?.dat" file="enchantstatbonus" version="Ertheia" />
