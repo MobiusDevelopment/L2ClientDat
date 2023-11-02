@@ -1529,4 +1529,133 @@
 			</wrapper>
 		</for>
 	</file>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UINT" />
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UINT" />
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+				<node name="drop_texture3" reader="MAP_INT" />
+				<node name="drop_texture4" reader="MAP_INT" />
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+				<node name="quest_unk" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<node name="body_part" reader="UCHAR" enumName="bodypart_v2_type" />
+			<node name="handness" reader="UCHAR" />
+			<wrapper name="wp_mesh">
+				<node name="mesh" reader="UCHAR" />
+				<for name="mesh_0_" size="#mesh">
+					<node name="mesh0" reader="MAP_INT" />
+				</for>
+				<for name="mesh_1_" size="#mesh" skipWriteSize="true">
+					<node name="mesh1" reader="UCHAR" />
+				</for>
+			</wrapper>
+			<node name="texture" reader="UCHAR" />
+			<for name="texture" size="#texture">
+				<node name="texture0" reader="MAP_INT" />
+			</for>
+			<node name="item_sound" reader="UCHAR" />
+			<for name="item_sound" size="#item_sound">
+				<node name="item_sound0" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="effect" reader="MAP_INT" />
+			<node name="random_damage" reader="UCHAR" />
+			<node name="weapon_type" reader="UCHAR" enumName="item_weapon_v2_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+			<node name="mp_consume" reader="UCHAR" />
+			<node name="soulshot_count" reader="UCHAR" />
+			<node name="spiritshot_count" reader="UCHAR" />
+			<node name="curvature" reader="SHORT" />
+			<node name="UNK_10" reader="UCHAR" />
+			<node name="can_equip_hero" reader="UCHAR" />
+			<node name="is_magic_weapon" reader="UCHAR" />
+			<node name="ertheia_fist_scale" reader="FLOAT" />
+			<node name="junk" reader="SHORT" />
+			<node name="Enchanted" reader="UCHAR" />
+			<for name="Enchanted" size="#Enchanted">
+				<node name="EnchantedEffect" reader="MAP_INT" />
+				<wrapper name="EnchantedEffectOffset">
+					<node name="EnchantedEffectOffset1" reader="FLOAT" />
+					<node name="EnchantedEffectOffset2" reader="FLOAT" />
+					<node name="EnchantedEffectOffset3" reader="FLOAT" />
+				</wrapper>
+				<wrapper name="EnchantedMeshOffset">
+					<node name="EnchantedMeshOffset1" reader="FLOAT" />
+					<node name="EnchantedMeshOffset2" reader="FLOAT" />
+					<node name="EnchantedMeshOffset3" reader="FLOAT" />
+				</wrapper>
+				<wrapper name="EnchantedMeshScale">
+					<node name="EnchantedMeshScale1" reader="FLOAT" />
+					<node name="EnchantedMeshScale2" reader="FLOAT" />
+					<node name="EnchantedMeshScale3" reader="FLOAT" />
+				</wrapper>
+				<node name="EnchantedEffectVelocity" reader="FLOAT" />
+				<node name="EnchantedParticleScale" reader="FLOAT" />
+				<node name="EnchantedEffectScale" reader="FLOAT" />
+				<wrapper name="EnchantedParticleOffset">
+					<node name="param_EnchantedParticleOffset1" reader="FLOAT" />
+					<node name="param_EnchantedParticleOffset2" reader="FLOAT" />
+					<node name="param_EnchantedParticleOffset3" reader="FLOAT" />
+				</wrapper>
+				<wrapper name="EnchantedRingOffset">
+					<node name="param_EnchantedRingOffset1" reader="FLOAT" />
+					<node name="param_EnchantedRingOffset2" reader="FLOAT" />
+					<node name="param_EnchantedRingOffset3" reader="FLOAT" />
+				</wrapper>
+				<wrapper name="EnchantedRingScale">
+					<node name="param_EnchantedRingScale1" reader="FLOAT" />
+					<node name="param_EnchantedRingScale2" reader="FLOAT" />
+					<node name="param_EnchantedRingScale3" reader="FLOAT" />
+				</wrapper>
+			</for>
+			<wrapper name="variation_effect_type">
+				<node name="param_variation_effect_type1" reader="UCHAR" />
+				<node name="param_variation_effect_type2" reader="UCHAR" />
+				<node name="param_variation_effect_type3" reader="UCHAR" />
+				<node name="param_variation_effect_type4" reader="UCHAR" />
+				<node name="param_variation_effect_type5" reader="UCHAR" />
+				<node name="param_variation_effect_type6" reader="UCHAR" />
+			</wrapper>
+			<node name="variation_icon" reader="UCHAR" />
+			<for name="variation_icon" size="#variation_icon">
+				<node name="param_variation_icon" reader="MAP_INT" />
+			</for>
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
+		</for>
+	</file>
 </list>

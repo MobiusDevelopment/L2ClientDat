@@ -16,7 +16,7 @@
 			</for>
 			<node name="class" reader="CNTR" />
 			<for name="class" size="#class">
-				<node name="class_id" reader="UINT" enumName="class" />
+				<node name="class_id" reader="UINT" />
 			</for>
 			<node name="quest_item" reader="UINT" />
 			<node name="start_item" reader="UINT" />
@@ -57,7 +57,7 @@
 			</for>
 			<node name="class" reader="CNTR" />
 			<for name="class" size="#class">
-				<node name="class_id" reader="UINT" enumName="class" />
+				<node name="class_id" reader="UINT" />
 			</for>
 			<node name="quest_item" reader="UINT" />
 			<node name="start_item" reader="UINT" />

@@ -1343,4 +1343,109 @@
 			</wrapper>
 		</for>
 	</file>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="item" size="#data" hidden="false">
+			<node name="tag" reader="UCHAR" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UCHAR" />
+			<node name="drop_anim_type" reader="UCHAR" />
+			<node name="drop_radius" reader="UCHAR" />
+			<node name="drop_height" reader="UCHAR" />
+			<node name="drop_texture" reader="UINT" />
+			<for name="drop_texture" size="#drop_texture">
+				<node name="drop_mesh" reader="MAP_INT" />
+				<node name="drop_texture2" reader="UINT" />
+				<for name="drop_texture2" size="#drop_texture2">
+					<node name="drop_tex1" reader="MAP_INT" />
+				</for>
+				<node name="drop_texture3" reader="MAP_INT" />
+				<node name="drop_texture4" reader="MAP_INT" />
+			</for>
+			<wrapper name="icon">
+				<node name="icon1" reader="MAP_INT" />
+				<node name="icon2" reader="MAP_INT" />
+				<node name="icon3" reader="MAP_INT" />
+				<node name="icon4" reader="MAP_INT" />
+				<node name="icon5" reader="MAP_INT" />
+			</wrapper>
+			<node name="durability" reader="SHORT" />
+			<node name="weight" reader="SHORT" />
+			<node name="material_type" reader="UCHAR" enumName="material_type" />
+			<node name="crystallizable" reader="UCHAR" />
+			<node name="related_quest_id" reader="UCHAR" />
+			<for name="related_quest_id" size="#related_quest_id">
+				<node name="quest_id" reader="SHORT" />
+				<node name="quest_unk" reader="SHORT" />
+			</for>
+			<node name="color" reader="UCHAR" />
+			<node name="is_attribution" reader="UCHAR" />
+			<node name="icon_panel" reader="MAP_INT" />
+			<node name="complete_item_dropsound_type" reader="MAP_INT" />
+			<node name="inventory_type" reader="UCHAR" enumName="inventory_type" />
+			<node name="body_part" reader="UCHAR" enumName="bodypart_v2_type" />
+			<node name="m_HumnFigh" reader="MTX_NEW2" />
+			<node name="m_HumnFigh_add" reader="MTX3_NEW2" />
+			<node name="f_HumnFigh" reader="MTX_NEW2" />
+			<node name="f_HumnFigh_add" reader="MTX3_NEW2" />
+			<node name="m_DarkElf" reader="MTX_NEW2" />
+			<node name="m_DarkElf_add" reader="MTX3_NEW2" />
+			<node name="f_DarkElf" reader="MTX_NEW2" />
+			<node name="f_DarkElf_add" reader="MTX3_NEW2" />
+			<node name="m_Dorf" reader="MTX_NEW2" />
+			<node name="m_Dorf_add" reader="MTX3_NEW2" />
+			<node name="f_Dorf" reader="MTX_NEW2" />
+			<node name="f_Dorf_add" reader="MTX3_NEW2" />
+			<node name="m_Elf" reader="MTX_NEW2" />
+			<node name="m_Elf_add" reader="MTX3_NEW2" />
+			<node name="f_Elf" reader="MTX_NEW2" />
+			<node name="f_Elf_add" reader="MTX3_NEW2" />
+			<node name="m_HumnMyst" reader="MTX_NEW2" />
+			<node name="m_HumnMyst_add" reader="MTX3_NEW2" />
+			<node name="f_HumnMyst" reader="MTX_NEW2" />
+			<node name="f_HumnMyst_add" reader="MTX3_NEW2" />
+			<node name="m_OrcFigh" reader="MTX_NEW2" />
+			<node name="m_OrcFigh_add" reader="MTX3_NEW2" />
+			<node name="f_OrcFigh" reader="MTX_NEW2" />
+			<node name="f_OrcFigh_add" reader="MTX3_NEW2" />
+			<node name="m_OrcMage" reader="MTX_NEW2" />
+			<node name="m_OrcMage_add" reader="MTX3_NEW2" />
+			<node name="f_OrcMage" reader="MTX_NEW2" />
+			<node name="f_OrcMage_add" reader="MTX3_NEW2" />
+			<node name="m_Kamael" reader="MTX_NEW2" />
+			<node name="m_Kamael_add" reader="MTX3_NEW2" />
+			<node name="f_Kamael" reader="MTX_NEW2" />
+			<node name="f_Kamael_add" reader="MTX3_NEW2" />
+			<node name="m_ertheia" reader="MTX_NEW2" />
+			<node name="m_ertheia_mesh_add" reader="MTX3_NEW2" />
+			<node name="f_ertheia" reader="MTX_NEW2" />
+			<node name="f_ertheia_mesh_add" reader="MTX3_NEW2" />
+			<node name="m_sylph" reader="MTX_NEW2" />
+			<node name="m_sylph_mesh_add" reader="MTX3_NEW2" />
+			<node name="f_sylph" reader="MTX_NEW2" />
+			<node name="f_sylph_mesh_add" reader="MTX3_NEW2" />
+			<node name="NPC" reader="MTX_NEW2" />
+			<node name="NPC_add" reader="MTX3_NEW2" />
+			<node name="attack_effect" reader="MAP_INT" />
+			<node name="item_sound" reader="UCHAR" />
+			<for name="item_sound" size="#item_sound">
+				<node name="item_sound_txt" reader="MAP_INT" />
+			</for>
+			<node name="drop_sound" reader="MAP_INT" />
+			<node name="equip_sound" reader="MAP_INT" />
+			<node name="UNK_7" reader="UINT" />
+			<node name="UNK_6" reader="UCHAR" />
+			<node name="armor_type" reader="UCHAR" enumName="armor_type" />
+			<node name="crystal_type" reader="UCHAR" enumName="grade_type" />
+			<node name="mp_bonus" reader="SHORT" />
+			<node name="hide_mask" reader="SHORT" />
+			<node name="underwear_body_part1" reader="UCHAR" />
+			<node name="underwear_body_part2" reader="UCHAR" />
+			<node name="full_armor_enchant_effect_type" reader="UCHAR" />
+			<wrapper name="ensoul_slot_count">
+				<node name="normal_ensoul_count" reader="UCHAR" />
+				<node name="special_ensoul_count" reader="UCHAR" />
+			</wrapper>
+		</for>
+	</file>
 </list>

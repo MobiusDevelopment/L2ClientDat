@@ -18,7 +18,7 @@
 	<link pattern="AnimationCombo(_Classic)?.dat" file="animationcombo" version="Helios" />
 	<link pattern="ArmorGradeEffectSet.dat" file="armorgradeeffectset" version="PreludeOfWar3" />
 	<link pattern="ArmorGradeLookChange.dat" file="armorgradelookchange" version="MasterClass3" />
-	<link pattern="Armorgrp(_Classic(Aden)?)?.dat" file="armorgrp" version="TheSourceOfFlame" />
+	<link pattern="Armorgrp(_Classic(Aden)?)?.dat" file="armorgrp" version="Shinemaker" />
 	<link pattern="ArtifactData.dat" file="artifactdata" version="EtinasFate" />
 	<link pattern="ArtifactEnchantSetting.dat" file="artifactenchantsetting" version="EtinasFate" />
 	<link pattern="ArtifactTypeSetting.dat" file="artifacttypesetting" version="PreludeOfWar" />
@@ -209,7 +209,7 @@
 	<link pattern="vehiclepartsgrp.dat" file="vehiclepartsgrp" version="Helios" />
 	<link pattern="warningnotice-[\w]+\.dat" file="warningnotice" version="Lindvior" />
 	<link pattern="WeaponEnchantEffectData(_Classic(Aden)?)?.dat" file="weaponenchanteffectdata" version="Homunculus" />
-	<link pattern="Weapongrp(_Classic(Aden)?)?.dat" file="weapongrp" version="TheSourceOfFlame" />
+	<link pattern="Weapongrp(_Classic(Aden)?)?.dat" file="weapongrp" version="Shinemaker" />
 	<link pattern="WorldCastleWarMapData(_Classic(Aden)?)?.dat" file="worldcastlewarmapdata" version="MasterClass" />
 	<link pattern="ZoneName(_Classic(Aden)?)?-[\w]+\.dat" file="zonename" version="MasterClass" />
 </list>

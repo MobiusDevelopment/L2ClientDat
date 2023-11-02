@@ -834,6 +834,11 @@
 		<node index="226" name="AssassinF2" />
 		<node index="227" name="AssassinF3" />
 		<node index="228" name="AssassinF4" />
+		<node index="231" name="Dwarf Maker" />
+		<node index="232" name="Earth Maker" />
+		<node index="233" name="Wind Maker" />
+		<node index="234" name="Soul Maker" />
+		<node index="235" name="Shine Maker" />
 	</enum>
 	<enum name="mscond_stattype">
 		<node index="0" name="none" />
