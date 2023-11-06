@@ -115,7 +115,7 @@
 	<link pattern="L2PassAdvance(_Classic(Aden)?)?-[\w]+\.dat" file="l2passadvance" version="MasterClass" />
 	<link pattern="L2PassReward(_Classic(Aden)?)?.dat" file="l2passreward" version="MasterClass" />
 	<link pattern="LCoinShopBanner(_Classic(Aden)?)?.dat" file="lcoinshopbanner" version="TheSourceOfFlame" />
-	<link pattern="LCoinShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="lcoinshopproduct" version="MasterClass" />
+	<link pattern="LCoinShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="lcoinshopproduct" version="Shinemaker" />
 	<link pattern="LetterCollectData(_Classic(Aden)?)?.dat" file="lettercollectdata" version="PreludeOfWar2" />
 	<link pattern="LevelUpItemBonusData(_Classic(Aden)?)?.dat" file="levelupitembonusdata" version="PreludeOfWar3" />
 	<link pattern="LinkedAnimData.dat" file="linkedanimdata" version="PreludeOfWar3" />
@@ -163,7 +163,7 @@
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="Helios" />
 	<link pattern="PrisonData.dat" file="prisondata" version="MasterClass3" />
 	<link pattern="ProductName(_Classic(Aden)?)?-[\w]+\.dat" file="productname" version="Helios" />
-	<link pattern="PurchaseLimitCraft(_Classic(Aden)?)?-[\w]+\.dat" file="purchaselimitcraft" version="AgeOfMagic" />
+	<link pattern="PurchaseLimitCraft(_Classic(Aden)?)?-[\w]+\.dat" file="purchaselimitcraft" version="Shinemaker" />
 	<link pattern="PvpbookRequiredItem(_Classic(Aden)?)?.dat" file="pvpbookrequireditem" version="PreludeOfWar2" />
 	<link pattern="QuestMarkConditionData(_Classic)?.dat" file="questmarkconditiondata" version="Awakening" />
 	<link pattern="QuestName(_Classic(Aden)?)?-[\w]+\.dat" file="questname" version="Fafurion" />
@@ -193,7 +193,7 @@
 	<link pattern="Subjugation_Classic(Aden)?-[\w]+\.dat" file="subjugation" version="ReturnOfTheQueenAnt" />
 	<link pattern="Symbolname(_Classic)?-[\w]+\.dat" file="symbolname" version="ScionsOfDestiny" />
 	<link pattern="SysString(_Classic)?-[\w]+\.dat" file="sysstring" version="ScionsOfDestiny" />
-	<link pattern="SystemMsg(_Classic)?-[\w]+\.dat" file="systemmsg" version="MasterClass" />
+	<link pattern="SystemMsg(_Classic)?-[\w]+\.dat" file="systemmsg" version="TheSourceOfFlame" />
 	<link pattern="teleportlist(_Classic(Aden)?)?.dat" file="teleportlist" version="MasterClass2" />
 	<link pattern="TimeZoneData(_Classic(Aden)?)?-[\w]+\.dat" file="timezonedata" version="MasterClass3" />
 	<link pattern="TransformData(_Classic(Aden)?)?.dat" file="transformdata" version="Helios" />
