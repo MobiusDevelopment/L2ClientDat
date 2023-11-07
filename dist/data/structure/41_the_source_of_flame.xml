@@ -80,7 +80,7 @@
 	<link pattern="EventContentsGoalName-[\w]+\.dat" file="eventcontentsgoalname" version="Lindvior" />
 	<link pattern="EventContentsName-[\w]+\.dat" file="eventcontentsname" version="Lindvior" />
 	<link pattern="EventHtml(_Classic(Aden)?)?-[\w]+\.dat" file="eventhtml" version="MasterClass" />
-	<link pattern="EventLookChange.dat" file="eventlookchange" version="MasterClass3" />
+	<link pattern="EventLookChange.dat" file="eventlookchange" version="TheSourceOfFlame" />
 	<link pattern="ExceptionMinimapData(_Classic(Aden)?)?.dat" file="exceptionminimapdata" version="Lindvior" />
 	<link pattern="faceexgrp.dat" file="faceexgrp" version="MasterClass" />
 	<link pattern="faceExName-[\w]+\.dat" file="faceexname" version="Helios" />
