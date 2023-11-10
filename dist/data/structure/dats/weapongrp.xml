@@ -34,17 +34,20 @@
 			<node name="property_params" reader="UINT" />
 			<node name="body_part" reader="UINT" />
 			<node name="handness" reader="UINT" />
-			<node name="wpn_mesh_cnt" reader="UINT" />
-			<for name="wpn_mesh_cnt" size="#wpn_mesh_cnt">
-				<node name="wpn_mesh" reader="UNICODE" />
-			</for>
-			<node name="wpn_tex_cnt" reader="UINT" />
-			<for name="wpn_tex_cnt" size="#wpn_tex_cnt">
-				<node name="wpn_tex" reader="UNICODE" />
+			<wrapper name="wp_mesh">
+				<node name="wp_mesh" reader="UINT" />
+				<for name="mesh_0_" size="#wp_mesh">
+					<node name="mesh0" reader="UNICODE" />
+				</for>
+			</wrapper>
+
+			<node name="texture" reader="UINT" />
+			<for name="texture" size="#texture">
+				<node name="texture0" reader="UNICODE" />
 			</for>
 			<node name="item_sound" reader="UINT" />
 			<for name="item_sound" size="#item_sound">
-				<node name="item_sound_1" reader="UNICODE" />
+				<node name="item_sound0" reader="UNICODE" />
 			</for>
 			<node name="drop_sound" reader="UNICODE" />
 			<node name="equip_sound" reader="UNICODE" />
@@ -54,6 +57,7 @@
 			<node name="matt" reader="UINT" />
 			<node name="weapon_type" reader="UINT" />
 			<node name="crystal_type" reader="UINT" />
+
 			<node name="critical" reader="UINT" />
 			<node name="hit_mod" reader="INT" />
 			<node name="avoid_mod" reader="INT" />
@@ -68,60 +72,49 @@
 			<node name="can_equip_hero" reader="INT" />
 			<node name="UNK_3" reader="UINT" />
 			<node name="effA" reader="UNICODE" />
-			<node name="effB" reader="UNICODE" />
-			<!-- <for name="wp_mesh_1" size="#wpn_mesh_cnt" skipWriteSize="true">
-			<node name="param_EnchantedEffectOffset1" reader="UNICODE" />
-			<node name="param_EnchantedEffectOffset2" reader="UNICODE" />
-			</for> -->
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="effB" reader="UNICODE" />
+			</if>
+			<!-- wp_mesh -->
 			<wrapper name="junk1A">
-				<node name="junk1A_1" reader="FLOAT" />
-				<node name="junk1A_2" reader="FLOAT" />
-				<node name="junk1A_3" reader="FLOAT" />
-				<node name="junk1A_4" reader="FLOAT" />
-				<node name="junk1A_5" reader="FLOAT" />
+				<node name="junk1A1" reader="FLOAT" />
+				<node name="junk1A2" reader="FLOAT" />
+				<node name="junk1A3" reader="FLOAT" />
+				<node name="junk1A4" reader="FLOAT" />
+				<node name="junk1A5" reader="FLOAT" />
 			</wrapper>
-			<wrapper name="junk1B">
-				<node name="junk1B_1" reader="FLOAT" />
-				<node name="junk1B_2" reader="FLOAT" />
-				<node name="junk1B_3" reader="FLOAT" />
-				<node name="junk1B_4" reader="FLOAT" />
-				<node name="junk1B_5" reader="FLOAT" />
-			</wrapper>
-			<!-- <for name="wp_mesh_2" size="#wpn_mesh_cnt" skipWriteSize="true">
-			<node name="param_EnchantedEffectOffset3" reader="UNICODE" />
-			<node name="param_EnchantedEffectOffset4" reader="UNICODE" />
-			</for> -->
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="junk1B1" reader="FLOAT" />
+				<node name="junk1B2" reader="FLOAT" />
+				<node name="junk1B3" reader="FLOAT" />
+				<node name="junk1B4" reader="FLOAT" />
+				<node name="junk1B5" reader="FLOAT" />
+			</if>
 			<node name="rangeA" reader="UNICODE" />
-			<node name="rangeB" reader="UNICODE" />
-			<!-- <for name="wp_mesh_3" size="#wpn_mesh_cnt" skipWriteSize="true">
-			<node name="param_EnchantedEffectOffset5" reader="UNICODE" />
-			<node name="param_EnchantedEffectOffset6" reader="UNICODE" />
-			</for> -->
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="rangeB" reader="UNICODE" />
+			</if>
 			<wrapper name="junk2A">
-				<node name="junk2A_1" reader="FLOAT" />
-				<node name="junk2A_2" reader="FLOAT" />
-				<node name="junk2A_3" reader="FLOAT" />
-				<node name="junk2A_4" reader="FLOAT" />
-				<node name="junk2A_5" reader="FLOAT" />
-				<node name="junk2A_6" reader="FLOAT" />
+				<node name="junk2A1" reader="FLOAT" />
+				<node name="junk2A2" reader="FLOAT" />
+				<node name="junk2A3" reader="FLOAT" />
+				<node name="junk2A4" reader="FLOAT" />
+				<node name="junk2A5" reader="FLOAT" />
+				<node name="junk2A6" reader="FLOAT" />
 			</wrapper>
-			<wrapper name="junk2B">
-				<node name="junk2B_1" reader="FLOAT" />
-				<node name="junk2B_2" reader="FLOAT" />
-				<node name="junk2B_3" reader="FLOAT" />
-				<node name="junk2B_4" reader="FLOAT" />
-				<node name="junk2B_5" reader="FLOAT" />
-				<node name="junk2B_6" reader="FLOAT" />
-			</wrapper>
-			<!-- <for name="wp_mesh_4" size="#wpn_mesh_cnt" skipWriteSize="true">
-			<node name="param_EnchantedEffectOffset7" reader="UNICODE" />
-			<node name="param_EnchantedEffectOffset8" reader="UNICODE" />
-			</for> -->
-			<wrapper name="junk3">
-				<node name="junk3_1" reader="UINT" />
-				<node name="junk3_2" reader="UINT" />
-				<node name="junk3_3" reader="UINT" />
-				<node name="junk3_4" reader="UINT" />
+			<if name="check_100" param="#wp_mesh" val="2">
+				<node name="junk2B1" reader="FLOAT" />
+				<node name="junk2B2" reader="FLOAT" />
+				<node name="junk2B3" reader="FLOAT" />
+				<node name="junk2B4" reader="FLOAT" />
+				<node name="junk2B5" reader="FLOAT" />
+				<node name="junk2B6" reader="FLOAT" />
+			</if>
+			<wrapper name="junk">
+				<node name="junk1" reader="INT" />
+				<node name="junk2" reader="INT" />
+				<node name="junk3" reader="INT" />
+				<node name="junk4" reader="INT" />
 			</wrapper>
 			<wrapper name="variation_icon">
 				<node name="param_variation_icon1" reader="UNICODE" />
