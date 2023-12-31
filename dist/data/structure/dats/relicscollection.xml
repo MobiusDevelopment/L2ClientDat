@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="INT" />
+		<for name="relics_collection" size="#data" hidden="false">
+			<node name="relics_collection_id" reader="USHORT" />
+			<node name="category" reader="UBYTE" />
+			<node name="relics_collection_name" reader="ASCF" />
+			<node name="option_id" reader="UINT" />
+			<node name="option_filter" reader="CNTR" />
+			<for name="option_filter" size="#option_filter">
+				<node name="unk4" reader="MAP_INT" />
+				<node name="unk6" reader="UINT" />
+				<node name="unk7" reader="UBYTE" />
+			</for>
+			<node name="need_relics" reader="CNTR" />
+			<for name="need_relics" size="#need_relics">
+				<node name="unk9" reader="USHORT" />
+				<node name="unk10" reader="UBYTE" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -172,6 +172,9 @@
 	<link pattern="RankingSystemData(_Classic(Aden)?)?.dat" file="rankingsystemdata" version="PreludeOfWar2" />
 	<link pattern="Recipe(_Classic(Aden)?)?.dat" file="recipe" version="Ertheia" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="Lindvior" />
+	<link pattern="relics_collection(_Classic(Aden)?)?-[\w]+\.dat" file="relicscollection" version="Shinemaker" />
+	<link pattern="relics_main.dat" file="relicsmain" version="Shinemaker" />
+	<link pattern="relics_playdata.dat" file="relicsplaydata" version="Shinemaker" />
 	<link pattern="ReplaceSkillIcon(_Classic(Aden)?)?.dat" file="replaceskillicon" version="AgeOfMagic" />
 	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="ReturnOfTheQueenAnt" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="Helios" />

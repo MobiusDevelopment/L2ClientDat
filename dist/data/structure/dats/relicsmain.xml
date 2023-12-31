@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="INT" />
+		<for name="relics_main" size="#data" hidden="false">
+			<node name="relics_id" reader="USHORT" />
+			<node name="basic_prob" reader="USHORT" />
+			<node name="item_id" reader="UINT" />
+			<node name="grade" reader="UBYTE" />
+			<node name="relics_skills" reader="CNTR" />
+			<for name="skill_id" size="#relics_skills">
+				<node name="skill_id1" reader="UINT" />
+				<node name="skill_level" reader="USHORT" />
+			</for>
+			<node name="enchanted" reader="CNTR" />
+			<for name="enchanted" size="#enchanted">
+				<node name="level" reader="UBYTE" />
+			</for>
+		</for>
+	</file>
+</list>

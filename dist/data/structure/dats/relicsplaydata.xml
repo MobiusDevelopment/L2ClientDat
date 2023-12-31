@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="INT" />
+		<for name="relics_main" size="#data" hidden="false">
+			<node name="relics_id" reader="UBYTE" />
+			<node name="grade" reader="UBYTE" />
+			<node name="type" reader="UBYTE" />
+			<node name="fail_item" reader="UINT" />
+			<node name="upgrade_prob" reader="UINT" />
+			<node name="cost_item" reader="CNTR" />
+			<for name="cost_item" size="#cost_item">
+				<node name="item" reader="UINT" />
+				<node name="count" reader="UINT" />
+			</for>
+			<node name="combination_prob" reader="CNTR" />
+			<for name="combination_prob" size="#combination_prob">
+				<node name="level_1" reader="USHORT" />
+				<node name="level_2" reader="USHORT" />
+			</for>
+			<node name="additional_prob" reader="CNTR" />
+			<for name="additional_prob" size="#additional_prob">
+				<node name="level" reader="UBYTE" />
+			</for>
+		</for>
+	</file>
+</list>
