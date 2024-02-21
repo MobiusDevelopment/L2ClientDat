@@ -114,7 +114,7 @@
 	<link pattern="ItemUseFilter(_Classic(Aden)?)?.dat" file="itemusefilter" version="Homunculus2" />
 	<link pattern="L2GameDataName.dat" file="l2gamedataname" version="Helios" />
 	<link pattern="L2PassAdvance(_Classic(Aden)?)?-[\w]+\.dat" file="l2passadvance" version="MasterClass" />
-	<link pattern="L2PassReward(_Classic(Aden)?)?.dat" file="l2passreward" version="MasterClass" />
+	<link pattern="L2PassReward(_Classic(Aden)?)?.dat" file="l2passreward" version="TheSourceOfFlame" />
 	<link pattern="LCoinShopBanner(_Classic(Aden)?)?.dat" file="lcoinshopbanner" version="TheSourceOfFlame" />
 	<link pattern="LCoinShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="lcoinshopproduct" version="MasterClass" />
 	<link pattern="LetterCollectData(_Classic(Aden)?)?.dat" file="lettercollectdata" version="PreludeOfWar2" />

@@ -28,4 +28,34 @@
 			<node name="country" reader="UCHAR" />
 		</for>
 	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="L2pass_reward" size="#data" hidden="false">
+			<node name="hunting_premium_cost" reader="UINT" />
+			<node name="advance_premium_cost" reader="UINT" />
+			<node name="pass_type" reader="UINT" />
+			<wrapper name="rewards">
+				<node name="reward_id" reader="UINT" />
+				<node name="count" reader="UINT" />
+			</wrapper>
+			<wrapper name="pa_rewards">
+				<node name="pa_reward_id" reader="UINT" />
+				<node name="pa_count" reader="UINT" />
+			</wrapper>
+			<node name="rew_1_type" reader="UINT" />
+			<wrapper name="rewards_add_1">
+				<node name="reward_id_1" reader="UINT" />
+				<node name="reward_count_1" reader="UINT" />
+			</wrapper>
+			<node name="rew_2_type" reader="UINT" />
+			<wrapper name="rewards_add_2">
+				<node name="reward_id_2" reader="UINT" />
+				<node name="reward_count_2" reader="UINT" />
+			</wrapper>
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="applycountry0" reader="UINT" />
+			</for>
+		</for>
+	</file>
 </list>
