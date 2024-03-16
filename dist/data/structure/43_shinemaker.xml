@@ -130,7 +130,7 @@
 	<link pattern="MobSkillAnimgrp(_Classic(Aden)?)?.dat" file="mobskillanimgrp" version="Helios" />
 	<link pattern="MonsterBook_client.dat" file="monsterbook_client" version="GrandCrusade" />
 	<link pattern="MSAffectData(_Classic(Aden)?)?.dat" file="msaffectdata" version="TheSourceOfFlame" />
-	<link pattern="MSConditionData(_Classic(Aden)?)?.dat" file="msconditiondata" version="AgeOfMagic" />
+	<link pattern="MSConditionData(_Classic(Aden)?)?.dat" file="msconditiondata" version="Shinemaker" />
 	<link pattern="MusicInfo(_Classic)?.dat" file="musicinfo" version="Helios" />
 	<link pattern="NewQuestData(_Classic(Aden)?)?-[\w]+\.dat" file="newquestdata" version="AgeOfMagic" />
 	<link pattern="NewQuestDialog(_Classic(Aden)?)?-[\w]+\.dat" file="newquestdialog" version="TheSourceOfFlame" />
