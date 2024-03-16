@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <list>
 	<enum name="localization_type">
 		<node index="-1" name="all" />

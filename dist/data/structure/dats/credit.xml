@@ -20,7 +20,7 @@
 			<node name="team" reader="CNTR" />
 			<for name="team" size="#team" hidden="false">
 				<node name="members" reader="CNTR" />
-				<for name="members" size="#members" >
+				<for name="members" size="#members">
 					<node name="name" reader="ASCF" />
 					<node name="comment" reader="ASCF" />
 				</for>

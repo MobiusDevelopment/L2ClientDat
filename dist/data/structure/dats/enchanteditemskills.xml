@@ -19,7 +19,7 @@
 		<node name="data" reader="UINT" />
 		<for name="enchanted_item_skill" size="#data" hidden="false">
 			<node name="item_id" reader="UINT" />
-			<write name="\r\n"/>
+			<write name="\r\n" />
 			<node name="desc" reader="CNTR" />
 			<for name="desc" size="#desc" hidden="false">
 				<node name="RequiredEnchant" reader="UBYTE" />
@@ -43,7 +43,7 @@
 		<node name="data" reader="UINT" />
 		<for name="enchanted_item_skill" size="#data" hidden="false">
 			<node name="item_id" reader="UINT" />
-			<write name="\r\n"/>
+			<write name="\r\n" />
 			<node name="desc" reader="CNTR" />
 			<for name="desc" size="#desc" hidden="false">
 				<node name="RequiredEnchant" reader="UBYTE" />

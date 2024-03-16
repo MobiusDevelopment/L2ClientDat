@@ -2,7 +2,7 @@
 <list>
 	<file pattern="ReturnOfTheQueenAnt" isSafePackage="true">
 		<for name="collectionmain" size="1" hidden="false">
-			<node name="data" reader="UINT"/>
+			<node name="data" reader="UINT" />
 			<write name="\r\n" />
 			<for name="collection" size="7" hidden="false">
 				<node name="main_id" reader="UINT" />
@@ -16,7 +16,7 @@
 	</file>
 	<file pattern="ReturnOfTheQueenAnt2" isSafePackage="true">
 		<for name="collectionmain" size="1" hidden="false">
-			<node name="data" reader="UINT"/>
+			<node name="data" reader="UINT" />
 			<write name="\r\n" />
 			<for name="collection" size="18" hidden="false">
 				<node name="main_id" reader="UINT" />
@@ -30,7 +30,7 @@
 	</file>
 	<file pattern="MasterClass" isSafePackage="true">
 		<for name="collectionmain" size="1" hidden="false">
-			<node name="data" reader="UINT"/>
+			<node name="data" reader="UINT" />
 			<write name="\r\n" />
 			<for name="collection" size="9" hidden="false">
 				<node name="main_id" reader="UINT" />
@@ -44,7 +44,7 @@
 	</file>
 	<file pattern="BattleChronicle" isSafePackage="true">
 		<for name="collectionmain" size="1" hidden="false">
-			<node name="data" reader="UINT"/>
+			<node name="data" reader="UINT" />
 			<write name="\r\n" />
 			<for name="collection" size="18" hidden="false">
 				<node name="main_id" reader="UINT" />
@@ -58,7 +58,7 @@
 	</file>
 	<file pattern="AgeOfMagic" isSafePackage="true">
 		<for name="collectionmain" size="1" hidden="false">
-			<node name="data" reader="UINT"/>
+			<node name="data" reader="UINT" />
 			<write name="\r\n" />
 			<for name="collection" size="#data" hidden="false">
 				<node name="main_id" reader="UINT" />

@@ -97,7 +97,7 @@
 				<node name="param_face_texture" reader="UNICODE" />
 			</for>
 
-			<for name="filler_01" size="360" hidden="true" >
+			<for name="filler_01" size="360" hidden="true">
 				<node name="filler_01_var" reader="UCHAR" />
 			</for>
 
@@ -201,7 +201,7 @@
 				<node name="param_boot_tab_byte2" reader="UCHAR" />
 			</for>
 
-			<for name="filler_02" size="90" hidden="true" >
+			<for name="filler_02" size="90" hidden="true">
 				<node name="filler_02_var" reader="UCHAR" />
 			</for>
 
@@ -304,7 +304,7 @@
 				<node name="param_face_texture" reader="UNICODE" />
 			</for>
 
-			<for name="filler_01" size="360" hidden="true" >
+			<for name="filler_01" size="360" hidden="true">
 				<node name="filler_01_var" reader="UCHAR" />
 			</for>
 			<node name="glove_mesh" reader="UINT" />
@@ -407,7 +407,7 @@
 				<node name="param_boot_tab_byte2" reader="UCHAR" />
 			</for>
 
-			<for name="filler_02" size="90" hidden="true" >
+			<for name="filler_02" size="90" hidden="true">
 				<node name="filler_02_var" reader="UCHAR" />
 			</for>
 
@@ -511,7 +511,7 @@
 				<node name="param_face_texture" reader="UNICODE" />
 			</for>
 		
-			<for name="filler_01" size="360" hidden="true" >
+			<for name="filler_01" size="360" hidden="true">
 				<node name="filler_01_var" reader="UCHAR" />
 			</for>
 
@@ -615,7 +615,7 @@
 				<node name="param_boot_tab_byte2" reader="UCHAR" />
 			</for>
 			
-			<for name="filler_02" size="90" hidden="true" >
+			<for name="filler_02" size="90" hidden="true">
 				<node name="filler_02_var" reader="UCHAR" />
 			</for>
 

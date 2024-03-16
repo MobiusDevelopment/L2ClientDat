@@ -236,7 +236,7 @@
 			<node name="hpshowable" reader="UINT" />
 
 			<node name="dialog_sound" reader="UINT" />
-			<for name="dialog_sound" size="#dialog_sound" >
+			<for name="dialog_sound" size="#dialog_sound">
 				<node name="param_dialog_sound" reader="ASCF" />
 			</for>
 			<node name="summon_sort" reader="UINT" />
@@ -306,7 +306,7 @@
 			<node name="hpshowable" reader="UINT" />
 
 			<node name="dialog_sound" reader="UINT" />
-			<for name="dialog_sound" size="#dialog_sound" >
+			<for name="dialog_sound" size="#dialog_sound">
 				<node name="param_dialog_sound" reader="ASCF" />
 			</for>
 			<wrapper name="unknown_3">

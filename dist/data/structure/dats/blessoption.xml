@@ -21,13 +21,13 @@
 	<file pattern="MasterClass3" isSafePackage="true">
 		<node name="data_count" reader="UINT" />
 		<for name="blessoption" size="#data_count" hidden="false">
-			<write name="\r\n"/>
+			<write name="\r\n" />
 			<node name="item_type" reader="UINT" enumName="bless_item_type" />
 			<node name="grade" reader="UCHAR" enumName="grade_type" />
-			<node name="unk_1" reader="UCHAR"/>
-			<node name="bodypart" reader="UCHAR" enumName="bodypart_v2_type"/>
-			<node name="wpn_type" reader="UCHAR" enumName="item_weapon_v2_type"/>
-			<write name="\r\n"/>
+			<node name="unk_1" reader="UCHAR" />
+			<node name="bodypart" reader="UCHAR" enumName="bodypart_v2_type" />
+			<node name="wpn_type" reader="UCHAR" enumName="item_weapon_v2_type" />
+			<write name="\r\n" />
 			<node name="effect_count" reader="CNTR" />
             <for name="effect" size="#effect_count">
                 <node name="OptionType" reader="UINT" enumName="blessoption_type" />
@@ -35,7 +35,7 @@
                 <node name="optiondesc_skillID" reader="UINT" />
                 <node name="optiondesc_skillLevel" reader="UINT" />
             </for>
-			<write name="\r\n"/>
+			<write name="\r\n" />
 		</for>
 	</file>
 </list>

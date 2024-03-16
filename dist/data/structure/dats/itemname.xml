@@ -291,7 +291,7 @@
 		<node name="data2" reader="CNTR" />
 		<for name="item_macro" size="#data2" hidden="false">
 			<node name="macro_id" reader="UINT" />
-			<node name="automatic_use" reader="UCHAR" />>
+			<node name="automatic_use" reader="UCHAR" />
 		</for>
 	</file>
 

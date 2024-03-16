@@ -13,7 +13,7 @@
 				<node name="item_id" reader="UINT" />
 				<node name="item_count" reader="UINT" />
 				<node name="item_chance" reader="FLOAT" />
-				<node name="item_rank" reader="UCHAR"/>
+				<node name="item_rank" reader="UCHAR" />
 			</for>
 			<wrapper name="limit_lv">
 				<node name="min_level" reader="USHORT" />

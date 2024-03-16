@@ -92,21 +92,21 @@
 		</for>
 	</file>
 	<file pattern="Epilogue" isSafePackage="true">
-		<node name="data" reader="UINT"/>
+		<node name="data" reader="UINT" />
 		<for name="item" size="#data" hidden="false">
-			<node name="tag" reader="UINT"/>
-			<node name="object_id" reader="UINT"/>
-			<node name="drop_type" reader="UINT"/>
-			<node name="drop_anim_type" reader="UINT"/>
-			<node name="drop_radius" reader="UINT"/>
-			<node name="drop_height" reader="UINT"/>
-			<node name="UNK_0" reader="UINT"/>
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
 			<for name="drop_texture" size="1">
-				<node name="drop_mesh1" reader="UNICODE"/>
-				<node name="drop_mesh2" reader="UNICODE"/>
-				<node name="drop_mesh3" reader="UNICODE"/>
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
 				<for name="drop_texture" size="4">
-					<node name="drop_texture" reader="UNICODE"/>
+					<node name="drop_texture" reader="UNICODE" />
 				</for>
 			</for>
 			<wrapper name="newdata">
@@ -204,21 +204,21 @@
 		</for>
 	</file>
 	<file pattern="Awakening" isSafePackage="true">
-		<node name="data" reader="UINT"/>
+		<node name="data" reader="UINT" />
 		<for name="item" size="#data" hidden="false">
-			<node name="tag" reader="UINT"/>
-			<node name="object_id" reader="UINT"/>
-			<node name="drop_type" reader="UINT"/>
-			<node name="drop_anim_type" reader="UINT"/>
-			<node name="drop_radius" reader="UINT"/>
-			<node name="drop_height" reader="UINT"/>
-			<node name="UNK_0" reader="UINT"/>
+			<node name="tag" reader="UINT" />
+			<node name="object_id" reader="UINT" />
+			<node name="drop_type" reader="UINT" />
+			<node name="drop_anim_type" reader="UINT" />
+			<node name="drop_radius" reader="UINT" />
+			<node name="drop_height" reader="UINT" />
+			<node name="UNK_0" reader="UINT" />
 			<for name="drop_texture" size="1">
-				<node name="drop_mesh1" reader="UNICODE"/>
-				<node name="drop_mesh2" reader="UNICODE"/>
-				<node name="drop_mesh3" reader="UNICODE"/>
+				<node name="drop_mesh1" reader="UNICODE" />
+				<node name="drop_mesh2" reader="UNICODE" />
+				<node name="drop_mesh3" reader="UNICODE" />
 				<for name="drop_texture" size="4">
-					<node name="drop_texture" reader="UNICODE"/>
+					<node name="drop_texture" reader="UNICODE" />
 				</for>
 			</for>
 			<wrapper name="newdata">
