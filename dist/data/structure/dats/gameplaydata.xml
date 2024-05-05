@@ -868,4 +868,319 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<for name="Game_play_data" size="1" hidden="false">
+			<write name="\r\n" />
+			<node name="raid_teleport_cost" reader="UINT" />
+			<write name="\r\n" />
+			<node name="raid_teleport_max_free_count" reader="UINT" />
+			<write name="\r\n" />
+			<node name="random_craft_item_lock_costs" reader="CNTR" />
+			<for name="random_craft_item_lock_costs" size="#random_craft_item_lock_costs">
+				<node name="random_craft_item_lock_costs_param1" reader="UINT" />
+				<node name="random_craft_item_lock_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="random_craft_item_making_costs" reader="CNTR" />
+			<for name="random_craft_item_making_costs" size="#random_craft_item_making_costs">
+				<node name="random_craft_item_making_costs_param1" reader="UINT" />
+				<node name="random_craft_item_making_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="random_craft_reset_costs" reader="CNTR" />
+			<for name="random_craft_reset_costs" size="#random_craft_reset_costs">
+				<node name="random_craft_reset_costs_param1" reader="UINT" />
+				<node name="random_craft_reset_costs_param2" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="random_craft_reward_items" reader="CNTR" />
+			<for name="random_craft_reward_items" size="#random_craft_reward_items">
+				<node name="random_craft_reward_items_param1" reader="UINT" />
+				<node name="random_craft_reward_items_param2" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="random_craft_max_gauge_value" reader="UINT" />
+			<write name="\r\n" />
+			<node name="random_craft_max_item_point" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="random_craft_max_slot_lock_count" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="random_craft_max_item_lock_count" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="random_craft_slot_success_rate" reader="CNTR" />
+			<for name="random_craft_slot_success_rate" size="#random_craft_slot_success_rate">
+				<node name="random_craft_slot_success_rate_param" reader="UCHAR" />
+			</for>
+			<write name="\r\n" />
+			<node name="random_craft_announce_items" reader="UINT" />
+			<for name="random_craft_announce_items" size="#random_craft_announce_items">
+				<node name="random_craft_announce_item_id" reader="UINT" />
+				<node name="random_craft_announce_item_type" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="shared_position_sharing_cost_lcoin" reader="UINT" />
+			<write name="\r\n" />
+			<node name="shared_position_using_cost_lcoin" reader="UINT" />
+			<write name="\r\n" />
+			<node name="shared_position_using_max_count" reader="UINT" />
+			<write name="\r\n" />
+			<node name="unk1" reader="CNTR" />
+			<for name="unk1" size="#unk1">
+				<node name="unk1_1" reader="CNTR" />
+				<node name="unk1_2" reader="CNTR" />
+			</for>
+			<write name="\r\n" />
+			<node name="max_elixir" reader="CNTR" />
+			<for name="max_elixir" size="#max_elixir">
+				<node name="max_elixir_itemid" reader="UINT" />
+				<node name="max_elixir_count1" reader="CNTR" />
+				<node name="max_elixir_count2" reader="CNTR" />
+			</for>
+			<write name="\r\n" />
+			<node name="PenaltyDropFakeItemDeleteTime" reader="UINT" />
+			<write name="\r\n" />
+			<node name="Magic_Lamp_Max_Charge" reader="CNTR" />
+			<for name="Magic_Lamp_Max_Charge" size="#Magic_Lamp_Max_Charge">
+				<node name="param_magic_lamp_max_charge_1" reader="UINT" />
+				<node name="param_magic_lamp_max_charge_2" reader="UINT" />
+				<node name="param_magic_lamp_max_charge_3" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+
+			<node name="Magic_Lamp_Normal_ResultItems" reader="CNTR" />
+			<for name="Magic_Lamp_Normal_ResultItems" size="#Magic_Lamp_Normal_ResultItems">
+				<node name="param_magic_lamp_normal_resultitems_item_id" reader="UINT" />
+				<node name="param_magic_lamp_normal_resultitems_exp" reader="UINT" />
+				<node name="param_magic_lamp_normal_resultitems_sp" reader="UINT" />
+				<node name="param_magic_lamp_normal_resultitems_prob" reader="FLOAT" />
+			</for>
+			<write name="\r\n" />
+			<node name="Magic_Lamp_Advanced_ResultItems" reader="CNTR" />
+			<for name="Magic_Lamp_Advanced_ResultItems" size="#Magic_Lamp_Advanced_ResultItems">
+				<node name="param_magic_lamp_advanced_resultitems_item_id" reader="UINT" />
+				<node name="param_magic_lamp_advanced_resultitems_exp" reader="UINT" />
+				<node name="param_magic_lamp_advanced_resultitems_sp" reader="UINT" />
+				<node name="param_magic_lamp_advanced_resultitems_prob" reader="FLOAT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonationSize" reader="CNTR" default="3" />
+			<node name="PledgeDonationType1" reader="UINT" default="0" />
+			<node name="PledgeDonation_Normal_PersonalRewards" reader="CNTR" />
+			<for name="PledgeDonation_Normal_PersonalRewards" size="#PledgeDonation_Normal_PersonalRewards">
+				<node name="PledgeDonation_Normal_PersonalRewardsItemId" reader="UINT" />
+				<node name="PledgeDonation_Normal_PersonalRewardsItemCount" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonation_Normal_PledgeRewards" reader="CNTR" />
+			<for name="PledgeDonation_Normal_PledgeRewards" size="#PledgeDonation_Normal_PledgeRewards">
+				<node name="PledgeDonation_Normal_PledgeRewardsItemId" reader="UINT" />
+				<node name="PledgeDonation_Normal_PledgeRewardsItemCount" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonation_Normal_DonationItemId" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PledgeDonation_Normal_DonationItemAmount" reader="LONG" />
+			<write name="\r\n" />
+			<node name="PledgeDonationType2" reader="UINT" default="1" />
+			<node name="PledgeDonation_Great_PersonalRewards" reader="CNTR" />
+			<for name="PledgeDonation_Great_PersonalRewards" size="#PledgeDonation_Great_PersonalRewards">
+				<node name="PledgeDonation_Great_PersonalRewardsItemId" reader="UINT" />
+				<node name="PledgeDonation_Great_PersonalRewardsItemCount" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonation_Great_PledgeRewards" reader="CNTR" />
+			<for name="PledgeDonation_Great_PledgeRewards" size="#PledgeDonation_Great_PledgeRewards">
+				<node name="PledgeDonation_Great_PledgeRewardsItemId" reader="UINT" />
+				<node name="PledgeDonation_Great_PledgeRewardsItemCount" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonation_Great_DonationItemId" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PledgeDonation_Great_DonationItemAmount" reader="LONG" />
+			<write name="\r\n" />
+
+			<node name="PledgeDonationSizeSkip" reader="UINT" default="2" />
+			<node name="PledgeDonation_Excellent_PersonalRewards" reader="CNTR" />
+			<for name="PledgeDonation_Excellent_PersonalRewards" size="#PledgeDonation_Excellent_PersonalRewards">
+				<node name="PledgeDonation_Excellent_PersonalRewardsItemId" reader="UINT" />
+				<node name="PledgeDonation_Excellent_PersonalRewardsItemCount" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonation_Excellent_PledgeRewards" reader="CNTR" />
+			<for name="PledgeDonation_Excellent_PledgeRewards" size="#PledgeDonation_Excellent_PledgeRewards">
+				<node name="PledgeDonation_Excellent_PledgeRewardsItemId" reader="UINT" />
+				<node name="PledgeDonation_Excellent_PledgeRewardsItemCount" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PledgeDonation_Excellent_DonationItemId" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PledgeDonation_Excellent_DonationItemAmount" reader="LONG" />
+			<write name="\r\n" />
+			<node name="pledge_enemy_delete_penalty_minute" reader="UINT" />
+			<node name="pledge_enemy_delete_cost_lcoin" reader="UINT" />
+			<write name="\r\n" />
+			<node name="Dethrone_ConnectCost" reader="CNTR" />
+			<for name="Dethrone_ConnectCost" size="#Dethrone_ConnectCost">
+				<node name="cost_Dethrone_ConnectCost_Id" reader="UINT" />
+				<node name="cost_Dethrone_ConnectCost_Count" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="Dethrone_ChangeNameCost" reader="CNTR" />
+			<for name="Dethrone_ChangeNameCost" size="#Dethrone_ChangeNameCost">
+				<node name="cost_Dethrone_ChangeNameCost_Id" reader="UINT" />
+				<node name="cost_Dethrone_ChangeNameCost_Count" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="NickNameIcon" reader="UINT" />
+			<for name="NickNameIcon" size="#NickNameIcon">
+				<node name="NickNameIcon_1" reader="MAP_INT" />
+			</for>
+			<write name="\r\n" />
+			<node name="balrogwar_level" reader="UINT" />
+			<write name="\r\n" />
+			<node name="balrogwar_min_player_pt" reader="UINT" />
+			<write name="\r\n" />
+			<node name="balrogwar_event_begin_pt" reader="UINT" />
+			<write name="\r\n" />
+			<node name="balrogwar_normal_1st_midboss_pt" reader="UINT" />
+			<write name="\r\n" />
+			<node name="balrogwar_normal_2nd_midboss_pt" reader="UINT" />
+			<write name="\r\n" />
+			<node name="balrogwar_normal_final_boss_pt" reader="UINT" />
+			<write name="\r\n" />
+			<node name="balrogwar_specail_final_boss_pt" reader="UINT" />
+			<write name="\r\n" />
+			<node name="world_exchange_regi_fee" reader="UINT" />
+			<write name="\r\n" />
+			<node name="world_exchange_max_sell_fee" reader="UINT" />
+			<write name="\r\n" />
+			<node name="world_exchange_sell_fee" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="world_exchange_useable_level" reader="UINT" />
+			<write name="\r\n" />
+			<node name="world_exchange_server_id" reader="CNTR" />
+			<for name="world_exchange_server_id" size="#world_exchange_server_id">
+				<node name="param_world_exchange_server_id" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="enchant_bless_matching_set" reader="CNTR" />
+			<for name="enchant_bless_matching_set" size="#enchant_bless_matching_set">
+				<node name="param_enchant_bless_matching_set_1" reader="UINT" />
+				<node name="param_enchant_bless_matching_set_2" reader="FLOAT" />
+				<node name="enchant_bless_matching_set_sub" reader="CNTR" />
+				<for name="enchant_bless_matching_set_sub" size="#enchant_bless_matching_set_sub">
+					<node name="param_enchant_bless_matching_set_sub" reader="UINT" />
+				</for>
+			</for>
+
+			<write name="\r\n" />
+			<node name="SiegePointPreAlarm" reader="CNTR" />
+			<for name="SiegePointPreAlarm" size="#SiegePointPreAlarm">
+				<node name="param_SiegePointPreAlarm" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="SiegePointAlarm" reader="CNTR" />
+			<for name="SiegePointAlarm" size="#SiegePointAlarm">
+				<node name="param_SiegePointAlarm" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="CouponSizeSkip" reader="CNTR" default="2" />
+			<node name="PrestigeCoupon_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PrestigeCoupon_CategoryData" reader="CNTR" />
+			<for name="PrestigeCoupon_CategoryData" size="#PrestigeCoupon_CategoryData">
+				<node name="param_PrestigeCoupon_CategoryData_Category" reader="UINT" />
+				<node name="param_PrestigeCoupon_CategoryData_SysStringId" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="PrestigeCoupon_TitleSysString_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PrestigeCoupon_DefaultMultisell_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PrestigeCoupon_ExtraMultisell_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="PrestigeCoupon_ExtraMultisell_Server" reader="CNTR" />
+			<for name="PrestigeCoupon_ExtraMultisell_Server" size="#PrestigeCoupon_ExtraMultisell_Server">
+				<node name="param_PrestigeCoupon_ExtraMultisell_Server_server_id" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="BlackCoupon_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="BlackCoupon_CategoryData" reader="CNTR" />
+			<for name="BlackCoupon_CategoryData" size="#BlackCoupon_CategoryData">
+				<node name="param_BlackCoupon_CategoryData_Category" reader="UINT" />
+				<node name="param_BlackCoupon_CategoryData_SysStringId" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="BlackCoupon_TitleSysString_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="BlackCoupon_DefaultMultisell_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="BlackCoupon_ExtraMultisell_Id" reader="UINT" />
+			<write name="\r\n" />
+			<node name="BlackCoupon_ExtraMultisell_Server" reader="CNTR" />
+			<for name="BlackCoupon_ExtraMultisell_Server" size="#BlackCoupon_ExtraMultisell_Server">
+				<node name="param_BlackCoupon_ExtraMultisell_Server_server_id" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="dis_slot_type" reader="SHORT" />
+			<node name="dis_slot_id" reader="SHORT" />
+			<node name="dis_slot_count" reader="UINT" />
+			<write name="\r\n" />
+			<node name="Attendance_Follow_Item_Id" reader="UINT" />
+			<node name="Attendance_Period" reader="ASCF" />
+			<node name="Attendance_Follow_Cost_Size" reader="UINT" />
+			<for name="Attendance_Follow_Cost" size="#Attendance_Follow_Cost_Size">
+				<node name="Attendance_Follow_Cost" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="relics_change_grade" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="relics_summon_effect_grade" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="relics_not_possible_combination" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="killLog_time" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="killLog_max" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="multiKillLog_time" reader="UCHAR" />
+			<write name="\r\n" />
+			<node name="multiKillLog_kills" reader="UCHAR" />
+			<for name="multiKillLog_kills" size="#multiKillLog_kills">
+				<node name="multiKillLog_kills1" reader="UCHAR" />
+			</for>
+			<write name="\r\n" />
+			<node name="serverwar_enemy_name_color" reader="RGBA" />
+			<write name="\r\n" />
+			<node name="serverwar_reward_min_point" reader="UINT" />
+			<write name="\r\n" />
+			<node name="serverwar_reward_item" reader="CNTR" />
+			<for name="serverwar_reward_item" size="#serverwar_reward_item">
+				<node name="item_id" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="serverwar_ranking_reward_prob" reader="CNTR" />
+			<for name="serverwar_ranking_reward_prob" size="#serverwar_ranking_reward_prob">
+				<node name="var" reader="UINT" />
+			</for>
+			<write name="\r\n" />
+			<node name="chat_Background_Texture" reader="UINT" />
+			<for name="chat_Background_Texture" size="#chat_Background_Texture">
+				<node name="chat_Background_Texture0" reader="MAP_INT" />
+			</for>
+			<write name="\r\n" />
+			<node name="collection_off_server_id" reader="UCHAR" />
+			<for name="collection_off_server_id" size="#collection_off_server_id">
+				<node name="collection_off_server_id1" reader="UCHAR" />
+			</for>
+			<write name="\r\n" />
+			<node name="dye_off_server_id" reader="UCHAR" />
+			<for name="dye_off_server_id" size="#dye_off_server_id">
+				<node name="dye_off_server_id1" reader="UCHAR" />
+			</for>
+			<write name="\r\n" />
+		</for>
+	</file>
 </list>

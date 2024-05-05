@@ -121,7 +121,7 @@
 	<link pattern="LevelUpItemBonusData(_Classic(Aden)?)?.dat" file="levelupitembonusdata" version="PreludeOfWar3" />
 	<link pattern="LinkedAnimData.dat" file="linkedanimdata" version="PreludeOfWar3" />
 	<link pattern="Localize(_Classic(Aden)?)?.dat" file="localize" version="PreludeOfWar3" />
-	<link pattern="Logongrp(_Classic(Aden)?)?.dat" file="logongrp" version="MasterClass3" />
+	<link pattern="Logongrp(_Classic(Aden)?)?.dat" file="logongrp" version="TheSourceOfFlame" />
 	<link pattern="LollyCubeData.dat" file="lollycubedata" version="Ertheia" />
 	<link pattern="mable_game(_Classic(Aden)?)?-[\w]+\.dat" file="mable_game" version="Homunculus" />
 	<link pattern="mable_game_event(_Classic(Aden)?)?-[\w]+\.dat" file="mable_game_event" version="Homunculus" />

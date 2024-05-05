@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue_Classic" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="lcoin_shop_category" size="#data" hidden="false">
+			<node name="id" reader="USHORT" />
+			<node name="string_id" reader="UINT" />
+			<node name="string_color" reader="UINT" />
+			<node name="ribbon_texture" reader="UINT" />
+			<node name="optional" reader="UINT" />
+			<node name="show_server" reader="UINT" />
+		</for>
+	</file>
+	<file pattern="PathOfRogue_Essence" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="lcoin_shop_category" size="#data" hidden="false">
+			<node name="id" reader="UBYTE" />
+			<node name="string_id" reader="UINT" />
+			<node name="string_color" reader="RGBA" />
+			<node name="ribbon_texture" reader="CNTR" />
+			<for name="ribbon_texture" size="#ribbon_texture">
+				<node name="ribbon_texture1" reader="MAP_INT" />
+			</for>
+			<node name="optional" reader="UBYTE" />
+			<node name="show_server" reader="UCHAR" />
+			<for name="show_server" size="#show_server">
+				<node name="show_server1" reader="UCHAR" />
+			</for>
+		</for>
+	</file>
+</list>

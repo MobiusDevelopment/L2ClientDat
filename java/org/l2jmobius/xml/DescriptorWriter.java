@@ -97,7 +97,7 @@ public class DescriptorWriter
 		{
 			final String lines = data.replace("\r\n", "\t");
 			final List<WriteData> writeData = new ArrayList<>();
-			packData(actionTask, actionTask.getWeightValue(30.0, weight), currentFile, crypter, writeData, lines, new HashMap<String, String>(), new HashMap<ParamNode, String>(), desc.getNodes(), mass);
+			packData(actionTask, actionTask.getWeightValue(30.0, weight), currentFile, crypter, writeData, lines, new HashMap<>(), new HashMap<>(), desc.getNodes(), mass);
 			if (actionTask.isCancelled())
 			{
 				return null;

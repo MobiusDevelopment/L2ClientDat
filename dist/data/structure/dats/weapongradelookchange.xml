@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapongradelookchange" size="#data" hidden="false">
+			<node name="class" reader="MAP_INT" />
+			<node name="unk1" reader="CNTR" />
+			<for name="ChangeByWeaponID" size="#unk1">
+				<node name="unk2" reader="UINT" />
+				<node name="unk3" reader="UINT" />
+			</for>
+			<node name="unk4" reader="CNTR" />
+			<for name="ChangeByGrade" size="#unk4">
+				<node name="unk5" reader="UBYTE" />
+				<node name="unk6" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="popupevent_begin" size="#data" hidden="false">
+			<node name="id" reader="USHORT" />
+			<node name="teleport_id" reader="USHORT" />
+			<node name="type" reader="UBYTE" />
+			<node name="title_stringid" reader="UINT" />
+			<node name="field_stringid" reader="UINT" />
+			<node name="desc_stringid" reader="UINT" />
+			<node name="popup_texture" reader="ASCF" />
+			<node name="hud_texture" reader="ASCF" />
+			<node name="hud_over_texture" reader="ASCF" />
+			<node name="hud_push_texture" reader="ASCF" />
+		</for>
+	</file>
+</list>

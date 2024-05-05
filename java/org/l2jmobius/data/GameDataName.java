@@ -188,6 +188,7 @@ public class GameDataName
 			if (!mass && !_names.containsKey(index) && _currDataNameFile.exists())
 			{
 				L2ClientDat.addLogConsole("GameDataName: Not found string for index: " + index, true);
+				return "[None]";
 			}
 			
 			final String val = _names.getOrDefault(index, "<StrID:" + index + ">");

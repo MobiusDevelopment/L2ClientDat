@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="cardselect" size="#data" hidden="false">
+			<node name="stage_count" reader="UBYTE" />
+			<node name="boss_id" reader="UBYTE" />
+			<node name="daily_low_fee_count" reader="UBYTE" />
+			<node name="stage_list" reader="CNTR" />
+			<for name="stage_list" size="#stage_list">
+				<node name="stage" reader="USHORT" />
+				<node name="stage_flag" reader="UBYTE" />
+			</for>
+			<node name="open_fee" reader="CNTR" />
+			<for name="open_fee" size="#open_fee">
+				<node name="stage_fee" reader="UBYTE" />
+				<node name="item_id" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+			</for>
+			<node name="unk" reader="CNTR" />
+			<for name="unk" size="#unk">
+				<node name="unk1" reader="USHORT" />
+				<node name="unk2" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
+</list>

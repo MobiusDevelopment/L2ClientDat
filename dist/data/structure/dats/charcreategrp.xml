@@ -160,4 +160,50 @@
 			<node name="class" reader="UBYTE" />
 		</for>
 	</file>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<for name="Char" size="92" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="back" reader="UINT" />
+			<node name="npcid" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+			<node name="NPCIntroAnimName" reader="MAP_INT" />
+			<node name="NPCIntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<for name="Char" size="94" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="chest" reader="UINT" />
+			<node name="legs" reader="UINT" />
+			<node name="gloves" reader="UINT" />
+			<node name="feet" reader="UINT" />
+			<node name="rhand" reader="UINT" />
+			<node name="lhand" reader="UINT" />
+			<node name="back" reader="UINT" />
+			<node name="npcid" reader="UINT" />
+			<node name="IntroAnimName" reader="MAP_INT" />
+			<node name="IntroWaitAnimName" reader="MAP_INT" />
+			<node name="NPCIntroAnimName" reader="MAP_INT" />
+			<node name="NPCIntroWaitAnimName" reader="MAP_INT" />
+		</for>
+		<node name="unk_size" reader="UBYTE" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="class" reader="UBYTE" />
+		</for>
+	</file>
 </list>

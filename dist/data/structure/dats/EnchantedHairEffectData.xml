@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="Enchanted_Hair_Effect" size="#data" hidden="false">
+			<node name="ID" reader="UINT" />
+			<node name="size" reader="CNTR" />
+			<for name="Enchanted" size="#size">
+				<node name="Start_Enchanted_Value" reader="UINT" />
+				<node name="Effect_Name" reader="MAP_INT" />
+				<node name="Effect_Socket" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
+</list>

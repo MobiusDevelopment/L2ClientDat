@@ -120,4 +120,27 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<for name="faceEx" size="23" hidden="false">
+			<write name="\r\n" />
+			<node name="data" reader="UINT" />
+			<for name="SubFaceEx" size="#data" hidden="false">
+				<node name="class_name" reader="UINT" />
+				<node name="id" reader="UINT" />
+				<node name="is_event" reader="UINT" />
+				<!-- TODO: check -->
+				<node name="is_new" reader="UINT" />
+				<!-- TODO: check -->
+				<node name="enable" reader="UINT" />
+				<!-- TODO: check -->
+				<node name="sorting_order" reader="UINT" />
+				<!-- TODO: check -->
+				<node name="face_mesh" reader="MAP_INT" />
+				<node name="icon_name" reader="MAP_INT" />
+				<node name="face_texture" reader="MAP_INT" />
+				<node name="beard_mesh" reader="MAP_INT" />
+				<node name="beard_texture" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
 </list>

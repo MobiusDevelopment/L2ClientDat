@@ -25,10 +25,12 @@
 	<link pattern="ArtifactUpgrade.dat" file="artifactupgrade" version="EtinasFate" />
 	<link pattern="BlessOption(_Classic(Aden)?)?.dat" file="blessoption" version="MasterClass3" />
 	<link pattern="CardCollectData(_Classic)?-[\w]+\.dat" file="cardcollectdata" version="EtinasFate" />
+	<link pattern="cardselect(_Classic(Aden)?)?.dat" file="cardselect" version="Shinemaker" />
+	<link pattern="cardselect_stage(_Classic)?-[\w]+\.dat" file="cardselect_stage" version="Shinemaker" />
 	<link pattern="Castlename(_Classic)?-[\w]+\.dat" file="castlename" version="GrandCrusade" />
 	<link pattern="CharacterAbility(_Classic(Aden)?)?-[\w]+\.dat" file="characterability" version="MasterClass" />
 	<link pattern="CharacterInitialStatExData.dat" file="characterinitialstatexdata" version="Salvation" />
-	<link pattern="Charcreategrp(_Classic)?.dat" file="charcreategrp" version="TheSourceOfFlame" />
+	<link pattern="Charcreategrp(_Classic)?.dat" file="charcreategrp" version="Shinemaker" />
 	<link pattern="Chargrp(_Classic)?.dat" file="chargrp" version="MasterClass2" />
 	<link pattern="CharHeadExgrp.dat" file="charheadexgrp" version="MasterClass3" />
 	<link pattern="ClassInfo(_Classic(Aden)?)?-[\w]+\.dat" file="classinfo" version="GrandCrusade" />
@@ -120,7 +122,7 @@
 	<link pattern="LevelUpItemBonusData(_Classic(Aden)?)?.dat" file="levelupitembonusdata" version="PreludeOfWar3" />
 	<link pattern="LinkedAnimData.dat" file="linkedanimdata" version="PreludeOfWar3" />
 	<link pattern="Localize(_Classic(Aden)?)?.dat" file="localize" version="PreludeOfWar3" />
-	<link pattern="Logongrp(_Classic(Aden)?)?.dat" file="logongrp" version="MasterClass3" />
+	<link pattern="Logongrp(_Classic(Aden)?)?.dat" file="logongrp" version="Shinemaker" />
 	<link pattern="LollyCubeData.dat" file="lollycubedata" version="Ertheia" />
 	<link pattern="mable_game(_Classic(Aden)?)?-[\w]+\.dat" file="mable_game" version="Homunculus" />
 	<link pattern="mable_game_event(_Classic(Aden)?)?-[\w]+\.dat" file="mable_game_event" version="Homunculus" />
@@ -164,6 +166,7 @@
 	<link pattern="PrisonData.dat" file="prisondata" version="MasterClass3" />
 	<link pattern="ProductName(_Classic(Aden)?)?-[\w]+\.dat" file="productname" version="Helios" />
 	<link pattern="PurchaseLimitCraft(_Classic(Aden)?)?-[\w]+\.dat" file="purchaselimitcraft" version="Shinemaker" />
+	<link pattern="PurchaseLimitCraftCategory(_Classic(Aden)?)?.dat" file="purchaselimitcraftcategory" version="Shinemaker" />
 	<link pattern="PvpbookRequiredItem(_Classic(Aden)?)?.dat" file="pvpbookrequireditem" version="PreludeOfWar2" />
 	<link pattern="QuestMarkConditionData(_Classic)?.dat" file="questmarkconditiondata" version="Awakening" />
 	<link pattern="QuestName(_Classic(Aden)?)?-[\w]+\.dat" file="questname" version="Fafurion" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="abnormal_relation_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="default_id" reader="UINT" />
+			<node name="enemy_abnormal_id" reader="UINT" />
+			<node name="doppelgangger_abnormal_id" reader="UINT" />
+		</for>
+	</file>
+</list>

@@ -177,4 +177,49 @@
 			</if>
 		</for>
 	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="onedayreward" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="reward_id" reader="UINT" />
+			<node name="reward_name" reader="ASCF" />
+			<node name="reward_item" reader="UINT" />
+			<node name="reward_desc" reader="ASCF" />
+			<node name="reward_period" reader="ASCF" />
+			<node name="class_filter" reader="CNTR" />
+			<for name="class_filter" size="#class_filter">
+				<node name="classID" reader="UINT" enumName="class" />
+			</for>
+			<node name="reset_period" reader="UINT" enumName="onedayreward_reset_period" />
+			<node name="condition_count" reader="UINT" />
+			<node name="condition_level" reader="UINT" />
+			<wrapper name="can_condition_level">
+				<node name="level_min" reader="UINT" />
+				<node name="level_max" reader="UINT" />
+				<node name="condition_type" reader="UINT" enumName="onedayreward_condition_level" />
+			</wrapper>
+			<node name="targetloc_scale" reader="UINT" />
+			<node name="can_condition_day" reader="CNTR" />
+			<for name="can_condition_day" size="#can_condition_day">
+				<node name="day" reader="UINT" enumName="onedayreward_day" />
+			</for>
+			<node name="category" reader="UINT" enumName="onedayreward_category" />
+			<node name="check_type" reader="UBYTE" enumName="onedayreward_check_type" />
+			<node name="server_range" reader="UBYTE" />
+			<node name="show_server" reader="UCHAR" />
+			<for name="show_server" size="#show_server">
+				<node name="show_server1" reader="UCHAR" />
+			</for>
+			<for name="reward_item" size="#reward_item">
+				<node name="param_reward_item_id" reader="UINT" />
+				<node name="param_reward_item_count" reader="UINT" />
+			</for>
+			<if name="check_1" param="#targetloc_scale" val="1">
+				<node name="loc_x" reader="FLOAT" />
+				<node name="loc_y" reader="FLOAT" />
+				<node name="loc_z" reader="FLOAT" />
+				<node name="loc_radius" reader="FLOAT" />
+			</if>
+		</for>
+	</file>
 </list>

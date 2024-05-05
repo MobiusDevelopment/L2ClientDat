@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<for name="Enchant_extract_data" size="1" hidden="false">
+			<node name="unk1" reader="UBYTE" />
+			<node name="data" reader="UINT" />
+			<for name="skill_enchant_setting_extract" size="#data" hidden="false">
+				<node name="extract_grade" reader="UBYTE" />
+				<node name="extract_sublevel" reader="USHORT" />
+				<node name="success_item_id" reader="UINT" />
+				<node name="unk2" reader="CNTR" />
+				<for name="extract_item_list" size="#unk2">
+					<node name="unk3" reader="UINT" />
+					<node name="unk4" reader="UINT" />
+					<node name="unk5" reader="LONG" />
+					<node name="unk6" reader="UINT" />
+				</for>
+			</for>
+			<node name="data1" reader="UINT" />
+			<for name="skill_enchant_setting_coupon" size="#data1" hidden="false">
+				<node name="coupon_grade" reader="UBYTE" />
+				<node name="coupon_sublevel" reader="USHORT" />
+				<node name="unk7" reader="CNTR" />
+				<for name="target_enchant_item_list" size="#unk7">
+					<node name="unk8" reader="UINT" />
+					<node name="unk9" reader="UINT" />
+					<node name="unk10" reader="LONG" />
+				</for>
+			</for>
+		</for>
+	</file>
+</list>

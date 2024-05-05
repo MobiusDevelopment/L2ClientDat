@@ -250,4 +250,61 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="ride_data" size="#data" hidden="false">
+			<node name="ride_type" reader="UINT" />
+			<node name="ride_npc_id" reader="UINT" />
+			<node name="attach_bone_name" reader="MAP_INT" />
+			<node name="mfighter_loc" reader="LOC" />
+			<node name="ffighter_loc" reader="LOC" />
+			<node name="mmagic_loc" reader="LOC" />
+			<node name="fmagic_loc" reader="LOC" />
+			<node name="melf_loc" reader="LOC" />
+			<node name="felf_loc" reader="LOC" />
+			<node name="mdarkelf_loc" reader="LOC" />
+			<node name="fdarkelf_loc" reader="LOC" />
+			<node name="mdwarf_loc" reader="LOC" />
+			<node name="fdwarf_loc" reader="LOC" />
+			<node name="morc_loc" reader="LOC" />
+			<node name="forc_loc" reader="LOC" />
+			<node name="mshaman_loc" reader="LOC" />
+			<node name="fshaman_loc" reader="LOC" />
+			<node name="mkamael_loc" reader="LOC" />
+			<node name="fkamael_loc" reader="LOC" />
+			<node name="mertheia_loc" reader="LOC" />
+			<node name="fertheia_loc" reader="LOC" />
+			<node name="msylph_loc" reader="LOC" />
+			<node name="fsylph_loc" reader="LOC" />
+			<node name="mHighElf_loc" reader="LOC" />
+			<node name="fHighElf_loc" reader="LOC" />
+			<node name="empty_loc" reader="LOC" />
+			<node name="mfighter_rot" reader="ROT" />
+			<node name="ffighter_rot" reader="ROT" />
+			<node name="mmagic_rot" reader="ROT" />
+			<node name="fmagic_rot" reader="ROT" />
+			<node name="melf_rot" reader="ROT" />
+			<node name="felf_rot" reader="ROT" />
+			<node name="mdarkelf_rot" reader="ROT" />
+			<node name="fdarkelf_rot" reader="ROT" />
+			<node name="mdwarf_rot" reader="ROT" />
+			<node name="fdwarf_rot" reader="ROT" />
+			<node name="morc_rot" reader="ROT" />
+			<node name="forc_rot" reader="ROT" />
+			<node name="mshaman_rot" reader="ROT" />
+			<node name="fshaman_rot" reader="ROT" />
+			<node name="mkamael_rot" reader="ROT" />
+			<node name="fkamael_rot" reader="ROT" />
+			<node name="mertheia_rot" reader="ROT" />
+			<node name="fertheia_rot" reader="ROT" />
+			<node name="msylph_rot" reader="ROT" />
+			<node name="fsylph_rot" reader="ROT" />
+			<node name="mHighElf_rot" reader="ROT" />
+			<node name="fHighElf_rot" reader="ROT" />
+			<node name="empty_rot" reader="ROT" />
+			<for name="nameoffset" size="23">
+				<node name="param_nameoffset" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
 </list>

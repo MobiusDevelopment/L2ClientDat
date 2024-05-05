@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="level_ambience" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="map_x" reader="UINT" />
+			<node name="map_y" reader="UINT" />
+			<node name="default_state" reader="UINT" />
+			<node name="state" reader="UINT" />
+		</for>
+	</file>
+</list>

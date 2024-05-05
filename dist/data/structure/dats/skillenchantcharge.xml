@@ -28,4 +28,19 @@
 			<node name="group_id" reader="UBYTE" />
 		</for>
 	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill_enchant_charge" size="#data" hidden="false">
+			<node name="group_item" reader="UINT" />
+			<node name="exp_grade" reader="UINT" />
+			<for name="exp_grade" size="#exp_grade">
+				<node name="id" reader="UBYTE" />
+				<node name="count" reader="UINT" />
+				<node name="count2" reader="UINT" />
+			</for>
+			<node name="commission_item_id" reader="UINT" />
+			<node name="group_id" reader="UBYTE" />
+			<node name="target_level" reader="SHORT" />
+		</for>
+	</file>
 </list>

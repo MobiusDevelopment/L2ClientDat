@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <keys>
 	<key name="v111_original" code="111" type="xor" decrypt="false" useStructure="false" extension="htm;ukx;usx;uax;unr;uix" key="172" />
 	<key name="v111_original" code="111" type="xor" decrypt="true" useStructure="false" extension="htm;ukx;usx;uax;unr;uix" key="172" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="weapon_group" size="#data" hidden="false">
+			<node name="name" reader="ASCF" />
+			<node name="item_group" reader="CNTR" />
+			<for name="item_group" size="#item_group">
+				<node name="item_group_id" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

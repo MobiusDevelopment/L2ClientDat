@@ -6,6 +6,7 @@
 	<link pattern="AbnormalAgathion.dat" file="abnormalagathion" version="PreludeOfWar" />
 	<link pattern="AbnormalDefaultEffect(_Classic(Aden)?)?.dat" file="abnormaldefaulteffect" version="MasterClass2" />
 	<link pattern="AbnormalEdgeEffectData\.dat" file="abnormaledgeeffectdata" version="MasterClass2" />
+	<link pattern="AbnormalRelationEffect.dat" file="abnormalrelationeffect" version="PathOfRogue" />
 	<link pattern="ActionName(_Classic(Aden)?)?-[\w]+\.dat" file="actionname" version="PreludeOfWar3" />
 	<link pattern="AdditionalEffect(_Classic)?.dat" file="additionaleffect" version="TheSourceOfFlame" />
 	<link pattern="AdditionalItemGrp(_Classic(Aden)?)?.dat" file="additionalitemgrp" version="Helios" />
@@ -25,16 +26,18 @@
 	<link pattern="ArtifactUpgrade.dat" file="artifactupgrade" version="EtinasFate" />
 	<link pattern="BlessOption(_Classic(Aden)?)?.dat" file="blessoption" version="MasterClass3" />
 	<link pattern="CardCollectData(_Classic)?-[\w]+\.dat" file="cardcollectdata" version="EtinasFate" />
+	<link pattern="cardselect(_Classic(Aden)?)?.dat" file="cardselect" version="Shinemaker" />
+	<link pattern="cardselect_stage(_Classic)?-[\w]+\.dat" file="cardselect_stage" version="PathOfRogue" />
 	<link pattern="Castlename(_Classic)?-[\w]+\.dat" file="castlename" version="GrandCrusade" />
 	<link pattern="CharacterAbility(_Classic(Aden)?)?-[\w]+\.dat" file="characterability" version="MasterClass" />
 	<link pattern="CharacterInitialStatExData.dat" file="characterinitialstatexdata" version="Salvation" />
-	<link pattern="Charcreategrp(_Classic)?.dat" file="charcreategrp" version="TheSourceOfFlame" />
-	<link pattern="Chargrp(_Classic)?.dat" file="chargrp" version="MasterClass2" />
+	<link pattern="Charcreategrp(_Classic)?.dat" file="charcreategrp" version="PathOfRogue" />
+	<link pattern="Chargrp(_Classic)?.dat" file="chargrp" version="PathOfRogue" />
 	<link pattern="CharHeadExgrp.dat" file="charheadexgrp" version="MasterClass3" />
 	<link pattern="ClassInfo(_Classic(Aden)?)?-[\w]+\.dat" file="classinfo" version="GrandCrusade" />
 	<link pattern="ClassTree(_Classic)?.dat" file="classtree" version="PreludeOfWar" />
 	<link pattern="ClassTreeDesc(_Classic)?-[\w]+\.dat" file="classtreedesc" version="PreludeOfWar" />
-	<link pattern="collection(_Classic(Aden)?)?-[\w]+\.dat" file="collection" version="MasterClass2" />
+	<link pattern="collection(_Classic(Aden)?)?-[\w]+\.dat" file="collection" version="PathOfRogue" />
 	<link pattern="collectionmain(_Classic(Aden)?)?.dat" file="collectionmain" version="AgeOfMagic" />
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="Valiance" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="Helios" />
@@ -64,6 +67,7 @@
 	<link pattern="EnchantedCloakEffectData_Classic.dat" file="enchantedcloakeffect" version="MasterClass" />
 	<link pattern="EnchantedItemSkills(_Classic(Aden)?)?-[\w]+\.dat" file="enchanteditemskills" version="MasterClass2" />
 	<link pattern="EnchantedWeaponFlowEffectData(_Classic(Aden)?)?.dat" file="enchantedweaponfloweffectdata" version="Homunculus" />
+	<link pattern="EnchantedHairEffectData(_Classic(Aden)?)?.dat" file="EnchantedHairEffectData" version="PathOfRogue" />
 	<link pattern="EnchantScrollSet(_Classic(Aden)?)?.dat" file="enchantscrollset" version="AgeOfMagic" />
 	<link pattern="EnchantStatBonus(_Classic(Aden)?)?.dat" file="enchantstatbonus" version="Ertheia" />
 	<link pattern="EnchantValidate(_Classic(Aden)?)?.dat" file="enchantvalidate" version="MasterClass2" />
@@ -81,27 +85,27 @@
 	<link pattern="EventHtml(_Classic(Aden)?)?-[\w]+\.dat" file="eventhtml" version="MasterClass" />
 	<link pattern="EventLookChange.dat" file="eventlookchange" version="TheSourceOfFlame" />
 	<link pattern="ExceptionMinimapData(_Classic(Aden)?)?.dat" file="exceptionminimapdata" version="Lindvior" />
-	<link pattern="faceexgrp.dat" file="faceexgrp" version="MasterClass" />
+	<link pattern="faceexgrp.dat" file="faceexgrp" version="PathOfRogue" />
 	<link pattern="faceExName-[\w]+\.dat" file="faceexname" version="Helios" />
 	<link pattern="FactionName-[\w]+\.dat" file="factionname" version="GrandCrusade" />
 	<link pattern="FlashConfig.dat" file="flashconfig" version="Awakening" />
 	<link pattern="flymovename(_Classic)?-[\w]+\.dat" file="flymovename" version="Awakening" />
 	<link pattern="FullArmorEnchantEffectData.dat" file="fullarmorenchanteffectdata" version="Valiance" />
 	<link pattern="GameDataBase(_Classic)?-[\w]+\.dat" file="gamedatabase" version="Helios" />
-	<link pattern="GamePlayData(_Classic(Aden)?)?.dat" file="gameplaydata" version="AgeOfMagic" />
+	<link pattern="GamePlayData(_Classic(Aden)?)?.dat" file="gameplaydata" version="PathOfRogue" />
 	<link pattern="GameTip(_Classic)?-[\w]+\.dat" file="gametip" version="Helios" />
 	<link pattern="GCShop(_Classic(Aden)?)?.dat" file="gcshop" version="PreludeOfWar2" />
 	<link pattern="GeneralEffectName.dat" file="generaleffectname" version="PreludeOfWar3" />
 	<link pattern="goodsicon.dat" file="goodsicon" version="Helios" />
 	<link pattern="Hairaccessorylocgrp(_Classic)?.dat" file="hairaccessorylocgrp" version="Helios" />
-	<link pattern="hairexgrp.dat" file="hairexgrp" version="MasterClass" />
+	<link pattern="hairexgrp.dat" file="hairexgrp" version="PathOfRogue" />
 	<link pattern="hairExName-[\w]+\.dat" file="hairexname" version="Helios" />
 	<link pattern="Hennagrp(_Classic(Aden)?)?-[\w]+\.dat" file="hennagrp" version="AgeOfMagic" />
 	<link pattern="Hero_Book.dat" file="herobook" version="AgeOfMagic" />
-	<link pattern="HomunCreate.dat" file="homuncreate" version="Homunculus" />
+	<link pattern="HomunCreate.dat" file="homuncreate" version="PathOfRogue" />
 	<link pattern="HomunEnchant.dat" file="homunenchant" version="Homunculus" />
 	<link pattern="HomunList.dat" file="homunlist" version="ReturnOfTheQueenAnt" />
-	<link pattern="HomunNpc.dat" file="homunnpc" version="MasterClass3" />
+	<link pattern="HomunNpc.dat" file="homunnpc" version="PathOfRogue" />
 	<link pattern="HomunNpcLevel.dat" file="homunnpclevel" version="Homunculus" />
 	<link pattern="homunslot.dat" file="homunslot" version="ReturnOfTheQueenAnt" />
 	<link pattern="HuntingZone(_Classic(Aden)?)?-[\w]+\.dat" file="huntingzone" version="MasterClass" />
@@ -115,18 +119,21 @@
 	<link pattern="L2PassAdvance(_Classic(Aden)?)?-[\w]+\.dat" file="l2passadvance" version="MasterClass" />
 	<link pattern="L2PassReward(_Classic(Aden)?)?.dat" file="l2passreward" version="TheSourceOfFlame" />
 	<link pattern="LCoinShopBanner(_Classic(Aden)?)?.dat" file="lcoinshopbanner" version="TheSourceOfFlame" />
+	<link pattern="LCoinShopCategory_Classic.dat" file="lcoinshopcategory" version="PathOfRogue_Classic" />
+	<link pattern="LCoinShopCategory_ClassicAden.dat" file="lcoinshopcategory" version="PathOfRogue_Essence" />
 	<link pattern="LCoinShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="lcoinshopproduct" version="Shinemaker" />
 	<link pattern="LetterCollectData(_Classic(Aden)?)?.dat" file="lettercollectdata" version="PreludeOfWar2" />
+	<link pattern="LevelAmbience(_Classic(Aden)?)?.dat" file="levelambience" version="PathOfRogue" />
 	<link pattern="LevelUpItemBonusData(_Classic(Aden)?)?.dat" file="levelupitembonusdata" version="PreludeOfWar3" />
 	<link pattern="LinkedAnimData.dat" file="linkedanimdata" version="PreludeOfWar3" />
 	<link pattern="Localize(_Classic(Aden)?)?.dat" file="localize" version="PreludeOfWar3" />
-	<link pattern="Logongrp(_Classic(Aden)?)?.dat" file="logongrp" version="MasterClass3" />
+	<link pattern="Logongrp(_Classic(Aden)?)?.dat" file="logongrp" version="PathOfRogue" />
 	<link pattern="LollyCubeData.dat" file="lollycubedata" version="Ertheia" />
 	<link pattern="mable_game(_Classic(Aden)?)?-[\w]+\.dat" file="mable_game" version="Homunculus" />
 	<link pattern="mable_game_event(_Classic(Aden)?)?-[\w]+\.dat" file="mable_game_event" version="Homunculus" />
 	<link pattern="mantleexception.dat" file="mantleexception" version="Helios" />
 	<link pattern="MinimapRegion(_Classic(Aden)?)?.dat" file="minimapregion" version="GrandCrusade" />
-	<link pattern="MissionLevel(_Classic(Aden)?)?.dat" file="missionlevel" version="MasterClass2" />
+	<link pattern="MissionLevel(_Classic(Aden)?)?.dat" file="missionlevel" version="PathOfRogue" />
 	<link pattern="MobSkillAnimgrp(_Classic(Aden)?)?.dat" file="mobskillanimgrp" version="Helios" />
 	<link pattern="MonsterBook_client.dat" file="monsterbook_client" version="GrandCrusade" />
 	<link pattern="MSAffectData(_Classic(Aden)?)?.dat" file="msaffectdata" version="TheSourceOfFlame" />
@@ -143,7 +150,7 @@
 	<link pattern="NPCTeleporter(_Classic)?.dat" file="npcteleporter" version="Ertheia" />
 	<link pattern="nservice_topping_buff(_Classic)?.dat" file="nservice_topping_buff" version="Helios" />
 	<link pattern="obscene-[\w]+\.dat" file="obscene" version="ScionsOfDestiny" />
-	<link pattern="OneDayReward(_Classic(Aden)?)?-[\w]+\.dat" file="onedayreward" version="MasterClass" />
+	<link pattern="OneDayReward(_Classic(Aden)?)?-[\w]+\.dat" file="onedayreward" version="PathOfRogue" />
 	<link pattern="optiondata_client(_Classic(Aden)?)?-[\w]+\.dat" file="optiondata_client" version="ScionsOfDestiny" />
 	<link pattern="PawnAnimData(_Classic)?.dat" file="pawnanimdata" version="Helios" />
 	<link pattern="Pet_Extract(_Classic(Aden)?)?.dat" file="petextract" version="Homunculus2" />
@@ -160,10 +167,12 @@
 	<link pattern="PledgeMasteryInfo-[\w]+\.dat" file="pledgemasteryinfo" version="Salvation" />
 	<link pattern="PledgeMission-[\w]+\.dat" file="pledgemission" version="Salvation" />
 	<link pattern="PledgeShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="pledgeshopproduct" version="ReturnOfTheQueenAnt2" />
+	<link pattern="PopupEvent(_Classic(Aden)?)?.dat" file="popupevent" version="PathOfRogue" />
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="Helios" />
 	<link pattern="PrisonData.dat" file="prisondata" version="MasterClass3" />
 	<link pattern="ProductName(_Classic(Aden)?)?-[\w]+\.dat" file="productname" version="Helios" />
 	<link pattern="PurchaseLimitCraft(_Classic(Aden)?)?-[\w]+\.dat" file="purchaselimitcraft" version="Shinemaker" />
+	<link pattern="PurchaseLimitCraftCategory(_Classic(Aden)?)?.dat" file="purchaselimitcraftcategory" version="PathOfRogue" />
 	<link pattern="PvpbookRequiredItem(_Classic(Aden)?)?.dat" file="pvpbookrequireditem" version="PreludeOfWar2" />
 	<link pattern="QuestMarkConditionData(_Classic)?.dat" file="questmarkconditiondata" version="Awakening" />
 	<link pattern="QuestName(_Classic(Aden)?)?-[\w]+\.dat" file="questname" version="Fafurion" />
@@ -173,20 +182,21 @@
 	<link pattern="Recipe(_Classic(Aden)?)?.dat" file="recipe" version="Ertheia" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="Lindvior" />
 	<link pattern="relics_collection(_Classic(Aden)?)?-[\w]+\.dat" file="relicscollection" version="Shinemaker" />
-	<link pattern="relics_main.dat" file="relicsmain" version="Shinemaker" />
+	<link pattern="relics_main.dat" file="relicsmain" version="PathOfRogue" />
 	<link pattern="relics_playdata.dat" file="relicsplaydata" version="Shinemaker" />
 	<link pattern="ReplaceSkillIcon(_Classic(Aden)?)?.dat" file="replaceskillicon" version="AgeOfMagic" />
-	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="ReturnOfTheQueenAnt" />
+	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="PathOfRogue" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="Helios" />
 	<link pattern="servername-[\w]+\.dat" file="servername" version="MasterClass2" />
 	<link pattern="SetItemGrp(_Classic(Aden)?)?-[\w]+\.dat" file="setitemgrp" version="Valiance" />
 	<link pattern="ShortcutAlias(_Classic)?.dat" file="shortcutalias" version="Epilogue" />
 	<link pattern="ShuttleData(_Classic)?.dat" file="shuttledata" version="Helios" />
 	<link pattern="SkillAcquire(_Classic(Aden)?)?.dat" file="skillacquire" version="AgeOfMagic" />
-	<link pattern="SkillEnchantCharge(_Classic(Aden)?)?.dat" file="skillenchantcharge" version="AgeOfMagic" />
+	<link pattern="SkillEnchantCharge(_Classic(Aden)?)?.dat" file="skillenchantcharge" version="PathOfRogue" />
+	<link pattern="SkillEnchantSetting(_Classic(Aden)?)?.dat" file="SkillEnchantSetting" version="PathOfRogue" />
 	<link pattern="Skillgrp(_Classic(Aden)?)?.dat" file="skillgrp" version="Shinemaker" />
 	<link pattern="SkillName(_Classic(Aden)?)?-[\w]+\.dat" file="skillname" version="AgeOfMagic" />
-	<link pattern="SkillSoundgrp(_Classic(Aden)?)?.dat" file="skillsoundgrp" version="TheSourceOfFlame" />
+	<link pattern="SkillSoundgrp(_Classic(Aden)?)?.dat" file="skillsoundgrp" version="PathOfRogue" />
 	<link pattern="SkillSoundSource(_Classic(Aden)?)?.dat" file="skillsoundsource" version="HighFive" />
 	<link pattern="StatBonusName(_Classic(Aden)?)?-[\w]+\.dat" file="statbonusname" version="Homunculus" />
 	<link pattern="StatBonusReset(_Classic(Aden)?)?.dat" file="statbonusreset" version="Homunculus2" />
@@ -198,7 +208,7 @@
 	<link pattern="SysString(_Classic)?-[\w]+\.dat" file="sysstring" version="ScionsOfDestiny" />
 	<link pattern="SystemMsg(_Classic)?-[\w]+\.dat" file="systemmsg" version="TheSourceOfFlame" />
 	<link pattern="teleportlist(_Classic(Aden)?)?.dat" file="teleportlist" version="MasterClass2" />
-	<link pattern="TimeZoneData(_Classic(Aden)?)?-[\w]+\.dat" file="timezonedata" version="MasterClass3" />
+	<link pattern="TimeZoneData(_Classic(Aden)?)?-[\w]+\.dat" file="timezonedata" version="PathOfRogue" />
 	<link pattern="TransformData(_Classic(Aden)?)?.dat" file="transformdata" version="Helios" />
 	<link pattern="TutorialName(_Classic)?-[\w]+\.dat" file="tutorialname" version="Salvation" />
 	<link pattern="UpgradeSystem(_Classic)?.dat" file="upgradesystem" version="EtinasFate" />
@@ -210,9 +220,12 @@
 	<link pattern="variationdata_stone(_Classic(Aden)?)?.dat" file="variationdata_stone" version="Homunculus2" />
 	<link pattern="variationeffectgrp(_Classic)?-[\w]+\.dat" file="variationeffectgrp" version="GrandCrusade" />
 	<link pattern="vehiclepartsgrp.dat" file="vehiclepartsgrp" version="Helios" />
+	<link pattern="VirtualItemSystem.dat" file="virtualitemsystem" version="PathOfRogue" />
 	<link pattern="warningnotice-[\w]+\.dat" file="warningnotice" version="Lindvior" />
 	<link pattern="WeaponEnchantEffectData(_Classic(Aden)?)?.dat" file="weaponenchanteffectdata" version="Homunculus" />
 	<link pattern="Weapongrp(_Classic(Aden)?)?.dat" file="weapongrp" version="Shinemaker" />
+	<link pattern="WeaponGradeLookChange.dat" file="WeaponGradeLookChange" version="PathOfRogue" />
+	<link pattern="WeaponLookChangeEffectGroup(_Classic(Aden)?)?.dat" file="weaponlookchangeeffectgroup" version="PathOfRogue" />
 	<link pattern="WorldCastleWarMapData(_Classic(Aden)?)?.dat" file="worldcastlewarmapdata" version="MasterClass" />
 	<link pattern="ZoneName(_Classic(Aden)?)?-[\w]+\.dat" file="zonename" version="MasterClass" />
 </list>

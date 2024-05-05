@@ -22,7 +22,6 @@ import java.io.StringWriter;
 import java.lang.reflect.Modifier;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -312,7 +311,7 @@ public class Util
 		}
 		
 		final Compiler compiler = new Compiler();
-		if (compiler.compile(Collections.singleton(file)))
+		if (compiler.compile(file))
 		{
 			final MemoryClassLoader classLoader = compiler.getClassLoader();
 			for (String name : classLoader.getLoadedClasses())

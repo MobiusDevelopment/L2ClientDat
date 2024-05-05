@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="PurchaseLimitCraftCategory" size="#data" hidden="false">
+			<node name="category_id" reader="UBYTE" />
+			<node name="string_id" reader="UINT" />
+			<node name="string_color" reader="RGBA" />
+			<node name="ribbon_texture" reader="CNTR" />
+			<for name="ribbon_texture" size="#ribbon_texture">
+				<node name="ribbon_texture1" reader="MAP_INT" />
+			</for>
+			<node name="optional" reader="UBYTE" />
+		</for>
+	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="PurchaseLimitCraftCategory" size="#data" hidden="false">
+			<node name="category_id" reader="UBYTE" />
+			<node name="string_id" reader="UINT" />
+			<node name="string_color" reader="RGBA" />
+			<node name="ribbon_texture" reader="CNTR" />
+			<for name="ribbon_texture" size="#ribbon_texture">
+				<node name="ribbon_texture1" reader="MAP_INT" />
+			</for>
+			<node name="optional" reader="UBYTE" />
+			<node name="show_server" reader="UCHAR" />
+			<for name="show_server" size="#show_server">
+				<node name="show_server1" reader="UCHAR" />
+			</for>
+		</for>
+	</file>
+</list>

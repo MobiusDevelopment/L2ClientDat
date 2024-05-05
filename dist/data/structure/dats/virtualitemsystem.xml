@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="virtualitem" size="#data" hidden="false">
+			<node name="index" reader="UINT" />
+			<node name="body_part" reader="LONG" />
+			<node name="itemlist" reader="CNTR" />
+			<for name="itemlist" size="#itemlist">
+				<node name="unk" reader="UINT" />
+				<node name="item_id" reader="UINT" />
+				<node name="unk1" reader="UINT" />
+				<node name="unk2" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

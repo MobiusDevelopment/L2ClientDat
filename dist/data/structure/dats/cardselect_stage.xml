@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="cardselect_stage" size="#data" hidden="false">
+			<node name="card_count" reader="USHORT" />
+			<node name="card_type" reader="UBYTE" />
+			<node name="normal_effect" reader="CNTR" />
+			<for name="effects" size="#normal_effect">
+				<node name="effect_id" reader="UINT" />
+				<node name="effect_level" reader="USHORT" />
+			</for>
+		</for>
+		<node name="data1" reader="UINT" />
+		<for name="cardselect_stage" size="#data1" hidden="false">
+			<node name="card_count2" reader="USHORT" />
+			<node name="target_item2" reader="CNTR" />
+			<for name="special_effects" size="#target_item2">
+				<node name="id" reader="UINT" />
+				<node name="level" reader="USHORT" />
+				<node name="type" reader="UBYTE" />
+				<node name="id2" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="cardselect_stage" size="#data" hidden="false">
+			<node name="card_count" reader="USHORT" />
+			<node name="card_type" reader="UBYTE" />
+			<node name="card_quality" reader="UBYTE" />
+			<node name="normal_effect" reader="UINT" />
+			<node name="special_effect" reader="USHORT" />
+		</for>
+		<node name="data1" reader="UINT" />
+		<for name="cardselect_stage" size="#data1" hidden="false">
+			<node name="card_count2" reader="USHORT" />
+			<node name="target_item2" reader="CNTR" />
+			<for name="special_effects" size="#target_item2">
+				<node name="id" reader="UINT" />
+				<node name="level" reader="USHORT" />
+				<node name="type" reader="UBYTE" />
+				<node name="id2" reader="FLOAT" />
+			</for>
+		</for>
+	</file>
+</list>

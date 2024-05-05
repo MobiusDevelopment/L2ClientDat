@@ -52,4 +52,28 @@
 			<node name="yaw" reader="FLOAT" />
 		</for>
 	</file>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<for name="LogPawn" size="91" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<for name="LogPawn" size="92" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<for name="LogPawn" size="94" hidden="false">
+			<node name="x" reader="FLOAT" />
+			<node name="y" reader="FLOAT" />
+			<node name="z" reader="FLOAT" />
+			<node name="yaw" reader="FLOAT" />
+		</for>
+	</file>
 </list>

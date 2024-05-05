@@ -40,4 +40,23 @@
 			<node name="img_name" reader="MAP_INT" />
 		</for>
 	</file>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="homun_npc" size="#data" hidden="false">
+			<node name="index" reader="UINT" />
+			<node name="type" reader="UINT" />
+			<node name="npc_id" reader="UINT" />
+			<wrapper name="base_skill">
+				<node name="skill_id" reader="UINT" />
+				<node name="skill_level" reader="UCHAR" />
+			</wrapper>
+			<node name="img_name" reader="MAP_INT" />
+			<node name="evolution_cost_point" reader="UINT" />
+			<node name="evolution_cost_item" reader="CNTR" />
+			<for name="evolution_cost_item" size="#evolution_cost_item">
+				<node name="evolution_cost_itemid" reader="UINT" />
+				<node name="evolution_cost_itemcount" reader="LONG" />
+			</for>
+		</for>
+	</file>
 </list>

@@ -82,7 +82,7 @@ public class DescriptorParser
 							if (defNode.getNodeName().equals("definition"))
 							{
 								final String defName = defNode.getAttributes().getNamedItem("name").getNodeValue();
-								final List<ParamNode> nodes = parseNodes(defNode, true, new HashSet<String>(), "definitions->" + defName, Collections.emptyList());
+								final List<ParamNode> nodes = parseNodes(defNode, true, new HashSet<>(), "definitions->" + defName, Collections.emptyList());
 								_definitions.put(defName, nodes);
 							}
 						}
@@ -210,7 +210,7 @@ public class DescriptorParser
 							
 							DebugUtil.debug("Boot of parsing file: " + namePattern2);
 							
-							final List<ParamNode> nodes = parseNodes(fileNode2, false, new HashSet<String>(), dir2 + "->" + namePattern2, Collections.emptyList());
+							final List<ParamNode> nodes = parseNodes(fileNode2, false, new HashSet<>(), dir2 + "->" + namePattern2, Collections.emptyList());
 							final Descriptor desc = new Descriptor(file.getName(), namePattern2, nodes);
 							desc.setIsRawData(isRawData);
 							desc.setIsSafePackage(isSafePackage);
