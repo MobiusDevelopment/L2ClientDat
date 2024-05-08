@@ -35,7 +35,7 @@ import javax.tools.ToolProvider;
 
 public class Compiler
 {
-	private static final Logger LOGGER = Logger.getLogger(Compiler.class.getName());
+	protected static final Logger LOGGER = Logger.getLogger(Compiler.class.getName());
 	
 	private static final JavaCompiler JAVAC = ToolProvider.getSystemJavaCompiler();
 	
@@ -74,7 +74,7 @@ public class Compiler
 		return _memClassLoader;
 	}
 	
-	private static class DefaultDiagnosticListener implements DiagnosticListener<JavaFileObject>
+	protected static class DefaultDiagnosticListener implements DiagnosticListener<JavaFileObject>
 	{
 		@Override
 		public void report(Diagnostic<? extends JavaFileObject> diagnostic)

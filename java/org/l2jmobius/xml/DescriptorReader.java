@@ -624,7 +624,7 @@ public class DescriptorReader
 		public final StringBuilder data;
 		public boolean error;
 		
-		private Data()
+		protected Data()
 		{
 			data = new StringBuilder();
 			error = false;

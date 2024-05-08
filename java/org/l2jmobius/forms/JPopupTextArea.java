@@ -50,7 +50,7 @@ public class JPopupTextArea extends JTextArea
 	private static final String SEARCH = "Search (Ctrl + F)";
 	
 	private final List<Integer> _lineLength;
-	private final UndoManager _manager;
+	protected final UndoManager _manager;
 	
 	public JPopupTextArea()
 	{
@@ -148,7 +148,7 @@ public class JPopupTextArea extends JTextArea
 		addKeyListener(new KeyListen());
 	}
 	
-	private void goToLine()
+	protected void goToLine()
 	{
 		int no = 0;
 		boolean fnd;
@@ -205,7 +205,7 @@ public class JPopupTextArea extends JTextArea
 		}
 	}
 	
-	private void searchString()
+	protected void searchString()
 	{
 		final String lineno = JOptionPane.showInputDialog("Search string: ");
 		if ((lineno == null) || lineno.isEmpty())
@@ -302,6 +302,10 @@ public class JPopupTextArea extends JTextArea
 		private boolean controlDown;
 		private boolean gDown;
 		private boolean fDown;
+		
+		public KeyListen()
+		{
+		}
 		
 		@Override
 		public void keyTyped(KeyEvent e)
