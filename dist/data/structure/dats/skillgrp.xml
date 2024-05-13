@@ -361,9 +361,9 @@
 			<node name="skill_id" reader="USHORT" />
 			<node name="skill_level" reader="UCHAR" />
 			<node name="skill_sublevel" reader="SHORT" />
-			<node name="icon_type" reader="UCHAR" />
-			<node name="MagicType" reader="UCHAR" />
 			<node name="operate_type" reader="UCHAR" />
+			<node name="resist_cast" reader="UCHAR" />
+			<node name="MagicType" reader="UCHAR" />
 			<node name="mp_consume" reader="SHORT" />
 			<node name="cast_range" reader="UINT" />
 			<node name="cast_style" reader="UCHAR" />
@@ -382,17 +382,17 @@
 			<node name="icon" reader="MAP_INT" />
 			<node name="icon_panel" reader="MAP_INT" />
 			<node name="debuff" reader="UCHAR" />
-			<node name="resist_cast" reader="UCHAR" />
+			<node name="icon_type" reader="UCHAR" />
 			<node name="enchant_skill_level" reader="UCHAR" />
 			<node name="enchant_icon" reader="MAP_INT" />
-			<node name="hp_consume" reader="SHORT" />
+			<node name="hp_consume" reader="USHORT" />
 			<node name="rumble_self" reader="UCHAR" />
 			<node name="rumble_target" reader="UCHAR" />
 		</for>
 		<node name="data2" reader="CNTR" />
 		<for name="skill_macro" size="#data2" hidden="false">
 			<node name="macro_skill_id" reader="UINT" />
-			<node name="automatic_use" reader="UCHAR" />
+			<node name="automatic_use" reader="UINT" />
 		</for>
 	</file>
 
@@ -402,10 +402,9 @@
 			<node name="skill_id" reader="USHORT" />
 			<node name="skill_level" reader="UCHAR" />
 			<node name="skill_sublevel" reader="SHORT" />
-			<node name="icon_type" reader="UCHAR" />
-			<node name="icon_hide" reader="UCHAR" />
+			<node name="operate_type" reader="SHORT" />
+			<node name="resist_cast" reader="UCHAR" />
 			<node name="MagicType" reader="UCHAR" />
-			<node name="operate_type" reader="UCHAR" />
 			<node name="mp_consume" reader="SHORT" />
 			<node name="cast_range" reader="UINT" />
 			<node name="cast_style" reader="UCHAR" />
@@ -424,10 +423,10 @@
 			<node name="icon" reader="MAP_INT" />
 			<node name="icon_panel" reader="MAP_INT" />
 			<node name="debuff" reader="UCHAR" />
-			<node name="resist_cast" reader="UCHAR" />
+			<node name="icon_type" reader="UCHAR" />
 			<node name="enchant_skill_level" reader="UCHAR" />
 			<node name="enchant_icon" reader="MAP_INT" />
-			<node name="hp_consume" reader="SHORT" />
+			<node name="hp_consume" reader="USHORT" />
 			<node name="rumble_self" reader="UCHAR" />
 			<node name="rumble_target" reader="UCHAR" />
 		</for>
@@ -439,8 +438,8 @@
 		<node name="data3" reader="CNTR" />
 		<for name="skill_ex_icon" size="#data3" hidden="false">
 			<node name="ex_skill_id" reader="USHORT" />
-			<node name="ex_skill_level" reader="UCHAR" />
-			<node name="ex_skill_sublevel" reader="SHORT" />
+			<node name="ex_skill_level" reader="USHORT" />
+			<node name="ex_skill_sublevel" reader="USHORT" />
 			<node name="icon_panel2" reader="MAP_INT" />
 		</for>
 	</file>
@@ -451,10 +450,9 @@
 			<node name="skill_id" reader="UINT" />
 			<node name="skill_level" reader="UCHAR" />
 			<node name="skill_sublevel" reader="SHORT" />
-			<node name="icon_type" reader="UCHAR" />
-			<node name="icon_hide" reader="UCHAR" />
+			<node name="operate_type" reader="SHORT" />
+			<node name="resist_cast" reader="UCHAR" />
 			<node name="MagicType" reader="UCHAR" enumName="skill_magic_type" />
-			<node name="operate_type" reader="UCHAR" />
 			<node name="mp_consume" reader="SHORT" />
 			<node name="cast_range" reader="UINT" />
 			<node name="cast_style" reader="UCHAR" />
@@ -462,9 +460,9 @@
 			<node name="cool_time" reader="FLOAT" />
 			<node name="reuse_delay" reader="FLOAT" />
 			<node name="effect_point" reader="UINT" />
-			<node name="is_magic" reader="UCHAR" />
-			<node name="origin_skill" reader="UINT" />
-			<node name="is_double" reader="UCHAR" />
+			<node name="is_magic" reader="SHORT" />
+			<node name="origin_skill" reader="SHORT" />
+			<node name="is_double" reader="SHORT" />
 			<node name="animation" reader="UINT" />
 			<for name="animation" size="#animation">
 				<node name="param_animation" reader="MAP_INT" />
@@ -473,10 +471,10 @@
 			<node name="icon" reader="MAP_INT" />
 			<node name="icon_panel" reader="MAP_INT" />
 			<node name="debuff" reader="UCHAR" />
-			<node name="resist_cast" reader="UCHAR" />
+			<node name="icon_type" reader="UCHAR" />
 			<node name="enchant_skill_level" reader="UCHAR" />
 			<node name="enchant_icon" reader="MAP_INT" />
-			<node name="hp_consume" reader="SHORT" />
+			<node name="hp_consume" reader="USHORT" />
 			<node name="rumble_self" reader="UCHAR" />
 			<node name="rumble_target" reader="UCHAR" />
 		</for>
@@ -487,9 +485,9 @@
 		</for>
 		<node name="data3" reader="CNTR" />
 		<for name="skill_ex_icon" size="#data3" hidden="false">
-			<node name="ex_skill_id" reader="UINT" />
-			<node name="ex_skill_level" reader="UCHAR" />
-			<node name="ex_skill_sublevel" reader="SHORT" />
+			<node name="ex_skill_id" reader="USHORT" />
+			<node name="ex_skill_level" reader="USHORT" />
+			<node name="ex_skill_sublevel" reader="USHORT" />
 			<node name="icon_panel2" reader="MAP_INT" />
 		</for>
 	</file>
