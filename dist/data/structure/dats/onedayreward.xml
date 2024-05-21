@@ -208,7 +208,7 @@
 			<node name="server_range" reader="UBYTE" />
 			<node name="show_server" reader="UCHAR" />
 			<for name="show_server" size="#show_server">
-				<node name="show_server1" reader="UCHAR" />
+				<node name="show_server1" reader="UINT" />
 			</for>
 			<for name="reward_item" size="#reward_item">
 				<node name="param_reward_item_id" reader="UINT" />
