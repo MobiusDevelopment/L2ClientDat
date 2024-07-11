@@ -166,7 +166,7 @@
 	<link pattern="PledgeLevelDesc-[\w]+\.dat" file="pledgeleveldesc" version="Salvation" />
 	<link pattern="PledgeMasteryInfo-[\w]+\.dat" file="pledgemasteryinfo" version="Salvation" />
 	<link pattern="PledgeMission-[\w]+\.dat" file="pledgemission" version="Salvation" />
-	<link pattern="PledgeShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="pledgeshopproduct" version="ReturnOfTheQueenAnt2" />
+	<link pattern="PledgeShopProduct(_Classic(Aden)?)?-[\w]+\.dat" file="pledgeshopproduct" version="Shinemaker" />
 	<link pattern="PopupEvent(_Classic(Aden)?)?.dat" file="popupevent" version="PathOfRogue" />
 	<link pattern="posteffectdata.dat" file="posteffectdata" version="Helios" />
 	<link pattern="PrisonData.dat" file="prisondata" version="MasterClass3" />
@@ -182,8 +182,8 @@
 	<link pattern="Recipe(_Classic(Aden)?)?.dat" file="recipe" version="Ertheia" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="Lindvior" />
 	<link pattern="relics_collection(_Classic(Aden)?)?-[\w]+\.dat" file="relicscollection" version="Shinemaker" />
-	<link pattern="relics_main.dat" file="relicsmain" version="PathOfRogue" />
-	<link pattern="relics_playdata.dat" file="relicsplaydata" version="Shinemaker" />
+	<link pattern="relics_main(_Classic(Aden)?)?.dat" file="relicsmain" version="PathOfRogue" />
+	<link pattern="relics_playdata(_Classic(Aden)?)?.dat" file="relicsplaydata" version="Shinemaker" />
 	<link pattern="ReplaceSkillIcon(_Classic(Aden)?)?.dat" file="replaceskillicon" version="AgeOfMagic" />
 	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="PathOfRogue" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="Helios" />

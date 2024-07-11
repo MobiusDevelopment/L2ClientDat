@@ -82,7 +82,7 @@ public class MassTxtPacker extends ActionTask
 		
 		if (!encrypter.isEncrypt())
 		{
-			L2ClientDat.addLogConsole("Selected encryptor dont have encrypt RSA key.", true);
+			L2ClientDat.addLogConsole("Selected encryptor does not have encrypt RSA key.", true);
 			return;
 		}
 		

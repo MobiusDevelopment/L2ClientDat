@@ -61,4 +61,31 @@
 			<node name="product_desc" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="Shinemaker" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product" size="#data" hidden="false">
+			<node name="shop_index" reader="USHORT" />
+			<node name="product_id" reader="USHORT" />
+			<node name="product_name" reader="ASCF" />
+			<node name="product_item" reader="UINT" />
+			<node name="buy_item_count" reader="CNTR" />
+			<for name="buy_item" size="#buy_item_count" hidden="true">
+				<node name="item_id" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+				<node name="item_chance" reader="FLOAT" />
+			</for>
+			<wrapper name="limit_lv">
+				<node name="min_level" reader="USHORT" />
+				<node name="max_level" reader="USHORT" />
+			</wrapper>
+			<wrapper name="pledge_limit_lv">
+				<node name="pledge_min_level" reader="USHORT" />
+				<node name="pledge_max_level" reader="USHORT" />
+			</wrapper>
+			<node name="buy_type" reader="UCHAR" />
+			<node name="reset_type" reader="UCHAR" />
+			<node name="max_buy_count" reader="UINT" />
+			<node name="product_desc" reader="ASCF" />
+		</for>
+	</file>
 </list>

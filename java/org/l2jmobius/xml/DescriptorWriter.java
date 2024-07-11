@@ -490,7 +490,7 @@ public class DescriptorWriter
 			final byte[] bytes = parseNodeValue(currentFile, crypter, String.valueOf(cycleSize), iteratorNode, false, mass);
 			if (bytes == null)
 			{
-				throw new PackDataException("Cant write size! Node value is null.\r\n-node: " + node);
+				throw new PackDataException("Cannot write size! Node value is null.\r\n-node: " + node);
 			}
 			
 			writeData.add(index, new WriteBytes(iteratorNode, bytes));

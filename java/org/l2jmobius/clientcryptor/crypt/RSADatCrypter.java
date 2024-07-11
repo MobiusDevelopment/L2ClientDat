@@ -79,7 +79,7 @@ public class RSADatCrypter extends DatCrypter
 	{
 		if (!checkAquired())
 		{
-			throw new IllegalStateException("Dont even think about using a DatCrypter that you didnt aquired");
+			throw new IllegalStateException("Do not even think about using a DatCrypter that you did not aquired");
 		}
 		
 		final byte[] compressed = _result.toByteArray();
@@ -106,7 +106,7 @@ public class RSADatCrypter extends DatCrypter
 		
 		if (baos.size() != inflatedSize)
 		{
-			LOGGER.log(Level.WARNING, ("[RSADatCrypter] Hum inflated result doesnt have the expected length..(" + baos.size() + "!=" + inflatedSize + ")"));
+			LOGGER.log(Level.WARNING, ("[RSADatCrypter] Hum inflated result does not have the expected length..(" + baos.size() + "!=" + inflatedSize + ")"));
 		}
 		
 		return ByteBuffer.wrap(baos.toByteArray());
@@ -117,7 +117,7 @@ public class RSADatCrypter extends DatCrypter
 	{
 		if (!checkAquired())
 		{
-			throw new IllegalStateException("Dont even think about using a DatCrypter that you didnt aquired");
+			throw new IllegalStateException("Do not even think about using a DatCrypter that you did not aquired");
 		}
 		
 		final ByteArrayOutputStream result = new ByteArrayOutputStream();
@@ -151,7 +151,7 @@ public class RSADatCrypter extends DatCrypter
 	{
 		if (!checkAquired())
 		{
-			throw new IllegalStateException("Dont even think about using a DatCrypter that you didnt aquired");
+			throw new IllegalStateException("Do not even think about using a DatCrypter that you did not aquired");
 		}
 		
 		Exception exception = null;
