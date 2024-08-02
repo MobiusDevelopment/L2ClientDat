@@ -83,7 +83,7 @@
 	<link pattern="SetItemGrp(_Classic)?-[\w]+\.dat" file="setitemgrp" version="Valiance" />
 	<link pattern="ShortcutAlias(_Classic)?.dat" file="shortcutalias" version="Epilogue" />
 	<link pattern="ShuttleData(_Classic)?.dat" file="shuttledata" version="Awakening" />
-	<link pattern="Skillgrp(_Classic)?.dat" file="skillgrp" version="Ertheia" />
+	<link pattern="Skillgrp(_Classic)?.dat" file="skillgrp" version="Underground" />
 	<link pattern="SkillName(_Classic)?-[\w]+\.dat" file="skillname" version="Underground" />
 	<link pattern="SkillSoundgrp(_Classic)?.dat" file="skillsoundgrp" version="Ertheia" />
 	<link pattern="SkillSoundSource(_Classic)?.dat" file="skillsoundsource" version="HighFive" />

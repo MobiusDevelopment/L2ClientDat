@@ -271,6 +271,71 @@
 		</for>
 	</file>
 
+	<file pattern="Underground" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="skill" size="#data" hidden="false">
+			<node name="skill_id" reader="UINT" />
+			<node name="skill_level" reader="SHORT" />
+			<node name="skill_sublevel" reader="SHORT" />
+			<node name="operate_type" reader="UINT" />
+			<node name="resist_cast" reader="UINT" />
+			<!--
+			resist_cast=0 regular
+			resist_cast=1 brown cast
+			resist_cast=2 green cast
+			resist_cast=3 blue cast
+			resist_cast=4 red cast
+			resist_cast=5 skills with icons (which are switched by dual custom, etc.)
+			resist_cast=6 hidden skills
+			-->
+			<node name="MagicType" reader="UINT" />
+			<!-- TODO 0-4 -->
+			<!--
+			MagicType=24		Step Back
+			-->
+			<node name="mp_consume" reader="UINT" />
+			<node name="cast_range" reader="UINT" />
+			<node name="cast_style" reader="UINT" />
+			<!--
+			cast_style=23 sign point
+			cast_style=24 Step Back
+			-->
+			<node name="hit_time" reader="FLOAT" />
+			<node name="cool_time" reader="FLOAT" />
+			<node name="reuse_delay" reader="FLOAT" />
+			<node name="effect_point" reader="UINT" />
+			<node name="is_magic" reader="UINT" />
+			<!--
+			is_magic=0 P ( physical )
+			is_magic=1 M ( mage )
+			is_magic=3 S ( songs / dances )
+			is_magic=4 E ( resurrections )
+			-->
+			<node name="ultimate_skill_level" reader="UINT" />
+			<node name="origin_skill" reader="UINT" />
+			<node name="is_double" reader="UINT" />
+			<node name="animation" reader="UINT" />
+			<for name="animation" size="#animation">
+				<node name="param_animation" reader="UNICODE" />
+			</for>
+			<node name="skill_visual_effect" reader="UNICODE" />
+			<node name="icon" reader="UNICODE" />
+			<node name="icon_panel" reader="UNICODE" />
+			<node name="debuff" reader="UINT" />
+			<node name="icon_type" reader="UINT" />
+			<node name="enchanted" reader="UINT" />
+			<node name="enchant_skill_level" reader="UINT" />
+			<node name="enchant_icon" reader="ASCF" />
+			<node name="hp_consume" reader="UINT" />
+			<node name="rumble_self" reader="UINT" />
+			<!-- TODO -1 8 9 13 14 -->
+			<node name="rumble_target" reader="UINT" />
+			<!-- TODO 0 -1 10 11 -->
+			<node name="GaugeTime" reader="FLOAT" />
+			<node name="AdditionalTag" reader="ASCF" />
+		</for>
+	</file>
+
 	<file pattern="Helios" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="skill" size="#data" hidden="false">
