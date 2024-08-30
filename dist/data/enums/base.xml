@@ -478,6 +478,7 @@
 		<node index="10" name="client_debug_msg" />
 		<node index="11" name="getitems" />
 		<node index="12" name="dice" />
+		<node index="13" name="siege" />
 	</enum>
 	<enum name="ranking_type">
 		<node index="0" name="character" />

@@ -29,6 +29,7 @@ import java.util.logging.Logger;
 import javax.tools.Diagnostic;
 import javax.tools.DiagnosticListener;
 import javax.tools.JavaCompiler;
+import javax.tools.JavaCompiler.CompilationTask;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
@@ -56,11 +57,11 @@ public class Compiler
 	{
 		final List<String> options = new ArrayList<>();
 		// options.add("-Xlint:all");
-		options.add("-source");
-		options.add("1.8");
-		options.add("-g");
+		// options.add("-source");
+		// options.add("1.8");
+		// options.add("-g");
 		
-		final JavaCompiler.CompilationTask compile = Compiler.JAVAC.getTask(new StringWriter(), _memFileManager, _listener, options, null, _fileManager.getJavaFileObjects(files));
+		final CompilationTask compile = Compiler.JAVAC.getTask(new StringWriter(), _memFileManager, _listener, options, null, _fileManager.getJavaFileObjects(files));
 		return compile.call();
 	}
 	
