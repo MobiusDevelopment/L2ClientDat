@@ -616,8 +616,7 @@ material_type
 			<node name="crystallizable" reader="UCHAR" />
 			<node name="related_quest_id" reader="UCHAR" />
 			<for name="related_quest_id" size="#related_quest_id">
-				<node name="quest_id" reader="SHORT" />
-				<node name="quest_unk" reader="SHORT" />
+				<node name="quest_id" reader="UINT" />
 			</for>
 			<node name="color" reader="UCHAR" />
 			<node name="is_attribution" reader="UCHAR" />

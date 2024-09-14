@@ -40,4 +40,23 @@
 			<node name="server_range" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="teleport_list" size="#data" hidden="false">
+			<node name="huntingzone_id" reader="UINT" />
+			<node name="town_id" reader="UINT" />
+			<node name="priority" reader="UINT" />
+			<node name="price" reader="CNTR" />
+			<for name="price" size="#price">
+				<node name="item_id" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+			</for>
+			<node name="usable_level" reader="UINT" />
+			<node name="usable_transfer_degree" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="unk2" reader="UINT" />
+			<node name="unk3" reader="UINT" />
+			<node name="unk4" reader="UBYTE" />
+		</for>
+	</file>
 </list>

@@ -53,6 +53,7 @@
 	<link pattern="DecoNPCData_client.dat" file="deconpcdata_client" version="Helios" />
 	<link pattern="DethroneDailyMission-[\w]+\.dat" file="dethronedailymission" version="TheSourceOfFlame" />
 	<link pattern="DethroneDistrictName-[\w]+\.dat" file="dethronedistrictname" version="MasterClass" />
+	<link pattern="DethroneShop.dat" file="dethroneshop" version="TheSourceOfFlame" />
 	<link pattern="DualCastTypeData.dat" file="dualcasttypedata" version="Helios" />
 	<link pattern="dyecombination(_Classic(Aden)?)?.dat" file="dyecombination" version="MasterClass" />
 	<link pattern="DyeEffect.dat" file="dyeeffect" version="PreludeOfWar" />
@@ -109,7 +110,7 @@
 	<link pattern="HomunNpcLevel.dat" file="homunnpclevel" version="Homunculus" />
 	<link pattern="homunslot.dat" file="homunslot" version="ReturnOfTheQueenAnt" />
 	<link pattern="HuntingZone(_Classic(Aden)?)?-[\w]+\.dat" file="huntingzone" version="MasterClass" />
-	<link pattern="InstantZoneData(_Classic)?-[\w]+\.dat" file="instantzonedata" version="Epilogue" />
+	<link pattern="InstantZoneData(_Classic(Aden)?)?-[\w]+\.dat" file="instantzonedata" version="Epilogue" />
 	<link pattern="item_baseinfo(_Classic(Aden)?)?.dat" file="item_baseinfo" version="MasterClass3" />
 	<link pattern="ItemMultisell(_Classic(Aden)?)?-[\w]+\.dat" file="itemmultisell" version="TheSourceOfFlame" />
 	<link pattern="ItemName(_Classic(Aden)?)?-[\w]+\.dat" file="itemname" version="Shinemaker" />
@@ -187,6 +188,7 @@
 	<link pattern="ReplaceSkillIcon(_Classic(Aden)?)?.dat" file="replaceskillicon" version="AgeOfMagic" />
 	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="PathOfRogue" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="Helios" />
+	<link pattern="Server_Id_List(_Classic(Aden)?)?.dat" file="serveridlist" version="PathOfRogue" />
 	<link pattern="servername-[\w]+\.dat" file="servername" version="MasterClass2" />
 	<link pattern="SetItemGrp(_Classic(Aden)?)?-[\w]+\.dat" file="setitemgrp" version="Valiance" />
 	<link pattern="ShortcutAlias(_Classic)?.dat" file="shortcutalias" version="Epilogue" />

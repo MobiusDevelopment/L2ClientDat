@@ -1,4 +1,3 @@
-
 /*
  * This file is part of the L2ClientDat project.
  * 

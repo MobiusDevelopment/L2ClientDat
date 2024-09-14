@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
+		<node name="data" reader="CNTR" />
+		<for name="product" size="#data" hidden="false">
+			<node name="product_id" reader="UINT" />
+			<node name="product_item_id" reader="UINT" />
+			<node name="product_count" reader="UINT" />
+			<node name="need_item_list" reader="CNTR" />
+			<for name="need_item_list" size="#need_item_list">
+				<node name="need_item_id" reader="UINT" />
+				<node name="need_item_count" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

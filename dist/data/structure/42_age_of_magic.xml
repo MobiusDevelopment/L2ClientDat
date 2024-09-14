@@ -50,6 +50,7 @@
 	<link pattern="DecoNPCData_client.dat" file="deconpcdata_client" version="Helios" />
 	<link pattern="DethroneDailyMission-[\w]+\.dat" file="dethronedailymission" version="TheSourceOfFlame" />
 	<link pattern="DethroneDistrictName-[\w]+\.dat" file="dethronedistrictname" version="MasterClass" />
+	<link pattern="DethroneShop.dat" file="dethroneshop" version="TheSourceOfFlame" />
 	<link pattern="DualCastTypeData.dat" file="dualcasttypedata" version="Helios" />
 	<link pattern="dyecombination(_Classic(Aden)?)?.dat" file="dyecombination" version="MasterClass" />
 	<link pattern="DyeEffect.dat" file="dyeeffect" version="PreludeOfWar" />

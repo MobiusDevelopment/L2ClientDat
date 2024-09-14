@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<file pattern="PathOfRogue" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="server_list" size="#data" hidden="false">
+			<node name="GroupId" reader="UINT" />
+			<node name="isQa" reader="UINT" />
+			<node name="applycountry" reader="CNTR" />
+			<for name="applycountry" size="#applycountry">
+				<node name="applycountry_1" reader="UINT" />
+			</for>
+			<node name="Server_list" reader="CNTR" />
+			<for name="Server_list" size="#Server_list">
+				<node name="Server_list_1" reader="UINT" />
+			</for>
+		</for>
+	</file>
+</list>

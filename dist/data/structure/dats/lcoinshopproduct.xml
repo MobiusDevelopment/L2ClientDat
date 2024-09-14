@@ -212,5 +212,36 @@
 			<node name="head_name" reader="ASCF" />
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="product" size="#data" hidden="false">			
+			<node name="product_id" reader="UINT" />
+			<node name="category" reader="UCHAR" />
+			<node name="mark_type" reader="UCHAR" enumName="lcoinshopproduct_mark_type" />
+			<node name="buy_items" reader="UCHAR" />
+			<for name="buy_items">
+		<node name="product_item_id" reader="UINT" />
+		<node name="product_count" reader="UINT" />
+		<node name="product_name" reader="ASCF" />
+		<wrapper name="limit_lv">
+			<node name="LevelMin" reader="USHORT" />
+			<node name="LevelMax" reader="USHORT" />
+		</wrapper>
+		</for>
+		<node name="product_type" reader="UCHAR" />
+		<wrapper name="buy_limit">
+			<node name="limit_type" reader="UCHAR" />
+			<node name="reset_type" reader="UCHAR" enumName="lcoin_reset_type" />
+			<node name="limit_count_max" reader="UINT" />
+		</wrapper>
+		<node name="product_desc" reader="ASCF" />
+		<node name="product_htm" reader="ASCF" />
+		</for>
+		<node name="data2" reader="CNTR" />
+		<for name="product_head" size="#data2" hidden="false">
+			<node name="head_product_id" reader="INT" />
+			<node name="head_name" reader="ASCF" />
+		</for>
+	</file>
 </list>
 
