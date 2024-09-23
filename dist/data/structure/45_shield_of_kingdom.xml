@@ -42,7 +42,7 @@
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="Valiance" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="Helios" />
 	<link pattern="CombinationItemData(_Classic(Aden)?)?.dat" file="combinationitemdata" version="TheSourceOfFlame" />
-	<link pattern="Commandname(_Classic)?-[\w]+\.dat" file="commandname" version="HighFive" />
+	<link pattern="Commandname(_Classic(Aden)?)?-[\w]+\.dat" file="commandname" version="HighFive" />
 	<link pattern="CommonLook(_Classic(Aden)?)?.dat" file="commonlook" version="ReturnOfTheQueenAnt" />
 	<link pattern="Costume_Classic.dat" file="costume" version="Fafurion" />
 	<link pattern="Costume_Collection_Classic.dat" file="costumecollection" version="Fafurion" />
