@@ -40,4 +40,24 @@
 			<node name="Commission" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="hero_book" size="#data" hidden="false">
+			<node name="Id" reader="USHORT" />
+			<wrapper name="BookSkill">
+				<node name="BookSkillId" reader="USHORT" />
+				<node name="BookSkillLevel" reader="UINT" />
+			</wrapper>
+			<wrapper name="SuccessItem">
+				<node name="SuccessItemId" reader="UINT" />
+				<node name="SuccessItemLevel" reader="UINT" />
+			</wrapper>
+			<wrapper name="SuccessSkill">
+				<node name="SuccessSkillId" reader="UINT" />
+				<node name="SuccessSkillLevel" reader="USHORT" />
+			</wrapper>
+			<!-- <node name="MaxPoint" reader="UINT" /> -->
+			<node name="Commission" reader="UINT" />
+		</for>
+	</file>
 </list>

@@ -102,7 +102,7 @@
 	<link pattern="hairexgrp.dat" file="hairexgrp" version="PathOfRogue" />
 	<link pattern="hairExName-[\w]+\.dat" file="hairexname" version="Helios" />
 	<link pattern="Hennagrp(_Classic(Aden)?)?-[\w]+\.dat" file="hennagrp" version="AgeOfMagic" />
-	<link pattern="Hero_Book.dat" file="herobook" version="AgeOfMagic" />
+	<link pattern="Hero_Book.dat" file="herobook" version="ShieldOfKingdom" />
 	<link pattern="HomunCreate.dat" file="homuncreate" version="PathOfRogue" />
 	<link pattern="HomunEnchant.dat" file="homunenchant" version="Homunculus" />
 	<link pattern="HomunList.dat" file="homunlist" version="ReturnOfTheQueenAnt" />
