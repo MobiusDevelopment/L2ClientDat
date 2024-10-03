@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<file pattern="protocol_414" isSafePackage="true">
+	<file pattern="TheSourceOfFlame" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="skill_enchant_charge" size="#data" hidden="false">
 			<node name="group_item" reader="UINT" />

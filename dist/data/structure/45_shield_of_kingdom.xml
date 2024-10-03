@@ -41,7 +41,7 @@
 	<link pattern="collectionmain(_Classic(Aden)?)?.dat" file="collectionmain" version="AgeOfMagic" />
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="Valiance" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="Helios" />
-	<link pattern="CombinationItemData(_Classic(Aden)?)?.dat" file="combinationitemdata" version="TheSourceOfFlame" />
+	<link pattern="CombinationItemData(_Classic(Aden)?)?.dat" file="combinationitemdata" version="ShieldOfKingdom" />
 	<link pattern="Commandname(_Classic(Aden)?)?-[\w]+\.dat" file="commandname" version="HighFive" />
 	<link pattern="CommonLook(_Classic(Aden)?)?.dat" file="commonlook" version="ReturnOfTheQueenAnt" />
 	<link pattern="Costume_Classic.dat" file="costume" version="Fafurion" />
@@ -217,8 +217,8 @@
 	<link pattern="UpgradeSystem_Normal(_Classic(Aden)?)?.dat" file="upgradesystem_normal" version="Fafurion" />
 	<link pattern="UseCountItem(_Classic(Aden)?)?.dat" file="usecountitem" version="Salvation" />
 	<link pattern="usmmoviedata-[\w]+\.dat" file="usmmoviedata" version="Awakening" />
-	<link pattern="variationdata_fee(_Classic(Aden)?)?.dat" file="variationdata_fee" version="Homunculus2" />
-	<link pattern="variationdata_option(_Classic(Aden)?)?-[\w]+\.dat" file="variationdata_option" version="MasterClass2" />
+	<link pattern="variationdata_fee(_Classic(Aden)?)?.dat" file="variationdata_fee" version="ShieldOfKingdom" />
+	<link pattern="variationdata_option(_Classic(Aden)?)?-[\w]+\.dat" file="variationdata_option" version="ShieldOfKingdom" />
 	<link pattern="variationdata_stone(_Classic(Aden)?)?.dat" file="variationdata_stone" version="Homunculus2" />
 	<link pattern="variationeffectgrp(_Classic)?-[\w]+\.dat" file="variationeffectgrp" version="GrandCrusade" />
 	<link pattern="vehiclepartsgrp.dat" file="vehiclepartsgrp" version="Helios" />

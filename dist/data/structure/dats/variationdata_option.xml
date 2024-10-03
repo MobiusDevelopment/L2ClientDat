@@ -41,4 +41,36 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="variationdata_option" size="#data" hidden="false">
+			<write name="\r\n" />
+			<node name="mineral_item_id" reader="UINT" />
+			<node name="item_group_name" reader="UINT" />
+			<write name="\r\n" />
+			<node name="desc_yellow" reader="ASCF" />
+			<write name="\r\n" />
+			<node name="desc_blue" reader="ASCF" />
+			<write name="\r\n" />
+			<node name="desc_purple" reader="ASCF" />
+			<write name="\r\n" />
+			<node name="desc_red" reader="ASCF" />
+			<write name="\r\n\r\n" />
+			<!--
+			<for name="properties" size="2" hidden="false">
+				<write name="\r\n" />
+				<node name="property_len" reader="UBYTE" />
+				<for name="property" size="#property_len" hidden="false">
+					<node name="base_chance" reader="UINT" />
+					<node name="option_data_len" reader="CNTR" />
+					<for name="option_data" size="#option_data_len" hidden="true">
+						<node name="option_id" reader="UINT" />
+						<node name="option_chance_mod" reader="UINT" />
+					</for>
+				</for>
+				<write name="  " />
+			</for>
+			-->
+		</for>
+	</file>
 </list>

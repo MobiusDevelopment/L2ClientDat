@@ -10,4 +10,15 @@
 			<node name="cancel_fee" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="variation_fee" size="#data" hidden="false">
+			<node name="mineral_item_id" reader="UINT" />
+			<node name="unk1" reader="UINT" />
+			<node name="fee_item_id" reader="UINT" />
+			<node name="fee_item_count" reader="UINT" />
+			<node name="fee_adena" reader="LONG" />
+			<node name="cancel_fee" reader="UINT" />
+		</for>
+	</file>
 </list>

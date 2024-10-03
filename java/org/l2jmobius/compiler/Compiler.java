@@ -80,7 +80,7 @@ public class Compiler
 		@Override
 		public void report(Diagnostic<? extends JavaFileObject> diagnostic)
 		{
-			LOGGER.log(Level.WARNING, (((JavaFileObject) diagnostic.getSource()).getName() + ((diagnostic.getPosition() == -1L) ? "" : (":" + diagnostic.getLineNumber() + "," + diagnostic.getColumnNumber())) + ": " + diagnostic.getMessage(Locale.getDefault())));
+			LOGGER.log(Level.WARNING, (diagnostic.getSource().getName() + ((diagnostic.getPosition() == -1L) ? "" : (":" + diagnostic.getLineNumber() + "," + diagnostic.getColumnNumber())) + ": " + diagnostic.getMessage(Locale.getDefault())));
 		}
 	}
 }
