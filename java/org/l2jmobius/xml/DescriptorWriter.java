@@ -395,7 +395,7 @@ public class DescriptorWriter
 				case UINT:
 				case INT:
 				{
-					return ByteWriter.writeInt(Integer.parseInt(data));
+					return ByteWriter.writeInt(Integer.parseInt(data.trim()));
 				}
 				case UNICODE:
 				{
