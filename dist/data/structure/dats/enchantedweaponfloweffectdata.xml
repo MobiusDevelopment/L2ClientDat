@@ -61,4 +61,19 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="enchanted_effect" size="#data" hidden="false">
+			<node name="group_id" reader="UINT" />
+			<node name="group_name" reader="ASCF" />
+			<node name="group" reader="UINT" />
+			<for name="group" size="#group">
+				<node name="start_enchanted_value" reader="UINT" />
+				<node name="right_main_flow_effect" reader="MAP_INT" />
+				<node name="left_main_flow_effect" reader="MAP_INT" />
+				<node name="right_variation_flow_effect" reader="MAP_INT" />
+				<node name="left_variation_flow_effect" reader="MAP_INT" />
+			</for>
+		</for>
+	</file>
 </list>

@@ -55,8 +55,8 @@ public class CryptVersionParser
 			factory.setIgnoringComments(true);
 			try
 			{
-				final Document doc = factory.newDocumentBuilder().parse(def);
-				for (Node defsNode = doc.getFirstChild(); defsNode != null; defsNode = doc.getNextSibling())
+				final Document document = factory.newDocumentBuilder().parse(def);
+				for (Node defsNode = document.getFirstChild(); defsNode != null; defsNode = document.getNextSibling())
 				{
 					if (defsNode.getNodeName().equals("keys"))
 					{

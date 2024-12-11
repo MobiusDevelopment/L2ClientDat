@@ -24,4 +24,10 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="ShieldOfKingdom" isSafePackage="true">
+		<node name="data" reader="INT" />
+		<for name="relics_main" size="#data" hidden="false">
+			<node name="relics_id" reader="UBYTE" />
+		</for>
+	</file>
 </list>

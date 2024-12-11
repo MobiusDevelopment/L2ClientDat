@@ -67,7 +67,7 @@
 	<link pattern="EnchantChallengePoint(_Classic(Aden)?)?.dat" file="enchantchallengepoint" version="MasterClass2" />
 	<link pattern="EnchantedCloakEffectData_Classic.dat" file="enchantedcloakeffect" version="MasterClass" />
 	<link pattern="EnchantedItemSkills(_Classic(Aden)?)?-[\w]+\.dat" file="enchanteditemskills" version="MasterClass2" />
-	<link pattern="EnchantedWeaponFlowEffectData(_Classic(Aden)?)?.dat" file="enchantedweaponfloweffectdata" version="Homunculus" />
+	<link pattern="EnchantedWeaponFlowEffectData(_Classic(Aden)?)?.dat" file="enchantedweaponfloweffectdata" version="ShieldOfKingdom" />
 	<link pattern="EnchantedHairEffectData(_Classic(Aden)?)?.dat" file="EnchantedHairEffectData" version="PathOfRogue" />
 	<link pattern="EnchantScrollSet(_Classic(Aden)?)?.dat" file="enchantscrollset" version="AgeOfMagic" />
 	<link pattern="EnchantStatBonus(_Classic(Aden)?)?.dat" file="enchantstatbonus" version="Ertheia" />
@@ -183,8 +183,8 @@
 	<link pattern="Recipe(_Classic(Aden)?)?.dat" file="recipe" version="Ertheia" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="Lindvior" />
 	<link pattern="relics_collection(_Classic(Aden)?)?-[\w]+\.dat" file="relicscollection" version="Shinemaker" />
-	<link pattern="relics_main(_Classic(Aden)?)?.dat" file="relicsmain" version="PathOfRogue" />
-	<link pattern="relics_playdata(_Classic(Aden)?)?.dat" file="relicsplaydata" version="Shinemaker" />
+	<link pattern="relics_main(_Classic(Aden)?)?.dat" file="relicsmain" version="ShieldOfKingdom" />
+	<link pattern="relics_playdata(_Classic(Aden)?)?.dat" file="relicsplaydata" version="ShieldOfKingdom" />
 	<link pattern="ReplaceSkillIcon(_Classic(Aden)?)?.dat" file="replaceskillicon" version="AgeOfMagic" />
 	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="PathOfRogue" />
 	<link pattern="sceneplayerdata.dat" file="sceneplayerdata" version="Helios" />

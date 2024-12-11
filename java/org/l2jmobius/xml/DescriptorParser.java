@@ -72,8 +72,8 @@ public class DescriptorParser
 			factory.setIgnoringComments(true);
 			try
 			{
-				final Document doc = factory.newDocumentBuilder().parse(def);
-				for (Node defsNode = doc.getFirstChild(); defsNode != null; defsNode = doc.getNextSibling())
+				final Document document = factory.newDocumentBuilder().parse(def);
+				for (Node defsNode = document.getFirstChild(); defsNode != null; defsNode = document.getNextSibling())
 				{
 					if (defsNode.getNodeName().equals("definitions"))
 					{
@@ -110,8 +110,8 @@ public class DescriptorParser
 			factory.setValidating(false);
 			factory.setIgnoringElementContentWhitespace(true);
 			factory.setIgnoringComments(true);
-			final Document doc = factory.newDocumentBuilder().parse(file);
-			for (Node defsNode = doc.getFirstChild(); defsNode != null; defsNode = doc.getNextSibling())
+			final Document document = factory.newDocumentBuilder().parse(file);
+			for (Node defsNode = document.getFirstChild(); defsNode != null; defsNode = document.getNextSibling())
 			{
 				if (defsNode.getNodeName().equals("list"))
 				{
@@ -178,8 +178,8 @@ public class DescriptorParser
 			factory.setValidating(false);
 			factory.setIgnoringElementContentWhitespace(true);
 			factory.setIgnoringComments(true);
-			final Document doc = factory.newDocumentBuilder().parse(file);
-			for (Node fileNode0 = doc.getFirstChild(); fileNode0 != null; fileNode0 = doc.getNextSibling())
+			final Document document = factory.newDocumentBuilder().parse(file);
+			for (Node fileNode0 = document.getFirstChild(); fileNode0 != null; fileNode0 = document.getNextSibling())
 			{
 				if (fileNode0.getNodeName().equalsIgnoreCase("list"))
 				{

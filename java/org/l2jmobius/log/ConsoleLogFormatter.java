@@ -31,7 +31,7 @@ public class ConsoleLogFormatter extends Formatter
 	@Override
 	public String format(LogRecord record)
 	{
-		final StringBuilder output = new StringBuilder(500);
+		final StringBuilder output = new StringBuilder(128);
 		StringUtil.append(output, "[", dateFmt.format(new Date(record.getMillis())), "] " + record.getMessage(), System.lineSeparator());
 		
 		if (record.getThrown() != null)
