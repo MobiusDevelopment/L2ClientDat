@@ -60,4 +60,26 @@
 			<node name="sort_order" reader="UBYTE" />
 		</for>
 	</file>
+	<file pattern="Superion" isSafePackage="true">
+		<node name="data" reader="INT" />
+		<for name="relics_main" size="#data" hidden="false">
+			<node name="relics_id" reader="USHORT" />
+			<node name="item_id" reader="UINT" />
+			<node name="grade" reader="UBYTE" />
+			<node name="relics_skills" reader="CNTR" />
+			<for name="skill_id" size="#relics_skills">
+				<node name="skill_id" reader="UINT" />
+				<node name="skill_level" reader="USHORT" />
+				<node name="skill_score" reader="UINT" />
+			</for>
+			<node name="max_enchant" reader="UBYTE" />
+			<node name="enchanted" reader="CNTR" />
+			<for name="enchanted" size="#enchanted">
+				<node name="enchant_level" reader="USHORT" />
+			</for>
+			<node name="npc_id" reader="UINT" />
+			<node name="level" reader="UBYTE" />
+			<node name="sort_order" reader="UBYTE" />
+		</for>
+	</file>
 </list>

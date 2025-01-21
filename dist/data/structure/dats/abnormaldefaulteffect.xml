@@ -99,4 +99,29 @@
 			<node name="bodypart" reader="UINT" />
 		</for>
 	</file>
+	<file pattern="Superion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="abnormal_default_effect" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="effect_name" reader="ASCF" />
+			<node name="is_screen_effect" reader="UINT" />
+			<node name="unk" reader="UBYTE" />
+			<node name="attach_bone_name" reader="MAP_INT" />
+			<node name="attach_type" reader="UINT" />
+			<wrapper name="offset_position">
+				<node name="offset_position_x" reader="FLOAT" />
+				<node name="offset_position_y" reader="FLOAT" />
+				<node name="offset_position_z" reader="FLOAT" />
+			</wrapper>
+			<wrapper name="offset_rotation">
+				<node name="offset_rotation_x" reader="FLOAT" />
+				<node name="offset_rotation_y" reader="FLOAT" />
+				<node name="offset_rotation_z" reader="FLOAT" />
+			</wrapper>
+			<node name="is_scaling_by_cylinder" reader="UINT" />
+			<node name="effect_scale" reader="FLOAT" />
+			<node name="posteffect_id" reader="UINT" />
+			<node name="bodypart" reader="UINT" />
+		</for>
+	</file>
 </list>

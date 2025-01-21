@@ -26,8 +26,23 @@
 	</file>
 	<file pattern="ShieldOfKingdom" isSafePackage="true">
 		<node name="data" reader="INT" />
-		<for name="relics_main" size="#data" hidden="false">
+		<for name="relics_play" size="#data" hidden="false">
 			<node name="relics_id" reader="UBYTE" />
+			<node name="grade" reader="UBYTE" />
+			<node name="type" reader="UBYTE" />
+			<node name="unk_1" reader="CNTR" />
+			<for name="unk_1" size="#unk_1">
+				<node name="unk_2" reader="UBYTE" />
+				<node name="unk_3" reader="UBYTE" />
+			</for>
+			<node name="fail_item" reader="UINT" />
+			<node name="unk_4" reader="USHORT" />
+			<node name="cost_item" reader="CNTR" />
+			<for name="cost_item" size="#cost_item">
+				<node name="item" reader="UINT" />
+				<node name="count" reader="UINT" />
+			</for>
+			<node name="unk_5" reader="UBYTE" />
 		</for>
 	</file>
 </list>

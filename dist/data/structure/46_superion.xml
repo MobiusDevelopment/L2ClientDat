@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list name="Shield Of Kingdom - Heart Of Volcano">
+<list name="Superion - Guardians">
 	<link pattern="24hzSchema.dat" file="24hzschema" version="Awakening" />
 	<link pattern="Ability.dat" file="ability" version="Valiance" />
 	<link pattern="AbilityPoint.dat" file="abilitypoint" version="Valiance" />
 	<link pattern="AbnormalAgathion.dat" file="abnormalagathion" version="PreludeOfWar" />
-	<link pattern="AbnormalDefaultEffect(_Classic(Aden)?)?.dat" file="abnormaldefaulteffect" version="MasterClass2" />
+	<link pattern="AbnormalDefaultEffect(_Classic(Aden)?)?.dat" file="abnormaldefaulteffect" version="Superion" />
 	<link pattern="AbnormalEdgeEffectData\.dat" file="abnormaledgeeffectdata" version="MasterClass2" />
 	<link pattern="AbnormalRelationEffect.dat" file="abnormalrelationeffect" version="PathOfRogue" />
 	<link pattern="ActionName(_Classic(Aden)?)?-[\w]+\.dat" file="actionname" version="PreludeOfWar3" />
@@ -37,7 +37,7 @@
 	<link pattern="ClassInfo(_Classic(Aden)?)?-[\w]+\.dat" file="classinfo" version="GrandCrusade" />
 	<link pattern="ClassTree(_Classic)?.dat" file="classtree" version="PreludeOfWar" />
 	<link pattern="ClassTreeDesc(_Classic)?-[\w]+\.dat" file="classtreedesc" version="PreludeOfWar" />
-	<link pattern="collection(_Classic(Aden)?)?-[\w]+\.dat" file="collection" version="PathOfRogue" />
+	<link pattern="collection(_Classic(Aden)?)?-[\w]+\.dat" file="collection" version="Superion" />
 	<link pattern="collectionmain(_Classic(Aden)?)?.dat" file="collectionmain" version="AgeOfMagic" />
 	<link pattern="colorexgrp.dat" file="colorexgrp" version="Valiance" />
 	<link pattern="colorExName-[\w]+\.dat" file="colorexname" version="Helios" />
@@ -183,7 +183,7 @@
 	<link pattern="Recipe(_Classic(Aden)?)?.dat" file="recipe" version="Ertheia" />
 	<link pattern="recipe-c.dat" file="recipe-c" version="Lindvior" />
 	<link pattern="relics_collection(_Classic(Aden)?)?-[\w]+\.dat" file="relicscollection" version="Shinemaker" />
-	<link pattern="relics_main(_Classic(Aden)?)?.dat" file="relicsmain" version="ShieldOfKingdom" />
+	<link pattern="relics_main(_Classic(Aden)?)?.dat" file="relicsmain" version="Superion" />
 	<link pattern="relics_playdata(_Classic(Aden)?)?.dat" file="relicsplaydata" version="ShieldOfKingdom" />
 	<link pattern="ReplaceSkillIcon(_Classic(Aden)?)?.dat" file="replaceskillicon" version="AgeOfMagic" />
 	<link pattern="RideData(_Classic(Aden)?)?.dat" file="ridedata" version="PathOfRogue" />
@@ -209,7 +209,7 @@
 	<link pattern="Symbolname(_Classic)?-[\w]+\.dat" file="symbolname" version="ScionsOfDestiny" />
 	<link pattern="SysString(_Classic)?-[\w]+\.dat" file="sysstring" version="ScionsOfDestiny" />
 	<link pattern="SystemMsg(_Classic)?-[\w]+\.dat" file="systemmsg" version="TheSourceOfFlame" />
-	<link pattern="teleportlist(_Classic(Aden)?)?.dat" file="teleportlist" version="ShieldOfKingdom" />
+	<link pattern="teleportlist(_Classic(Aden)?)?.dat" file="teleportlist" version="Superion" />
 	<link pattern="TimeZoneData(_Classic(Aden)?)?-[\w]+\.dat" file="timezonedata" version="PathOfRogue" />
 	<link pattern="TransformData(_Classic(Aden)?)?.dat" file="transformdata" version="Helios" />
 	<link pattern="TutorialName(_Classic)?-[\w]+\.dat" file="tutorialname" version="Salvation" />

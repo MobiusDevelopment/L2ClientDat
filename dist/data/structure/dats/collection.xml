@@ -128,4 +128,50 @@
 			</wrapper>
 		</for>
 	</file>
+	<file pattern="Superion" isSafePackage="true">
+		<node name="unk_size" reader="UINT" />
+		<for name="Unk" size="#unk_size" hidden="false">
+			<node name="Unk1" reader="UINT" />
+			<node name="Unk2" reader="UBYTE" />
+		</for>
+		<node name="data" reader="UINT" />
+		<for name="collection" size="#data" hidden="false">
+			<node name="collection_ID" reader="UINT" />
+			<node name="collection_name" reader="ASCF" />
+			<node name="main_category" reader="UINT" />
+			<node name="period" reader="UINT" />
+			<node name="option_id" reader="UINT" />
+			<node name="description" reader="CNTR" />
+			<for name="description" size="#description">
+				<node name="desc_name" reader="ASCF" />
+				<node name="Unk3" reader="UINT" />
+				<node name="desc_param=" reader="FLOAT" />
+			</for>
+			<node name="slots" reader="CNTR" />
+			<for name="items" size="#slots">
+				<node name="item_id" reader="UINT" />
+				<node name="item_id2" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+				<node name="enchant" reader="USHORT" />
+				<node name="slot" reader="UCHAR" />
+				<node name="representative" reader="UINT" />
+				<node name="bless_cond" reader="UCHAR" />
+			</for>
+			<node name="RewardItems" reader="CNTR" />
+			<for name="RewardItems">
+				<node name="ItemID" reader="UINT" />
+				<node name="ItemCount" reader="UINT" />
+			</for>
+			<node name="RewardSkills" reader="CNTR" />
+			<for name="RewardSkills">
+				<node name="SkillID" reader="UINT" />
+				<node name="SkillLevel" reader="UINT" />
+			</for>
+			<wrapper name="date">
+				<node name="start" reader="ASCF" />
+				<node name="end" reader="ASCF" />
+			</wrapper>
+			<node name="Unk4" reader="UCHAR" />
+		</for>
+	</file>
 </list>

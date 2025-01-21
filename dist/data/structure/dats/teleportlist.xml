@@ -59,4 +59,24 @@
 			<node name="unk4" reader="UBYTE" />
 		</for>
 	</file>
+	<file pattern="Superion" isSafePackage="true">
+		<node name="data" reader="UINT" />
+		<for name="teleport_list" size="#data" hidden="false">
+			<node name="huntingzone_id" reader="UINT" />
+			<node name="town_id" reader="UINT" />
+			<node name="priority" reader="UBYTE" />
+			<node name="price" reader="CNTR" />
+			<for name="price" size="#price">
+				<node name="item_id" reader="UINT" />
+				<node name="item_count" reader="UINT" />
+			</for>
+			<node name="unk1" reader="USHORT" />
+			<node name="unk2" reader="USHORT" />
+			<node name="unk3" reader="USHORT" />
+			<node name="unk4" reader="USHORT" />
+			<node name="unk5" reader="USHORT" />
+			<node name="unk6" reader="UBYTE" />
+			<node name="unk7" reader="USHORT" />
+		</for>
+	</file>
 </list>
