@@ -597,8 +597,8 @@
 				<for name="available_server_ids" size="#available_servers">
 					<node name="c_server_id" reader="UINT" />
 				</for>
-				<write name="\r\n" />
 			</for>
+			<write name="\r\n" />
 		</for>
 	</file>
 	<file pattern="AgeOfMagic" isSafePackage="true">
