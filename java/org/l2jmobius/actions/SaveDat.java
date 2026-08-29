@@ -18,6 +18,7 @@ package org.l2jmobius.actions;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -102,6 +103,21 @@ public class SaveDat extends ActionTask
 			else
 			{
 				buff = _l2clientdat.getTextPaneMain().getText().replace("\n", "\r\n").getBytes();
+			}
+		}
+		else if (_file.getName().endsWith(".htm"))
+		{
+			crypter = _l2clientdat.getEncryptor(_file);
+			if ((crypter == null) || isCancelled())
+			{
+				shouldContinue = false;
+			}
+			else
+			{
+				// OpenDat.start() reads .htm back through UTF-16, and the client ships these
+				// files little endian with a BOM, so write that byte order out explicitly --
+				// a plain getBytes(UTF_16) emits big endian and would not match the originals.
+				buff = ("\uFEFF" + _l2clientdat.getTextPaneMain().getText().replace("\n", "\r\n")).getBytes(StandardCharsets.UTF_16LE);
 			}
 		}
 		else
