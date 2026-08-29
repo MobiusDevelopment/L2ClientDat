@@ -184,6 +184,15 @@ public class MassTxtPacker extends ActionTask
 				final String joined2 = new String(array2, 0, array2.length, StandardCharsets.UTF_8);
 				buff = joined2.replace("\n", "\r\n").getBytes();
 			}
+			else if (file.getName().endsWith(".htm"))
+			{
+				final byte[] array3 = Files.readAllBytes(file.toPath());
+				// MassTxtUnpacker writes .htm out as UTF-16 with a BOM, so decode BOM-aware here.
+				// Normalize to LF first: input that already carries CRLF would become \r\r\n.
+				final String joined3 = new String(array3, 0, array3.length, StandardCharsets.UTF_16).replace("\r\n", "\n");
+				// The client ships .htm little endian with a BOM -- match that on the way out.
+				buff = ("\uFEFF" + joined3.replace("\n", "\r\n")).getBytes(StandardCharsets.UTF_16LE);
+			}
 			else
 			{
 				L2ClientDat.addLogConsole("Unknown file [" + file.getName() + "] type!", true);
